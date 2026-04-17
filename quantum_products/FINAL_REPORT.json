@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-04-13T15:22:41.182349",
+  "products": {
+    "lit_guide_APPROVED.md": {
+      "pass": true,
+      "words": 1059,
+      "fk": 57.8,
+      "failed_gates": []
+    },
+    "pqc_kit_APPROVED.md": {
+      "pass": true,
+      "words": 1831,
+      "fk": 41.7,
+      "failed_gates": []
+    },
+    "prompt_pack_APPROVED.md": {
+      "pass": true,
+      "words": 4164,
+      "fk": 19.4,
+      "failed_gates": []
+    }
+  },
+  "blog_posts": "10/10 passed",
+  "all_products_pass": true,
+  "gumroad_discover_note": "Must be enabled manually at app.gumroad.com (Gumroad API v2 PUT does not support discover toggle programmatically)",
+  "awaiting_human_action": [
+    "Review APPROVED/ files before listing on Gumroad",
+    "Enable Gumroad Discover manually for all products at app.gumroad.com",
+    "Add valid sk_live_ Stripe key to vault",
+    "Create implo.ai account for prompt pack listing"
+  ]
+}

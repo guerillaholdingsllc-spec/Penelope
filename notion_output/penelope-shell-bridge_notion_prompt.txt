@@ -1,0 +1,247 @@
+Build me a complete **premium personal and creative project management Notion template** that helps individuals seeking a calm, structured, yet inspiring way to manage personal projects, creative endeavors, or long-term goals. This template is designed for artists, writers, hobbyists, solopreneurs, or anyone who feels overwhelmed by scattered ideas and wants to "bridge" the gap between aspiration and achievement. It needs to be of premium quality, suitable for a $0.0 offering.
+
+**Template Name:** 🐚 Penelope-Shell-Bridge 🌉
+
+---
+
+### **🎯 General Instructions for Building the Template:**
+
+1.  **Aesthetic:** Use a soothing, elegant, and calming color palette (e.g., soft blues, greens, beige, light grays) for highlights, callouts, and text. Maintain consistency throughout.
+2.  **Emojis:** Include a relevant emoji on **every main heading and sub-heading** for visual appeal.
+3.  **Beginner-Friendly:** Design with intuitive navigation, clear layouts, and minimal clutter. The template must be easy for a Notion beginner to understand and use.
+4.  **Premium Look:** Ensure the overall design, content, and functionality reflect a high-quality, professional product despite being free.
+5.  **Rollup Formulas:** Implement rollup properties for automatic calculations wherever relevant (e.g., counting tasks, sum of durations).
+6.  **Progress Bars:** Create visual progress bars using Notion formulas for goals and projects.
+7.  **Warning Indicators:** Implement warning indicators (🚨) in relevant databases (e.g., for overdue tasks).
+8.  **Summary Dashboards:** Include summary blocks with calculated totals on the main dashboard.
+9.  **Instructions Section:** Dedicate a specific page for comprehensive user instructions.
+10. **No AI-generated text content (aside from the template structure itself):** Populate the template with placeholder entries, example data, and clear property names, but do not fill database items with AI-generated essays or detailed plans. Focus on the structure and formulas.
+
+---
+
+### **🏡 Template Structure: Main Pages & Databases**
+
+**Page 1: 🏡 Penelope-Shell-Bridge Dashboard** (Set as the main landing page)
+
+*   **Heading 1:** `👋 Welcome to your Shell-Bridge! 🌉` (H1)
+    *   Callout block: "Your calm space to bridge aspirations into achievements. Start by exploring the sections below." (Use a calming background color).
+*   **Heading 2:** `📊 Your Bridge at a Glance` (H2)
+    *   Create 4 synchronized blocks (or linked database views in a column layout if preferred) displaying key summaries:
+        *   `✨ Active Projects:` Count of projects from the `✨ Projects` database where `Status` is not "Completed" or "Archived."
+        *   `🎯 Goals in Motion:` Count of goals from the `🎯 Goals` database where `Status` is "In Progress" or "Planning."
+        *   `✅ Tasks Due Soon:` Count of tasks from the `✅ Tasks` database where `Status` is not "Done" and `Due Date` is within the next 7 days.
+        *   `🐚 New Sparks This Week:` Count of items from the `🐚 Creative Spark Collection` database where `Date Added` is within the last 7 days.
+*   **Heading 3:** `🔥 Quick Access & Navigation` (H2)
+    *   Create a 2-column layout.
+    *   **Column 1:** Quick Links
+        *   Link to `🎯 Goals` page/database.
+        *   Link to `✨ Projects` page/database.
+        *   Link to `✅ Tasks` page/database.
+        *   Link to `🐚 Creative Spark Collection` page/database.
+    *   **Column 2:** Essential Views
+        *   **`🗓️ Your Week Ahead:`** Create a linked view of the `✅ Tasks` database, displayed as a **Calendar view**, filtered to show tasks for the `Current Week`.
+        *   **`🚀 Project Pipeline:`** Create a linked view of the `✨ Projects` database, displayed as a **Board view**, grouped by `Status`. Filter out "Completed" and "Archived" projects.
+*   **Heading 4:** `💭 Mindful Check-in` (H2)
+    *   Create a linked view of the `🧠 Mindful Reflections` database, displayed as a **Gallery view**, showing the last 3 entries. Add a "New Reflection" button.
+*   **Heading 5:** `📚 Recent Resources` (H2)
+    *   Create a linked view of the `📚 Resource & Research Hub` database, displayed as a **List view**, sorted by `Date Added` (descending), showing the last 5 entries.
+
+---
+
+### **🗃️ Databases to Create (with detailed properties, views, and formulas):**
+
+*(Ensure each database is created as a full-page database first, then linked views are used on the dashboard)*
+
+**1. 🎯 Goals Database** (Full Page)
+    *   **Icon:** 🎯
+    *   **Properties:**
+        *   `Name` (Title)
+        *   `Status` (Select: `💡 Idea`, `✍️ Planning`, `🚀 In Progress`, `⏸️ On Hold`, `✅ Achieved`, `🗑️ Abandoned` - use consistent colors for each status)
+        *   `Target Date` (Date)
+        *   `Description` (Text)
+        *   `Icon` (Files & Media, allow upload of custom icons if desired)
+        *   `Milestones` (Relation to `🗺️ Milestones` database)
+        *   `Done Milestones` (Rollup from `Milestones` relation, counting checked `Status` property from `🗺️ Milestones`)
+        *   `Total Milestones` (Rollup from `Milestones` relation, counting all `Status` properties from `🗺️ Milestones`)
+        *   `Progress` (Formula - *see specific formula instructions at the end*)
+    *   **Views:**
+        *   `Overview` (Table view, showing all properties, sorted by `Target Date`)
+        *   `Progress Board` (Board view, grouped by `Status`, showing `Target Date` and `Progress` property)
+        *   `Gallery View` (Gallery view, showing `Icon`, `Name`, `Status`, `Progress` properties)
+
+**2. 🗺️ Milestones Database** (Full Page)
+    *   **Icon:** 🗺️
+    *   **Properties:**
+        *   `Name` (Title)
+        *   `Status` (Checkbox: `Done`)
+        *   `Due Date` (Date)
+        *   `Goal` (Relation to `🎯 Goals` database)
+        *   `Tasks` (Relation to `✅ Tasks` database)
+        *   `Notes` (Text)
+    *   **Views:**
+        *   `All Milestones` (Table view, sorted by `Due Date`)
+        *   `By Goal` (List view, grouped by `Goal`)
+        *   `Upcoming` (Table view, filtered for `Status` is unchecked and `Due Date` is not empty, sorted by `Due Date`)
+
+**3. ✅ Tasks Database** (Full Page)
+    *   **Icon:** ✅
+    *   **Properties:**
+        *   `Name` (Title)
+        *   `Status` (Select: `🎯 To Do`, `⚙️ In Progress`, `⏰ Waiting`, `✅ Done` - use consistent colors)
+        *   `Priority` (Select: `🔥 High`, `🟡 Medium`, `⚪ Low` - use consistent colors)
+        *   `Due Date` (Date)
+        *   `Milestone` (Relation to `🗺️ Milestones` database)
+        *   `Project` (Relation to `✨ Projects` database)
+        *   `Notes` (Text)
+        *   `Warning` (Formula - *see specific formula instructions at the end*)
+        *   `Date Completed` (Date property, only set when `Status` is `✅ Done`)
+    *   **Views:**
+        *   `My Task List` (Table view, sorted by `Due Date`, filtered to `Status` is not `Done`)
+        *   `Kanban Board` (Board view, grouped by `Status`, showing `Priority` and `Due Date`)
+        *   `Calendar View` (Calendar view, showing `Due Date`)
+        *   `🚨 Overdue Tasks` (List view, filtered for `Warning` contains "🚨", sorted by `Due Date`)
+
+**4. ✨ Projects Database** (Full Page)
+    *   **Icon:** ✨
+    *   **Properties:**
+        *   `Name` (Title)
+        *   `Status` (Select: `💡 Idea`, `🔎 Researching`, `📝 Planning`, `⚙️ Developing`, `🔄 Reviewing`, `✅ Completed`, `🗄️ Archived` - use consistent colors)
+        *   `Start Date` (Date)
+        *   `End Date` (Date)
+        *   `Goal` (Relation to `🎯 Goals` database, optional for smaller projects)
+        *   `Tasks` (Relation to `✅ Tasks` database)
+        *   `Description` (Text)
+        *   `Category` (Multi-select: e.g., `✍️ Writing`, `🎨 Art`, `🛠️ DIY`, `🌱 Learning`, `💼 Business`)
+        *   `Completed Tasks` (Rollup from `Tasks` relation, counting `Status` property of `✅ Tasks` where `Status` is "Done")
+        *   `Total Tasks` (Rollup from `Tasks` relation, counting all `Status` properties of `✅ Tasks`)
+        *   `Progress` (Formula - *see specific formula instructions at the end*)
+        *   `Last Activity` (Rollup from `⏰ Activity Log` database, showing `Date` property, calculating `Max Date` for most recent activity)
+    *   **Views:**
+        *   `Journey Pipeline` (Board view, grouped by `Status`, showing `Category`, `Progress`, `End Date`)
+        *   `All Projects` (Table view, sorted by `End Date`)
+        *   `Category Gallery` (Gallery view, grouped by `Category`, showing `Name`, `Status`, `Progress`)
+        *   `Timeline` (Timeline view, showing `Start Date` and `End Date`)
+
+**5. 🐚 Creative Spark Collection Database** (Full Page)
+    *   **Icon:** 🐚
+    *   **Properties:**
+        *   `Title` (Title)
+        *   `Type` (Select: `💡 Idea`, `✍️ Quote`, `🖼️ Image`, `📰 Article`, `📹 Video`, `🔊 Audio`, `🖌️ Mood Board`, `💭 Brainstorm`)
+        *   `Source URL` (URL)
+        *   `Notes` (Text)
+        *   `Tags` (Multi-select: e.g., `Inspiration`, `Concept`, `Research`, `Draft`, `Visual`)
+        *   `Project` (Relation to `✨ Projects` database, optional)
+        *   `Date Added` (Created Time)
+        *   `Attachment` (Files & Media, for images, PDFs, etc.)
+    *   **Views:**
+        *   `Inspiration Wall` (Gallery view, showing `Title`, `Type`, `Tags`, `Attachment` as card cover)
+        *   `List View` (List view, showing `Title`, `Type`, `Source URL`, `Date Added`)
+        *   `By Type` (Table view, grouped by `Type`)
+
+**6. 📚 Resource & Research Hub Database** (Full Page)
+    *   **Icon:** 📚
+    *   **Properties:**
+        *   `Title` (Title)
+        *   `Type` (Select: `📄 Article`, `📖 Book`, `🛠️ Tool`, `🎓 Course`, `🌐 Website`, `📁 File`, `🎥 Tutorial`)
+        *   `URL` (URL)
+        *   `Notes/Summary` (Text)
+        *   `Tags` (Multi-select: e.g., `Productivity`, `Marketing`, `Design`, `Personal Growth`, `Reference`)
+        *   `Project` (Relation to `✨ Projects` database)
+        *   `File` (Files & Media, for documents, PDFs)
+        *   `Date Added` (Created Time)
+    *   **Views:**
+        *   `All Resources` (Table view, sorted by `Date Added` descending)
+        *   `By Type` (List view, grouped by `Type`)
+        *   `Project Resources` (Table view, filtered by `Project` is not empty)
+
+**7. 🧠 Mindful Reflections Database** (Full Page)
+    *   **Icon:** 🧠
+    *   **Properties:**
+        *   `Date` (Date)
+        *   `Title` (Title - e.g., "Daily Reflection," "Weekly Review," "Project Post-Mortem")
+        *   `Mood` (Select: `😌 Calm`, `😊 Happy`, `🤔 Thoughtful`, `😅 Stressed`, `😟 Anxious`, `💪 Motivated` - use distinct, calming colors)
+        *   `Prompts` (Text property to hold example journaling prompts within the template, e.g., "What went well today?", "What challenged you?", "One thing you're grateful for?")
+        *   `Journal Entry` (Text - rich text property for user to write their reflection)
+        *   `Related Project/Goal` (Relation to `✨ Projects` or `🎯 Goals` database, optional)
+    *   **Views:**
+        *   `Journal` (Table view, sorted by `Date` descending)
+        *   `Mood Calendar` (Calendar view, showing `Mood` on the calendar day)
+        *   `Recent Reflections` (List view, sorted by `Date` descending, showing the last 5 entries)
+
+**8. ⏰ Activity Log Database** (Full Page)
+    *   **Icon:** ⏰
+    *   **Description:** This database acts as a detailed entry log for tracking time, progress, or small daily actions connected to your projects and goals.
+    *   **Properties:**
+        *   `Date` (Date)
+        *   `Activity` (Title - e.g., "Wrote 500 words," "Researched vintage styles," "Planned next week's tasks")
+        *   `Duration (mins)` (Number)
+        *   `Associated Project` (Relation to `✨ Projects` database)
+        *   `Associated Task` (Relation to `✅ Tasks` database)
+        *   `Notes` (Text)
+    *   **Views:**
+        *   `Daily Log` (Table view, sorted by `Date` descending)
+        *   `Weekly Summary` (Table view, filtered for `Date` is `This Week`, showing `Associated Project` and `Duration (mins)`)
+        *   `Duration by Project` (Table view, grouped by `Associated Project`, with `Duration (mins)` property set to `Sum` in the group footer for calculated totals)
+
+**9. 📖 How to Use This Template** (Full Page)
+    *   **Icon:** 📖
+    *   **Content:**
+        *   **`👋 Welcome & Quick Tour`** (H2)
+            *   Brief overview of the template's purpose.
+            *   Explain the "Shell-Bridge" metaphor: collecting 'shells' (inspirations) and building 'bridges' (goals/projects).
+        *   **`🚀 Getting Started`** (H2)
+            *   Instructions on duplicating the template.
+            *   Personalizing the dashboard.
+            *   Adding your first goal and project.
+        *   **`🎯 Goals & Milestones`** (H2)
+            *   How to break down big aspirations.
+            *   Explaining the `Progress` bar.
+        *   **`✨ Projects & Tasks`** (H2)
+            *   Navigating the Kanban board.
+            *   Understanding `Status`, `Priority`, and `Warning` indicators.
+        *   **`🐚 Creative Spark`** (H2)
+            *   Tips for collecting and organizing inspiration.
+        *   **`📚 Resources & Research`** (H2)
+            *   How to centralize your learning and reference materials.
+        *   **`🧠 Mindful Reflection`** (H2)
+            *   Suggestions for journaling and tracking growth.
+        *   **`⏰ Activity Log`** (H2)
+            *   How to track your time and progress.
+        *   **`🎨 Customization Tips`** (H2)
+            *   Changing colors, icons, adding/removing properties.
+        *   **`❓ FAQs`** (H2)
+            *   "Can I add more databases?"
+            *   "How do I link items?"
+            *   "What if I mess something up?" (Suggest duplicating views/databases).
+        *   **`💖 Thank You!`** (H2)
+            *   A heartfelt closing message.
+
+---
+
+### **📈 Specific Formula Instructions:**
+
+Implement the following formulas precisely:
+
+1.  **`Progress` Formula for `🎯 Goals` Database:**
+    *   **Pre-requisite:** Ensure `Done Milestones` (rollup from `🗺️ Milestones` counting checked `Status`) and `Total Milestones` (rollup from `🗺️ Milestones` counting all entries) properties exist.
+    *   **Formula:**
+        ```notion
+        if(prop("Total Milestones") == 0, "0%", format(round(prop("Done Milestones") / prop("Total Milestones") * 100)) + "% " + slice("■■■■■■■■■■", 0, floor(prop("Done Milestones") / prop("Total Milestones") * 10)) + slice("□□□□□□□□□□", 0, 10 - floor(prop("Done Milestones") / prop("Total Milestones") * 10)))
+        ```
+
+2.  **`Progress` Formula for `✨ Projects` Database:**
+    *   **Pre-requisite:** Ensure `Completed Tasks` (rollup from `✅ Tasks` counting `Status` is "Done") and `Total Tasks` (rollup from `✅ Tasks` counting all entries) properties exist.
+    *   **Formula:**
+        ```notion
+        if(prop("Total Tasks") == 0, "0%", format(round(prop("Completed Tasks") / prop("Total Tasks") * 100)) + "% " + slice("■■■■■■■■■■", 0, floor(prop("Completed Tasks") / prop("Total Tasks") * 10)) + slice("□□□□□□□□□□", 0, 10 - floor(prop("Completed Tasks") / prop("Total Tasks") * 10)))
+        ```
+
+3.  **`Warning` Formula for `✅ Tasks` Database:**
+    *   **Formula:**
+        ```notion
+        if(prop("Status") != "Done" and prop("Due Date") < now(), "🚨 OVERDUE", if(prop("Status") != "Done" and dateBetween(prop("Due Date"), now(), "days") <= 3 and prop("Due Date") >= now(), "⚠️ Due Soon", ""))
+        ```
+
+---
+
+This detailed prompt should enable Notion AI to construct the complete `Penelope-Shell-Bridge` template with all requested features, aesthetics, and functionalities, making it ready for distribution as a premium $0.0 product.

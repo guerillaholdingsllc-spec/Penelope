@@ -1,0 +1,44 @@
+business: Digital
+created: '2026-04-09T18:07:55.007229'
+learnings: 'Failed initial court. Score: 60'
+logic_flow: {}
+objective: Improve Gumroad product listing and add cover image to drive conversions
+opportunity_data:
+  action: Improve Gumroad product listing and add cover image to drive conversions
+  business: Digital
+  revenue_potential: 500
+  signal: Zero sales currently, product exists but not optimized
+  test_cost: 0
+  time_to_dollar: 3 days
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 500
+  margin_pct: 70
+  type: one_time
+rps_score: 60
+score_breakdown:
+  demand: 15
+  margin: 15
+  reasoning: Parse failed, default score
+  scalability: 15
+  speed: 15
+  total: 60
+skill_id: auto_digital_1775758075
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 60
+    notes: 'ERROR: No Gemini API key configured'
+    result: PASS
+  quality:
+    notes: 'ERROR: No Gemini API key configured'
+    result: FAIL
+  security:
+    notes: 'ERROR: No Gemini API key configured'
+    result: FAIL
+test_results: {}

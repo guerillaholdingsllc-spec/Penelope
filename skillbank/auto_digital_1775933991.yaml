@@ -1,0 +1,83 @@
+business: Digital
+created: '2026-04-11T18:59:51.125039'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 23
+  raw_score: 93
+  reasoning: This digital affiliate marketing opportunity offers high margins, instant
+    deployment, and excellent scalability for an autonomous AI agent, with consistent
+    market demand from small businesses.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775933991
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+
+      *   **Unrealistic Cost & Revenue Projections:** The `revenue_model` states `cost_per_run:
+      0` and `estimated_monthly: 0`, directly contradicting the `opportunity_data`''s
+      `estimated_monthly: 150`. Generating any affiliate revenue requires real costs
+      (hosting, domain, content tools, promotion), making the $0 cost assumption and
+      the $50 budget cap for a 24h iteration fundamentally unrealistic for achieving
+      the stated revenue target.
+
+      *   **Severe Underestimation of Market Barriers & Competition:** Labeling this
+      as "Tier 1 - Instant Digital (No barriers)" is dangerously misleading. The affiliate
+      marketing space for digital tools is highly saturated. Achieving visibility,
+      trust, and conversions among Sacramento small business owners requires significant
+      SEO effort, high-quality content, and a robust promotion strategy, none of which
+      are adequately addressed or budgeted for in this plan.
+
+      *   **Lack of a Viable Promotion Strategy:** The plan focuses solely on "publishing"
+      a blog post without any consideration for how the target audience will discover
+      it. Without a clear and budgeted strategy for traffic generation (e.g., SEO,
+      local outreach, paid ads), the blog post will remain unseen and generate no
+      revenue, regardless of its content quality.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The research output is an actionable step towards content creation, directly
+      supporting the objective of publishing an affiliate review blog post, and thus
+      moves toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and affiliate marketing, both explicitly
+      compliant activities, and does not present any immediate violations of SSN collection,
+      unencrypted password storage, unauthorized system access, or non-consented PII
+      collection.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,87 @@
+business: Cross-vertical
+created: '2026-04-16T10:47:36.048070'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $50
+  estimated_monthly_revenue_potential: $400-$1000 per client
+  how_penelope_deploys_autonomously: Penelope integrates with an existing white-label
+    AI platform, sets up client portals, automates content brief generation based
+    on client inputs, and manages recurring billing.
+  specific_revenue_action: 'White-label AI Service: ''AI-Powered SEO Content Brief
+    Generator'' for agencies/freelancers.'
+  tier_classification: 1
+  time_to_first_dollar: 20 days
+  why_this_works_NOW: SEO agencies and content creators struggle with scaling content
+    brief generation. AI can significantly streamline this process, offering a high-value,
+    efficiency-driven solution for B2B clients.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 22
+  raw_score: 91
+  reasoning: This opportunity leverages strong market demand for AI-driven efficiency
+    in SEO, offers high potential margins, a quick time to revenue, and is highly
+    scalable due to its fully automated, digital nature.
+  scalability: 24
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776336456
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Contradictory Revenue Model & Unrealistic Costing:** The `revenue_model`
+      specifies "one_time" with "estimated_monthly: 0", directly contradicting the
+      `opportunity_data`''s "estimated_monthly_revenue_potential: $400-$1000 per client".
+      Furthermore, a "$50" cost to test for a white-label B2B service is highly unrealistic,
+      suggesting a fundamental misunderstanding of deployment, marketing, and validation
+      expenses.
+
+      *   **Market Saturation & Differentiation:** The AI SEO tool market is highly
+      competitive and rapidly evolving. The proposal lacks a clear unique selling
+      proposition (USP) that would compel agencies to adopt this white-label solution
+      over existing, often more comprehensive, tools (e.g., Surfer SEO, Clearscope,
+      Frase.io) or direct AI integration.
+
+      *   **Quality & Customization Limitations:** Reliance on a generic "existing
+      white-label AI platform" raises significant concerns about the quality, accuracy,
+      and customization capabilities of the AI-generated briefs. Agencies require
+      highly specific, nuanced, and brand-aligned content briefs, which a generic
+      platform may struggle to provide consistently, leading to potential client dissatisfaction
+      and churn.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output, while a research report rather than direct outreach, is an
+      actionable preparatory step that validates the market and technical feasibility,
+      directly moving toward the execution of the revenue-generating skill.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill does not involve collecting SSNs, storing unencrypted passwords, accessing
+      unauthorized systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

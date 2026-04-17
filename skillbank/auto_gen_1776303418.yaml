@@ -1,0 +1,168 @@
+business: Cross-vertical
+created: '2026-04-16T01:36:58.476658'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: 0
+  estimated_monthly_revenue_potential: 250
+  how_penelope_deploys_autonomously: AI generates course outline, scripts, and examples
+    for Gemini use cases. Auto-records screen capture tutorials (using AI voiceover
+    if needed). Auto-publishes to Gumroad. Auto-promotes on creator platforms.
+  specific_revenue_action: 'Online Course: "Quick Start Guide to Google Gemini for
+    Content Creators" (video course) sold on Gumroad.'
+  tier_classification: 1
+  time_to_first_dollar: 15
+  why_this_works_now: Google Gemini is a new, powerful tool; creators need practical,
+    step-by-step guidance to integrate it into their workflows.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity leverages high demand for a new tool with a fully automated,
+    high-margin digital product, ensuring rapid deployment and excellent scalability.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776303418
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Quality & Accuracy of AI-generated Video Content:** The core assumption
+      of "Auto-records screen capture tutorials (using AI voiceover if needed)" for
+      a rapidly evolving technical tool like Google Gemini is highly optimistic. AI-generated
+      video content often lacks the nuance, practical troubleshooting, and human touch
+      that creators seek, leading to low quality, potential inaccuracies, and rapid
+      obsolescence as Gemini updates. This will result in poor user experience and
+      negative reviews.
+
+      *   **Market Saturation & Trust:** While demand for Gemini guidance is high,
+      the "AI for creators" space is already crowded with free and paid content from
+      established experts and Google itself. An anonymous, fully AI-generated course
+      will struggle to build the necessary trust and authority to compete effectively,
+      especially on platforms like Gumroad where creators often follow specific educators.
+
+      *   **Unrealistic Cost & Revenue Projections:** The "cost_to_test: 0" and "cost_per_run:
+      0" for a video course are highly improbable. Even with automation, there are
+      costs associated with platform fees, potential software licenses, and the significant
+      effort required to ensure quality and accuracy. The `estimated_monthly_revenue_potential`
+      of $250 is very low for a "Tier 1" opportunity, suggesting a disconnect between
+      the high RPS score and actual market expectations, further exacerbated by the
+      contradictory `revenue_model.estimated_monthly: 0`.
+
+
+      ---
+
+
+      **1. Why would this FAIL in the real market?**
+
+      This opportunity is likely to fail due to the inherent limitations of fully
+      autonomous AI-generated video content for a dynamic technical subject.
+
+      *   **Low Quality & Lack of Depth:** AI-generated scripts and screen captures,
+      especially without human oversight, are prone to being generic, superficial,
+      or even incorrect. Creators need practical, in-depth, and reliable guidance,
+      not just a regurgitation of documentation.
+
+      *   **Rapid Obsolescence:** Google Gemini is a fast-evolving product. A "Quick
+      Start Guide" created today could be outdated in weeks. The proposed automation
+      might struggle to keep pace with updates, leading to an irrelevant product.
+
+      *   **Lack of Trust & Authority:** Creators typically purchase courses from
+      individuals or brands they perceive as experts. An anonymous, fully AI-generated
+      course lacks a human face, credibility, and the ability to engage with students,
+      making it difficult to build a loyal audience or command a premium price.
+
+      *   **Intense Competition:** The market for "AI for creators" is saturated.
+      Many established creators, tech educators, and even Google itself offer free
+      or low-cost, high-quality content. Standing out with a potentially generic,
+      AI-generated course will be extremely challenging.
+
+      *   **Low Perceived Value:** The low `estimated_monthly_revenue_potential` ($250)
+      suggests a low price point or very few sales, indicating that even the system
+      anticipates limited market acceptance despite the high demand score.
+
+
+      **2. Is there a cheaper/faster way to achieve the same result?**
+
+      Yes, several alternatives could achieve similar or better results with less
+      risk and cost:
+
+      *   **Text-Based Guides/Prompt Libraries:** An AI-generated text-based guide
+      or a curated prompt library for Gemini is significantly faster and cheaper to
+      produce and update than a video course. It can still be sold on Gumroad and
+      addresses the "quick start" need with less technical overhead.
+
+      *   **Curated Content + Affiliate Marketing:** Instead of creating new content,
+      Penelope could autonomously curate the best existing free Gemini tutorials and
+      resources, adding unique value (e.g., a "master checklist" or "workflow templates"),
+      and then promote relevant paid courses or tools as an affiliate. This eliminates
+      content creation costs entirely.
+
+      *   **Micro-Tutorials on Specific Use Cases:** Focus on very niche, high-value
+      Gemini applications (e.g., "Gemini for YouTube Titles," "Gemini for Instagram
+      Carousels"). These require less content volume, are easier to update, and can
+      be delivered as short videos or text guides.
+
+      *   **Leverage AI for *Drafting* Only:** Use AI to generate outlines, scripts,
+      and examples, but have a human review, refine, and record the actual video content.
+      This balances speed with quality and builds trust.
+
+
+      **3. What edge case breaks this?**
+
+      *   **Frequent & Significant Gemini Updates:** If Google frequently changes
+      Gemini''s UI, features, or underlying models, the "auto-recorded screen capture
+      tutorials" will become obsolete almost immediately. The system''s ability to
+      autonomously re-record, edit, and update complex video content accurately and
+      quickly would be severely challenged, shattering the "cost_per_run: 0" and "time_to_first_dollar:
+      15" assumptions.
+
+      *   **AI Hallucinations/Inaccuracies:** The AI generating incorrect steps, outdated
+      information, or misleading examples within the course content would lead to
+      immediate negative reviews, refunds, and reputational damage, effectively killing
+      the product.
+
+      *   **Platform Policy Changes:** Gumroad (or similar platforms) could introduce
+      stricter quality control measures or outright bans on fully AI-generated content
+      without human oversight, especially if it leads to a proliferation of low-quality
+      products.
+
+      *   **Major Competitor Releases Free, High-Quality Content:** If Google itself,
+      or a prominent tech educator, releases a comprehensive, high-quality *free*
+      video course on Gemini for creators, it would significantly diminish the market
+      for a paid "quick start guide," especially one that lacks human authority.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The research report is an actionable and valuable precursor to content creation
+      and promotion, directly informing the execution of the revenue-generating skill.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No clear, immediate violations of specified compliance rules.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,89 @@
+business: Cross-vertical
+created: '2026-04-14T23:21:25.219966'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  Cost to test: $29 (Teachable basic plan, or use free tier with transaction fees)
+  Estimated monthly revenue potential: $500 - $1200
+  How Penelope deploys it autonomously: AI outlines course content, generates script,
+    creates presentation slides, records AI voiceover, sets up Teachable platform,
+    designs sales page, runs targeted ads.
+  Specific revenue action: 'Create ''Online Course: Automate Your Business with Zapier
+    & AI'' (mini-course). Audience: Small business owners, entrepreneurs, virtual
+    assistants.'
+  Tier classification: 1
+  Time to first dollar: 28
+  Why this works NOW: Automation is key for efficiency; Zapier and AI integrations
+    are powerful but often underutilized. High demand for practical guides to leverage
+    these tools.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 22
+  raw_score: 90
+  reasoning: This digital course leverages high demand for AI/automation, offers excellent
+    profit margins with low initial cost, deploys quickly, and is fully scalable through
+    autonomous AI execution.
+  scalability: 25
+  speed: 20
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776208885
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Content Quality & Accuracy Risk:** The reliance on fully autonomous AI
+      for content generation (outlines, scripts, slides, voiceover) introduces a high
+      risk of producing generic, inaccurate, or quickly outdated material. Technical
+      courses on Zapier and AI require precision, practical, real-world examples,
+      and troubleshooting insights that current AI models may struggle to deliver
+      consistently without human oversight, leading to low perceived value and potential
+      refunds.
+
+      *   **Market Differentiation & Credibility:** In a crowded online course market,
+      a fully autonomous, faceless course may struggle to build the necessary trust
+      and authority. Learners often seek courses from credible experts with demonstrable
+      experience. Without a human touch or a clear unique selling proposition beyond
+      "AI-generated," this offering risks being perceived as low quality or lacking
+      the depth required by small business owners and virtual assistants.
+
+      *   **Technical Obsolescence & Maintenance:** Zapier and AI tools evolve rapidly.
+      An autonomously generated course could quickly become obsolete due to platform
+      updates, API changes, or new features. The current plan does not clearly address
+      how "Penelope" will autonomously monitor and update content for accuracy and
+      relevance, potentially leading to a product that quickly loses its value.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides actionable research and refinement, directly supporting
+      the content creation and product promotion outlined in the skill, moving toward
+      revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No clear, immediate violations of specified failing criteria are present in
+      the skill description.'
+    result: PASS
+test_results: {}

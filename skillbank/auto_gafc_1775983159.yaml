@@ -1,0 +1,78 @@
+business: GAFC
+created: '2026-04-12T08:39:19.744278'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+opportunity_data:
+  action: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 24
+  raw_score: 92
+  reasoning: The opportunity leverages an autonomous AI for high-margin, instant,
+    and fully scalable digital content posting, though market demand for this specific
+    brand-building activity is modest.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1775983159
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+      Key concerns:
+
+      *   **Brand Name & Credibility:** The brand name "Glocks and Fried Chicken"
+      is inherently controversial, potentially offensive, and severely undermines
+      the credibility required for serious firearm safety education. This will alienate
+      target audiences, deter reputable partners, and risks significant public backlash
+      or platform policy violations.
+
+      *   **Unrealistic Monetization of "Brand Value":** The estimated $200/month
+      from "brand value" is highly speculative and unlikely to be realized. Reputable
+      affiliates or sponsors for firearm safety products will almost certainly refuse
+      association with such a brand, making proposed monetization pathways unachievable.
+
+      *   **Inconsistent Business Model:** The `revenue_model` states "one_time" with
+      "estimated_monthly: 0", directly contradicting the `opportunity_data` which
+      targets "$200 estimated_monthly" for "brand" revenue. This fundamental inconsistency
+      indicates a lack of clear strategy or understanding of how this "skill" is expected
+      to generate value.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The skill involves posting educational content to social media, which directly
+      aligns with "publishes content" and "posts to social media," and the test output
+      provides actionable strategy for effective execution.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and social media posting, which are explicitly
+      compliant activities. There are no immediate or clear violations of collecting
+      SSNs, storing unencrypted passwords, accessing unauthorized systems, or violating
+      GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

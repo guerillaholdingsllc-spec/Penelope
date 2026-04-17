@@ -1,0 +1,83 @@
+business: Digital
+created: '2026-04-15T14:28:49.854394'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages existing customer demand for a high-margin
+    digital product through an automated email sequence, offering excellent speed
+    to revenue and scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776263329
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 55
+    notes: 'CRITIQUE
+
+      Confidence Score: 55%
+
+      Key concerns:
+
+      *   **Data Inconsistency & Over-Optimism:** The `revenue_model.estimated_monthly:
+      0` directly contradicts `opportunity_data.estimated_monthly: 300`, indicating
+      a fundamental flaw in the data or understanding of the revenue model. An `rps_score`
+      of 100 is unrealistically high for any market opportunity, suggesting a lack
+      of critical risk assessment.
+
+      *   **Fragile Revenue Stream & Upsell Fit:** The entire opportunity is predicated
+      on a continuous, high volume of *new* Gumroad buyers for the initial product
+      and the assumption that the "full book series" is a universally desired upsell
+      for *all* of them. A decline in initial product sales or a poor product-to-upsell
+      fit for a significant segment of buyers would severely impact the estimated
+      $300 monthly revenue.
+
+      *   **Unaddressed Technical & Market Edge Cases:** The plan overlooks critical
+      failure points such as email deliverability issues (spam filters), potential
+      Gumroad API changes breaking automation, or the edge case of buyers already
+      owning the full series, leading to redundant messaging and potential customer
+      annoyance. The cut-off "risks" section in the findings also suggests an incomplete
+      analysis.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output directly supports the objective of sending emails and promoting products,
+      which is actionable and moves toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves email marketing to existing Gumroad buyers, which is considered
+      compliant as buyers have provided their email for transactional purposes, forming
+      an ''opt-in'' list for related communications. There are no clear, immediate
+      violations of collecting SSNs, storing unencrypted passwords, accessing unauthorized
+      systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

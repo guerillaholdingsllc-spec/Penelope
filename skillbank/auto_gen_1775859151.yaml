@@ -1,0 +1,87 @@
+business: Cross-vertical
+created: '2026-04-10T22:12:31.013231'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  Cost to test: 0
+  Estimated monthly revenue potential ($): 550
+  How Penelope deploys it autonomously: AI generates course content (videos, text,
+    exercises) on using AI for financial tasks, uploads to Teachable, sets up payment,
+    and automates promotion to personal finance communities and forums.
+  Specific revenue action: 'Launch ''Online Course: AI for Personal Finance & Budgeting''
+    on Teachable (free plan).'
+  Tier classification: 1
+  Time to first dollar (days): 26
+  Why this works NOW: Individuals are looking for innovative ways to manage personal
+    finances, and AI offers powerful tools for budgeting, investment analysis, and
+    personalized financial planning that are highly desired.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 25
+  raw_score: 94
+  reasoning: This opportunity leverages strong market demand for AI in personal finance
+    with a fully automated, high-margin digital product, ensuring excellent scalability
+    and a quick path to revenue.
+  scalability: 25
+  speed: 21
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775859151
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Content Quality & Trust:** The assumption that AI can autonomously generate
+      high-quality, accurate, engaging, and trustworthy course content (including
+      videos and exercises) for personal finance is highly optimistic. Financial advice
+      requires precision and authority; an anonymous, AI-generated course will struggle
+      to build credibility and attract paying customers, leading to low completion
+      rates and negative reviews.
+
+      *   **Market Saturation & Differentiation:** The online course market, particularly
+      for personal finance, is extremely competitive. Without a credible instructor,
+      unique pedagogical approach, or strong brand, a fully AI-generated course launched
+      on a free Teachable plan will be indistinguishable from countless other offerings
+      and fail to capture market share.
+
+      *   **Promotion Effectiveness & Platform Limitations:** "Automated promotion
+      to personal finance communities and forums" is likely to be perceived as spam,
+      leading to bans or ignored messages rather than genuine customer acquisition.
+      Furthermore, the Teachable free plan has significant limitations (e.g., transaction
+      fees, branding restrictions) that undermine the professional image required
+      for a paid course.'
+    result: FAIL
+  quality:
+    notes: 'FAIL
+
+      The test output is incomplete and reveals critical contradictions between the
+      skill''s cost assumptions and the chosen platform''s actual fees.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      Automated promotion to communities/forums is highly likely to violate platform
+      ToS and raises significant GDPR/CCPA compliance concerns regarding data collection
+      and consent.'
+    result: FAIL
+test_results: {}

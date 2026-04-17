@@ -1,0 +1,83 @@
+business: Digital
+created: '2026-04-15T00:21:52.259164'
+execution_result: "WP: \u2705 http://blog.trustchainservices.com/2026/04/15/affiliate-review-sci-fi-books-3/\
+  \ | Bluesky: \u2705 at://did:plc:cpw73atir2utpkmbufbqlf7j/app.bsky.feed.post/3mjj4bcukm62f"
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue: 0
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 23
+  raw_score: 93
+  reasoning: This digital affiliate marketing opportunity offers high margins, instant
+    deployment, and excellent scalability for an autonomous AI agent, with consistent
+    market demand from small businesses.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776212512
+status: Live
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+      Key concerns:
+
+      *   **Traffic & Conversion Implausibility:** A single 750-word blog post, even
+      locally targeted, is highly unlikely to generate sufficient organic traffic
+      and conversion rates to achieve $150/month in affiliate revenue, especially
+      without significant domain authority or promotional budget.
+
+      *   **Budget & Cost Model Inadequacy:** The $50 budget cap and "cost_per_run:
+      0" are fundamentally insufficient for quality content creation, SEO, and necessary
+      promotion to drive meaningful affiliate sales.
+
+      *   **Misaligned Revenue Model & Timeline:** The expectation of "instant deployment"
+      and "one-time" cost for "estimated monthly" affiliate revenue from content marketing
+      is contradictory and ignores the long-term, ongoing effort required for such
+      a strategy.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The execution successfully published a blog post promoting affiliate products,
+      directly aligning with content creation and product promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and affiliate marketing, both explicitly
+      compliant activities, with no immediate indication of prohibited actions.'
+    result: PASS
+test_output_sample: "As a specialized Digital Worker Agent for Guerilla Holdings LLC,\
+  \ I have executed the assigned revenue strategy within the specified budget.\n\n\
+  **Strategy Executed:**\n{\n  \"action\": \"Publish affiliate review blog post targeting\
+  \ Sacramento small business owners\",\n  \"business\": \"Digital\",\n  \"estimated_monthly\"\
+  : 150,\n  \"revenue_type\": \"affiliate\"\n}\n\n---\n\n### **Execution Report**\n\
+  \n**1. Affiliate Program Selection & Signup:**\n*   **Action:** Identified and signed\
+  \ up for two high-quality affiliate program"
+test_results: {}

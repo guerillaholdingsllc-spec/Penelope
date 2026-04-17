@@ -1,0 +1,80 @@
+business: GAFC
+created: '2026-04-15T05:00:58.176418'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+opportunity_data:
+  action: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity offers high profit margins, instant execution, and full
+    scalability for an AI agent due to its digital nature, with a moderate but validated
+    demand signal for brand-related revenue.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776229258
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 25
+    notes: 'CRITIQUE
+
+      Confidence Score: 25%
+
+      Key concerns:
+
+      *   **Brand Identity & Audience Mismatch:** The humorous/absurdist brand name
+      "@glocksandfriedchicken" creates a significant risk of audience alienation and
+      negative backlash when attempting to post serious educational content about
+      firearm safety. The assumption that "Glocks" in the name implies an audience
+      receptive to *safety education* is a speculative leap, potentially leading to
+      low engagement or ridicule.
+
+      *   **Unrealistic Revenue Model & Costing:** The `SKILL` contains fundamental
+      contradictions, stating "one_time" revenue of $0 while simultaneously estimating
+      "$200/month" brand revenue. Furthermore, the `cost_per_run: 0` is unrealistic
+      for any content creation and distribution, inflating the stated 70% margin and
+      making the $200/month "brand revenue" highly speculative and untrackable.
+
+      *   **Platform Policy & Reputation Risk:** Instagram has strict community guidelines
+      regarding firearms. Even well-intentioned educational content, especially from
+      an account named "Glocks and Fried Chicken," faces a high risk of misinterpretation,
+      content removal, or account restrictions. This could severely damage the brand''s
+      reputation and halt any potential "revenue" generation.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output, while research, provides actionable steps (e.g., conducting
+      Instagram polls) that constitute social media engagement and directly inform
+      future content creation, moving toward the skill''s objective and revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and social media posting, which are explicitly
+      compliant activities, and does not violate any of the specified fail conditions
+      (collecting SSNs, storing unencrypted passwords, accessing unauthorized systems,
+      or violating GDPR with non-consented PII).'
+    result: PASS
+test_results: {}

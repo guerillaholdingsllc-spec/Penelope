@@ -1,0 +1,81 @@
+business: Cross-vertical
+created: '2026-04-10T05:29:20.790299'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $350 - $850
+  how_penelope_deploys_it_autonomously: AI drafts template sections, provides prompt
+    examples, creates a tutorial video script, writes sales copy, and manages platform
+    listings with SEO optimization.
+  specific_revenue_action: Sell a comprehensive 'AI-Powered Business Plan Template'
+    on Gumroad/Etsy, including AI prompts for market research, financial projections,
+    and executive summaries. Targets aspiring entrepreneurs.
+  tier_classification: 1
+  time_to_first_dollar: 15
+  why_this_works_NOW: Entrepreneurship is booming, and AI can significantly streamline
+    the daunting task of business planning, making it accessible and less time-consuming.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 94
+  reasoning: This opportunity leverages high demand for entrepreneurship tools and
+    AI, offers excellent profit margins, can be deployed quickly, and scales fully
+    autonomously as a digital product.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775798960
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Commoditization by Free AI**: The core value proposition ("AI-Powered
+      Business Plan Template" with prompts) is easily replicated by aspiring entrepreneurs
+      using free or low-cost AI models (e.g., ChatGPT, Gemini) directly, significantly
+      undermining the product''s unique selling proposition and perceived value.
+
+      *   **User Expectation Mismatch**: The term "AI-Powered" may lead users to expect
+      a fully automated business plan generation service, not just a template with
+      prompts they still need to utilize, potentially leading to dissatisfaction and
+      poor reviews.
+
+      *   **Market Saturation & Differentiation**: The market for business plan templates
+      is already highly saturated. Simply adding "AI-Powered" to a template, without
+      deeper integration or a truly novel approach, offers insufficient differentiation
+      to sustain long-term revenue against existing competitors and free alternatives.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The `cost_to_test` in the skill ($0) directly contradicts the `research_budget_spent`
+      in the test output ($35.00), and the `rps_score` calculation is mathematically
+      inconsistent.'
+    result: FAIL
+  security:
+    notes: 'ERROR: 503 UNAVAILABLE. {''error'': {''code'': 503, ''message'': ''This
+      model is currently experiencing high demand. Spikes in demand are usually temporary.
+      Please try again later.'', ''status'': ''UNAVAILABLE''}}'
+    result: FAIL
+test_results: {}

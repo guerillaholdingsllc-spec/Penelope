@@ -1,0 +1,82 @@
+business: Digital
+created: '2026-04-16T10:36:28.452217'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 97
+  reasoning: This opportunity leverages existing customer demand for high-margin digital
+    products through a fully automated email sequence, ensuring rapid and scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776335788
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 60
+    notes: 'CRITIQUE
+
+      Confidence Score: 60%
+
+      Key concerns:
+
+      *   **Revenue Discrepancy & Overly Optimistic Projections:** The `revenue_model`
+      states `estimated_monthly: 0`, while `opportunity_data` states `estimated_monthly:
+      300`. This fundamental inconsistency, coupled with a perfect RPS score of 100,
+      suggests an unverified and potentially unrealistic revenue projection based
+      on untested conversion rates and buyer volume.
+
+      *   **Integration Fragility & Hidden Costs:** Relying on a "free-tier email
+      service provider" for "fully automated" integration with Gumroad is prone to
+      breaking due to API changes, ESP policy shifts, or reaching free-tier limits.
+      This introduces hidden costs in maintenance, potential upgrades to paid tiers,
+      or re-engineering, contradicting the "cost_per_run: 0" claim.
+
+      *   **Faster & Simpler Alternatives Overlooked:** The proposal focuses on an
+      email sequence, but Gumroad offers native upsell features (e.g., on the thank
+      you page or within the initial product delivery). A direct, immediate upsell
+      could be significantly faster to implement and test, potentially yielding results
+      before a multi-email sequence is even built, and without external ESP integration.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable steps to set up an automated email sequence,
+      which directly involves sending emails and promoting products to generate revenue,
+      aligning with the objective and evaluation criteria.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes email marketing to existing customers, which can be implemented
+      compliantly with proper consent mechanisms or legitimate interest considerations.
+      It does not explicitly state a violation of GDPR with non-consented PII, nor
+      does it involve collecting SSNs, storing unencrypted passwords, or accessing
+      unauthorized systems.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,78 @@
+business: GAFC
+created: '2026-04-14T15:13:58.636015'
+learnings: ''
+logic_flow: {}
+objective: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+opportunity_data:
+  action: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+  business: GAFC
+  estimated_monthly: 500
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 19
+  margin: 25
+  raw_score: 94
+  reasoning: This opportunity leverages an AI agent's strengths in automated digital
+    content creation and distribution for a high-interest topic, offering excellent
+    speed, scalability, and profit margin, though the direct market demand for this
+    specific brand-building content is moderately strong.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776179638
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Revenue Model Inconsistency & Lack of Monetization:** The "one_time" revenue
+      model with an "estimated_monthly" revenue of $500 for "brand" building is fundamentally
+      contradictory and lacks a clear, actionable monetization strategy. The $0 cost
+      per run makes the 70% margin entirely speculative and unrealistic.
+
+      *   **Unrealistic Cost & Demand Discrepancy:** A $0 cost is not viable for any
+      real-world operation, even with AI, making the high margin score misleading.
+      Furthermore, the low demand score (19) directly contradicts the "high-interest
+      topic" reasoning, suggesting limited market interest for this specific content
+      and thus a low impact on brand building.
+
+      *   **Reputational Risk & Content Quality:** Relying solely on AI for a sensitive
+      topic like gun safety without human oversight poses significant risks of factual
+      inaccuracies, insensitivity, or platform policy violations. Such errors could
+      severely damage the brand''s credibility rather than building it.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides actionable research directly supporting the objective of
+      publishing blog posts and sharing on social media, which are actions that move
+      toward brand building and potential revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and social media posting, both explicitly
+      compliant activities, and does not involve collecting SSNs, storing unencrypted
+      passwords, accessing unauthorized systems, or violating GDPR with non-consented
+      PII.'
+    result: PASS
+test_results: {}

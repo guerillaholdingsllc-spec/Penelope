@@ -1,0 +1,87 @@
+business: Cross-vertical
+created: '2026-04-16T11:02:28.711035'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $300-$750
+  how_penelope_deploys_autonomously: Penelope generates course modules, scripts, and
+    practical examples using AI. It automates course platform setup (e.g., Gumroad
+    product, Teachable free tier) and handles marketing and sales processes.
+  specific_revenue_action: 'Online Course: ''AI Tools for Non-Technical Founders''
+    on Gumroad or a simple course platform.'
+  tier_classification: 1
+  time_to_first_dollar: 25 days
+  why_this_works_NOW: Non-technical founders need to leverage AI to remain competitive
+    but require accessible, practical education. Demand for beginner-friendly guides
+    to essential AI tools is high.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 24
+  margin: 25
+  raw_score: 96
+  reasoning: This opportunity leverages high demand for AI education among non-technical
+    founders with a fully automated, high-margin digital product that Penelope can
+    deploy quickly and scale effortlessly.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776337348
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 50
+    notes: 'CRITIQUE
+
+      Confidence Score: 50%
+
+      Key concerns:
+
+      *   **Content Quality & Differentiation:** Relying solely on AI for course generation
+      risks producing generic, undifferentiated content that struggles to stand out
+      in a crowded market. Non-technical founders seek practical, actionable insights,
+      often from perceived experts, which AI-generated content may lack, leading to
+      poor reviews and low conversion.
+
+      *   **Market Penetration & Trust:** Automated marketing and an AI-generated
+      course face an uphill battle in building trust and authority, crucial for selling
+      educational products. The low estimated revenue ($300-$750/month) suggests a
+      limited ability to capture significant market share or command premium pricing
+      against human-led competitors.
+
+      *   **Rapid Obsolescence & Maintenance:** The AI tool landscape evolves extremely
+      quickly. An AI-generated course, even if quickly deployed, will require continuous,
+      potentially manual, updates to remain relevant and valuable, which is a significant
+      ongoing effort not fully accounted for in the "autonomous deployment" or "cost
+      to test: $0" assumptions.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output details content creation (course modules) and market research, which
+      are direct precursors to publishing and promoting a product, aligning with the
+      objective to execute revenue action.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No clear, immediate violations of SSN collection, unencrypted password storage,
+      unauthorized system access, or non-consented PII handling are described. Marketing
+      is assumed to be opt-in, and course sales on platforms like Gumroad/Teachable
+      typically handle PII within their terms.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,83 @@
+business: Cross-vertical
+created: '2026-04-10T17:31:26.694979'
+learnings: ''
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $450 - $1300
+  how_penelope_deploys_it_autonomously: Penelope designs a comprehensive business
+    plan template (e.g., in Google Docs or Notion) with integrated AI prompts for
+    market analysis, financial projections, and executive summaries. It packages this
+    as a digital download, creates sales assets with AI, and lists on Gumroad and
+    relevant template sites. Automated onboarding instructions are included.
+  specific_revenue_action: 'Digital Product: ''AI-Enhanced Business Plan Template''
+    for startups, sold on Gumroad and template marketplaces.'
+  tier_classification: 1
+  time_to_first_dollar: 11
+  why_this_works_now: Startups frequently need business plans for funding or strategic
+    clarity. An AI-enhanced template that provides prompts, example content, and even
+    generates sections based on user input offers significant value and time savings
+    compared to starting from scratch.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 93
+  reasoning: This opportunity leverages strong existing demand for business plans
+    with an AI-enhanced, zero-cost digital product, offering high margins, rapid deployment,
+    and excellent autonomous scalability.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775842286
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 55
+    notes: 'CRITIQUE
+
+      Confidence Score: 55%
+
+      Key concerns:
+
+      *   **Intense Market Saturation & Free Alternatives:** The market for business
+      plan templates is highly competitive, and free AI tools (like ChatGPT) can already
+      generate similar content, significantly eroding the perceived value and willingness
+      to pay for an "AI-enhanced template."
+
+      *   **Weak Differentiation:** The "AI-enhanced" aspect, if merely a collection
+      of prompts for the user to copy-paste, may not be a strong enough differentiator
+      against existing sophisticated AI generators or high-quality static templates.
+      The value proposition needs to be clearer and more robust.
+
+      *   **Discovery & Marketing Challenge:** Without a specific marketing strategy
+      beyond listing on crowded marketplaces, achieving the estimated revenue potential
+      will be difficult due to the sheer volume of similar offerings.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The test output is truncated, leaving the competitive landscape analysis incomplete.'
+    result: FAIL
+  security:
+    notes: 'PASS
+
+      The skill does not expose sensitive data, appears compliant with platform ToS
+      for digital product sales, is within budget, and does not involve direct collection
+      of lead data by Penelope.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,78 @@
+business: Cross-vertical
+created: '2026-04-14T21:17:44.982996'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  Cost to test: $0 (Notion/Google Docs free, Gumroad free)
+  Estimated monthly revenue potential: $350 - $800
+  How Penelope deploys it autonomously: AI generates various outreach message templates,
+    creates a structured Notion/Google Docs template, writes sales copy, sets up Gumroad,
+    distributes via relevant online communities.
+  Specific revenue action: 'Sell ''Automated LinkedIn Outreach Template Pack'' for
+    Notion/Google Docs. Audience: B2B sales teams, recruiters, lead generators.'
+  Tier classification: 1
+  Time to first dollar: 12
+  Why this works NOW: LinkedIn remains a primary B2B outreach channel; automation
+    templates save significant time for sales professionals seeking efficiency.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity leverages strong existing demand for B2B outreach efficiency
+    with a fully autonomous, high-margin digital product that can be deployed and
+    scaled rapidly.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776201464
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+      *   **Market Saturation & Commoditization**: The market for LinkedIn outreach
+      templates is highly saturated with numerous free and low-cost alternatives,
+      making differentiation and capturing significant market share extremely challenging.
+
+      *   **LinkedIn Policy Volatility & Template Efficacy**: Static templates are
+      vulnerable to LinkedIn algorithm updates and policy changes, potentially rendering
+      them ineffective or even risky for user accounts if perceived as spam.
+
+      *   **Lack of Unique Value Proposition**: The offering lacks a clear differentiator
+      beyond "AI-generated," which does not inherently convey superior quality or
+      effectiveness in a crowded market where trust and proven results are paramount.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The skill is actionable and revenue-focused, and the test output provides essential
+      market validation, which is a critical preparatory step for effective execution
+      and revenue generation.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill does not involve collecting SSNs, storing unencrypted passwords, accessing
+      unauthorized systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

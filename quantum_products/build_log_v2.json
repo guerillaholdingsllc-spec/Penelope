@@ -1,0 +1,118 @@
+{
+  "v": "2",
+  "started": "2026-04-13T14:05:35.936381",
+  "products": {
+    "pqc_kit": {
+      "status": "PASSED",
+      "file": "/root/workspace/Penelope/quantum_products/pqc_kit_v2.md",
+      "chars": 4798,
+      "words": 749,
+      "gates": {
+        "g1": {
+          "pass": true
+        },
+        "g2": {
+          "pass": true
+        },
+        "g3": {
+          "pass": true
+        },
+        "g4": {
+          "pass": true
+        },
+        "g5": {
+          "pass": true
+        },
+        "g6": {
+          "pass": true
+        }
+      },
+      "price": "$47"
+    },
+    "lit_guide": {
+      "status": "NEEDS_REVIEW",
+      "file": "/root/workspace/Penelope/quantum_products/lit_guide_v2.md",
+      "chars": 5832,
+      "words": 887,
+      "gates": {
+        "g1": {
+          "pass": false
+        },
+        "g2": {
+          "pass": true
+        },
+        "g3": {
+          "pass": false
+        },
+        "g4": {
+          "pass": true
+        },
+        "g5": {
+          "pass": true
+        },
+        "g6": {
+          "pass": true
+        }
+      },
+      "price": "$29"
+    },
+    "prompt_pack": {
+      "status": "PASSED",
+      "file": "/root/workspace/Penelope/quantum_products/prompt_pack_v2.md",
+      "chars": 30654,
+      "words": 4164,
+      "gates": {
+        "g1": {
+          "pass": true
+        },
+        "g2": {
+          "pass": true
+        },
+        "g3": {
+          "pass": true
+        },
+        "g4": {
+          "pass": true
+        },
+        "g5": {
+          "pass": true
+        },
+        "g6": {
+          "pass": true
+        }
+      },
+      "price": "$29"
+    }
+  },
+  "errors": [],
+  "gumroad_discover": [
+    {
+      "product": "The Last Covenant \u2014 The Chronicles Book 5",
+      "status": 404
+    },
+    {
+      "product": "The Eternal Return \u2014 The Chronicles Book 6",
+      "status": 404
+    },
+    {
+      "product": "The Architects of War \u2014 The Chronicles Book 4",
+      "status": 404
+    },
+    {
+      "product": "The Void Between \u2014 The Chronicles Book 3",
+      "status": 404
+    },
+    {
+      "product": "The Awakening \u2014 The Chronicles Book 1",
+      "status": 404
+    },
+    {
+      "product": "The Fractured Worlds \u2014 The Chronicles Book 2",
+      "status": 404
+    },
+    {
+      "product": "Guerilla Holdings Digital Resources",
+      "status": 404
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+business: Cross-vertical
+created: '2026-04-09T22:05:04.873430'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $500 - $1200
+  how_penelope_deploys_it_autonomously: AI (e.g., GPT-4) outlines chapters, drafts
+    content, and generates examples; AI proofreads and formats; AI creates cover design
+    options; automated KDP/Gumroad upload and listing; automated social media promotion
+    schedule.
+  specific_revenue_action: 'Write and sell an ebook on practical applications of AI
+    for small business owners in content creation (blogging, social media, email marketing).
+    Platform: Amazon KDP, Gumroad. Audience: Small business owners, marketing managers.'
+  tier_classification: 1
+  time_to_first_dollar: 20 days
+  why_this_works_now: AI adoption is accelerating, but many small businesses lack
+    clear, actionable strategies. Demand for practical, concise guides is high, especially
+    for content generation.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 94
+  reasoning: This opportunity leverages high demand for practical AI guides with minimal
+    cost and full AI automation for rapid deployment and excellent scalability.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775772304
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Quality & Differentiation:** The market for "AI for small business" guides
+      is rapidly saturating. Purely AI-generated content, without significant human
+      oversight, unique insights, or real-world case studies, risks being perceived
+      as generic and low-value, failing to stand out or build trust with the target
+      audience.
+
+      *   **Marketing & Visibility:** Relying solely on "automated social media promotion"
+      and platform algorithms (KDP/Gumroad) is insufficient for market penetration.
+      Without a dedicated marketing budget, audience building, or a unique author/brand
+      voice, the ebook will likely be lost in the noise.
+
+      *   **Rapid Obsolescence & Platform Risk:** The AI landscape evolves extremely
+      quickly, making content outdated within months. Furthermore, platforms like
+      KDP could implement stricter policies or algorithms regarding AI-generated content,
+      impacting visibility or even leading to removal.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      Incomplete competitive landscape analysis and logical inconsistency between
+      skill''s cost_to_test and test output''s research_budget_allocated.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      Skill violates Amazon KDP''s ToS by not disclosing AI-generated content and
+      misrepresents operational costs, likely exceeding the budget cap.'
+    result: FAIL
+test_results: {}

@@ -1,0 +1,79 @@
+business: GAFC
+created: '2026-04-17T00:37:09.484199'
+learnings: ''
+logic_flow: {}
+objective: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+opportunity_data:
+  action: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+  business: GAFC
+  estimated_monthly: 500
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 19
+  margin: 25
+  raw_score: 94
+  reasoning: This opportunity leverages an AI agent's strengths in automated digital
+    content creation and distribution for a high-interest topic, offering excellent
+    speed, scalability, and profit margin, though the direct market demand for this
+    specific brand-building content is moderately strong.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776386229
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Revenue Model Inconsistency & Flawed Premise**: The `revenue_model` explicitly
+      states `estimated_monthly: 0` and `cost_per_run: 0`, directly contradicting
+      the `opportunity_data`''s `estimated_monthly: 500`. Attributing $500/month in
+      "brand revenue" to 5 static blog posts lacks a clear, measurable conversion
+      path and is highly speculative, making the stated margin and RPS score misleading.
+
+      *   **High Risk & Liability for Sensitive Content**: Gun safety is a high-stakes
+      topic. Inaccurate, generic, or poorly phrased AI-generated content could lead
+      to significant reputational damage, legal liability, or even physical harm,
+      undermining any potential brand benefit and potentially exposing the business
+      to severe consequences.
+
+      *   **Limited Reach & Sustainability**: Publishing 5 posts to WordPress and
+      sharing on Bluesky (a relatively niche platform) offers limited organic reach.
+      A one-time content drop is unlikely to generate sustained "monthly revenue"
+      or significant brand impact without continuous effort, promotion, and a clear
+      strategy for audience engagement and monetization beyond mere publication.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides a detailed, actionable plan for content creation and publishing,
+      directly supporting the skill''s objective to publish blog posts and move toward
+      brand revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and social media sharing, which are compliant
+      activities and do not involve collecting SSNs, storing unencrypted passwords,
+      accessing unauthorized systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

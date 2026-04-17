@@ -1,0 +1,147 @@
+business: GAFC
+created: '2026-04-09T19:02:24.982552'
+learnings: ''
+logic_flow:
+  step_1: "Generate caption using GAFC brand voice \u2014 real, community-focused"
+  step_2: Include relevant hashtags (gun safety, community, minority-owned)
+  step_3: Generate post via Instagram Graph API
+  step_4: Track follower growth
+objective: Generate and post 2x daily Instagram content for @glocksandfriedchicken
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry with variation
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 150
+  margin_pct: 100
+  type: indirect
+skill_id: gafc_instagram_content
+status: Failed
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+      Key concerns:
+
+      *   **Extreme Brand Risk & Platform Violation:** The brand name "Glocks and
+      Fried Chicken" is highly provocative and likely to violate Instagram''s community
+      guidelines, leading to account suspension or shadow-banning, rendering the entire
+      skill inoperable. The "gun safety" and "minority-owned" hashtags, while intended
+      to mitigate, are insufficient to overcome the inherent controversy of the brand
+      name itself.
+
+      *   **Missing Core Component (Visuals):** Instagram is a visual platform, yet
+      the `logic_flow` completely omits the generation or sourcing of images/videos,
+      which are essential for any post and engagement. Without visual assets, the
+      "post content" step is incomplete and ineffective.
+
+      *   **Undefined Indirect Revenue & Value Proposition:** The "indirect" revenue
+      model is speculative and lacks a clear link between content generation, follower
+      growth, and actual business value. The $150/month estimate is arbitrary without
+      a defined conversion funnel or measurable impact on the business.
+
+
+      ---
+
+
+      **1. Why would this FAIL in the real market?**
+
+
+      This opportunity is highly likely to fail due to the extreme brand sensitivity
+      and potential for platform intervention. The brand name "Glocks and Fried Chicken"
+      is inherently controversial, combining firearms (specifically a brand often
+      associated with violence) with a cultural food staple, and the "minority-owned"
+      hashtag further amplifies potential racial implications. Instagram''s community
+      guidelines are strict regarding content that promotes violence, hate speech,
+      or is generally offensive. Even with "gun safety" messaging, the brand name
+      itself could lead to:
+
+      *   **Account Suspension/Shadow-banning:** Instagram could flag the account
+      for violating terms of service, leading to reduced visibility or outright suspension,
+      making content posting impossible.
+
+      *   **Negative Public Reaction/PR Crisis:** The brand name alone could attract
+      significant backlash, leading to a PR nightmare that overshadows any positive
+      intent of the content.
+
+      *   **Lack of Genuine Engagement:** Generic AI-generated content, even with
+      a "real, community-focused" prompt, often struggles to build authentic engagement,
+      especially on sensitive topics. The absence of a strategy for visual content
+      (images/videos) further cripples engagement on a visual platform.
+
+      *   **Fragile API Dependency:** Reliance on the Instagram Graph API for posting
+      and tracking can be fragile. API access can change, be restricted, or require
+      specific permissions that might be difficult to obtain for a controversial brand.
+
+
+      **2. Is there a cheaper/faster way to achieve same result?**
+
+
+      *   **Cheaper:** The stated `cost_per_run` of $0 is misleading. While the AI''s
+      *language generation* might be within its operational scope, the actual execution
+      involves API calls, potential image/video generation (not specified but implied),
+      and the underlying infrastructure costs of running the agent. For 2x daily posts,
+      a human content creator could potentially manage this volume, including visual
+      asset creation and nuanced brand messaging, at a comparable or lower cost, especially
+      when considering the high risk of automated content going wrong.
+
+      *   **Faster:** For low volume (2x daily), a human can often generate and post
+      content faster, particularly when factoring in the need for high-quality visual
+      assets and the critical human review required to navigate such a sensitive brand.
+      The current `logic_flow` only covers caption and hashtag generation, not the
+      visual asset, which is the primary content type for Instagram.
+
+
+      **3. What edge case breaks this?**
+
+
+      *   **Instagram Account Suspension:** This is the most critical edge case. If
+      Instagram deems the brand name or content inappropriate, the account will be
+      suspended, immediately breaking the entire operation.
+
+      *   **API Changes/Rate Limits:** Instagram''s API can change, or the account
+      could hit rate limits, preventing posts or data tracking.
+
+      *   **Content Misinterpretation/Offense:** Even with "community-focused" intent,
+      an AI-generated caption could inadvertently use language or hashtags that are
+      misinterpreted, cause offense, or contradict the brand''s stated values, leading
+      to a PR crisis.
+
+      *   **Lack of Visual Assets:** The `logic_flow` does not account for the generation
+      or sourcing of images/videos. Instagram is a visual platform; without compelling
+      visuals, the captions alone are insufficient and the "post" cannot be completed
+      effectively.
+
+
+      **4. Give a Confidence Score 0-100%**
+
+
+      Confidence Score: 10%'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      The output fails to meet the full objective by simulating the "post" action
+      and contains an incomplete JSON structure.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill''s objective and implied content (firearms-related brand, "gun safety"
+      hashtags) carry a high risk of violating Instagram''s Community Guidelines and
+      Terms of Service regarding regulated goods, and the skill''s logic flow lacks
+      a specific content compliance review step.'
+    result: FAIL
+test_output_sample: As a specialized GAFC Worker Agent, I have executed the assigned
+  revenue strategy. Given my operational constraints as an AI, the execution of directly
+  interacting with external APIs (like Instagram Graph API) and tracking real-time
+  metrics (like follower growth) is simulated. My primary measurable result for this
+  iteration is the successful generation of content (captions and hashtags) according
+  to the specified brand voice and requirements, and outlining the process for the
+  API interaction and
+test_results: {}

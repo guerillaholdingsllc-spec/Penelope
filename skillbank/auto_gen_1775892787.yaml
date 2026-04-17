@@ -1,0 +1,165 @@
+business: Cross-vertical
+created: '2026-04-11T07:33:07.929751'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  Cost to test: 10
+  Estimated monthly revenue potential ($): 300-1200
+  How Penelope deploys it autonomously: Penelope uses AI to research, outline, write,
+    and format the ebook content, generates cover art, creates listings on Gumroad
+    and KDP, and orchestrates a launch campaign via email and social media.
+  Specific revenue action: 'Publish ''Prompt Engineering for Non-Technical Founders:
+    Unlock AI''s Potential'' Ebook on Gumroad and Amazon KDP.'
+  Tier classification: 1
+  Time to first dollar (days): 14
+  Why this works NOW: Non-technical founders are eager to leverage AI without deep
+    diving into technicalities; the market for practical AI application guides is
+    booming.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 25
+  margin: 24
+  raw_score: 97
+  reasoning: This opportunity boasts high market demand for AI guides, excellent profit
+    margins with minimal cost, rapid deployment, and is fully automated and scalable
+    for an AI agent.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775892787
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 40
+    notes: 'CRITIQUE
+
+      Confidence Score: 40%
+
+      Key concerns:
+
+      *   **Market Saturation & Differentiation**: The "AI for non-technical founders"
+      niche is highly competitive. An AI-generated ebook will struggle to differentiate
+      itself and establish authority against human experts and free resources.
+
+      *   **Quality & Obsolescence**: High risk of generic AI-generated content leading
+      to poor reviews, coupled with the rapid evolution of AI making the content quickly
+      outdated and requiring constant, potentially unbudgeted, updates.
+
+      *   **Marketing & Discoverability**: The proposed launch campaign is vague.
+      Without a strong, targeted marketing strategy and existing audience, the ebook
+      is likely to get lost in the noise of a crowded market, failing to reach its
+      estimated revenue potential.
+
+
+      ---
+
+      **1. Why would this FAIL in the real market?**
+
+
+      *   **Extreme Market Saturation**: The market for "AI for X" and "prompt engineering"
+      guides is already flooded. Many established authors, influencers, and AI companies
+      offer similar content, often for free (blogs, YouTube, newsletters) or as part
+      of comprehensive, interactive courses. An AI-generated ebook will struggle immensely
+      to stand out and capture attention.
+
+      *   **Perceived Quality & Trust**: While Penelope can generate content, an AI-written
+      ebook may lack the unique voice, nuanced insights, real-world founder anecdotes,
+      and genuine authority that human experts bring. Discerning founders often seek
+      content from credible sources with practical experience. Poor reviews due to
+      generic or unoriginal content could quickly tank sales.
+
+      *   **Rapid Obsolescence**: The field of AI, especially prompt engineering best
+      practices, is evolving at an unprecedented pace. An ebook published today could
+      have significant portions rendered outdated within 3-6 months by new model releases
+      or paradigm shifts, making it a short-shelf-life product that requires constant,
+      unbudgeted updates to remain relevant.
+
+      *   **Marketing & Discoverability Challenges**: Simply publishing on Gumroad
+      and KDP, even with an "orchestrated launch campaign," is insufficient in a saturated
+      market. Without a pre-existing audience, significant marketing budget, or a
+      highly differentiated value proposition, the ebook will likely be invisible
+      to its target audience.
+
+      *   **Value Proposition Weakness**: For founders, an ebook might be perceived
+      as less valuable than interactive courses, workshops, or personalized coaching,
+      which offer practical application and feedback crucial for skill development
+      like prompt engineering.
+
+
+      **2. Is there a cheaper/faster way to achieve same result?**
+
+
+      *   **Free Lead Magnet + Upsell**: Instead of a paid ebook, create a high-value
+      *free* mini-guide or template pack on a very specific prompt engineering use
+      case (e.g., "5 Prompts to Generate Your First Marketing Campaign"). Use this
+      as a lead magnet to build an email list. Then, upsell to a more comprehensive,
+      higher-priced product like a paid workshop, a subscription to a prompt library,
+      or a more in-depth course. This builds an audience asset and potentially higher
+      LTV.
+
+      *   **Niche Down & Template Focus**: Instead of a broad ebook, create a highly
+      specific, actionable *template library* or *toolkit* for a very narrow founder
+      segment (e.g., "AI Prompts for E-commerce Product Descriptions" or "ChatGPT
+      Prompts for SaaS Onboarding Flows"). This is faster to create, more immediately
+      actionable, and can command a higher price point due to its utility.
+
+      *   **Webinar/Live Workshop**: Host a live, interactive webinar or workshop.
+      This can be set up quickly, generates immediate revenue, allows for direct audience
+      engagement and feedback, and can be priced higher than an ebook. The content
+      can then be repurposed into an ebook or course. This also helps build authority
+      and an audience.
+
+
+      **3. What edge case breaks this?**
+
+
+      *   **Platform AI Content Policies**: Amazon KDP and Gumroad could implement
+      stricter policies or detection mechanisms for AI-generated content, leading
+      to de-listing, reduced visibility, or even account penalties if the ebook is
+      deemed low-quality or non-compliant.
+
+      *   **Rapid AI Model Evolution**: A major breakthrough or architectural change
+      in foundational AI models (e.g., GPT-5, Claude 4) could fundamentally alter
+      prompt engineering best practices, rendering the ebook''s core advice obsolete
+      almost overnight.
+
+      *   **AI Content Fatigue/Skepticism**: The market could reach a point of "AI
+      content fatigue," where consumers become highly skeptical of any new AI-related
+      content, especially if it''s perceived as AI-generated, leading to a significant
+      drop in demand for such products.
+
+      *   **Poor AI Output/Hallucinations**: Despite Penelope''s capabilities, if
+      the AI produces generic, unoriginal, or factually incorrect content, the ebook
+      will receive overwhelmingly negative reviews, leading to refunds, reputational
+      damage, and a complete failure of the revenue opportunity.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides actionable market validation and success factors directly
+      supporting the skill''s objective of publishing and promoting an ebook, which
+      falls under content creation and product promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and marketing activities (email and social
+      media), which are explicitly compliant. There is no immediate indication of
+      collecting SSNs, storing unencrypted passwords, accessing unauthorized systems,
+      or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

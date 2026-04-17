@@ -1,0 +1,19 @@
+{
+  "vessel_agents": [
+    "vessel_revenue_agent",
+    "vessel_journey_agent",
+    "vessel_uss_agent",
+    "vessel_dropout_agent",
+    "vessel_referral_agent",
+    "vessel_content_agent",
+    "vessel_social_agent",
+    "vessel_intelligence_agent"
+  ],
+  "vessel_ports": {
+    "vessel_journey_agent": 5101,
+    "vessel_uss_agent": 5102,
+    "vessel_dropout_agent": 5103,
+    "vessel_referral_agent": 5104
+  },
+  "vessel_scripts_dir": "/root/workspace/Penelope/"
+}

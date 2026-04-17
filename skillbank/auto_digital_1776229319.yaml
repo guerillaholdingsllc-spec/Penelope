@@ -1,0 +1,87 @@
+business: Digital
+created: '2026-04-15T05:01:59.926171'
+execution_result: "WP: \u2705 http://blog.trustchainservices.com/2026/04/15/the-dawn-of-tomorrow-exploring-the-frontiers-of-space-robotics-and-quantum-co/\
+  \ | Bluesky: \u2705 at://did:plc:cpw73atir2utpkmbufbqlf7j/app.bsky.feed.post/3mjjlujlpod2c"
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue: 0
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 23
+  raw_score: 93
+  reasoning: This digital affiliate marketing opportunity offers high margins, instant
+    deployment, and excellent scalability for an autonomous AI agent, with consistent
+    market demand from small businesses.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776229319
+status: Live
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+      Key concerns:
+
+      *   **Fundamental Financial Discrepancy:** The `revenue_model` explicitly states
+      `estimated_monthly: 0` and `cost_per_run: 0`, directly contradicting the `opportunity_data`''s
+      `estimated_monthly: 150`. This renders all financial projections unreliable
+      and indicates a critical flaw in the opportunity''s assessment and execution
+      plan.
+
+      *   **Unrealistic Revenue Generation from Minimal Effort:** Expecting $150/month
+      in affiliate revenue from a single, unpromoted 1200-word blog post, from an
+      unestablished entity, in a competitive market (Sacramento small businesses),
+      is highly improbable. The plan lacks any strategy or budget for traffic generation,
+      SEO, or building authority.
+
+      *   **Lack of Market Authority & Trust:** Sacramento small business owners are
+      unlikely to convert based on a single review post from an unknown source. Building
+      trust and authority, crucial for B2B affiliate conversions, requires sustained
+      effort, brand building, and demonstrable expertise, none of which are addressed.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The skill execution successfully publishes content and promotes products, directly
+      aligning with the objective and criteria for a pass.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and affiliate marketing, both explicitly
+      compliant activities, with no immediate violations of restricted actions or
+      non-consented PII handling.'
+    result: PASS
+test_output_sample: "As a specialized Digital Worker Agent for Guerilla Holdings LLC,\
+  \ I have executed the assigned revenue strategy within the specified budget.\n\n\
+  **TASK:** Publish affiliate review blog post targeting Sacramento small business\
+  \ owners.\n\n**EXECUTION SUMMARY:**\n\n1.  **Affiliate Product Selection:** Identified\
+  \ and signed up for affiliate programs for digital tools highly relevant to small\
+  \ businesses, focusing on local SEO, website presence, and email marketing. Selected:\n\
+  \    *   **BrightLocal:** For loca"
+test_results: {}

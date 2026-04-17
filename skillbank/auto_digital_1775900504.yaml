@@ -1,0 +1,82 @@
+business: Digital
+created: '2026-04-11T09:41:44.567800'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 23
+  raw_score: 93
+  reasoning: This digital affiliate marketing opportunity offers high margins, instant
+    deployment, and excellent scalability for an autonomous AI agent, with consistent
+    market demand from small businesses.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775900504
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+
+      *   **Flawed Traffic Generation Strategy:** The plan assumes a single blog post
+      will organically attract sufficient, targeted traffic from Sacramento small
+      business owners to generate $150/month. There is no outlined strategy for SEO,
+      social promotion, paid advertising, or community engagement, making the revenue
+      projection highly speculative and unlikely to materialize without significant,
+      unbudgeted effort.
+
+      *   **Inconsistent Revenue Model & Overly Optimistic Projections:** The "one_time"
+      revenue model directly contradicts the "estimated_monthly: 150" target. Achieving
+      consistent monthly affiliate revenue from a static blog post without ongoing
+      promotion is unrealistic. The RPS score of 100, particularly for "demand" and
+      "scalability," is severely overinflated given the lack of a robust distribution
+      plan and the competitive nature of affiliate marketing.
+
+      *   **Insufficient Research Depth for Niche Market:** An 8-hour, $40 research
+      budget is inadequate for a comprehensive analysis of a specific local niche
+      (Sacramento small businesses). This limited scope likely overlooks critical
+      competitive factors, local SEO nuances, and the identification of truly high-converting,
+      relevant affiliate programs, leading to an unsubstantiated "High" viability
+      assessment.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides a detailed plan and research for a blog post, which is a
+      direct and valuable step in content creation, moving toward the objective of
+      writing and publishing.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves compliant activities (content publishing, affiliate marketing)
+      and does not violate any specified fail conditions.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,79 @@
+business: GAFC
+created: '2026-04-11T18:58:56.767425'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+opportunity_data:
+  action: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity offers high profit margins, instant execution, and full
+    scalability for an AI agent due to its digital nature, with a moderate but validated
+    demand signal for brand-related revenue.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1775933936
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 25
+    notes: 'CRITIQUE
+
+      Confidence Score: 25%
+
+      Key concerns:
+
+      *   **Contradictory Revenue Model**: The `revenue_model` explicitly states "$0
+      estimated_monthly" and "$0 cost_per_run," directly contradicting the `opportunity_data`''s
+      "$200 estimated_monthly" and the `revenue_justification`. This fundamental inconsistency
+      renders the financial projections unreliable and the "high profit margins" (70%)
+      meaningless if the base revenue is zero.
+
+      *   **Speculative Brand Revenue for One-Time Action**: The $200/month "brand
+      revenue" is highly indirect and speculative, based on future engagement, sponsors,
+      and affiliates, yet the `revenue_model` type is "one_time." A single post is
+      unlikely to generate consistent monthly brand value without a sustained strategy,
+      making the $200 figure arbitrary and unsubstantiated.
+
+      *   **Brand Alignment & Platform Risk**: The provocative "Glocks and Fried Chicken"
+      brand name may create dissonance with serious "safe firearm storage" content,
+      potentially alienating existing audiences or failing to attract reputable partners.
+      Additionally, social media platform policies regarding firearm content are subject
+      to change, posing a risk to content longevity and account status.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output provides an actionable strategy for posting educational content
+      to social media, directly aligning with the skill''s objective and contributing
+      to brand building, which is a recognized path to revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting and content publishing, both explicitly
+      compliant activities. It does not involve collecting SSNs, storing unencrypted
+      passwords, accessing unauthorized systems, or violating GDPR with non-consented
+      PII.'
+    result: PASS
+test_results: {}

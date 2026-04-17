@@ -1,0 +1,81 @@
+business: Digital
+created: '2026-04-14T10:28:36.447649'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages existing customer demand for a high-margin
+    digital product through an automated email sequence, offering excellent speed
+    to revenue and scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776162516
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 70
+    notes: 'CRITIQUE
+
+      Confidence Score: 70%
+
+      Key concerns:
+
+      *   **Unjustified Revenue Estimate & Conversion Rate:** The $300 estimated monthly
+      revenue is an optimistic projection lacking supporting data on expected conversion
+      rates from the welcome sequence to the full book series. Actual market performance
+      could be significantly lower if the upsell offer isn''t compelling or the audience
+      isn''t receptive.
+
+      *   **Email Deliverability & Consent:** The plan doesn''t explicitly address
+      strategies for maximizing email deliverability (avoiding spam/promotions folders)
+      or ensuring explicit marketing consent for the upsell sequence, which could
+      lead to low engagement, compliance issues (e.g., GDPR, CAN-SPAM), or account
+      suspension.
+
+      *   **Dependency on Product Appeal & Market Fit:** Success hinges entirely on
+      the appeal and perceived value of the "full book series" to buyers who have
+      only purchased a single item. Without a clear strategy for segmenting buyers
+      or tailoring offers, the upsell may not resonate with a broad audience.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable, verifiable steps to implement an automated email
+      sequence that sends emails and promotes products, directly aligning with the
+      objective and moving toward revenue with zero direct tool cost.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves email marketing to existing customers (Gumroad buyers) for
+      related products, which is generally compliant, especially with implied consent
+      or legitimate interest for existing customer relationships, and does not involve
+      collecting SSNs, storing unencrypted passwords, accessing unauthorized systems,
+      or clearly violating GDPR with non-consented PII based on the information provided.'
+    result: PASS
+test_results: {}

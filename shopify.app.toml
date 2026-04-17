@@ -1,0 +1,18 @@
+name = "Penelope"
+client_id = "5b67b37f15dd3604173af3c9f6c8d451"
+application_url = "http://206.81.5.241:8080"
+embedded = false
+
+[access_scopes]
+scopes = "read_products,write_products,read_inventory,write_inventory,read_orders,write_orders"
+
+[auth]
+redirect_urls = [
+  "http://206.81.5.241:3000/callback"
+]
+
+[webhooks]
+api_version = "2026-04"
+
+[pos]
+embedded = false

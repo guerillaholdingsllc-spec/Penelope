@@ -1,0 +1,340 @@
+{
+  "AAPL": {
+    "1. ROC only (Penelope)": {
+      "trades": 2,
+      "wins": 1,
+      "win_rate": 50.0,
+      "pnl": 349.76,
+      "pnl_pct": 3.5,
+      "max_dd": 0.68,
+      "avg_win": 418.14,
+      "avg_loss": -68.38,
+      "profit_factor": 6.11
+    },
+    "2. ROC + VWAP entry gate": {
+      "trades": 1,
+      "wins": 1,
+      "win_rate": 100.0,
+      "pnl": 393.6,
+      "pnl_pct": 3.94,
+      "max_dd": 0.0,
+      "avg_win": 393.6,
+      "avg_loss": 0,
+      "profit_factor": 999
+    },
+    "3. ROC+VWAP entry + VWAP exit": {
+      "trades": 1,
+      "wins": 1,
+      "win_rate": 100.0,
+      "pnl": 393.6,
+      "pnl_pct": 3.94,
+      "max_dd": 0.0,
+      "avg_win": 393.6,
+      "avg_loss": 0,
+      "profit_factor": 999
+    },
+    "4. ROC+VWAP entry + ATR stop": {
+      "trades": 1,
+      "wins": 1,
+      "win_rate": 100.0,
+      "pnl": 393.6,
+      "pnl_pct": 3.94,
+      "max_dd": 0.0,
+      "avg_win": 393.6,
+      "avg_loss": 0,
+      "profit_factor": 999
+    },
+    "5. ROC+VWAP+ADX entry + ATR stop": {
+      "trades": 1,
+      "wins": 1,
+      "win_rate": 100.0,
+      "pnl": 393.6,
+      "pnl_pct": 3.94,
+      "max_dd": 0.0,
+      "avg_win": 393.6,
+      "avg_loss": 0,
+      "profit_factor": 999
+    },
+    "6. FULL: ROC+VWAP+ATR+VWAP exit": {
+      "trades": 1,
+      "wins": 1,
+      "win_rate": 100.0,
+      "pnl": 393.6,
+      "pnl_pct": 3.94,
+      "max_dd": 0.0,
+      "avg_win": 393.6,
+      "avg_loss": 0,
+      "profit_factor": 999
+    }
+  },
+  "NVDA": {
+    "1. ROC only (Penelope)": {
+      "trades": 3,
+      "wins": 1,
+      "win_rate": 33.3,
+      "pnl": -208.1,
+      "pnl_pct": -2.08,
+      "max_dd": 2.35,
+      "avg_win": 26.6,
+      "avg_loss": -117.35,
+      "profit_factor": 0.11
+    },
+    "2. ROC + VWAP entry gate": {
+      "trades": 2,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -234.7,
+      "pnl_pct": -2.35,
+      "max_dd": 2.35,
+      "avg_win": 0,
+      "avg_loss": -117.35,
+      "profit_factor": 0.0
+    },
+    "3. ROC+VWAP entry + VWAP exit": {
+      "trades": 2,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -234.7,
+      "pnl_pct": -2.35,
+      "max_dd": 2.35,
+      "avg_win": 0,
+      "avg_loss": -117.35,
+      "profit_factor": 0.0
+    },
+    "4. ROC+VWAP entry + ATR stop": {
+      "trades": 2,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -234.7,
+      "pnl_pct": -2.35,
+      "max_dd": 2.35,
+      "avg_win": 0,
+      "avg_loss": -117.35,
+      "profit_factor": 0.0
+    },
+    "5. ROC+VWAP+ADX entry + ATR stop": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -86.84,
+      "pnl_pct": -0.87,
+      "max_dd": 0.87,
+      "avg_win": 0,
+      "avg_loss": -86.84,
+      "profit_factor": 0.0
+    },
+    "6. FULL: ROC+VWAP+ATR+VWAP exit": {
+      "trades": 2,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -234.7,
+      "pnl_pct": -2.35,
+      "max_dd": 2.35,
+      "avg_win": 0,
+      "avg_loss": -117.35,
+      "profit_factor": 0.0
+    }
+  },
+  "SPY": {
+    "1. ROC only (Penelope)": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -54.24,
+      "pnl_pct": -0.54,
+      "max_dd": 0.54,
+      "avg_win": 0,
+      "avg_loss": -54.24,
+      "profit_factor": 0.0
+    },
+    "2. ROC + VWAP entry gate": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -54.24,
+      "pnl_pct": -0.54,
+      "max_dd": 0.54,
+      "avg_win": 0,
+      "avg_loss": -54.24,
+      "profit_factor": 0.0
+    },
+    "3. ROC+VWAP entry + VWAP exit": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -54.24,
+      "pnl_pct": -0.54,
+      "max_dd": 0.54,
+      "avg_win": 0,
+      "avg_loss": -54.24,
+      "profit_factor": 0.0
+    },
+    "4. ROC+VWAP entry + ATR stop": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -54.24,
+      "pnl_pct": -0.54,
+      "max_dd": 0.54,
+      "avg_win": 0,
+      "avg_loss": -54.24,
+      "profit_factor": 0.0
+    },
+    "5. ROC+VWAP+ADX entry + ATR stop": {
+      "trades": 0,
+      "win_rate": 0,
+      "pnl": 0,
+      "pnl_pct": 0,
+      "max_dd": 0,
+      "avg_win": 0,
+      "avg_loss": 0,
+      "profit_factor": 0
+    },
+    "6. FULL: ROC+VWAP+ATR+VWAP exit": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -54.24,
+      "pnl_pct": -0.54,
+      "max_dd": 0.54,
+      "avg_win": 0,
+      "avg_loss": -54.24,
+      "profit_factor": 0.0
+    }
+  },
+  "QQQ": {
+    "1. ROC only (Penelope)": {
+      "trades": 2,
+      "wins": 1,
+      "win_rate": 50.0,
+      "pnl": 28.87,
+      "pnl_pct": 0.29,
+      "max_dd": 0.84,
+      "avg_win": 112.53,
+      "avg_loss": -83.66,
+      "profit_factor": 1.35
+    },
+    "2. ROC + VWAP entry gate": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -73.62,
+      "pnl_pct": -0.74,
+      "max_dd": 0.74,
+      "avg_win": 0,
+      "avg_loss": -73.62,
+      "profit_factor": 0.0
+    },
+    "3. ROC+VWAP entry + VWAP exit": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -61.26,
+      "pnl_pct": -0.61,
+      "max_dd": 0.61,
+      "avg_win": 0,
+      "avg_loss": -61.26,
+      "profit_factor": 0.0
+    },
+    "4. ROC+VWAP entry + ATR stop": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -73.62,
+      "pnl_pct": -0.74,
+      "max_dd": 0.74,
+      "avg_win": 0,
+      "avg_loss": -73.62,
+      "profit_factor": 0.0
+    },
+    "5. ROC+VWAP+ADX entry + ATR stop": {
+      "trades": 0,
+      "win_rate": 0,
+      "pnl": 0,
+      "pnl_pct": 0,
+      "max_dd": 0,
+      "avg_win": 0,
+      "avg_loss": 0,
+      "profit_factor": 0
+    },
+    "6. FULL: ROC+VWAP+ATR+VWAP exit": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -61.26,
+      "pnl_pct": -0.61,
+      "max_dd": 0.61,
+      "avg_win": 0,
+      "avg_loss": -61.26,
+      "profit_factor": 0.0
+    }
+  },
+  "MSFT": {
+    "1. ROC only (Penelope)": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -54.71,
+      "pnl_pct": -0.55,
+      "max_dd": 0.55,
+      "avg_win": 0,
+      "avg_loss": -54.71,
+      "profit_factor": 0.0
+    },
+    "2. ROC + VWAP entry gate": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -54.71,
+      "pnl_pct": -0.55,
+      "max_dd": 0.55,
+      "avg_win": 0,
+      "avg_loss": -54.71,
+      "profit_factor": 0.0
+    },
+    "3. ROC+VWAP entry + VWAP exit": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -54.71,
+      "pnl_pct": -0.55,
+      "max_dd": 0.55,
+      "avg_win": 0,
+      "avg_loss": -54.71,
+      "profit_factor": 0.0
+    },
+    "4. ROC+VWAP entry + ATR stop": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -54.71,
+      "pnl_pct": -0.55,
+      "max_dd": 0.55,
+      "avg_win": 0,
+      "avg_loss": -54.71,
+      "profit_factor": 0.0
+    },
+    "5. ROC+VWAP+ADX entry + ATR stop": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -54.71,
+      "pnl_pct": -0.55,
+      "max_dd": 0.55,
+      "avg_win": 0,
+      "avg_loss": -54.71,
+      "profit_factor": 0.0
+    },
+    "6. FULL: ROC+VWAP+ATR+VWAP exit": {
+      "trades": 1,
+      "wins": 0,
+      "win_rate": 0.0,
+      "pnl": -54.71,
+      "pnl_pct": -0.55,
+      "max_dd": 0.55,
+      "avg_win": 0,
+      "avg_loss": -54.71,
+      "profit_factor": 0.0
+    }
+  }
+}

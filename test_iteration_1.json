@@ -1,0 +1,44 @@
+{
+  "passed": 119,
+  "failed": 9,
+  "warnings": 0,
+  "failures": [
+    {
+      "label": "F2: $3,500 good trade approved",
+      "detail": "QUALITY BLOCK: price=$393.66 < MA20=$407.30 (buying into dow"
+    },
+    {
+      "label": "F3: Approved amount in $3k\u2013$5k",
+      "detail": "$0"
+    },
+    {
+      "label": "F4: $500 raised to $3,000 floor",
+      "detail": "$0"
+    },
+    {
+      "label": "F5: $8,000 capped at $5,000",
+      "detail": "$0"
+    },
+    {
+      "label": "G11: Place order after Dollar\u2192qty",
+      "detail": "[1632>5894]"
+    },
+    {
+      "label": "H5: New strat clamped $3k\u2013$5k",
+      "detail": "$0"
+    },
+    {
+      "label": "H6: Exp strat clamped $3k\u2013$5k",
+      "detail": "$0"
+    },
+    {
+      "label": "M2: Sharpe positive returns>0",
+      "detail": ""
+    },
+    {
+      "label": "M3: Sharpe negative returns<0",
+      "detail": ""
+    }
+  ],
+  "timestamp": "2026-04-13 18:49:27.567595"
+}

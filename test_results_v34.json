@@ -1,0 +1,332 @@
+{
+  "passed": 59,
+  "failed": 6,
+  "tests": [
+    {
+      "test": "Compile clean",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "7 strategies loaded",
+      "pass": true,
+      "detail": "['momentum-AAPL', 'momentum-NVDA', 'rsi-MSFT', 'rsi-SPY', 'macd-QQQ', 'mean_revert-SPY', 'orb-AAPL']"
+    },
+    {
+      "test": "5 signals in SIGNAL_MAP",
+      "pass": true,
+      "detail": "['momentum', 'rsi', 'macd', 'mean_revert', 'orb']"
+    },
+    {
+      "test": "temporal_entry_check callable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "detect_market_regime callable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "get_news_sentiment callable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "earnings_blackout callable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "check_correlated_position callable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "calc_sharpe callable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Alpaca data fetch: SPY",
+      "pass": true,
+      "detail": "60 bars"
+    },
+    {
+      "test": "calc_atr > 0",
+      "pass": true,
+      "detail": "ATR=3.8103"
+    },
+    {
+      "test": "calc_atr in realistic range",
+      "pass": true,
+      "detail": "ATR=3.8103"
+    },
+    {
+      "test": "calc_adx 0-100",
+      "pass": true,
+      "detail": "ADX=56.29"
+    },
+    {
+      "test": "calc_vwap in price range",
+      "pass": true,
+      "detail": "VWAP=687.25"
+    },
+    {
+      "test": "ATR stop < entry for long",
+      "pass": true,
+      "detail": "entry=677.45 stop=671.73"
+    },
+    {
+      "test": "VWAP roughly near last price",
+      "pass": true,
+      "detail": "VWAP=687.25 price=677.45"
+    },
+    {
+      "test": "Trending ADX > Choppy ADX",
+      "pass": true,
+      "detail": "trend=100.0 choppy=11.4"
+    },
+    {
+      "test": "Midday 12pm ET blocked",
+      "pass": true,
+      "detail": "UTC=16 dow=Tue apr"
+    },
+    {
+      "test": "10am ET (power hour) allows",
+      "pass": true,
+      "detail": "mult=1.0"
+    },
+    {
+      "test": "Monday April mult=0.60",
+      "pass": true,
+      "detail": "mult=0.6"
+    },
+    {
+      "test": "Wednesday April mult=1.00",
+      "pass": true,
+      "detail": "mult=1.0"
+    },
+    {
+      "test": "September Tuesday mult=0.50",
+      "pass": true,
+      "detail": "mult=0.5"
+    },
+    {
+      "test": "November Wednesday mult=1.00",
+      "pass": true,
+      "detail": "mult=1.0"
+    },
+    {
+      "test": "Friday 3pm ET blocked",
+      "pass": true,
+      "detail": "dow=Fri UTC=19"
+    },
+    {
+      "test": "Final block UTC>=19",
+      "pass": true,
+      "detail": "UTC=20"
+    },
+    {
+      "test": "Monday Sep mult=0.30 (min)",
+      "pass": true,
+      "detail": "mult=0.3"
+    },
+    {
+      "test": "Regime returns valid value",
+      "pass": true,
+      "detail": "regime=bull"
+    },
+    {
+      "test": "BEAR_DISABLED_STRATEGIES set",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "SIDEWAYS_DISABLED_STRATEGIES set",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "RSI allowed in bear",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Mean revert allowed in bear",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Sentiment returns tuple(score,count,verdict)",
+      "pass": true,
+      "detail": "score=0 count=0 verdict=neutral"
+    },
+    {
+      "test": "Sentiment verdict valid",
+      "pass": true,
+      "detail": "verdict=neutral"
+    },
+    {
+      "test": "SENTIMENT_BLOCK_THRESHOLD defined",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Block threshold is negative or zero",
+      "pass": true,
+      "detail": "threshold=-1"
+    },
+    {
+      "test": "Zero articles = neutral (no block)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Earnings blackout returns (bool, str)",
+      "pass": true,
+      "detail": "blocked=False reason=no_earnings_risk"
+    },
+    {
+      "test": "No earnings = clear reason",
+      "pass": true,
+      "detail": "no_earnings_risk"
+    },
+    {
+      "test": "Correlated cap blocks duplicate AAPL",
+      "pass": true,
+      "detail": "CORRELATED BLOCK: momentum-AAPL already long AAPL"
+    },
+    {
+      "test": "Different symbol not blocked",
+      "pass": true,
+      "detail": "no_correlation"
+    },
+    {
+      "test": "Sharpe > 1 for good returns",
+      "pass": true,
+      "detail": "sharpe=21.06"
+    },
+    {
+      "test": "Sharpe < 0 for bad returns",
+      "pass": true,
+      "detail": "sharpe=-17.51"
+    },
+    {
+      "test": "Sharpe handles zero-std gracefully",
+      "pass": true,
+      "detail": "sharpe=0.00"
+    },
+    {
+      "test": "Sharpe handles empty list",
+      "pass": true,
+      "detail": "sharpe=0.0"
+    },
+    {
+      "test": "signal_momentum runs",
+      "pass": false,
+      "detail": "name 'timezone' is not defined"
+    },
+    {
+      "test": "signal_rsi runs",
+      "pass": false,
+      "detail": "name 'timezone' is not defined"
+    },
+    {
+      "test": "signal_macd runs",
+      "pass": false,
+      "detail": "name 'timezone' is not defined"
+    },
+    {
+      "test": "5-min bars fetched for MTF",
+      "pass": true,
+      "detail": "at least one short-TF reference"
+    },
+    {
+      "test": "Daily bars fetched for regime",
+      "pass": true,
+      "detail": "daily bars for 50d/200d MA"
+    },
+    {
+      "test": "Hourly bars for main signals",
+      "pass": true,
+      "detail": "hourly bars for core signals"
+    },
+    {
+      "test": "ADX_THRESHOLD = 20",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "ATR_STOP_MULT = 1.5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "ADX_BAR_LIMIT = 40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Circuit breaker function exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Check consecutive losses exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "All strategies have max_dd_pct",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "ORB has tightest DD (40%)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "ADX gate before signal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "ATR stop before signal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Temporal gate after signal=buy",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Regime gate after temporal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Sentiment gate after regime",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "test": "Earnings gate after sentiment",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "test": "Correlated cap after earnings",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "test": "qty scaled by t_mult",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "ts": "2026-04-13T17:59:14.732216"
+}

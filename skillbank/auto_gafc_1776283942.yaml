@@ -1,0 +1,77 @@
+business: GAFC
+created: '2026-04-15T20:12:22.365888'
+learnings: ''
+logic_flow: {}
+objective: Create and post Bluesky thread about gun safety statistics with GAFC branding
+opportunity_data:
+  action: Create and post Bluesky thread about gun safety statistics with GAFC branding
+  business: GAFC
+  estimated_monthly: 100
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity represents a confirmed digital service for a client,
+    offering high profit margins, immediate execution, and full automation for an
+    AI agent.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776283942
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 20
+    notes: 'CRITIQUE
+
+      Confidence Score: 20%
+
+      Key concerns:
+
+      *   **Critical Unverified Assumptions & Brand Risk:** The agent''s assumption
+      about GAFC''s stance on "gun safety statistics" is a critical, unverified leap.
+      Misinterpreting the client''s actual agenda on such a sensitive topic could
+      lead to significant brand damage for GAFC and reputational harm for the service
+      provider. Client input and approval are essential.
+
+      *   **Revenue Model Inconsistencies & Cost Underestimation:** The `revenue_model`
+      states `cost_per_run: 0` and `estimated_monthly: 0` (for a one-time service),
+      yet the plan incurs a $40 research cost and the `opportunity_data` lists `estimated_monthly:
+      100`. This fundamental contradiction indicates a flawed financial assessment
+      and an underestimation of actual operational costs, impacting the stated 70%
+      margin.
+
+      *   **Lack of Client Input & Approval Process:** The plan proceeds with research
+      and content creation without any mention of client briefing, content review,
+      or approval. For brand-sensitive content, especially on a controversial subject,
+      this is a major operational oversight and a high risk for failure or client
+      dissatisfaction.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The action involves content creation and social media posting, directly supporting
+      brand building and moving toward revenue as defined.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting of public information, which is compliant,
+      and does not violate any of the specified prohibitions.'
+    result: PASS
+test_results: {}

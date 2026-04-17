@@ -1,0 +1,85 @@
+business: Cross-vertical
+created: '2026-04-10T05:20:11.967379'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $800 - $2000
+  how_penelope_deploys_it_autonomously: AI drafts course curriculum, generates lesson
+    content, creates presentation slides, writes sales page, sets up automated email
+    sequences for leads, and manages enrollment.
+  specific_revenue_action: 'Create a concise online course ''AI for Small Business:
+    Boost Efficiency & Sales'' on Podia/Kajabi, targeting small business owners overwhelmed
+    by AI but wanting to implement it practically.'
+  tier_classification: 1
+  time_to_first_dollar: 28
+  why_this_works_NOW: Small businesses are eager to adopt AI but lack practical, jargon-free
+    guidance; focused courses offering immediate ROI are highly sought after.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 94
+  reasoning: This opportunity targets a high-demand niche with a fully autonomous,
+    high-margin digital product that can be deployed quickly and scaled infinitely
+    by an AI agent.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775798411
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+      *   **Market Saturation & Trust Deficit:** The "AI for Small Business" course
+      market is already highly competitive. An autonomously generated course from
+      an unknown entity will struggle to build the necessary trust and authority with
+      small business owners, who seek proven expertise and practical, up-to-date guidance,
+      not generic content.
+
+      *   **Unrealistic Marketing & Distribution Strategy:** The plan assumes AI can
+      generate sales pages and email sequences, but completely overlooks the critical
+      challenge of *driving qualified traffic* and *acquiring customers* in a competitive
+      market. A "$0 cost to test" for marketing is highly unrealistic for a new product,
+      making the estimated revenue potential speculative without a clear distribution
+      channel or budget.
+
+      *   **Content Quality & Obsolescence Risk:** While AI can draft content, ensuring
+      the practical depth, unique insights, and continuous updates required for a
+      valuable course in the rapidly evolving AI landscape is a significant challenge.
+      Autonomously generated content risks being generic, superficial, or quickly
+      outdated, leading to poor customer satisfaction and negative reviews.'
+    result: FAIL
+  quality:
+    notes: 'FAIL
+
+      Test output contains unverifiable research findings and is truncated; skill
+      definition includes a mathematical error in its scoring.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill lacks explicit mechanisms for ensuring GDPR/CCPA compliance for lead
+      data and adherence to platform ToS for automated email sequences.'
+    result: FAIL
+test_results: {}

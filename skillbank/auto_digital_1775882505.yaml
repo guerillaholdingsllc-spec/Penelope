@@ -1,0 +1,129 @@
+business: Digital
+created: '2026-04-11T04:41:45.660049'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages existing customer demand for a high-margin
+    digital product through an automated email sequence, offering excellent speed
+    to revenue and scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775882505
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 60
+    notes: 'CRITIQUE
+
+      Confidence Score: 60%
+
+      Key concerns:
+
+      *   **Critical Tool Omission:** The plan is incomplete without specifying the
+      Email Service Provider (ESP) that Zapier will integrate with to send the email
+      sequence. This is a fundamental component for email delivery and sequence management.
+
+      *   **Unaddressed Market Risks:** The plan overestimates feasibility by not
+      accounting for potential low conversion rates for the upsell, email deliverability
+      issues (spam filters), or buyer fatigue, which are common challenges in email
+      marketing.
+
+      *   **Scalability Cost Underestimation:** While initial costs are low, the plan
+      relies heavily on free tiers. Rapid success could quickly push Zapier and the
+      (unspecified) ESP beyond free limits, leading to higher monthly costs not fully
+      detailed or budgeted for beyond a vague $10 estimate.
+
+
+      **1. Why would this FAIL in the real market?**
+
+      The primary failure points lie in assumptions and omissions. The plan assumes
+      that new Gumroad buyers will be receptive to an immediate upsell to a "full
+      book series" and that the email sequence will effectively convert them. This
+      ignores critical factors like the relevance of the upsell to the initial purchase,
+      the quality of the email copy, and the overall buyer journey. Furthermore, the
+      plan is critically incomplete by not specifying an Email Service Provider (ESP)
+      (e.g., Mailchimp, ConvertKit, SendGrid) that Zapier would connect to. Without
+      a robust ESP, email deliverability is a major risk; emails could land in spam
+      folders, or the system could fail to send them reliably, rendering the entire
+      sequence ineffective.
+
+
+      **2. Is there a cheaper/faster way to achieve same result?**
+
+      The proposed method (Gumroad + Zapier + *unspecified ESP*) is already highly
+      cost-effective due to its reliance on free tiers. It''s difficult to achieve
+      the *same result* (an automated, multi-email sequence) significantly cheaper.
+      For a *single* welcome email, Gumroad''s native email features might be faster
+      to set up, but they lack the sequencing and advanced segmentation capabilities
+      required for a "sequence with upsell." The current approach is reasonably fast
+      to implement for a basic setup, with the main time investment being in crafting
+      compelling email copy and setting up the automation logic.
+
+
+      **3. What edge case breaks this?**
+
+      *   **Missing ESP or ESP Failure:** The most critical edge case is the absence
+      of a specified ESP. If no ESP is chosen, or if the chosen ESP has downtime,
+      deliverability issues, or revokes free tier access, the entire email sequence
+      fails.
+
+      *   **Gumroad API/Zapier Integration Breakage:** Changes to Gumroad''s API or
+      a disruption in Zapier''s integration could halt the automation flow, preventing
+      new buyers from entering the sequence.
+
+      *   **High Spam Complaint Rate:** If a significant number of recipients mark
+      the upsell emails as spam, the sender''s reputation will plummet, leading to
+      poor deliverability across the board and potentially account suspension by the
+      ESP.
+
+      *   **Product Irrelevance/Buyer Fatigue:** If the "full book series" is not
+      highly relevant or appealing to the initial Gumroad purchase, or if buyers are
+      immediately turned off by an upsell, conversion rates will be negligible, making
+      the effort unprofitable despite low costs.
+
+      *   **Legal/Compliance Issues:** Depending on the region, sending marketing
+      emails (even to existing customers) may require explicit opt-in consent beyond
+      the initial purchase, which is not addressed in the plan. Non-compliance could
+      lead to legal penalties.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The plan outlines a clear, actionable strategy to send emails and promote products
+      to existing customers, leveraging free tools within budget, directly moving
+      toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      Reason: The skill involves email marketing to existing customers (Gumroad buyers),
+      which is a compliant activity and does not violate any of the specified fail
+      conditions.'
+    result: PASS
+test_results: {}

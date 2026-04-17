@@ -1,0 +1,81 @@
+business: GAFC
+created: '2026-04-10T23:00:57.377686'
+learnings: ''
+logic_flow: {}
+objective: Create and post Bluesky thread about gun safety statistics with GAFC branding
+opportunity_data:
+  action: Create and post Bluesky thread about gun safety statistics with GAFC branding
+  business: GAFC
+  estimated_monthly: 100
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 25
+  raw_score: 93
+  reasoning: This digital content creation task for an autonomous AI agent offers
+    extremely high margins, instant execution, and full scalability, though the specific
+    market demand for this niche content at this price point is moderate.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1775862057
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Flawed Revenue Model & Cost Assumption:** The stated `cost_per_run: 0`
+      is unrealistic, making the 70% margin meaningless. The "brand" revenue of $100/month
+      is an estimated value, not direct cash flow, and is highly speculative for a
+      one-time post. The initial $50 budget was entirely consumed by research, leaving
+      nothing for execution or potential issues.
+
+      *   **High Reputational Risk & Low Demand:** Creating content on gun safety
+      statistics for a company named "Guerilla Arms & Firearms Co." is a highly sensitive
+      task. Inaccurate data, biased framing, or a misstep by an autonomous AI could
+      lead to significant brand damage, far outweighing any perceived "brand value."
+      The system''s own low demand score (18) further indicates limited positive impact
+      potential.
+
+      *   **Lack of Nuance for Sensitive Content:** An "instant digital" AI agent
+      is unlikely to possess the necessary nuance, ethical considerations, and real-time
+      judgment required to navigate the complexities of gun safety discussions on
+      a public platform without significant human oversight, increasing the risk of
+      negative outcomes.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output is a detailed, actionable plan for content creation and social media
+      outreach, which is a valuable form of content and a direct step toward the skill''s
+      objective, aligning with the lenient criteria for content creation and moving
+      toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting and content publishing, which are compliant
+      activities. No immediate violations of prohibited actions (SSNs, unencrypted
+      passwords, unauthorized access, non-consented PII) are present in the skill
+      description or the provided output. The budget is within the specified cap.'
+    result: PASS
+test_results: {}

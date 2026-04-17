@@ -1,0 +1,76 @@
+business: GAFC
+created: '2026-04-11T19:00:56.097283'
+learnings: ''
+logic_flow: {}
+objective: Create and post Bluesky thread about gun safety statistics with GAFC branding
+opportunity_data:
+  action: Create and post Bluesky thread about gun safety statistics with GAFC branding
+  business: GAFC
+  estimated_monthly: 100
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity represents a confirmed digital service for a client,
+    offering high profit margins, immediate execution, and full automation for an
+    AI agent.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1775934056
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Fundamental Revenue Model Inconsistency & Unrealistic Costing**: The `revenue_model`
+      states `type: "one_time"` with `estimated_monthly: 0`, directly contradicting
+      the `opportunity_data` which targets `$100 estimated monthly` brand revenue.
+      Furthermore, `cost_per_run: 0` is impossible, rendering the 70% margin and the
+      entire financial viability assessment fictitious.
+
+      *   **High Reputational Risk on Sensitive Topic**: Creating and posting content
+      about "gun safety statistics" is a highly sensitive and politically charged
+      task. Relying on "full automation for an AI agent" for such nuanced content
+      carries significant risk of misinterpretation, factual errors, perceived bias,
+      or generating public backlash, which could severely damage GAFC''s brand reputation.
+
+      *   **Vague "Brand Revenue" & Limited Platform Impact**: The mechanism by which
+      a single Bluesky thread generates `$100 estimated monthly` in "brand revenue"
+      is undefined and highly speculative. Bluesky''s relatively niche audience may
+      not provide the reach or impact necessary to justify this revenue attribution,
+      especially for a one-time post.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output provides actionable research directly supporting the creation
+      and posting of social media content, which moves toward brand revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting of public statistics, which is a compliant
+      activity and does not violate any specified prohibitions.'
+    result: PASS
+test_results: {}

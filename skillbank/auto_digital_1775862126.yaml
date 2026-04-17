@@ -1,0 +1,79 @@
+business: Digital
+created: '2026-04-10T23:02:06.919802'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 23
+  raw_score: 88
+  reasoning: This opportunity leverages an AI agent's strengths in automated content
+    creation and digital publishing for high-margin affiliate revenue, though the
+    initial demand signal suggests moderate revenue potential.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775862126
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 20
+    notes: 'CRITIQUE
+
+      Confidence Score: 20%
+
+      Key concerns:
+
+      *   **Unrealistic Financials & Inconsistent Model**: The `SKILL` defines revenue
+      as `one_time` but estimates `monthly` income, and assumes `cost_per_run: 0`,
+      rendering the `70% margin` and `rps_score` of 100 entirely baseless. This fundamental
+      misrepresentation of costs and revenue type invalidates the entire financial
+      projection.
+
+      *   **Overstated Viability & Missing Distribution Strategy**: Labeling this
+      as "Tier 1 - Instant Digital (No barriers)" with a high `rps_score` is highly
+      optimistic. A single blog post, even AI-generated, will struggle to achieve
+      $150-$400 monthly revenue in a competitive local niche without a robust SEO,
+      promotion, or existing audience strategy. Organic visibility for new content
+      is a significant barrier, not "no barrier."
+
+      *   **Incomplete Research & Superficial Market Understanding**: The `OUTPUT`''s
+      `target_audience_insights` is cut off, indicating superficial or incomplete
+      foundational research. Without a deep understanding of specific pain points,
+      search intent, and competitive landscape for Sacramento small businesses, the
+      content is unlikely to resonate or convert effectively.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The research output provides actionable insights directly supporting the objective
+      of publishing an affiliate review blog post, moving toward revenue generation.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves compliant activities (content publishing, affiliate marketing)
+      and the output is a research report that does not expose sensitive data or violate
+      PII regulations.'
+    result: PASS
+test_results: {}

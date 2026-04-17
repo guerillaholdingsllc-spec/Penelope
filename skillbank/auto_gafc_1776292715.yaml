@@ -1,0 +1,82 @@
+business: GAFC
+created: '2026-04-15T22:38:35.426086'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+opportunity_data:
+  action: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity offers high profit margins, instant execution, and full
+    scalability for an AI agent due to its digital nature, with a moderate but validated
+    demand signal for brand-related revenue.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776292715
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Severe Brand Dissonance & Credibility Crisis:** The brand name "@glocksandfriedchicken"
+      fundamentally conflicts with the objective of posting serious "safe firearm
+      storage" educational content. This juxtaposition risks alienating audiences,
+      being perceived as tone-deaf or ironic, and severely undermining the credibility
+      required for firearm safety education.
+
+      *   **Unrealistic Revenue & Cost Assumptions:** The `revenue_model` states $0
+      estimated monthly revenue and $0 cost per run, directly contradicting the `opportunity_data`''s
+      $200 estimated monthly "brand revenue." Attributing $200/month in "brand revenue"
+      to a single educational post, especially one with such inherent brand conflict,
+      is highly speculative and lacks a clear monetization path. The $0 cost is also
+      unrealistic, ignoring content creation, platform, and potential legal review
+      costs.
+
+      *   **High Risk of Negative Repercussions:** This initiative carries a significant
+      risk of negative public relations, backlash from both firearm enthusiasts and
+      safety advocates, and potential scrutiny from Instagram for content policies
+      related to firearms. Misinformation or perceived insensitivity could lead to
+      reputational damage, account suspension, or even legal liability.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The skill''s objective to post educational content to social media is actionable
+      and moves toward brand revenue. The test output, while research rather than
+      the final posting action, is a valuable and actionable preparatory step for
+      content creation and outreach, aligning with the spirit of the leniency clause.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting of educational content, which is explicitly
+      compliant and does not violate any of the specified fail conditions (collecting
+      SSNs, storing unencrypted passwords, accessing unauthorized systems, or violating
+      GDPR with non-consented PII).'
+    result: PASS
+test_results: {}

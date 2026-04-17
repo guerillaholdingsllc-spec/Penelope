@@ -1,0 +1,76 @@
+business: Digital
+created: '2026-04-13T12:20:44.324606'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 23
+  raw_score: 93
+  reasoning: This digital affiliate marketing opportunity offers high margins, instant
+    deployment, and excellent scalability for an autonomous AI agent, with consistent
+    market demand from small businesses.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776082844
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Unrealistic Financials & Contradictions:** The estimated monthly revenue
+      of $150 is exceptionally low for the effort, and the "one_time" revenue model
+      fundamentally contradicts "affiliate" and "estimated_monthly" figures. The `cost_per_run:
+      0` is highly improbable, ignoring basic operational costs (hosting, domain,
+      content generation tokens, SEO tools).
+
+      *   **Lack of Market Penetration & Trust Strategy:** The plan assumes "publishing"
+      is sufficient. Without a robust SEO strategy, active promotion, and a mechanism
+      to build trust and authority with Sacramento small business owners, the content
+      will struggle to gain visibility and convert in a competitive local market.
+
+      *   **High Vulnerability to External Factors:** The success is highly dependent
+      on stable search engine algorithms, consistent affiliate program terms, and
+      sustained market relevance, all of which are subject to change and could easily
+      render the entire effort unprofitable or obsolete.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides actionable research and product recommendations directly
+      supporting the objective of writing and publishing an affiliate review blog
+      post, moving toward content creation and product promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and affiliate marketing, both explicitly
+      compliant activities. No immediate violations of restricted actions are present.'
+    result: PASS
+test_results: {}

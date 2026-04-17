@@ -1,0 +1,76 @@
+business: GAFC
+created: '2026-04-11T06:46:07.245049'
+learnings: ''
+logic_flow: {}
+objective: Create and post Bluesky thread about gun safety statistics with GAFC branding
+opportunity_data:
+  action: Create and post Bluesky thread about gun safety statistics with GAFC branding
+  business: GAFC
+  estimated_monthly: 100
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity represents a confirmed digital service for a client,
+    offering high profit margins, immediate execution, and full automation for an
+    AI agent.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1775889967
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+      Key concerns:
+
+      *   **Financial Model Incoherence:** The revenue model is fundamentally contradictory,
+      listing "one_time" with "estimated_monthly: 0" and "cost_per_run: 0," while
+      `opportunity_data` claims "$100 estimated_monthly." This indicates a severe
+      lack of financial clarity and realism.
+
+      *   **High Reputational Risk & Content Sensitivity:** Generating and posting
+      content on "gun safety statistics" via an AI agent carries significant risk
+      of misinformation, bias, or misinterpretation, potentially leading to severe
+      brand damage for GAFC, far outweighing the stated $100 revenue.
+
+      *   **Unrealistic Automation & Cost Assumptions:** The premise of "full automation"
+      with "cost_per_run: 0" for sensitive content is highly unrealistic. It ignores
+      necessary human review, computational costs, and the potential for platform
+      policy violations or public backlash requiring costly mitigation.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output provides actionable research that directly supports the skill''s
+      objective of creating and posting social media content, moving toward brand
+      revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting, which is explicitly compliant and does
+      not violate any of the specified fail conditions (collecting SSNs, storing unencrypted
+      passwords, accessing unauthorized systems, or violating GDPR with non-consented
+      PII).'
+    result: PASS
+test_results: {}

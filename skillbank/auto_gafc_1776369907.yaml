@@ -1,0 +1,76 @@
+business: GAFC
+created: '2026-04-16T20:05:07.540799'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+  on social
+opportunity_data:
+  action: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+    on social
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 10
+  margin: 22
+  raw_score: 82
+  reasoning: This opportunity scores highly on speed, scalability, and margin due
+    to its fully digital and automated nature, but the market demand signal for this
+    specific brand content appears low given the modest estimated monthly value for
+    brand awareness.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776369907
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Misaligned Value Proposition & Financials:** The stated "estimated monthly
+      value" of $200 for brand awareness is negligible, and the revenue model contradicts
+      itself (one-time vs. monthly, 0 vs. 200). This indicates a fundamental misunderstanding
+      of the opportunity''s worth or how it''s being measured.
+
+      *   **Low Market Demand & Impact:** The internal scoring explicitly notes "low
+      market demand signal" (demand score 10). Investing in content for unknown characters
+      with low demand and a minimal budget ($50/day) is unlikely to generate meaningful
+      brand awareness.
+
+      *   **Vague Strategy & Risk of Negative ROI:** The content strategy is undefined,
+      and without clear audience targeting or engagement metrics beyond "awareness,"
+      there''s a high risk that even automated posting will yield little to no positive
+      return, potentially even damaging brand perception if content quality is poor.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides actionable strategies for posting content to social media,
+      directly aligning with the objective of building brand awareness.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting for brand awareness, which is explicitly
+      compliant and does not violate any of the specified security or compliance criteria.'
+    result: PASS
+test_results: {}

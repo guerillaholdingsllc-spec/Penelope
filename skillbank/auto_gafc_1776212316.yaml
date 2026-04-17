@@ -1,0 +1,80 @@
+business: GAFC
+created: '2026-04-15T00:18:36.512100'
+learnings: ''
+logic_flow: {}
+objective: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+opportunity_data:
+  action: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+  business: GAFC
+  estimated_monthly: 500
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 23
+  raw_score: 91
+  reasoning: This opportunity leverages an autonomous AI agent for fully automated
+    digital content creation and distribution, offering high margins, instant execution,
+    and excellent scalability for a client with a clear demand signal.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776212316
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+      Key concerns:
+
+      *   **Unrealistic Budget & Revenue Model Inconsistencies**: The $50 budget for
+      creating, publishing, and promoting 5 blog posts on a sensitive topic is severely
+      inadequate. Furthermore, the `SKILL`''s revenue model is contradictory, stating
+      `one_time` with `estimated_monthly: 0` and `cost_per_run: 0`, while `opportunity_data`
+      claims `estimated_monthly: 500` and `margin_pct: 70` is inconsistent with a
+      zero cost. This financial ambiguity undermines the entire opportunity.
+
+      *   **Content Quality & Brand Risk on Sensitive Topic**: Relying solely on an
+      "autonomous AI agent" for gun safety content carries a high risk of factual
+      inaccuracies, lack of nuance, or inappropriate tone. A single misstep could
+      severely damage GAFC''s brand reputation and trust, especially given the public
+      nature of WordPress and Bluesky.
+
+      *   **Undefined Automation & Quality Control**: The `logic_flow` is empty, providing
+      no insight into how the AI ensures content accuracy, brand voice adherence,
+      SEO optimization, platform-specific formatting, or legal compliance. Without
+      robust human oversight or detailed AI logic, the project is highly susceptible
+      to failure.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides actionable steps for content creation, directly supporting
+      the objective of publishing blog posts and promoting products, while adhering
+      to the budget and quality checks.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing to WordPress and social media posting
+      on Bluesky, both of which are explicitly compliant activities and do not involve
+      any prohibited actions like collecting SSNs, storing unencrypted passwords,
+      accessing unauthorized systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

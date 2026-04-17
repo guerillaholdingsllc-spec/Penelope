@@ -1,0 +1,82 @@
+business: Digital
+created: '2026-04-11T04:36:55.341403'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 21
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity targets a high-demand niche with a digital product,
+    ensuring excellent profit margins, instant revenue generation, and fully automated
+    scalability without human intervention.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775882215
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+
+      *   **Unrealistic Cost & Effort Assumptions:** The `revenue_model` states a
+      `cost_per_run` of 0 and a `budget_cap_24h` of $50, while the `research_findings`
+      explicitly recommend *developing* a "high-value, actionable digital product."
+      This is a fundamental contradiction, severely underestimating the time, effort,
+      and financial resources required for product creation, lead acquisition, and
+      ongoing maintenance. The `rps_score` reasoning of "instant revenue generation"
+      is therefore unfounded.
+
+      *   **Lead List Quality & Compliance Risk:** The success of this opportunity
+      hinges entirely on the quality, relevance, and opt-in status of the "lead list
+      via Brevo." Without details on its origin, there''s a high risk of poor conversion
+      rates, deliverability issues (emails landing in spam), and potential legal penalties
+      (e.g., GDPR, CAN-SPAM violations) if the list is untargeted or lacks proper
+      consent.
+
+      *   **Market Saturation & Lack of Differentiation:** The "AI Business Automation
+      Starter Kit" targets a highly competitive and rapidly evolving niche. The current
+      plan lacks any strategy for product differentiation or how it will stand out
+      amidst numerous similar offerings already available, making it challenging to
+      capture attention and achieve sustained sales.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides actionable steps for product creation and platform
+      setup, which are direct precursors to promoting the product and generating revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves email marketing to a lead list, which is compliant assuming
+      the list is opt-in, and no immediate violations are evident.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,87 @@
+business: Cross-vertical
+created: '2026-04-16T10:51:19.992572'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $200-$500
+  how_penelope_deploys_autonomously: Penelope generates course outline, script, and
+    visual examples using AI. It automates course platform setup (e.g., Gumroad product
+    or Teachable free tier) and handles digital promotion.
+  specific_revenue_action: 'Online Mini-Course: ''Mastering Canva with AI for Business''
+    sold on Gumroad or a simple course platform.'
+  tier_classification: 1
+  time_to_first_dollar: 18 days
+  why_this_works_NOW: Canva is widely adopted, and its new AI features are in demand.
+    Small business owners and marketers need practical skills to leverage these tools
+    for design efficiency.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 94
+  reasoning: The opportunity leverages high demand for AI-enhanced Canva skills with
+    a fully automated, high-margin digital product, enabling rapid deployment and
+    excellent scalability.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776336679
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+
+      *   **Market Saturation & Quality:** The "Canva with AI" niche is highly competitive
+      and already saturated with free and paid content. An autonomously generated
+      mini-course risks being generic, lacking the unique insights, personal touch,
+      and depth required to stand out and command sales against human-created content,
+      leading to poor conversion and low perceived value.
+
+      *   **Autonomous Marketing Effectiveness:** The claim "Penelope handles digital
+      promotion" is a critical black box. Effective promotion requires nuanced understanding
+      of target audiences, compelling copy, and often, budget for paid ads. Generic,
+      autonomous promotion is unlikely to cut through the noise and drive significant
+      sales for a low-priced digital product, making the $200-$500 revenue target
+      difficult to achieve.
+
+      *   **Rapid Obsolescence & Maintenance:** Canva''s AI features evolve rapidly.
+      An autonomously generated course could quickly become outdated, requiring continuous,
+      complex updates that Penelope may struggle to perform effectively and without
+      error, leading to customer dissatisfaction and refund requests. This directly
+      impacts the long-term viability and reputation of the product.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides a detailed, actionable plan for content creation and product
+      promotion, directly supporting the revenue objective.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes creating and selling an online course and digital promotion,
+      which does not inherently involve collecting SSNs, storing unencrypted passwords,
+      accessing unauthorized systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

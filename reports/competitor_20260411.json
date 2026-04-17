@@ -1,0 +1,274 @@
+{
+  "digital_products": {
+    "category": "digital_products",
+    "insights": [
+      {
+        "query": "https://www.gumroad.com/discover?sort=top",
+        "pricing": {
+          "description": "Pricing for top-selling digital products on Gumroad varies widely based on product type and depth. General ranges observed:",
+          "ranges": {
+            "Notion Templates/Ebooks/Guides": "$15 - $75",
+            "Digital Art/Design Assets (brushes, presets)": "$10 - $40",
+            "Mini-Courses/Workshops": "$99 - $299",
+            "Bundles/Comprehensive Toolkits": "$49 - $149"
+          },
+          "notes": "Premium, highly specialized, or comprehensive products (e.g., full courses, SaaS templates) can exceed these ranges. Many creators offer tiered pricing or upsells."
+        },
+        "competitors": [
+          {
+            "name": "Gumroad",
+            "positioning": "Creator-first platform, low barrier to entry, ideal for indie creators selling digital downloads, courses, and memberships. Known for simplicity and direct creator-to-consumer sales. Flat 10% fee (after initial sales tiers)."
+          },
+          {
+            "name": "Etsy (for digital downloads)",
+            "positioning": "Massive marketplace with a strong focus on handmade, vintage, and craft items, but also a significant market for digital printables, templates, and art. Benefits from high organic traffic but has higher competition and fees (6.5% transaction fee + listing fee + payment processing)."
+          },
+          {
+            "name": "Payhip",
+            "positioning": "Direct competitor to Gumroad, offering similar features for selling digital products, courses, and memberships. Often cited for competitive fee structures (free plan with 5% transaction fee, paid plans with lower fees)."
+          }
+        ],
+        "gaps": [
+          "Hyper-local, industry-specific digital products for Sacramento/NorCal businesses (e.g., 'Sacramento Restaurant Social Media Kit', 'NorCal Winery Marketing Plan Template').",
+          "Interactive and personalized digital products (e.g., AI-powered template generators that customize based on user input, rather than static files).",
+          "Bundles of complementary digital products from local creators, fostering a 'buy local' digital economy.",
+          "Digital products that include a small 'done-for-you' service component (e.g., a custom template with 1-hour setup assistance)."
+        ],
+        "trend_direction": "Growing. The creator economy continues to expand, and demand for niche, actionable digital tools and knowledge remains high. Ease of creation and distribution fuels this growth.",
+        "opportunity": "Develop and launch a 'NorCal Small Business Starter Kit' (Notion template for business planning, local resource guide, basic social media templates) priced at $49. Market it through local business groups and LinkedIn."
+      },
+      {
+        "query": "AI automation tools pricing 2026",
+        "pricing": {
+          "description": "Current AI automation tool pricing is predominantly subscription-based, tiered by usage (tokens, requests, users). Projections for 2026 suggest continued evolution:",
+          "current_ranges": {
+            "Basic AI Writing/Content Generation (e.g., Jasper, Copy.ai)": "$29-$99/month (individual, usage limits); $100-$400+/month (teams/higher usage)",
+            "AI Automation Platforms (e.g., Zapier + AI, Make.com + AI)": "Base platform $20-$200/month (task limits) + API costs for AI models (e.g., OpenAI GPT-4 API: $0.03-$0.06/1K tokens input, $0.06-$0.12/1K tokens output)",
+            "Specialized AI Tools (e.g., AI video, voice cloning)": "$50-$500+/month (feature/usage dependent)"
+          },
+          "2026_projection": "Expect continued downward pressure on prices for basic, commoditized AI features due to increased competition. Premium, specialized, and highly integrated AI solutions will command higher prices, likely shifting towards value-based pricing (e.g., 'ROI generated' rather than just 'tokens used'). Enterprise solutions will remain custom-quoted. More 'AI-as-a-feature' integrated into existing software without explicit AI add-on pricing."
+        },
+        "competitors": [
+          {
+            "name": "OpenAI (and other foundational model providers like Anthropic, Google Gemini)",
+            "positioning": "The core intelligence providers. Positioned as the underlying technology layer. Pricing is usage-based (API calls, tokens)."
+          },
+          {
+            "name": "Integration Platforms (Zapier, Make.com)",
+            "positioning": "The 'glue' connecting AI capabilities with existing software workflows. Positioned as workflow orchestrators. Pricing is task/operation-based."
+          },
+          {
+            "name": "Vertical AI SaaS (e.g., Jasper, Midjourney, specialized industry AI)",
+            "positioning": "User-friendly, niche-specific solutions built on foundational models. Positioned as 'solutions' for specific business problems (e.g., marketing, design, legal). Pricing is subscription-based, often tiered by features/usage."
+          }
+        ],
+        "gaps": [
+          "Hyper-local AI automation solutions: AI tools specifically fine-tuned for Sacramento/NorCal business data, regulations, or customer demographics (e.g., 'NorCal Real Estate Listing AI Generator').",
+          "'AI Adoption as a Service' for SMBs: Many small businesses in NorCal lack the expertise to implement AI. Offer curated AI toolkits + setup, training, and ongoing support for specific industries (e.g., 'AI for Sacramento Dental Practices').",
+          "Ethical/Transparent AI tools: Solutions with clear data privacy, bias mitigation, and explainability features, particularly for sensitive local industries.",
+          "No-code/Low-code AI solutions for non-technical local entrepreneurs, simplifying complex AI tasks into accessible digital products."
+        ],
+        "trend_direction": "Rapidly Growing. AI integration is becoming a necessity across all industries, driving significant demand for tools and expertise.",
+        "opportunity": "Offer a 'Sacramento Small Business AI Jumpstart' service for $499. This includes a 1-hour audit to identify 2-3 key AI automation opportunities, followed by setup of a basic workflow (e.g., AI-powered social media content generation, customer service chatbot integration). Target local chambers of commerce and business associations."
+      },
+      {
+        "query": "digital product marketplace trending",
+        "pricing": {
+          "description": "Marketplace fees vary significantly, impacting creator revenue. Product pricing remains highly diverse.",
+          "marketplace_fees": {
+            "Gumroad": "10% flat fee (after initial sales tiers)",
+            "Etsy": "6.5% transaction fee + $0.20 listing fee + payment processing",
+            "Creative Market": "40-60% commission (depending on exclusivity)",
+            "AppSumo": "Varies, often 50%+ for lifetime deals"
+          },
+          "product_pricing": "From $5 for simple templates to $1000+ for comprehensive courses or software licenses. Bundles and subscriptions are increasingly common."
+        },
+        "competitors": [
+          {
+            "name": "Creative Market",
+            "positioning": "Curated marketplace for high-quality design assets (fonts, templates, graphics, themes). Strong brand for designers and creatives."
+          },
+          {
+            "name": "AppSumo",
+            "positioning": "Discovery platform for software deals, often offering lifetime access. Appeals to entrepreneurs and small businesses looking for value."
+          },
+          {
+            "name": "Envato Market (ThemeForest, CodeCanyon, GraphicRiver)",
+            "positioning": "Massive, established marketplaces for web themes, code, and graphics. Comprehensive resources for developers and designers, but high competition."
+          }
+        ],
+        "gaps": [
+          "Hyper-niche, curated marketplaces focused on specific local industries in NorCal (e.g., 'NorCal Agribusiness Digital Assets' for farm management templates, marketing guides).",
+          "'Service-as-a-Product' marketplaces where digital products are bundled with a small amount of personalized service (e.g., a custom website template + 1-hour setup call).",
+          "Community-driven marketplaces that foster interaction, collaboration, and co-creation among creators and buyers, building loyalty and unique offerings.",
+          "Web3/NFT-enabled digital product marketplaces for unique, verifiable digital assets, offering new revenue streams through royalties and verifiable ownership."
+        ],
+        "trend_direction": "Growing, but maturing. Specialization, curation, and community-building are key differentiators. Creator-owned platforms and direct sales are gaining traction alongside traditional marketplaces.",
+        "opportunity": "Curate a 'Sacramento Entrepreneur's Free Toolkit' (free Canva templates for local businesses, a basic business plan template, a guide to local funding resources). Offer it on a simple landing page to build an email list and gauge interest for a premium, paid version or a subscription service."
+      }
+    ],
+    "top_opportunity": "The most promising opportunity lies at the intersection of local market needs and AI automation. Specifically, offering 'AI Adoption as a Service' or highly specialized AI-powered digital products tailored for Sacramento/NorCal Small and Medium Businesses (SMBs). This leverages the high growth of AI and addresses a clear need for practical, localized implementation support for businesses often overwhelmed by new technology. The 'Sacramento Small Business AI Jumpstart' service for $499 is an excellent test for this.",
+    "threat": "The primary threat is the rapid commoditization of basic digital products and generic AI features. As more tools emerge, differentiation becomes harder without deep specialization, unique value propositions, or strong community building. Additionally, potential regulatory changes around AI and data privacy could impact development and deployment, especially in sensitive local industries.",
+    "trend": "up"
+  },
+  "gafc": {
+    "category": "gafc",
+    "insights": [
+      {
+        "query": "gun safety education programs funding 2026",
+        "current_market_pricing_rates": "Federal funding through the Bipartisan Safer Communities Act (BSCA) continues, with significant allocations for community violence intervention (CVI) programs that often include gun safety education. Grants typically range from **$100,000 to $1,000,000+** for local/regional initiatives. Philanthropic foundations (e.g., Joyce Foundation, Everytown Support Fund) provide grants from **$50,000 (small projects) to multi-million dollars (national programs)**. California's CalVIP program awards grants from **$500,000 to $2,000,000+** for 2-3 year CVI projects. Funding is expected to remain robust, potentially increasing, into 2026.",
+        "top_3_competitors_and_their_positioning": [
+          {
+            "name": "Everytown for Gun Safety Support Fund",
+            "positioning": "National leader in research, policy advocacy, and community education (e.g., 'Be SMART' safe storage). Leverages a vast volunteer network (Moms Demand Action) for grassroots impact."
+          },
+          {
+            "name": "Brady United",
+            "positioning": "Long-standing national organization focused on legislative advocacy, litigation, and public awareness campaigns (e.g., 'End Family Fire' safe storage). Strong policy expertise."
+          },
+          {
+            "name": "Giffords Law Center to Prevent Gun Violence",
+            "positioning": "Specializes in policy research, legislative drafting, and legal advocacy. Positioned as the legal and policy expert, also supporting community programs."
+          }
+        ],
+        "market_gaps_we_could_exploit": [
+          "Hyper-local, culturally competent education for specific Sacramento/NorCal communities (e.g., Hmong, agricultural workers, specific youth groups, veterans) delivered by trusted local voices.",
+          "Digital-first, interactive, and gamified gun safety education modules (e.g., VR/AR experiences) for youth and young adults, moving beyond static online resources.",
+          "Universal safe storage promotion targeting *all* gun owners, including robust suicide prevention messaging, rather than solely focusing on new owners or those with children."
+        ],
+        "trend_direction": "Growing",
+        "specific_opportunity_worth_testing_this_week": "Develop a concept for a 'Sacramento Safe Storage Challenge' digital campaign. Partner with 1-2 local community organizations and a firearm retailer to offer free gun locks and incentivize participation through a social media contest (e.g., 'Show Us Your Safe Storage Setup' with blurred firearms). Draft a brief proposal to pitch to a local foundation for seed funding (e.g., $5,000-$10,000)."
+      },
+      {
+        "query": "community gun safety grants California",
+        "current_market_pricing_rates": "California Violence Prevention Program (CalVIP) grants (BSCC) typically range from **$500,000 to $2,000,000+** per grantee for 2-3 year projects. Private foundations (e.g., California Wellness Foundation) offer grants from **$25,000 to $500,000+**. Local governments like Sacramento City/County allocate significant funds; for example, Sacramento's 'Advance Peace' program receives multi-million dollar city funding over several years.",
+        "top_3_competitors_and_their_positioning": [
+          {
+            "name": "Advance Peace (Sacramento Chapter)",
+            "positioning": "Highly effective, evidence-based community violence intervention (CVI) program focused on interrupting cycles of gun violence among specific individuals. Strong local government backing."
+          },
+          {
+            "name": "Youth ALIVE! (Oakland/Bay Area)",
+            "positioning": "Provides comprehensive violence prevention, intervention, and healing services, including street outreach and hospital-based intervention. Deep community roots."
+          },
+          {
+            "name": "Californians for Gun Safety (CFGS)",
+            "positioning": "Primarily an advocacy organization, but influences policy and funding streams, often partnering with community groups to direct resources and support local initiatives."
+          }
+        ],
+        "market_gaps_we_could_exploit": [
+          "Underserved rural NorCal counties (e.g., Shasta, Butte, Yuba) often lack dedicated gun safety education and violence prevention programs, especially for suicide prevention and accidental shootings.",
+          "Technology-enabled outreach (e.g., targeted mobile apps, AI-driven chatbots for resource navigation) to reach hard-to-engage populations in CA, particularly younger demographics or those wary of traditional programs.",
+          "Development of 'common ground' gun safety programs that explicitly avoid political framing, focusing purely on safety practices and appealing to a broader spectrum of gun owners through partnerships with local hunting/sporting groups or firearm instructors."
+        ],
+        "trend_direction": "Growing",
+        "specific_opportunity_worth_testing_this_week": "Identify 2-3 specific rural NorCal counties with high firearm-related incident rates. Draft a preliminary concept for a mobile gun safety education unit or a targeted digital outreach campaign for these areas, emphasizing safe storage and suicide prevention. Schedule introductory calls with county health departments or community leaders in these counties to assess interest and potential for partnership."
+      },
+      {
+        "query": "GAFC competitors gun safety nonprofits",
+        "current_market_pricing_rates": "Major national nonprofits like Everytown for Gun Safety Support Fund operate with annual budgets often exceeding **$50 million**. Brady United and Giffords Law Center typically have annual budgets in the **$10 million - $20 million** range. These organizations primarily fund their programs through individual donations, major gifts, and foundation grants, offering most services free to the public. Smaller, local CA nonprofits generally have budgets ranging from **$100,000 to $1,000,000+** annually, relying on a mix of grants and local fundraising.",
+        "top_3_competitors_and_their_positioning": [
+          {
+            "name": "Everytown for Gun Safety / Moms Demand Action",
+            "positioning": "Dominant national force, positioned as a grassroots movement driving policy change and community education. Strong brand recognition, vast volunteer network, significant funding."
+          },
+          {
+            "name": "Brady United",
+            "positioning": "Established national player, positioned as a policy advocate, litigator, and public awareness campaigner with a focus on preventing 'family fire' and strengthening background checks."
+          },
+          {
+            "name": "Giffords Law Center to Prevent Gun Violence",
+            "positioning": "Premier legal and policy organization, positioned as the expert source for evidence-based gun violence prevention laws and legal strategies."
+          }
+        ],
+        "market_gaps_we_could_exploit": [
+          "Data-driven, predictive intervention models: A gap exists for highly sophisticated, AI-assisted tools that identify at-risk individuals or communities for targeted, proactive gun safety interventions, while rigorously protecting privacy.",
+          "Youth-led innovation: Empowering and funding youth (e.g., high school/college students in Sacramento/NorCal) to design and implement their *own* gun safety education and prevention programs, leveraging their digital fluency and peer influence.",
+          "Explicitly non-political, 'common ground' educational content and programs designed to resonate with both gun owners and non-gun owners, focusing purely on safety practices. This could involve partnerships with local shooting ranges, hunting organizations, or certified firearm instructors."
+        ],
+        "trend_direction": "Growing",
+        "specific_opportunity_worth_testing_this_week": "Launch a 'Youth Voices for Gun Safety' digital content creation contest in 2-3 Sacramento/NorCal high schools. Offer a small stipend (e.g., $250-$500) or prize for the most innovative short video, infographic, or social media campaign promoting safe gun storage or conflict resolution. Partner with a local school district or youth organization to facilitate outreach and judging."
+      }
+    ],
+    "top_opportunity": "Develop a suite of hyper-local, digitally-driven gun safety education modules and outreach campaigns specifically for underserved communities in Sacramento/NorCal. These programs will leverage AI for content personalization and targeted delivery, focusing on 'common ground' safety principles (e.g., suicide prevention, accidental discharge, safe storage) rather than political advocacy. This approach can be offered as a service to local governments or as a direct-to-community program funded by state and philanthropic grants.",
+    "threat": "Intense competition for grant funding from established national and state-level organizations with proven track records, extensive networks, and significant operational budgets. Additionally, the highly politicized nature of gun safety can make community engagement challenging and lead to resistance from certain segments of the population, even when promoting universally accepted safety messages.",
+    "trend": "up"
+  },
+  "transport": {
+    "category": "transport",
+    "insights": [
+      {
+        "query": "non-emergency medical transport rates California 2026",
+        "current_pricing": {
+          "sacramento_norcal_2024": {
+            "ambulatory_basic_car": "$30-$70 base + $1.50-$3.00/mile",
+            "wheelchair_van": "$75-$150 base + $2.50-$5.00/mile",
+            "stretcher_bls_van": "$200-$400 base + $5-$10/mile",
+            "wait_time_per_15_min": "$15-$30",
+            "surcharges": "Bariatric/special equipment +$50-200, after-hours/weekend +$50-100"
+          },
+          "2026_projection": "Expect 3-5% annual increase from current rates due to inflation, rising labor costs, and fuel prices. Projecting current rates +10-15% by 2026."
+        },
+        "top_competitors": [
+          {
+            "name": "ModivCare (formerly LogistiCare) / Access2Care",
+            "positioning": "Dominant national brokers for Medi-Cal/Medicare NEMT. Focus on high volume, network management, and cost efficiency for contracted services. Often seen as a low-margin, high-volume player."
+          },
+          {
+            "name": "Local NEMT Providers (e.g., Sacramento NEMT, NorCal NEMT)",
+            "positioning": "Smaller, independent companies serving direct contracts with hospitals, nursing homes, and private pay clients in specific regions. Emphasize reliability, local knowledge, and personalized service."
+          },
+          {
+            "name": "Uber Health / Lyft Healthcare",
+            "positioning": "Tech-driven, on-demand solution primarily for ambulatory NEMT. Focus on convenience, scalability, and integration with healthcare systems for patient discharge and appointments. Lower cost for basic services."
+          }
+        ],
+        "market_gaps": [
+          "**Premium/Concierge NEMT:** High-end service for private pay patients, offering luxury vehicles, highly trained attendants, real-time tracking, and proactive family communication. Untapped in Sacramento/NorCal.",
+          "**Specialized NEMT:** Dedicated services for bariatric, pediatric, or mental health patients requiring specific equipment, training, and discretion.",
+          "**Rural NorCal Coverage:** Significant gaps in reliable NEMT services in less populated areas, leading to long wait times and limited options.",
+          "**Technology Integration for Smaller Providers:** A white-label or SaaS solution for smaller NEMT companies to optimize scheduling, dispatch, and billing, improving efficiency and patient experience."
+        ],
+        "trend_direction": "Growing (Driven by an aging population, increasing chronic conditions, hospital discharge pressures, and a shift towards outpatient care. Demand for NEMT is projected to continue rising significantly).",
+        "opportunity_this_week": "Launch a 'Concierge NEMT Pilot for Post-Op Discharges'. Partner with a single private surgery center in Sacramento (e.g., an orthopedic or cosmetic surgery clinic) to offer a premium, white-glove NEMT service for their post-operative patients. Offer a flat rate of $350-$750 (depending on distance/service tier) for a luxury vehicle, two attendants, and direct communication with family. Collect feedback and gauge willingness to pay."
+      },
+      {
+        "query": "cadaver transport services pricing",
+        "current_pricing": {
+          "sacramento_norcal_2024": {
+            "local_removal_within_50_miles": "$250 - $600 (from place of death to mortuary/coroner)",
+            "long_distance_per_mile": "$2.50 - $5.00 per mile (after a base rate, often for distances >50 miles)",
+            "after_hours_weekend_surcharge": "$50 - $150",
+            "special_circumstances_surcharge": "Bariatric cases, difficult removals (e.g., upstairs, confined spaces), decomposition, or crime scenes +$100-$300+",
+            "air_cargo_preparation_transport": "$500 - $1500+ (for preparation and transport to airport, excluding air freight costs)"
+          }
+        },
+        "top_competitors": [
+          {
+            "name": "Local Mortuary Transport Services (e.g., Sacramento Mortuary Transport, First Call Removal Service)",
+            "positioning": "Dedicated 24/7 services, strong relationships with funeral homes and coroners. Focus on professionalism, discretion, and rapid response within their service area."
+          },
+          {
+            "name": "Funeral Homes with In-House Transport (e.g., East Lawn Mortuary, W.F. Gormley & Sons)",
+            "positioning": "Larger funeral homes often handle their own removals as part of an integrated service package. They may outsource during peak times or for long-distance transfers, leveraging existing brand trust."
+          },
+          {
+            "name": "Specialized Medical Transport (ancillary mortuary division)",
+            "positioning": "Some NEMT or ambulance companies have separate divisions for mortuary transport, particularly for hospital-to-coroner transfers. They leverage existing infrastructure and trained personnel for efficiency."
+          }
+        ],
+        "market_gaps": [
+          "**Digital Dispatch & Tracking Platform:** A modern web portal or mobile app for funeral homes to easily request, quote, and track cadaver transports in real-time, moving beyond phone-based systems.",
+          "**Specialized Long-Distance/Repatriation:** A service focused on efficient, discreet, and compliant long-haul transport, potentially across state lines or for international repatriation, with clear communication.",
+          "**Bariatric/Difficult Removal Expertise:** Investing in specialized equipment and highly trained teams for challenging removals, which many smaller services may lack, allowing for premium pricing.",
+          "**'Green' Mortuary Transport:** Offering eco-friendly vehicle options (e.g., electric vans) for families opting for natural burials or environmentally conscious funeral arrangements."
+        ],
+        "trend_direction": "Stable to slightly growing (Death is a constant. The aging population ensures a stable or slightly increasing number of deaths, maintaining consistent demand for professional, discreet transport services).",
+        "opportunity_this_week": "Develop a 'Funeral Home Digital Dispatch Pilot'. Create a simple web portal or mobile app prototype for 5-10 funeral homes in Sacramento. Allow them to submit a cadaver transport request, receive an instant quote, and track the status of the transport. Offer a 10% discount on their first 3 transports booked through the platform to incentivize adoption and gather feedback on usability and value."
+      }
+    ],
+    "top_opportunity": "Launch a 'Concierge NEMT Pilot for Post-Op Discharges' with a private surgery center in Sacramento. This opportunity targets a growing, higher-margin segment of the NEMT market, allows for premium brand positioning, and has clear, measurable immediate revenue potential by addressing a specific pain point for affluent patients.",
+    "threat": "The primary threats include the dominance of large NEMT brokers (ModivCare) squeezing margins for smaller providers, high regulatory burdens and liability in both NEMT and cadaver transport, and the critical need to build significant trust and reputation, especially in the sensitive mortuary sector. Additionally, fuel price volatility and labor shortages can impact operational costs.",
+    "trend": "up"
+  }
+}

@@ -1,0 +1,82 @@
+business: Digital
+created: '2026-04-11T07:25:36.809803'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 23
+  raw_score: 93
+  reasoning: This digital affiliate marketing opportunity offers high margins, instant
+    deployment, and excellent scalability for an autonomous AI agent, with consistent
+    market demand from small businesses.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775892336
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Unrealistic Financial Model & Budget:** The `revenue_model` states `cost_per_run:
+      0` and `estimated_monthly: 0`, which directly contradicts the `opportunity_data.estimated_monthly:
+      150` target and the reality of content creation, SEO, and promotion. A $50 budget
+      cap is severely inadequate to create, optimize, and promote a blog post effectively
+      enough to generate $150/month in affiliate revenue, especially for a new, unestablished
+      platform.
+
+      *   **Lack of Authority & Visibility:** A new affiliate review blog post will
+      struggle immensely to gain trust and organic traffic from busy Sacramento small
+      business owners. SMBs are more likely to seek solutions from established industry
+      sources, local recommendations, or direct service providers, rather than an
+      unknown affiliate review blog.
+
+      *   **High Competition & Low Conversion Probability:** The affiliate marketing
+      space is highly saturated. Achieving significant organic ranking for relevant
+      keywords requires substantial effort and domain authority. Even with traffic,
+      converting small business owners from a review post on an unproven blog to an
+      affiliate purchase is a significant challenge, making the $150 monthly target
+      highly optimistic.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output demonstrates actionable research directly supporting the objective
+      of writing and publishing an affiliate review blog post, moving toward revenue
+      generation.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves publishing an affiliate review blog post, which is a compliant
+      activity (content publishing and affiliate marketing). There are no immediate
+      indications of collecting SSNs, storing unencrypted passwords, accessing unauthorized
+      systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

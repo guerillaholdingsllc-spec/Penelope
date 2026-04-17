@@ -1,0 +1,79 @@
+business: Digital
+created: '2026-04-11T03:41:47.870538'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 23
+  raw_score: 93
+  reasoning: This digital affiliate marketing opportunity offers high margins, instant
+    deployment, and excellent scalability for an autonomous AI agent, with consistent
+    market demand from small businesses.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775878907
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+      Key concerns:
+
+      *   **Unrealistic Revenue & Cost Assumptions:** The estimated $150 monthly revenue
+      from a single affiliate blog post is highly optimistic, especially with a stated
+      "cost per run: 0" and a $50 budget cap, which fails to account for content creation,
+      hosting, promotion, or traffic acquisition costs. The contradiction between
+      "one_time" revenue model and "estimated_monthly: 150" further highlights a fundamental
+      flaw in the financial projection.
+
+      *   **Market Saturation & Trust Deficit:** The affiliate marketing space for
+      small business solutions is extremely competitive. An "autonomous AI agent"
+      publishing a generic review post will struggle to gain visibility, build trust,
+      or differentiate itself sufficiently to attract and convert Sacramento small
+      business owners, who typically seek genuine, authoritative recommendations.
+
+      *   **Fragile Execution & Scalability:** The plan relies on "instant deployment"
+      and "excellent scalability" without a detailed `logic_flow` or strategy for
+      traffic generation (e.g., SEO, paid ads). Without a robust plan to drive qualified
+      traffic, the opportunity is highly vulnerable to zero visibility, rendering
+      scalability irrelevant and making the $150 monthly target unattainable.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output provides actionable research and identifies relevant affiliate
+      programs, directly supporting the objective of writing and publishing an affiliate
+      review blog post, which is a form of content creation and product promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and affiliate marketing, both explicitly
+      compliant activities, and does not violate any specified prohibitions.'
+    result: PASS
+test_results: {}

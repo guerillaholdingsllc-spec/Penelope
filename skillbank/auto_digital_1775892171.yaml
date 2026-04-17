@@ -1,0 +1,79 @@
+business: Digital
+created: '2026-04-11T07:22:51.564709'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 21
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity targets a high-demand niche with a digital product,
+    ensuring excellent profit margins, instant revenue generation, and fully automated
+    scalability without human intervention.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775892171
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 55
+    notes: 'CRITIQUE
+
+      Confidence Score: 55%
+
+      Key concerns:
+
+      *   **Lead List Quality & Relevance:** The entire revenue opportunity hinges
+      on the quality, engagement, and relevance of the "existing lead list." If the
+      list is cold, outdated, or not genuinely interested in AI business automation,
+      the email campaign will fail to generate the estimated revenue, regardless of
+      product quality.
+
+      *   **Product Value & Differentiation:** The "AI Business Automation Starter
+      Kit" must offer substantial, specific value and differentiate itself in a highly
+      competitive and rapidly evolving AI market. A generic or low-quality kit will
+      lead to poor conversion rates, high refund requests, and negative brand perception.
+
+      *   **Internal Inconsistencies & Unrealistic Assumptions:** The `revenue_model`
+      stating `estimated_monthly: 0` and `cost_per_run: 0` directly contradicts the
+      `opportunity_data`''s `estimated_monthly: 270`. A `cost_per_run` of 0 for an
+      email service like Brevo is also unrealistic, even if minimal. These discrepancies
+      indicate a lack of thorough financial planning or data integrity, undermining
+      the high `rps_score`.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable steps for digital product creation, which is
+      a form of content creation and a necessary precursor to the skill''s objective
+      of sending a promotional email, thus moving toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves email marketing to a lead list, which is compliant if the
+      list is opt-in, and the skill does not indicate non-consented PII.'
+    result: PASS
+test_results: {}

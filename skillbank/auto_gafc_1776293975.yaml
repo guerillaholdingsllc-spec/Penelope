@@ -1,0 +1,80 @@
+business: GAFC
+created: '2026-04-15T22:59:35.833398'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+  on social
+opportunity_data:
+  action: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+    on social
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 12
+  margin: 25
+  raw_score: 87
+  reasoning: The opportunity benefits from high automation and digital execution,
+    leading to excellent speed, scalability, and profit margins, but the direct market
+    demand signal for the specific brand content and its estimated revenue is relatively
+    low.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776293975
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Unproven Demand & Speculative Revenue:** The system''s own assessment
+      highlights a "relatively low" direct market demand signal (score 12) for this
+      specific content. The "one_time" revenue model type contradicts the "estimated_monthly:
+      $200" for "brand" revenue, which is inherently indirect, difficult to attribute,
+      and highly speculative without a clear conversion path or measurement strategy.
+
+      *   **Unrealistic Cost & Margin Assumptions:** A "cost_per_run: 0" is unrealistic
+      for any content creation, even "organic." It fails to account for the labor,
+      tools, creative talent, and potential promotional spend (even minimal) required
+      to produce engaging content and achieve meaningful brand awareness on saturated
+      social platforms. This inflates the 70% margin.
+
+      *   **Undefined Character Appeal & Content Strategy:** The entire opportunity
+      hinges on the appeal and relevance of "Gloxsie and Bobo Licious" to the target
+      audience, as well as the quality and consistency of the content itself. These
+      critical factors are undefined and unvalidated, posing a significant risk to
+      engagement and awareness goals.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides actionable research and recommendations for posting
+      content to social media, directly supporting the skill''s objective of building
+      brand awareness, which is a valid precursor to revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting for brand awareness, which is a compliant
+      activity and does not violate any specified restrictions.'
+    result: PASS
+test_results: {}

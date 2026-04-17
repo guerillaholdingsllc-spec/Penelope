@@ -1,0 +1,82 @@
+business: Digital
+created: '2026-04-17T14:51:04.342258'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 97
+  reasoning: This opportunity leverages existing customer demand for high-margin digital
+    products through a fully automated email sequence, ensuring rapid and scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776437464
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 40
+    notes: 'CRITIQUE
+
+      Confidence Score: 40%
+
+      Key concerns:
+
+
+      *   **Revenue Estimate Discrepancy & Unproven Upsell Conversion:** The conflicting
+      `estimated_monthly` values (0 in `revenue_model` vs. 300 in `opportunity_data`)
+      indicate a fundamental data integrity issue. More critically, the projected
+      $300/month relies entirely on an unproven upsell conversion rate for the "full
+      book series" from initial Gumroad buyers, which is not guaranteed and faces
+      significant market friction (e.g., relevance, perceived value, email fatigue).
+
+      *   **Dependence on External Platforms & Deliverability:** The entire strategy
+      hinges on seamless integration with Gumroad and the chosen Email Service Provider
+      (ESP), as well as consistent email deliverability. Changes in platform policies,
+      API limitations, or issues with spam filters could severely impact or entirely
+      break the revenue stream.
+
+      *   **Overly Optimistic RPS Score:** The RPS score of 100, particularly the
+      "Tier 1 - Instant Digital (No barriers)" label, is highly misleading. There
+      are clear barriers to conversion (customer interest, email deliverability, product
+      relevance) and potential technical hurdles, making the "no barriers" claim inaccurate
+      and inflating expectations.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable, logical steps to implement the skill, directly
+      supporting email outreach and product promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes standard email marketing to existing customers (Gumroad
+      buyers) which is compliant when managed with opt-in lists or legitimate interest,
+      and does not involve collecting SSNs, storing unencrypted passwords, accessing
+      unauthorized systems, or clear non-consented PII violations.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,79 @@
+business: Digital
+created: '2026-04-15T05:05:13.823915'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages existing customer demand for a high-margin
+    digital product through an automated email sequence, offering excellent speed
+    to revenue and scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776229513
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 65
+    notes: 'CRITIQUE
+
+      Confidence Score: 65%
+
+      Key concerns:
+
+      *   **Unvalidated Revenue Projection:** The estimated $300/month is highly speculative,
+      lacking historical data or A/B test results for this specific upsell. The internal
+      conflict between `revenue_model.estimated_monthly: 0` and `opportunity_data.estimated_monthly:
+      300` further highlights this uncertainty, suggesting the projection is an assumption
+      rather than a data-backed forecast.
+
+      *   **Product-Market Fit for Upsell:** The success hinges entirely on the "full
+      book series" being highly relevant and desirable to *all* new Gumroad buyers.
+      Without segmentation or specific data on this audience''s interest in the upsell,
+      there''s a significant risk of low conversion rates due to irrelevance or perceived
+      spam.
+
+      *   **Technical & Compliance Risks:** While leveraging free tools is cost-effective,
+      reliance on third-party integrations (Gumroad, MailerLite, Zapier) introduces
+      potential breaking points (API changes, service downtime). Additionally, ensuring
+      GDPR/CAN-SPAM compliance for promotional upsell emails to new buyers requires
+      careful handling of consent, which is not explicitly detailed.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The action is actionable, directly involves sending emails and promoting products
+      to existing buyers, and the test output confirms its feasibility with free tools,
+      moving directly toward revenue generation.'
+    result: PASS
+  security:
+    notes: 'FAIL
+
+      Violates GDPR by sending marketing (upsell) emails to Gumroad buyers without
+      explicit consent for marketing.'
+    result: FAIL
+test_results: {}

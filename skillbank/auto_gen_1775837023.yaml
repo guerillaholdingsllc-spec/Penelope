@@ -1,0 +1,82 @@
+business: Cross-vertical
+created: '2026-04-10T16:03:43.360353'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $250 - $700
+  how_penelope_deploys_it_autonomously: AI generates diverse script outlines and content
+    for various podcast formats. Gumroad handles sales and delivery. Automated promotion
+    on podcasting communities and social media.
+  specific_revenue_action: Create an 'AI-Generated Podcast Script Template Pack' for
+    new podcasters on Gumroad.
+  tier_classification: 1
+  time_to_first_dollar: 7-10 days
+  why_this_works_NOW: Podcast boom continues; new podcasters need structured content
+    to get started; AI streamlines scriptwriting.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 93
+  reasoning: This opportunity leverages strong market demand for podcasting tools
+    with a fully automated, high-margin digital product that can be deployed quickly
+    by an AI agent.
+  scalability: 25
+  speed: 21
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775837023
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Unrealistic Cost & Marketing Assumptions**: The claim of "$0 cost to test"
+      and reliance on vague "automated promotion" without a budget or specific strategy
+      is highly optimistic and likely to lead to ineffective market penetration or
+      hidden costs (e.g., time spent on manual promotion, platform fees, potential
+      account bans for spamming).
+
+      *   **Market Saturation & Differentiation**: The market for podcasting resources
+      and AI content generation tools is already competitive. Generic "AI-generated"
+      templates may struggle to differentiate from free AI tools (like ChatGPT) or
+      established, human-curated template providers, leading to low perceived value
+      and poor sales.
+
+      *   **Quality & Value Proposition**: The quality and uniqueness of AI-generated
+      scripts are not guaranteed. If the output is generic, unengaging, or prone to
+      factual errors/hallucinations, it will quickly undermine the product''s credibility
+      and lead to negative reviews, hindering the estimated revenue potential.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The RPS score calculation in the skill definition is mathematically inconsistent:
+      raw score (93) + tier bonus (25) equals 118, not the stated total of 100.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill lacks specific details on automated promotion methods and data handling,
+      preventing verification of platform ToS, budget, and GDPR/CCPA compliance.'
+    result: FAIL
+test_results: {}

@@ -1,0 +1,41 @@
+business: CadaverCo
+created: '2026-04-11T09:44:30.714514'
+learnings: RPS score 23 below threshold 50
+logic_flow: {}
+objective: Publish WordPress post about CadaverCo specialty transport services for
+  Sacramento funeral homes
+opportunity_data:
+  action: Publish WordPress post about CadaverCo specialty transport services for
+    Sacramento funeral homes
+  business: CadaverCo
+  estimated_monthly: 5000
+  revenue_type: b2b_service
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 23
+score_breakdown:
+  demand: 18
+  margin: 8
+  raw_score: 43
+  reasoning: This opportunity involves marketing a physical, licensed B2B transport
+    service, which inherently limits profit margins, speed to revenue, and scalability
+    due to operational overheads and human dependency, despite the AI's ability to
+    automate the marketing aspect.
+  scalability: 10
+  speed: 7
+  tier: 3
+  tier_bonus_applied: -20
+  tier_label: Tier 3 - Physical/Licensed (Last resort, background only)
+  total: 23
+skill_id: auto_cadaverco_1775900670
+status: Archived
+supreme_court_results: {}
+test_results: {}

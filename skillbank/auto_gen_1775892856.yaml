@@ -1,0 +1,171 @@
+business: Cross-vertical
+created: '2026-04-11T07:34:16.470784'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  Cost to test: 0
+  Estimated monthly revenue potential ($): 150-600
+  How Penelope deploys it autonomously: Penelope uses AI to generate and test numerous
+    Midjourney V6.1 prompts, curates the best ones into a downloadable pack, creates
+    the Gumroad product page with example images, and automates targeted social media
+    ads.
+  Specific revenue action: Release 'Midjourney V6.1 Cinematic Landscape Prompts' Pack
+    on Gumroad, targeting digital artists and graphic designers.
+  Tier classification: 1
+  Time to first dollar (days): 7
+  Why this works NOW: Midjourney updates are frequent and users constantly seek high-quality,
+    specific prompt sets to achieve desired artistic styles, especially with new versions.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages strong current demand for AI art prompts with
+    a fully automated, high-margin digital product that can be deployed quickly and
+    scaled infinitely by the AI agent.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775892856
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+
+      *   **Rapid Obsolescence & Version Lock-in:** The product is explicitly tied
+      to "Midjourney V6.1." Given Midjourney''s frequent updates, this pack has an
+      extremely short shelf life. A new version (V6.2, V7) could render these prompts
+      suboptimal or obsolete within weeks or months, requiring constant, costly re-generation
+      and re-marketing, or leading to a rapid decline in sales.
+
+      *   **Market Saturation & Differentiation:** The market for AI art prompts,
+      especially for popular niches like "cinematic landscapes," is highly saturated
+      with numerous free and low-cost options. Without a truly unique selling proposition,
+      demonstrably superior quality, or a highly effective, sustained marketing campaign,
+      this pack risks being lost in the noise.
+
+      *   **Misleading Cost Projections & Low ROI:** The "Cost to test: 0" and "Cost
+      per run: 0" are unrealistic. Even with automation, there are inherent costs
+      (e.g., Midjourney subscription, Gumroad fees, ad spend, even if capped at $50).
+      For an estimated monthly revenue of only $150-600, the effort and risk associated
+      with rapid obsolescence and intense competition make the potential return on
+      investment questionable.
+
+
+      ---
+
+      **1. Why would this FAIL in the real market?**
+
+
+      *   **Rapid Obsolescence:** As highlighted, Midjourney updates frequently. A
+      pack specifically for V6.1 will quickly become outdated. Users will seek prompts
+      for the *latest* version, making this product irrelevant very fast. The "Why
+      this works NOW" reasoning is a double-edged sword; it creates demand but also
+      guarantees rapid expiry.
+
+      *   **Commoditization and Saturation:** The market for AI prompts is flooded.
+      Many creators offer free prompts on Discord, Reddit, YouTube, and dedicated
+      prompt-sharing sites. Paid packs need to offer exceptional value, unique styles,
+      or a level of curation that is clearly superior to free alternatives. "Cinematic
+      Landscape" is a popular, broad niche, meaning high competition.
+
+      *   **Quality Control & Subjectivity:** While Penelope "curates the best ones,"
+      the definition of "best" is subjective. If the AI-generated prompts aren''t
+      genuinely innovative, consistently high-quality, or don''t produce results significantly
+      better than what users can achieve themselves or find for free, the product
+      will fail to gain traction or receive poor reviews.
+
+      *   **Marketing Effectiveness:** "Automates targeted social media ads" is a
+      broad statement. Effective advertising requires continuous optimization, A/B
+      testing, compelling ad creative, and deep audience understanding. A fully automated,
+      generic approach with a limited budget ($50 cap) might not cut through the noise,
+      especially for a low-priced digital product.
+
+      *   **Trust and Reputation:** If the prompts quickly become obsolete due to
+      Midjourney updates, early buyers might feel misled, leading to negative reviews
+      and damaging the reputation of future products.
+
+
+      **2. Is there a cheaper/faster way to achieve the same result?**
+
+
+      *   **Curate & Refine Existing Free Prompts:** Instead of generating entirely
+      new prompts, Penelope could identify popular, high-quality *free* prompts, refine
+      them, add unique twists, and package them. This reduces the "generation" cost
+      and time significantly, focusing automation on testing and packaging.
+
+      *   **Focus on a Hyper-Niche with Evergreen Potential:** Instead of "Cinematic
+      Landscape" (broad), target a more specific, less volatile niche (e.g., "specific
+      architectural styles," "historical fashion photography"). While still subject
+      to updates, a tighter niche might attract a more dedicated audience willing
+      to pay for specialized content, and potentially have a slightly longer shelf
+      life if the core aesthetic remains relevant.
+
+      *   **Freemium Model for Lead Generation:** Offer a small, high-quality *free*
+      prompt pack to build an email list. This allows for direct marketing of larger,
+      paid packs and builds trust, potentially reducing ad spend for initial sales.
+
+      *   **Leverage Affiliate Marketing/Partnerships:** Instead of direct ad spend,
+      partner with existing AI art influencers or communities, offering a commission
+      on sales. This leverages established audiences and reduces direct marketing
+      costs and effort.
+
+
+      **3. What edge case breaks this?**
+
+
+      *   **Major Midjourney Model Update (e.g., V7 release):** A significant update
+      to Midjourney''s underlying model or prompt interpretation could render all
+      V6.1 prompts completely ineffective or produce drastically different, undesirable
+      results overnight. This would instantly kill the product.
+
+      *   **Platform Policy Changes:** Gumroad or social media platforms could implement
+      new policies regarding AI-generated content, prompt sales, or advertising, leading
+      to product delisting or ad account suspension.
+
+      *   **Copyright/Licensing Scrutiny:** While prompts themselves are generally
+      not copyrightable, if the AI generates example images that are too close to
+      existing copyrighted artwork, or if the training data used by Midjourney (or
+      Penelope''s AI) leads to problematic outputs, it could lead to legal challenges
+      or takedowns.
+
+      *   **Massive Influx of Free, High-Quality Alternatives:** A sudden surge of
+      high-quality, free prompt packs (e.g., from a new community initiative or a
+      competitor) could completely devalue any paid offering, making sales impossible.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable research and recommendations directly supporting
+      the creation and promotion of a digital product, which aligns with content publishing
+      and product promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content creation, publishing on Gumroad, and social media
+      advertising, all of which are compliant activities. There is no indication of
+      collecting SSNs, storing unencrypted passwords, accessing unauthorized systems,
+      or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

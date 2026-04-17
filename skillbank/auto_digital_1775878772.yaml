@@ -1,0 +1,82 @@
+business: Digital
+created: '2026-04-11T03:39:32.145720'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 96
+  reasoning: This digital product opportunity leverages high demand for AI automation,
+    offers excellent profit margins, and is fully automated for instant, scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775878772
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key Concerns:
+
+
+      *   **Market Saturation & Differentiation:** The "AI Business Automation Starter
+      Kit" market is highly saturated with free and paid resources. Without a clear,
+      compelling unique selling proposition (USP) or established authority, this product
+      risks being lost among countless alternatives, leading to poor conversion rates.
+      The current description lacks any competitive advantage.
+
+      *   **Lead List Quality & Email Deliverability:** The entire revenue projection
+      hinges on the quality, relevance, and consent of the "lead list via Brevo."
+      A cold, unsegmented, or non-consented list will result in abysmal open rates,
+      high spam complaints, and minimal sales, potentially leading to Brevo account
+      suspension and reputational damage.
+
+      *   **Product Obsolescence & Maintenance:** The AI landscape evolves at an extremely
+      rapid pace. A "curated AI tool directory" and "prompt library" will require
+      constant updates to remain valuable and relevant. This ongoing maintenance contradicts
+      the "fully automated" and "no barriers" assumptions, introducing significant
+      hidden costs and effort not accounted for in the high RPS score.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The research findings are an actionable and necessary preparatory step for sending
+      the promotional email, moving toward revenue generation by defining the product
+      and platform strategy.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves email marketing to a lead list, which is compliant assuming
+      the list is opt-in as per the provided rules. No immediate violations of SSN
+      collection, unencrypted passwords, unauthorized access, or non-consented PII
+      are present in the skill description.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,77 @@
+business: Digital
+created: '2026-04-15T14:25:30.337860'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 23
+  raw_score: 93
+  reasoning: This digital affiliate marketing opportunity offers high margins, instant
+    deployment, and excellent scalability for an autonomous AI agent, with consistent
+    market demand from small businesses.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776263130
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+      Key concerns:
+
+      *   **Traffic & Visibility:** Publishing a blog post alone does not guarantee
+      traffic. Without a robust SEO strategy, paid promotion, or an existing audience,
+      the post will likely remain unseen, rendering affiliate conversions impossible.
+      The $50 budget cap is insufficient for meaningful promotion.
+
+      *   **Market Saturation & Trust:** The affiliate marketing space for small business
+      tools is highly competitive. A new, unestablished blog post will struggle to
+      gain trust and convert skeptical small business owners amidst a sea of existing
+      content.
+
+      *   **Overly Optimistic Projections:** The estimated $150/month revenue is highly
+      unrealistic given the lack of a traffic strategy and the competitive landscape.
+      The RPS score of 100 and "instant deployment" reasoning are detached from market
+      realities.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides actionable research directly supporting the creation and
+      promotion of an affiliate review blog post, which is a form of content creation
+      and product promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and affiliate marketing, both explicitly
+      compliant activities, with no indication of collecting SSNs, storing unencrypted
+      passwords, accessing unauthorized systems, or violating GDPR with non-consented
+      PII.'
+    result: PASS
+test_results: {}

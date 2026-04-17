@@ -1,0 +1,87 @@
+business: Cross-vertical
+created: '2026-04-10T16:18:15.080420'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $40 (AI API, simple landing page/CRM)
+  estimated_monthly_revenue_potential: $900 - $2800
+  how_penelope_deploys_it_autonomously: AI handles task delegation, content generation
+    (emails, reports), and scheduling. Subscription managed via Stripe. Automated
+    client onboarding and resource delivery. AI-driven lead generation.
+  specific_revenue_action: Launch a 'Virtual AI Assistant for Small Business Owners'
+    as a subscription-based info product/service.
+  tier_classification: 1
+  time_to_first_dollar: 20-30 days
+  why_this_works_NOW: Small business owners are overwhelmed; AI can automate many
+    administrative and content tasks, acting as a 'virtual assistant'.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 92
+  reasoning: This opportunity leverages strong market demand for AI-driven administrative
+    assistance among small businesses, offering high profit margins and excellent
+    scalability due to its fully automated, digital nature and quick time to market.
+  scalability: 25
+  speed: 20
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775837895
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 20
+    notes: 'CRITIQUE
+
+      Confidence Score: 20%
+
+      Key concerns:
+
+      *   **Fundamental Contradictions & Unrealistic Assumptions:** The `revenue_model`
+      states "one_time" with "estimated_monthly: 0" and "cost_per_run: 0," directly
+      conflicting with the "subscription-based" action and the reality of AI API costs.
+      The scope of a "Virtual AI Assistant" capable of "task delegation, content generation,
+      and scheduling" is vastly underestimated for a $40 test budget and 20-30 days
+      time-to-first-dollar.
+
+      *   **Lack of Specificity & Differentiation:** "Virtual AI Assistant for Small
+      Business Owners" is too broad. Without a specific niche, defined capabilities,
+      or unique value proposition, it will struggle to differentiate itself in a crowded
+      market of specialized AI tools and human virtual assistants. The "how Penelope
+      deploys it autonomously" is vague and over-optimistic for the stated budget
+      and timeline.
+
+      *   **Incomplete Research & Inflated Score:** The `research_findings` are incomplete,
+      yet the `rps_score` is a perfect 100, suggesting a premature and overly optimistic
+      evaluation without sufficient market validation or technical feasibility assessment.
+      This indicates a high risk of failure due to unaddressed complexities and market
+      realities.'
+    result: FAIL
+  quality:
+    notes: 'FAIL
+
+      The skill definition contains a direct contradiction regarding its revenue model
+      (one-time vs. subscription, $0 vs. $900-$2800 monthly), and the test output
+      is incomplete, truncating critical research findings.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill lacks critical details regarding data privacy compliance for lead
+      generation and client onboarding, and potential platform ToS adherence for automated
+      actions.'
+    result: FAIL
+test_results: {}

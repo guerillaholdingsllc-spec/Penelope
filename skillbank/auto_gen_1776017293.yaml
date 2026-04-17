@@ -1,0 +1,86 @@
+business: Cross-vertical
+created: '2026-04-12T18:08:13.552614'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $300-$800
+  how_penelope_deploys_it_autonomously: Penelope uses existing AI (e.g., ChatGPT/Claude)
+    to generate prompts, compiles them into a Notion/PDF, automates Gumroad listing,
+    and schedules social media promotion via Buffer/Zapier.
+  specific_revenue_action: Sell a 'Viral Social Media Content Prompts for AI' pack
+    on Gumroad, targeting solopreneurs and small business owners struggling with content
+    ideas.
+  tier_classification: 1
+  time_to_first_dollar: 10 days
+  why_this_works_NOW: High demand for efficient content creation tools; AI prompt
+    engineering is a growing skill gap for small businesses seeking to leverage AI
+    for marketing.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity leverages high demand for AI content tools with near-zero
+    marginal cost and full automation, making it highly scalable and profitable despite
+    a slightly longer time to first dollar.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776017293
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 60
+    notes: 'CRITIQUE
+
+      Confidence Score: 60%
+
+      Key concerns:
+
+      *   **Market Saturation & Differentiation**: The market for AI prompts and content
+      creation tools is rapidly saturating with both free and paid alternatives. Achieving
+      true differentiation and consistently delivering on the "viral" promise will
+      be extremely challenging, risking low sales volume and high churn.
+
+      *   **Product Longevity & Quality Control**: AI models are constantly evolving,
+      which could quickly render existing prompts less effective or obsolete. Maintaining
+      the "viral" quality of prompts autonomously, without continuous human curation
+      and testing, is a significant risk to customer satisfaction and product value.
+
+      *   **Data Inconsistency**: The `revenue_model.estimated_monthly` field is listed
+      as 0, directly contradicting the `opportunity_data.estimated_monthly_revenue_potential`
+      of "$300-$800". This inconsistency in core financial data raises concerns about
+      the accuracy and reliability of the overall opportunity assessment and the RPS
+      score.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The skill involves creating a digital product and promoting it on social media,
+      directly aligning with revenue generation and meeting the PASS criteria for
+      content publishing and product promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves selling a digital product and social media promotion, which
+      are compliant activities and do not immediately violate any of the specified
+      fail conditions (collecting SSNs, storing unencrypted passwords, accessing unauthorized
+      systems, or violating GDPR with non-consented PII).'
+    result: PASS
+test_results: {}

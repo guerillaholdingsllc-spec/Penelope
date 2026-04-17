@@ -1,0 +1,81 @@
+business: Digital
+created: '2026-04-15T20:08:49.753144'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 96
+  reasoning: This digital product opportunity leverages high demand for AI automation,
+    offers excellent profit margins, and is fully automated for instant, scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776283729
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Lead List Quality & Compliance:** The entire revenue opportunity is predicated
+      on sending emails to an unspecified "lead list." Without validation of list
+      quality, relevance, and explicit consent (GDPR, CAN-SPAM), this approach risks
+      low engagement, high spam complaints, and potential blacklisting of the Brevo
+      account, rendering the distribution channel unusable.
+
+      *   **Product Differentiation & Market Saturation:** While demand for AI automation
+      is high, the market for "AI Business Automation Starter Kits" is rapidly saturating.
+      The current plan lacks specific details on how this particular kit will genuinely
+      differentiate itself and provide unique value to stand out from numerous existing
+      competitors.
+
+      *   **Overly Optimistic Scoring & Revenue Discrepancy:** The RPS score of 100
+      and "Tier 1 - Instant Digital (No barriers)" is highly speculative for a "Draft"
+      skill with significant unknowns. Furthermore, the contradiction between `revenue_model.estimated_monthly:
+      0` and `opportunity_data.estimated_monthly: 270` indicates a fundamental inconsistency
+      in the financial projections.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The test output describes research and planning, not the actual execution of
+      sending a promotional email, which was the skill''s objective.'
+    result: FAIL
+  security:
+    notes: 'PASS
+
+      The skill describes an email marketing activity to a lead list, which is compliant
+      if the list is opt-in. The skill does not contain any clear, immediate violations
+      such as collecting SSNs, storing unencrypted passwords, accessing unauthorized
+      systems, or explicitly using non-consented PII. Potential GDPR/CCPA issues related
+      to the lead list''s origin are theoretical risks not detailed in the skill itself.'
+    result: PASS
+test_results: {}

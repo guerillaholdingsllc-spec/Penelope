@@ -1,0 +1,80 @@
+business: Digital
+created: '2026-04-15T22:53:13.770740'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 96
+  reasoning: This digital product opportunity leverages high demand for AI automation,
+    offers excellent profit margins, and is fully automated for instant, scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776293593
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Market Saturation & Lack of Differentiation:** The "AI Business Automation
+      Starter Kit" is a highly generic offering in an extremely crowded market. The
+      described components (curated tools, step-by-step guides) offer no clear unique
+      selling proposition to stand out against numerous free and paid alternatives,
+      making it difficult to capture attention or justify a purchase.
+
+      *   **Unverified Lead List Quality & Email Effectiveness:** The entire revenue
+      projection hinges on the quality, relevance, and engagement of an unspecified
+      "lead list" and the effectiveness of a single promotional email via Brevo. Without
+      validation of the list''s interest in this specific product, conversion rates
+      are highly speculative and likely low, leading to minimal sales.
+
+      *   **Internal Inconsistency & Overly Optimistic Scoring:** The `revenue_model`
+      lists `estimated_monthly: 0`, directly contradicting the `opportunity_data`''s
+      `estimated_monthly: 270`. This fundamental discrepancy, coupled with an RPS
+      score of 100 for a generic product in a competitive market, suggests a lack
+      of realistic assessment and potential for significant underperformance.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides critical preparatory content and product definition
+      necessary for executing the objective of sending a promotional email, thus moving
+      toward revenue generation.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves email marketing to a lead list, which is compliant assuming
+      an opt-in list, and does not involve collecting SSNs, storing unencrypted passwords,
+      accessing unauthorized systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

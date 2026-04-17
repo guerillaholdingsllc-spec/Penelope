@@ -1,0 +1,123 @@
+business: Cross-vertical
+created: '2026-04-13T12:28:42.709088'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  Cost to test: $0 (Midjourney free tier/existing subscription, Gumroad free)
+  Estimated monthly revenue potential: $400 - $1000
+  How Penelope deploys it autonomously: Penelope generates and curates prompt variations
+    using AI, bundles them into a digital download, creates a Gumroad listing, and
+    schedules promotional content across relevant art/design communities.
+  Specific revenue action: 'Prompt Pack: ''Midjourney V6.1 Art Style Prompts for Digital
+    Creators'' (100+ curated prompts) on Gumroad, targeting graphic designers and
+    artists.'
+  Tier classification: 1
+  Time to first dollar: 7
+  Why this works NOW: Midjourney's continuous updates (V6.1 recently) drive demand
+    for specialized, high-quality prompt sets to achieve specific artistic styles,
+    saving users time.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 25
+  raw_score: 96
+  reasoning: This opportunity leverages current AI trends with zero cost, high demand,
+    rapid deployment, and full automation, making it an ideal digital product for
+    an AI agent.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776083322
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 100
+    notes: "CRITIQUE\nConfidence Score: 45%\nKey concerns:\n*   **Market Saturation\
+      \ & Rapid Obsolescence:** The market for Midjourney prompts is highly saturated,\
+      \ with many free and paid alternatives. Furthermore, Midjourney's frequent updates\
+      \ (e.g., V6.1 to V7) mean prompt packs can become outdated and lose value very\
+      \ quickly, requiring constant, resource-intensive updates to remain relevant.\n\
+      *   **Differentiation & Perceived Value:** \"100+ curated prompts\" is a common\
+      \ offering. Without a truly unique angle, superior quality, or a strong brand,\
+      \ it will be difficult to stand out. Users may find similar prompts for free\
+      \ or question the value of AI-generated/curated prompts over human expertise.\n\
+      *   **Automated Promotion Effectiveness:** Relying solely on automated content\
+      \ scheduling across \"relevant art/design communities\" risks being perceived\
+      \ as spam, leading to low engagement, community backlash, or even bans, hindering\
+      \ discovery and sales.\n\n---\n**1. Why would this FAIL in the real market?**\n\
+      *   **Market Saturation:** The market for Midjourney prompts is already flooded\
+      \ with countless free and paid resources. Standing out requires significant\
+      \ differentiation, which \"100+ curated prompts\" alone may not provide.\n*\
+      \   **Rapid Obsolescence:** Midjourney updates frequently. Prompts optimized\
+      \ for V6.1 could become less effective or obsolete with the release of V6.2,\
+      \ V7, or subsequent versions. This necessitates continuous product updates,\
+      \ turning a \"one-time\" revenue model into a recurring maintenance task to\
+      \ sustain sales.\n*   **Quality & Uniqueness:** While Penelope \"generates and\
+      \ curates,\" the actual quality and uniqueness compared to human-expert-curated\
+      \ packs or even free resources is a major unknown. If the prompts are generic\
+      \ or easily reproducible by users themselves, the perceived value will be low.\n\
+      *   **Discovery & Marketing:** Gumroad offers a platform, but discovery is not\
+      \ inherent. The success hinges entirely on the \"scheduled promotional content\
+      \ across relevant art/design communities.\" If these communities are resistant\
+      \ to automated promotion, or if the content isn't genuinely engaging, the product\
+      \ will fail to reach its target audience.\n*   **\"AI-generated\" stigma:**\
+      \ While the target audience uses AI, if the *prompts themselves* are perceived\
+      \ as merely AI-generated without significant human insight or unique value,\
+      \ it might reduce trust and willingness to pay.\n\n**2. Is there a cheaper/faster\
+      \ way to achieve same result?**\n*   **Cheaper:** The stated cost is $0, so\
+      \ \"cheaper\" is not applicable.\n*   **Faster:**\n    *   **Micro-packs/Niche\
+      \ Focus:** Instead of 100+ prompts, a highly targeted pack of 10-20 *exceptionally\
+      \ unique* prompts for a very specific, in-demand niche style could be faster\
+      \ to create, validate, and promote, allowing for quicker iteration.\n    * \
+      \  **Leverage Existing Audiences:** If Penelope (or its operator) has an existing\
+      \ audience or social media presence, direct promotion to that audience would\
+      \ be faster than building new community engagement.\n    *   **Pre-validation:**\
+      \ A faster approach might involve creating a landing page with a few sample\
+      \ prompts and gauging interest (e.g., email sign-ups) before fully curating\
+      \ the entire pack.\n\n**3. What edge case breaks this?**\n*   **Midjourney Major\
+      \ Update (V7/V8):** A significant update to Midjourney's underlying model or\
+      \ prompt syntax could render all V6.1-specific prompts largely ineffective or\
+      \ broken overnight, instantly devaluing the product.\n*   **Midjourney's Own\
+      \ Prompt Library/Marketplace:** Midjourney itself (or a major partner) could\
+      \ launch a comprehensive, high-quality, and potentially free or very low-cost\
+      \ official prompt library, making third-party packs redundant.\n*   **Community\
+      \ Backlash/Platform Bans:** Aggressive or poorly executed automated promotion\
+      \ in art/design communities could lead to the content being flagged as spam,\
+      \ Penelope being banned from groups, or even Gumroad taking action if terms\
+      \ of service are violated.\n*   **Copyright/IP Infringement (Subtle):** While\
+      \ prompts are generally not copyrightable, if the AI inadvertently generates\
+      \ prompts that closely mimic or reference specific copyrighted styles, artists,\
+      \ or intellectual property without proper attribution or permission, it could\
+      \ lead to legal issues.\n*   **Quality Control Failure:** If Penelope's generation/curation\
+      \ process produces low-quality, repetitive, or uninspiring prompts, negative\
+      \ reviews will quickly kill sales and reputation.\n\n**4. Confidence Score 0-100%**\n\
+      45%"
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output details actionable steps for product creation, which is a necessary
+      precursor to publishing and promoting a revenue-generating digital product.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No clear, immediate violations of specified failing criteria (SSNs, unencrypted
+      passwords, unauthorized access, non-consented PII) are present in the skill
+      description.'
+    result: PASS
+test_results: {}

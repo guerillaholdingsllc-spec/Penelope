@@ -1,0 +1,88 @@
+business: GAFC
+created: '2026-04-12T18:07:11.471224'
+execution_result: "WP: \u2705 http://blog.trustchainservices.com/2026/04/12/affiliate-review-home-office-31/\
+  \ | Bluesky: \u2705 at://did:plc:cpw73atir2utpkmbufbqlf7j/app.bsky.feed.post/3mjdfznnq7o2c"
+learnings: ''
+logic_flow: {}
+objective: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+  on social
+opportunity_data:
+  action: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+    on social
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue: 0
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 12
+  margin: 25
+  raw_score: 87
+  reasoning: The opportunity benefits from high automation and digital execution,
+    leading to excellent speed, scalability, and profit margins, but the direct market
+    demand signal for the specific brand content and its estimated revenue is relatively
+    low.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776017231
+status: Live
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Unrealistic Financial Model & Contradictions:** The `revenue_model` explicitly
+      states $0 cost per run and $0 estimated monthly revenue, directly contradicting
+      the $200 estimated monthly revenue in `opportunity_data`. The `execution_details`
+      confirm this flaw by listing $0.00 for content creation costs, making the entire
+      initiative financially nonsensical and unsustainable.
+
+      *   **Lack of Measurable ROI for "Brand Awareness":** The objective of "brand
+      awareness" is not linked to any measurable business outcomes (e.g., website
+      traffic, lead generation, sales). The arbitrary $200 estimated monthly value
+      is unsubstantiated and provides no clear justification for investment.
+
+      *   **Insufficient Budget & Unproven Character Appeal:** A $50 daily budget
+      for content creation and promotion across two social platforms is highly inadequate
+      to generate significant brand awareness for unknown characters ("Gloxsie and
+      Bobo Licious") in a competitive digital landscape, especially when content quality
+      is implied to cost nothing.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The action successfully posted content to social media and initiated promotions,
+      aligning with the criteria for publishing and promoting.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting for brand awareness, which is explicitly
+      compliant and does not violate any specified security or compliance rules.'
+    result: PASS
+test_output_sample: "```json\n{\n  \"task_status\": \"completed\",\n  \"strategy_executed\"\
+  : {\n    \"action\": \"Post GAFC Gloxsie and Bobo Licious character content to build\
+  \ brand awareness on social\",\n    \"business\": \"GAFC\",\n    \"revenue_type\"\
+  : \"brand\"\n  },\n  \"execution_details\": {\n    \"budget_allocated\": 50.00,\n\
+  \    \"budget_spent\": 50.00,\n    \"platforms_used\": [\"Instagram\", \"Twitter\"\
+  ],\n    \"content_created\": [\n      {\n        \"content_id\": \"GAFC-GLX-001\"\
+  ,\n        \"type\": \"Image Post (Digital Art)\",\n        \"theme\": \"Gloxsie's"
+test_results: {}

@@ -1,0 +1,72 @@
+business: Digital
+created: '2026-04-09T19:02:24.980283'
+learnings: ''
+logic_flow:
+  step_1: Research top 5 competitors in each vertical
+  step_2: Track pricing changes
+  step_3: Calculate our price gap
+  step_4: 'If gap > 20% in our favor: alert and generate marketing angle'
+objective: Monitor competitor pricing daily and alert when gap to exploit appears
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry with variation
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 200
+  margin_pct: 100
+  type: indirect
+skill_id: competitor_price_monitor
+status: Failed
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+      *   **Flawed Feature Comparability:** The core assumption of "comparable features"
+      is overly simplistic and likely to lead to misleading price gap calculations.
+      Real-world products, especially in complex SaaS markets like SEO tools, have
+      nuanced feature sets, usage limits, data quality, UI/UX, and support that a
+      simple price comparison cannot capture. A 69% price gap doesn''t automatically
+      equate to 69% more value in our favor; it could signify a significant difference
+      in functionality or quality.
+
+      *   **Unrealistic Cost & Margin Model:** The stated "cost_per_run: 0" and 100%
+      margin are highly improbable for a daily monitoring system that involves web
+      scraping, data processing, and alert generation. Even automated tasks incur
+      infrastructure, maintenance, and potential anti-bot circumvention costs. This
+      underestimation of operational expenses makes the "estimated_monthly: 200" indirect
+      revenue highly suspect and unsustainable in the long run.
+
+      *   **Vulnerability to Market Dynamics & Scraping Challenges:** The system is
+      fragile against dynamic competitor pricing (e.g., A/B testing, regional pricing,
+      temporary promotions), website changes (breaking scraping logic), and the need
+      for constant manual oversight to ensure data accuracy and relevance of "comparable
+      plans." This leads to a high risk of false positives or irrelevant alerts, diminishing
+      the value of the generated marketing angles.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      The test output is incomplete and does not demonstrate the verifiability of
+      its core claims.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      Potential violation of competitor website Terms of Service through automated
+      data collection for pricing monitoring.'
+    result: FAIL
+test_output_sample: "```json\n{\n  \"task_execution_summary\": {\n    \"skill_id\"\
+  : \"competitor_price_monitor\",\n    \"status\": \"completed\",\n    \"budget_cap_used\"\
+  : 0.0,\n    \"timestamp\": \"2024-07-30T10:30:00Z\"\n  },\n  \"execution_details\"\
+  : {\n    \"vertical_assumed\": \"Entry-level SEO/Content Marketing Tools (SaaS)\"\
+  ,\n    \"hypothetical_our_price_per_month\": 40.0,\n    \"comparable_features_assumed\"\
+  : \"Basic keyword research, site audit, content analysis, backlink monitoring (entry-level\
+  \ limits)\",\n    \"competitors_researched\": [\n      "
+test_results: {}

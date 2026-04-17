@@ -1,0 +1,82 @@
+business: Cross-vertical
+created: '2026-04-12T13:38:16.644374'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $25 (for micro-course hosting platform or minimal video editing tools)
+  estimated_monthly_revenue_potential: $700 - $1800
+  how_penelope_deploys_it_autonomously: Penelope uses AI to outline course modules
+    and script content, records screen-share tutorials with AI-generated voiceover
+    or simple text overlays, packages the course on Gumroad/Teachable, and automates
+    marketing through targeted online communities and email sequences.
+  specific_revenue_action: 'Launch an ''Online Course: Prompt Engineering for Non-Technical
+    Founders'' on Gumroad/Teachable.'
+  tier_classification: 1
+  time_to_first_dollar: 20
+  why_this_works_now: Founders need to leverage AI but often lack technical skills.
+    Prompt engineering is a crucial, accessible skill. Demand for practical, actionable
+    AI knowledge is exploding. 'No-code' and 'low-code' movements align with this
+    need.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 93
+  reasoning: This opportunity leverages high demand for AI skills among non-technical
+    founders with an extremely high-margin, rapidly deployable, and fully automated
+    digital course.
+  scalability: 25
+  speed: 21
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776001096
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Quality of Autonomous Content:** Fully AI-generated course content (outline,
+      script, voiceover) is highly unlikely to meet the quality, nuance, practical
+      depth, and engaging delivery required to attract and retain discerning non-technical
+      founders, leading to poor reviews and low sales.
+
+      *   **Market Saturation & Differentiation:** The prompt engineering space is
+      increasingly crowded. An autonomously generated course will struggle to differentiate
+      itself, build credibility, or offer unique value compared to human-curated courses
+      or free resources.
+
+      *   **Marketing Effectiveness & Brand Perception:** Automated marketing in "targeted
+      online communities" risks being perceived as spam, damaging brand reputation
+      and hindering genuine engagement necessary for course sales.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides crucial validation and a deployment plan for launching
+      a digital product, directly supporting the "publishes content" and "promotes
+      products" criteria, moving toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No clear, immediate violations of specified compliance rules.'
+    result: PASS
+test_results: {}

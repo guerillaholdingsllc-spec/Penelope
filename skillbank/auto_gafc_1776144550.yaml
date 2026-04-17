@@ -1,0 +1,79 @@
+business: GAFC
+created: '2026-04-14T05:29:10.305848'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+  on social
+opportunity_data:
+  action: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+    on social
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 12
+  margin: 25
+  raw_score: 87
+  reasoning: The opportunity benefits from high automation and digital execution,
+    leading to excellent speed, scalability, and profit margins, but the direct market
+    demand signal for the specific brand content and its estimated revenue is relatively
+    low.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776144550
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 25
+    notes: 'CRITIQUE
+
+      Confidence Score: 25%
+
+      Key concerns:
+
+      *   **Unrealistic Financial Model & Low Value:** The stated `cost_per_run: 0`
+      is a critical flaw, making the 70% margin and $200/month "brand value" highly
+      suspect and likely an underestimation of true costs or an overestimation of
+      net value. $200/month is negligible for brand awareness for a business.
+
+      *   **Low Market Demand & Inconsistent Scoring:** A `demand` score of 12 is
+      a major red flag, directly contradicting the overall Tier 1 classification and
+      high RPS score, which seem to prioritize theoretical automation over actual
+      market need or impact. The math for the total RPS score is also incorrect (87
+      + 25 = 112, not 100).
+
+      *   **Insufficient Budget & Character Unknowns:** A $50 budget cap is severely
+      limiting for any meaningful social media campaign aimed at building brand awareness.
+      The lack of context for "Gloxsie and Bobo Licious" means their appeal and potential
+      for engagement are entirely unknown, posing a significant risk.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output provides an actionable strategy for content creation and brand
+      promotion on social media, directly supporting the skill''s objective.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting for brand awareness, which is explicitly
+      listed as a compliant activity and does not involve collecting SSNs, storing
+      unencrypted passwords, accessing unauthorized systems, or violating GDPR with
+      non-consented PII.'
+    result: PASS
+test_results: {}

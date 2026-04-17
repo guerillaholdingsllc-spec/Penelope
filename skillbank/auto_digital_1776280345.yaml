@@ -1,0 +1,79 @@
+business: Digital
+created: '2026-04-15T19:12:25.699606'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages existing customer demand for a high-margin
+    digital product through an automated email sequence, offering excellent speed
+    to revenue and scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776280345
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 65
+    notes: 'CRITIQUE
+
+      Confidence Score: 65%
+
+      Key concerns:
+
+      *   **Optimistic Conversion & Relevance:** The strategy assumes a high conversion
+      rate from *all* new Gumroad buyers to a full book series, potentially overlooking
+      buyer intent, initial purchase context, and the risk of email fatigue from an
+      immediate upsell. The $300 estimated monthly revenue is an untested assumption.
+
+      *   **Internal Data Inconsistency:** The `revenue_model` specifies `type: "one_time"`
+      and `estimated_monthly: 0`, which directly contradicts the `opportunity_data.estimated_monthly:
+      300`. This indicates a fundamental flaw in the data''s internal logic regarding
+      recurring revenue.
+
+      *   **Dependency on Untested Variables:** The success of this opportunity is
+      highly dependent on the quality and pricing of the "full book series," the effectiveness
+      of the email copy, and the actual volume of new Gumroad buyers, none of which
+      are quantified or tested in the provided data.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output confirms the action (sending emails, promoting products) is
+      highly feasible, actionable, and provides a clear path to execution with minimal
+      cost, directly moving toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes standard email marketing to existing customers (Gumroad
+      buyers) for a welcome sequence and upsell, which is compliant with the provided
+      rules for email marketing with opt-in lists and does not involve any immediate,
+      clear violations of SSN collection, unencrypted passwords, unauthorized access,
+      or non-consented PII.'
+    result: PASS
+test_results: {}

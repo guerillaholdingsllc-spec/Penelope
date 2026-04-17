@@ -1,0 +1,83 @@
+business: Cross-vertical
+created: '2026-04-16T01:29:44.527958'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: 0
+  estimated_monthly_revenue_potential: 200
+  how_penelope_deploys_autonomously: AI researches and categorizes AI marketing tools,
+    identifies affiliate programs. Compiles into a user-friendly PDF/Notion database.
+    Auto-lists on Gumroad. Auto-promotes via social media and newsletters.
+  specific_revenue_action: 'Digital Product: "Ultimate AI Tools Directory for Marketers"
+    (curated list with affiliate links) sold on Gumroad.'
+  tier_classification: 1
+  time_to_first_dollar: 10
+  why_this_works_now: Rapid proliferation of AI marketing tools; marketers need curated,
+    organized resources to navigate the landscape.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 25
+  margin: 25
+  raw_score: 100
+  reasoning: This opportunity perfectly leverages an AI agent's capabilities to create,
+    market, and sell a high-demand digital product with excellent margins, rapid deployment,
+    and full automation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776302984
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Rapid Obsolescence & Maintenance Burden:** A "one-time" digital product
+      (directory of AI tools) in a hyper-dynamic market will become outdated within
+      weeks, severely diminishing its value and leading to customer dissatisfaction.
+      The `cost_per_run: 0` does not account for the critical, ongoing effort required
+      to keep the directory current and valuable.
+
+      *   **Market Saturation & Lack of Differentiation:** The market for AI tool
+      directories is already highly saturated with numerous free and low-cost alternatives.
+      Without a truly unique selling proposition, deep human-curated insights, or
+      a strong brand, a generic, AI-compiled list will struggle to attract paying
+      customers and justify its price.
+
+      *   **Low Revenue Potential & Misaligned Model:** An estimated $200/month is
+      extremely low for a "Tier 1" opportunity. The "one-time" revenue model is fundamentally
+      misaligned with a product that requires continuous updates to maintain relevance,
+      making long-term scalability and sustained revenue highly questionable.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The research report is a valuable content output that directly informs and validates
+      the creation and promotion of a revenue-generating digital product, moving toward
+      revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill does not involve collecting SSNs, storing unencrypted passwords, accessing
+      unauthorized systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

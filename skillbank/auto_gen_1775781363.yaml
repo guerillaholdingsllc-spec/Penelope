@@ -1,0 +1,85 @@
+business: Cross-vertical
+created: '2026-04-10T00:36:03.949814'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $700 - $1600
+  how_penelope_deploys_it_autonomously: Penelope researches green tech grant requirements,
+    uses AI to create a modular grant proposal framework, including sections for problem
+    statement, solution, impact, and budget, packages it as a digital product on Gumroad,
+    and targets environmental tech startups.
+  specific_revenue_action: 'GAFC Grant Application Kit: ''Green Tech Innovation Grant
+    Proposal Framework'''
+  tier_classification: 1
+  time_to_first_dollar: 20
+  why_this_works_NOW: Global push for green technology and sustainability. Many governments
+    offer grants for innovative solutions, but applicants need a solid framework.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 92
+  reasoning: This opportunity leverages a strong market trend with high profit margins,
+    rapid deployment, and full automation for a highly scalable digital product.
+  scalability: 25
+  speed: 20
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775781363
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Lack of Specificity & Credibility**: Grant applications demand highly
+      specific, nuanced content tailored to individual grant guidelines and the applicant''s
+      unique innovation. A generic, AI-generated "modular framework" is unlikely to
+      provide the depth, accuracy, or credibility needed to win competitive grants,
+      especially against human experts or highly targeted resources.
+
+      *   **Overstated Automation & Value Proposition**: While AI can generate text,
+      the continuous research, synthesis of complex grant requirements, and creation
+      of truly *effective* frameworks for diverse green tech grants is a significant
+      challenge. The "autonomous" claim likely overestimates AI''s current capability
+      to produce high-value, competitive grant content without substantial human oversight
+      and updates, leading to potential customer dissatisfaction.
+
+      *   **Intense Competition & Free Alternatives**: The market for grant templates
+      and resources is saturated with free government guidelines, university resources,
+      and low-cost generic templates. The perceived value of an AI-generated framework
+      needs to be exceptionally high to justify a purchase over these alternatives,
+      especially when the core value (the actual grant content) still requires significant
+      manual effort from the user.'
+    result: FAIL
+  quality:
+    notes: 'FAIL
+
+      Multiple logical and mathematical inconsistencies in the skill definition regarding
+      costs and scoring.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill lacks explicit detail on compliant data targeting methods and GDPR/CCPA
+      adherence for any collected lead data.'
+    result: FAIL
+test_results: {}

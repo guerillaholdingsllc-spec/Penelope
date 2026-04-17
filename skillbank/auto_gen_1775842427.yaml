@@ -1,0 +1,88 @@
+business: Cross-vertical
+created: '2026-04-10T17:33:47.101853'
+learnings: ''
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $20 (LLM subscription for content creation)
+  estimated_monthly_revenue_potential: $800 - $2500
+  how_penelope_deploys_it_autonomously: Penelope outlines the course, generates scripts
+    for lessons, creates AI-assisted writing examples, and records voiceovers. It
+    packages the course content into modules, uploads to the chosen platform, and
+    designs sales pages and promotional materials. Automated marketing targets writing
+    communities and platforms.
+  specific_revenue_action: 'Online Course: ''Prompt Engineering for Creative Writing
+    & Storytelling'' on Gumroad/Teachable.'
+  tier_classification: 1
+  time_to_first_dollar: 16
+  why_this_works_now: Writers (authors, screenwriters, copywriters) are increasingly
+    exploring AI as a creative assistant, but effective prompt engineering for storytelling
+    is a specific skill. A course focused on this niche taps into a large and passionate
+    audience looking to enhance their craft with AI.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 25
+  raw_score: 94
+  reasoning: This opportunity leverages strong current demand for AI writing skills
+    with extremely high profit margins, rapid deployment, and full autonomous scalability
+    for an AI agent.
+  scalability: 25
+  speed: 21
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775842427
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+      *   **Market Saturation & Differentiation:** The market for "Prompt Engineering"
+      courses is highly competitive and rapidly evolving. An autonomously generated
+      course will struggle to differentiate itself and establish credibility against
+      human-led, nuanced instruction, especially for a creative audience that values
+      authenticity and human insight.
+
+      *   **Quality & Authenticity Perception:** Creative writers value human insight,
+      nuance, and genuine experience. An AI-generated course, voiceover, and examples
+      risk being perceived as generic, lacking depth, or inauthentic, leading to low
+      engagement, poor reviews, and difficulty building a loyal audience.
+
+      *   **Underestimated Costs & Rapid Obsolescence:** The "cost per run: 0" and
+      "$20 LLM subscription" are severely underestimated. Real costs include platform
+      fees (Gumroad/Teachable take a cut), marketing spend beyond autonomous targeting,
+      and potential customer support. Furthermore, the AI landscape evolves so rapidly
+      that a course created today could be outdated in months, requiring significant,
+      unbudgeted autonomous updates to maintain relevance.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The test output is incomplete and does not demonstrate the skill''s objective
+      of generating revenue or deploying the online course; it only provides research
+      findings.'
+    result: FAIL
+  security:
+    notes: 'PASS
+
+      No clear violations of security or compliance policies are described in the
+      skill definition.'
+    result: PASS
+test_results: {}

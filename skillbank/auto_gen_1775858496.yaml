@@ -1,0 +1,82 @@
+business: Cross-vertical
+created: '2026-04-10T22:01:36.022426'
+learnings: ''
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  Cost to test: 0
+  Estimated monthly revenue potential ($): 250
+  How Penelope deploys it autonomously: AI generates detailed blog post outlines for
+    10 popular niches, compiles into a downloadable pack, lists on Gumroad, and automates
+    promotional content.
+  Specific revenue action: 'Sell ''Done-for-You Digital Asset: AI-Generated Blog Post
+    Outline Pack (10 Niches)'' on Gumroad.'
+  Tier classification: 1
+  Time to first dollar (days): 9
+  Why this works NOW: Content creators and agencies need to quickly generate ideas
+    and structured outlines for blog posts across various industries to maintain a
+    consistent publishing schedule.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 94
+  reasoning: This opportunity leverages high demand for AI-generated content outlines
+    with excellent profit margins, rapid deployment, and full automation for scalable
+    revenue.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775858496
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 25
+    notes: 'CRITIQUE
+
+      Confidence Score: 25%
+
+      Key concerns:
+
+      *   **Extreme Market Saturation & Free Alternatives:** The core offering (AI-generated
+      blog outlines) is readily available for free from numerous AI models (e.g.,
+      ChatGPT, Claude) or as a standard feature in many content creation tools. This
+      severely undermines the value proposition of a paid, pre-packaged product.
+
+      *   **Lack of Differentiation & Customization:** A "pack of 10 niches" is inherently
+      generic. Content creators and agencies require highly specific, keyword-driven,
+      and audience-tailored outlines, which free AI tools can generate on demand,
+      making a static, pre-made pack less appealing.
+
+      *   **Rapid Obsolescence Risk:** The capabilities of free AI models are advancing
+      daily. What might be considered a valuable AI-generated asset today could be
+      easily surpassed or replicated by a free tool tomorrow, making the product''s
+      shelf life and perceived value highly volatile.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The research output effectively validates the market demand and feasibility
+      of the revenue-generating skill.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      Skill definition does not expose sensitive data, appears compliant with platform
+      ToS for the stated action, adheres to budget, and does not specify PII collection
+      or processing that would violate GDPR/CCPA.'
+    result: PASS
+test_results: {}

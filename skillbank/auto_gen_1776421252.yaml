@@ -1,0 +1,88 @@
+business: Cross-vertical
+created: '2026-04-17T10:20:52.100087'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $0 (Gumroad free, existing ChatGPT access)
+  estimated_monthly_revenue_potential: $300 - $750
+  how_penelope_deploys_it_autonomously: Penelope uses an AI to generate and refine
+    custom instruction sets for various marketing personas/goals. These are compiled
+    into a digital pack. Gumroad listing creation and automated email marketing sequence
+    are deployed by automation scripts.
+  specific_revenue_action: 'Sell a ''ChatGPT Custom Instruction Template Pack for
+    Niche Marketing'' on Gumroad. Audience: Small business owners, freelance marketers,
+    solopreneurs.'
+  tier_classification: 1
+  time_to_first_dollar: 12
+  why_this_works_NOW: ChatGPT's custom instructions (enhanced in late 2025) allow
+    for highly tailored outputs. Users want pre-optimized templates to immediately
+    leverage this power for specific marketing tasks.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity offers high profit margins and excellent scalability
+    due to its fully automated, digital nature, with rapid time to market and strong
+    existing demand for ChatGPT optimization tools.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776421252
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 68
+    notes: 'CRITIQUE
+
+      Confidence Score: 68%
+
+      Key concerns:
+
+
+      *   **Market Saturation & Differentiation**: The market for AI prompt/template
+      packs is highly competitive, with numerous free and paid alternatives. While
+      "Custom Instructions" offers a specific angle, it may not be enough to stand
+      out without significant, ongoing marketing effort, especially given the target
+      audience''s budget sensitivity.
+
+      *   **Feature Obsolescence & AI Updates**: ChatGPT''s features, including Custom
+      Instructions, are subject to rapid evolution, enhancement, or even deprecation
+      by OpenAI. This product''s value is directly tied to a specific feature set,
+      making it vulnerable to becoming obsolete or less effective with future platform
+      changes.
+
+      *   **Quality Control & Perceived Value**: Relying solely on AI for template
+      generation risks inconsistent quality or templates that are too generic. If
+      the templates don''t deliver significantly superior results compared to what
+      users can achieve themselves with basic prompt engineering, the perceived value
+      will be low, leading to poor sales or refunds.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output validates a viable opportunity for a digital product, confirming
+      the skill is actionable and moves toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No clear, immediate violations of SSN collection, unencrypted password storage,
+      unauthorized system access, or non-consented PII usage are present in the skill
+      description.'
+    result: PASS
+test_results: {}

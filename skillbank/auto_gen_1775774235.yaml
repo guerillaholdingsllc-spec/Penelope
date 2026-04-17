@@ -1,0 +1,82 @@
+business: Cross-vertical
+created: '2026-04-09T22:37:15.284660'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0 (Skillshare free for creators, Gumroad free)
+  estimated_monthly_revenue_potential: $400 - $1200
+  how_penelope_deploys_it_autonomously: AI structures course, generates video scripts
+    and visuals. Automated video production (text-to-video), platform upload, and
+    social media promotion.
+  specific_revenue_action: 'Online Course: ''AI Tools for Non-Technical Founders''
+    (short video series) on Skillshare/Gumroad, targeting startup founders.'
+  tier: 1
+  time_to_first_dollar: 20 days
+  why_this_works_now: Founders need to leverage AI without deep technical knowledge;
+    practical, tool-focused courses are highly sought after.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 94
+  reasoning: This opportunity leverages high demand for practical AI skills among
+    founders with a fully autonomous, high-margin digital product that can be deployed
+    quickly and scaled infinitely by an AI agent.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775774235
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Content Quality & Differentiation:** The research explicitly states "Full
+      automation for video production is insufficient," directly contradicting the
+      core deployment strategy. This will result in generic, low-quality content that
+      fails to differentiate in a highly saturated market, undermining trust and sales
+      potential.
+
+      *   **Market Saturation & Trust:** The "AI tools for non-technical founders"
+      space is extremely competitive. A fully automated, faceless course will struggle
+      to build authority, trust, or a unique value proposition against established
+      creators and more personalized offerings.
+
+      *   **Rapid Obsolescence:** AI tools evolve at an unprecedented pace. A "one-time"
+      automated course risks becoming outdated very quickly, requiring continuous,
+      non-autonomous updates to maintain relevance and value, which is not accounted
+      for in the autonomous deployment model.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      The RPS score calculation in the SKILL definition is mathematically inconsistent.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The "automated social media promotion" outlined in the skill carries a high
+      risk of violating the Terms of Service of various social media platforms, which
+      often prohibit bot-like activity, unauthorized automation, or circumvention
+      of rate limits.'
+    result: FAIL
+test_results: {}

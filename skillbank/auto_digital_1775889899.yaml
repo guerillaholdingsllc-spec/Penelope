@@ -1,0 +1,89 @@
+business: Digital
+created: '2026-04-11T06:44:59.303005'
+execution_result: "WP: \u2705 http://blog.trustchainservices.com/2026/04/11/affiliate-review-home-office-26/\
+  \ | Bluesky: \u2705 at://did:plc:cpw73atir2utpkmbufbqlf7j/app.bsky.feed.post/3mjajahvcjk2d"
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue: 0
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 23
+  raw_score: 93
+  reasoning: This digital affiliate marketing opportunity offers high margins, instant
+    deployment, and excellent scalability for an autonomous AI agent, with consistent
+    market demand from small businesses.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775889899
+status: Live
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+      Key concerns:
+
+      *   **Unrealistic Budget & Revenue Projections:** A $50 budget is woefully inadequate
+      for creating high-quality, SEO-optimized content capable of consistently generating
+      $150/month in affiliate revenue in a competitive digital landscape. The "Tier
+      1 - Instant Digital (No barriers)" rating is fundamentally misleading for an
+      affiliate marketing strategy that requires significant time, trust-building,
+      and sustained SEO effort.
+
+      *   **Severe Data Inconsistencies:** The `revenue_model` specifies "one_time"
+      and "estimated_monthly: 0" which directly contradicts the `opportunity_data`
+      of "affiliate" and "estimated_monthly: 150." This indicates a critical misunderstanding
+      of affiliate revenue mechanics or severe data entry errors.
+
+      *   **Lack of Authority & Untested Assumptions:** The strategy relies on untested
+      assumptions about an "underserved niche" and "instant deployment" without addressing
+      the need for established trust, authority, and sustained SEO effort required
+      for successful affiliate marketing, particularly when targeting business owners.
+      A single, low-budget blog post will struggle to rank or convert.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The skill execution involves preparatory steps for publishing content, which
+      directly moves toward promoting products and generating revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and affiliate marketing, which are explicitly
+      compliant activities, and does not present any immediate violations of SSN collection,
+      unencrypted password storage, unauthorized system access, or non-consented PII
+      collection.'
+    result: PASS
+test_output_sample: "```json\n{\n  \"task_status\": \"completed\",\n  \"strategy_executed\"\
+  : {\n    \"action\": \"Publish affiliate review blog post targeting Sacramento small\
+  \ business owners\",\n    \"business\": \"Digital\",\n    \"estimated_monthly\"\
+  : 150,\n    \"revenue_type\": \"affiliate\"\n  },\n  \"execution_details\": {\n\
+  \    \"budget_cap\": 50.00,\n    \"actual_spend\": 0.00,\n    \"steps_taken\": [\n\
+  \      {\n        \"step\": \"Keyword Research & Targeting\",\n        \"description\"\
+  : \"Conducted focused keyword research using free tools (Google Keyword P"
+test_results: {}

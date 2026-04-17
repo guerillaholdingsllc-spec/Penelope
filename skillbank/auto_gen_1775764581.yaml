@@ -1,0 +1,81 @@
+business: Cross-vertical
+created: '2026-04-09T19:56:21.323753'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0 (Google Sheets free, Gumroad free)
+  estimated_monthly_revenue_potential: $500 - $1300
+  how_penelope_deploys_it_autonomously: AI (GPT-4) generates example data sets, creates
+    prompts for common data tasks (e.g., 'summarize trends', 'identify outliers').
+    AI builds the Sheets template with prompt examples. AI writes sales page and targets
+    small business owners/analysts.
+  specific_revenue_action: Develop and sell 'Google Sheets AI Prompt Template for
+    Data Analysis' on Gumroad.
+  tier_classification: 1
+  time_to_first_dollar: 15
+  why_this_works_NOW: Many businesses use Google Sheets for data. Integrating AI through
+    specific prompts for data cleaning, summarization, and insight generation saves
+    time and requires less technical skill.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 25
+  raw_score: 97
+  reasoning: This opportunity leverages high demand for AI in data analysis with a
+    fully autonomous, high-margin digital product that can be deployed quickly and
+    scaled infinitely.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775764581
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 60
+    notes: 'CRITIQUE
+
+      Confidence Score: 60%
+
+      Key concerns:
+
+      *   **Commoditization & Free Alternatives:** The core offering (AI prompts for
+      Sheets) is rapidly becoming commoditized, with many free resources and direct
+      AI tools providing similar capabilities, making it hard to justify a purchase.
+
+      *   **Evolving AI Landscape:** Rapid advancements in AI models and potential
+      direct AI integration within Google Sheets could quickly render specific prompt
+      templates redundant or less valuable.
+
+      *   **Differentiation & Discovery:** Without a strong unique selling proposition
+      beyond generic prompts, standing out on a platform like Gumroad and reaching
+      the target audience will be challenging amidst similar offerings.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      Test output is incomplete, truncated mid-sentence in the "competitive_landscape"
+      section.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The stated `cost_per_run` of $0 is inconsistent with the use of GPT-4 for autonomous
+      deployment, making the budget claim unreliable. Additionally, the skill provides
+      no information regarding GDPR/CCPA compliance for customer data collected during
+      sales, which is a critical omission for a revenue-generating activity.'
+    result: FAIL
+test_results: {}

@@ -1,0 +1,92 @@
+business: Cross-vertical
+created: '2026-04-09T18:14:44.353025'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $250 - $600
+  how_penelope_deploys_it_autonomously: Penelope leverages specialized AI models trained
+    on viral content patterns to generate a diverse set of prompts for short-form
+    video hooks, script outlines, and call-to-actions. The output is bundled as a
+    digital download. Penelope creates the Gumroad product page, crafts SEO-optimized
+    descriptions, and initiates targeted ad campaigns (e.g., Twitter/X, Reddit ads)
+    with AI-generated ad copy, focusing on content creator communities.
+  specific_revenue_action: Viral Short-Form Video Hook & Script AI Prompt Pack for
+    Content Creators (Gumroad)
+  tier_classification: 1
+  time_to_first_dollar: 7-15 days
+  why_this_works_now: Short-form video platforms (TikTok, Instagram Reels, YouTube
+    Shorts, Bluesky video) are dominant for content discovery. Creators constantly
+    struggle with ideation and creating engaging hooks to capture attention. An AI
+    prompt pack directly addresses this pain point by providing instant, customizable
+    content ideas and script structures.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 24
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages high demand for AI-driven content creation
+    tools in the dominant short-form video market, offers excellent profit margins
+    due to zero production cost, and is highly scalable and quickly deployable by
+    an autonomous AI agent.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775758484
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Market Saturation & Free Alternatives:** The market for AI-generated content
+      prompts and templates is highly competitive and saturated. Creators can often
+      achieve similar results using free AI tools (e.g., ChatGPT) with minimal effort,
+      making it challenging to justify a purchase and differentiate this specific
+      prompt pack.
+
+      *   **Ephemeral Nature of "Viral":** What constitutes "viral" content is highly
+      subjective, platform-dependent, and constantly evolving with algorithm changes.
+      A static prompt pack risks quickly becoming outdated, delivering generic or
+      ineffective content that fails to meet its core promise.
+
+      *   **Low Revenue Ceiling & Marketing Challenge:** The estimated monthly revenue
+      ($250-$600) is modest. Achieving even this will require consistent, effective
+      marketing and ad spend in a noisy environment, potentially eroding the "zero
+      cost to test" advantage and making the overall ROI questionable given the effort
+      required for ongoing promotion.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      The test output is incomplete, cutting off mid-sentence in the "Competitor Examples"
+      section, making key claims unverifiable.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill describes initiating targeted ad campaigns, which inherently involves
+      the potential collection and processing of lead data. However, the skill provides
+      no explicit framework, mention of consent mechanisms, data handling protocols,
+      or privacy policy adherence to ensure GDPR/CCPA compliance for any such collected
+      data. This is a critical omission.'
+    result: FAIL
+test_results: {}

@@ -1,0 +1,80 @@
+business: Digital
+created: '2026-04-14T20:25:18.266267'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 23
+  raw_score: 93
+  reasoning: This digital affiliate marketing opportunity offers high margins, instant
+    deployment, and excellent scalability for an autonomous AI agent, with consistent
+    market demand from small businesses.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776198318
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Unrealistic Revenue Model & Cost Assumptions**: The `revenue_model` states
+      "one_time" but `opportunity_data` projects "$150 estimated monthly," a fundamental
+      contradiction. Furthermore, `cost_per_run: 0` is a critical flaw; even for an
+      AI, there are hosting, platform, API, and potential promotional costs. The $150/month
+      projection for a single affiliate blog post in a competitive local market is
+      highly optimistic without a clear, funded traffic strategy.
+
+      *   **Traffic & Authority Challenge**: A single, new affiliate review blog post
+      will face immense difficulty gaining visibility and trust among Sacramento small
+      business owners. Without an established domain, existing audience, or significant
+      promotional budget (which contradicts the $0 cost assumption), generating consistent
+      traffic to drive affiliate conversions is highly improbable.
+
+      *   **Insufficient Product & Market Validation**: While general pain points
+      are identified, the research fails to specify *which* affiliate products will
+      be reviewed, how they uniquely address Sacramento small business needs, or validate
+      the actual demand for these specific products through an affiliate model. This
+      lack of specificity makes the entire premise speculative.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The research output is a necessary and actionable step towards publishing the
+      blog post, directly supporting content creation and promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and affiliate marketing, both explicitly
+      compliant activities, with no immediate indication of collecting SSNs, storing
+      unencrypted passwords, accessing unauthorized systems, or violating GDPR with
+      non-consented PII.'
+    result: PASS
+test_results: {}

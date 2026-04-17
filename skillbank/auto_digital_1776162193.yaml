@@ -1,0 +1,78 @@
+business: Digital
+created: '2026-04-14T10:23:13.244316'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 21
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity targets a high-demand niche with a digital product,
+    ensuring excellent profit margins, instant revenue generation, and fully automated
+    scalability without human intervention.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776162193
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Critical Budget Misallocation:** The research agent consumed the entire
+      $50 budget cap for *research*, leaving no funds whatsoever for the actual execution
+      of the email send, Brevo platform costs, or any potential lead acquisition.
+      This makes the skill immediately unexecutable as planned.
+
+      *   **Fundamental Revenue Model Inconsistency:** The `revenue_model.type` is
+      "one_time" yet `opportunity_data.estimated_monthly` is $270. This contradiction
+      indicates a severe misunderstanding of the product''s monetization or a misrepresentation
+      of the expected revenue, rendering the financial projections unreliable.
+
+      *   **Undefined Success Factors:** The opportunity''s viability is entirely
+      dependent on an unspecified "lead list" quality and the market appeal of the
+      "Gumroad AI Business Automation Starter Kit." Without details on list relevance,
+      opt-in status, and product-market fit, the high RPS score and revenue estimates
+      are speculative.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The research output is an actionable preparatory step that moves toward the
+      revenue-generating objective of sending a promotional email.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No clear, immediate violation of collecting SSNs, storing unencrypted passwords,
+      accessing unauthorized systems, or violating GDPR with non-consented PII. Email
+      marketing with opt-in lists is compliant, and the term "lead list" does not
+      inherently imply non-consent.'
+    result: PASS
+test_results: {}

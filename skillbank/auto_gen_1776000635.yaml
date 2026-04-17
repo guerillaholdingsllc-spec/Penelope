@@ -1,0 +1,150 @@
+business: Cross-vertical
+created: '2026-04-12T13:30:35.142900'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $15 (for a premium stock image for cover if not AI-generated)
+  estimated_monthly_revenue_potential: $300 - $700
+  how_penelope_deploys_it_autonomously: Penelope uses AI to generate and categorize
+    advanced Midjourney prompts, compile them into an ebook format, designs the cover
+    using AI, uploads to Gumroad and Amazon KDP, and automates promotional posts on
+    art-focused forums and social media.
+  specific_revenue_action: Develop and sell 'Midjourney Prompt Guide for Stylized
+    Art' ebook on Gumroad/Amazon KDP, targeting digital artists and enthusiasts.
+  tier_classification: 1
+  time_to_first_dollar: 14
+  why_this_works_now: Midjourney's rapid advancements mean users constantly seek new
+    techniques and prompts. The market for AI art is booming, and niche guides provide
+    specific value. Artists want to push creative boundaries with AI.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 94
+  reasoning: This opportunity leverages high demand for AI art guides with near-zero
+    costs and full automation, allowing for rapid deployment and excellent scalability.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776000635
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Quality & Differentiation:** Over-reliance on fully automated content
+      generation risks producing generic, low-quality output that fails to differentiate
+      in a competitive market, leading to poor sales and rapid obsolescence.
+
+      *   **Market Volatility & Obsolescence:** The rapid evolution of AI art tools
+      (Midjourney) means guides can become outdated quickly, requiring continuous,
+      potentially non-automated, updates to maintain value and relevance.
+
+      *   **Unrealistic Automation & Cost Assumptions:** The "cost per run: 0" and
+      "full automation" for content creation, quality assurance, and effective marketing
+      are highly optimistic, potentially leading to higher actual costs and lower
+      quality than anticipated.
+
+
+      ---
+
+
+      **1. Why would this FAIL in the real market?**
+
+
+      *   **Lack of Unique Value & Quality:** While AI can generate prompts, the *quality*,
+      *originality*, and *depth* required for a "stylized art" guide to truly stand
+      out are difficult to achieve without significant human curation, artistic insight,
+      and iterative testing. Generic AI-generated content will struggle to compete
+      with human-authored guides or even free, high-quality resources.
+
+      *   **Rapid Obsolescence:** Midjourney and other AI art tools evolve at an extremely
+      fast pace. A guide published today could be partially or entirely outdated within
+      months due to new features, parameters, or model versions. Maintaining relevance
+      would require constant, potentially non-automated, updates.
+
+      *   **Market Saturation & Trust:** The market for AI art guides is already becoming
+      crowded. Buyers often seek guides from established artists or experts. A purely
+      AI-generated guide, lacking a clear human author or unique voice, may struggle
+      to build trust and command its estimated price point.
+
+      *   **Ineffective Automated Marketing:** "Automates promotional posts on art-focused
+      forums and social media" is a vague and often ineffective strategy. Generic,
+      automated posts are easily ignored or flagged as spam, failing to engage the
+      target audience effectively.
+
+
+      **2. Is there a cheaper/faster way to achieve same result?**
+
+
+      *   **Cheaper:** The proposed "cost to test" ($15) is already extremely low.
+      However, the "cost per run: 0" is unrealistic. Even minimal compute for AI generation,
+      storage, and platform fees (Gumroad/Amazon KDP take a cut) will incur costs.
+      The *true* cost of producing a *high-quality* guide, even with AI assistance,
+      might be higher than anticipated if human oversight or refinement is needed.
+
+      *   **Faster:** The 14-day "time to first dollar" is aggressive but plausible
+      *if* the automation works flawlessly and the content is immediately market-ready.
+      However, the speed might come at the expense of quality.
+
+      *   **Alternative Approach (Faster/Cheaper Validation):** Instead of a full
+      ebook, a faster and cheaper way to *validate demand* for this specific niche
+      would be to release a smaller, free lead magnet (e.g., a "Top 10 Stylized Prompts"
+      PDF) or a low-cost, short prompt pack. This allows for market feedback and list
+      building before investing in a full ebook, potentially reducing the risk of
+      a full product failure.
+
+
+      **3. What edge case breaks this?**
+
+
+      *   **Midjourney API/Terms of Service Changes:** Any significant change to Midjourney''s
+      API, prompt structure, or terms of service regarding commercial use of AI-generated
+      content or automated content creation/distribution could instantly break the
+      core automation and content generation process.
+
+      *   **Platform Policy Shifts:** Gumroad or Amazon KDP could introduce new policies
+      against fully AI-generated content, require human authorship/review, or alter
+      their fee structures, impacting profitability or the ability to publish.
+
+      *   **AI Content Detection & Rejection:** Advancements in AI content detection
+      could lead to platforms or users rejecting content perceived as purely AI-generated
+      and lacking human insight, impacting sales and reputation.
+
+      *   **Market Collapse due to Free Alternatives:** A major player (e.g., Midjourney
+      itself, or a prominent artist) releasing a comprehensive, high-quality *free*
+      guide could significantly devalue or eliminate the market for paid guides.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The skill involves publishing content and promoting products, which directly
+      aligns with the PASS criteria and is not illegal, harmful, or impossible.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill does not involve collecting SSNs, storing unencrypted passwords, accessing
+      unauthorized systems, or violating GDPR with non-consented PII. Content publishing
+      and social media posting are compliant activities.'
+    result: PASS
+test_results: {}

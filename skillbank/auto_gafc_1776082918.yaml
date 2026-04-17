@@ -1,0 +1,79 @@
+business: GAFC
+created: '2026-04-13T12:21:58.831493'
+learnings: ''
+logic_flow: {}
+objective: Create and post Bluesky thread about gun safety statistics with GAFC branding
+opportunity_data:
+  action: Create and post Bluesky thread about gun safety statistics with GAFC branding
+  business: GAFC
+  estimated_monthly: 100
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity represents a confirmed digital service for a client,
+    offering high profit margins, immediate execution, and full automation for an
+    AI agent.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776082918
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Brand Damage Risk:** Automating content creation and posting on a highly
+      sensitive and politicized topic like "gun safety statistics" without human oversight
+      carries an extreme risk of factual inaccuracies, misinterpretation, or tone-deafness.
+      This could lead to significant brand damage for GAFC, public backlash, or platform
+      moderation penalties, directly undermining the "brand" revenue objective.
+
+      *   **Unrealistic Financials & Oversight:** The `revenue_model` stating `cost_per_run:
+      0` is highly unrealistic, even for automated tasks, especially when considering
+      data sourcing, AI inference, and the critical need for human review on sensitive
+      content. The discrepancy between `revenue_model.estimated_monthly: 0` and `opportunity_data.estimated_monthly:
+      100` further indicates a flawed or unclear financial model.
+
+      *   **Edge Case Vulnerability:** The opportunity is highly vulnerable to edge
+      cases such as AI hallucination, outdated/biased data sources, misinterpretation
+      of complex statistics, or platform policy changes regarding sensitive content
+      or automated posting, any of which could lead to immediate failure and negative
+      consequences.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      Specific reason: The test output provides a detailed, actionable plan for creating
+      and posting a Bluesky thread, directly supporting the skill''s objective of
+      content creation and social media outreach for brand building.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting and content publishing, which are explicitly
+      compliant activities, and does not involve collecting SSNs, storing unencrypted
+      passwords, accessing unauthorized systems, or violating GDPR with non-consented
+      PII.'
+    result: PASS
+test_results: {}

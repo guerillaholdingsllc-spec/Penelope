@@ -1,0 +1,154 @@
+business: Digital
+created: '2026-04-09T19:02:24.983693'
+learnings: ''
+logic_flow:
+  step_1: Scrape Google Maps for target businesses (dental, law, HVAC, restaurants)
+  step_2: Score AI automation need 0-100
+  step_3: Generate personalized outreach
+  step_4: Route to Close CRM for follow-up
+objective: Identify Sacramento small businesses spending on manual tasks that AI could
+  automate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry with variation
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 2
+  estimated_monthly: 2000
+  margin_pct: 85
+  type: recurring
+skill_id: ai_automation_consulting_lead
+status: Failed
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+      *   **Unproven "AI Automation Need" Scoring:** The core value proposition relies
+      on accurately scoring a business''s AI automation need (step 2) using only Google
+      Maps data. This data typically lacks the operational insights required to make
+      such an assessment, leading to highly speculative scores and potentially irrelevant
+      outreach.
+
+      *   **Reliance on Google Maps Scraping:** Automated scraping of Google Maps
+      carries significant risks, including potential violations of Google''s Terms
+      of Service, IP bans, CAPTCHAs, and data quality issues (outdated or incomplete
+      information), making the lead source unreliable and potentially costly.
+
+      *   **Lack of Real-World Validation:** The "Verified" status is misleading,
+      as the `OUTPUT` clearly states the process was "simulated." Without real-world
+      testing, the actual conversion rates, lead quality, and true cost-per-qualified-lead
+      remain unknown and likely higher than the estimated $2.
+
+
+      ---
+
+      **1. Why would this FAIL in the real market?**
+
+
+      *   **Inaccurate Lead Qualification:** The "Score AI automation need 0-100"
+      (step 2) is the critical bottleneck. Google Maps primarily provides basic business
+      information (name, address, phone, website, reviews). It does not offer insights
+      into a business''s internal manual processes, software usage, or operational
+      pain points. Without this crucial data, the AI automation need score will be
+      largely speculative, leading to a high volume of unqualified leads and wasted
+      outreach efforts.
+
+      *   **Irrelevant Personalization:** If the "AI automation need" score is inaccurate,
+      the "personalized outreach" (step 3) will likely be generic or misinformed.
+      Small businesses are inundated with sales pitches; a truly personalized message
+      requires understanding their specific challenges, which is not achievable with
+      the described data sources. This will result in low engagement and conversion
+      rates.
+
+      *   **Google Maps ToS & Technical Hurdles:** Google actively discourages and
+      blocks automated scraping. Sustained scraping can lead to IP bans, CAPTCHAs,
+      and legal challenges, making the lead generation pipeline unstable, expensive,
+      or entirely unfeasible in the long run.
+
+      *   **Market Saturation & Competition:** Sacramento small businesses are already
+      targets for numerous marketing and consulting services. Without a genuinely
+      unique and accurately identified pain point, this offering will struggle to
+      stand out and capture attention.
+
+      *   **"Small Business" Ambiguity:** The categories (dental, law, HVAC, restaurants)
+      are broad. A single-person law firm has vastly different automation needs than
+      a multi-partner practice. The current approach doesn''t seem to differentiate,
+      leading to a one-size-fits-all approach that will miss the mark for many.
+
+
+      **2. Is there a cheaper/faster way to achieve same result?**
+
+
+      *   **Leverage Existing B2B Data Providers:** Instead of scraping, consider
+      subscribing to B2B lead databases (e.g., ZoomInfo, Apollo.io, Seamless.AI) that
+      already aggregate firmographic, technographic, and even intent data. While potentially
+      higher upfront cost per lead, these sources often provide richer data points
+      that could better inform AI automation needs, leading to higher quality leads
+      and a faster sales cycle, ultimately reducing the *cost per qualified opportunity*.
+
+      *   **Targeted Niche Focus with Manual Research:** Instead of broad categories,
+      focus on a very specific niche within one category (e.g., "dental practices
+      with 3-5 hygienists using legacy scheduling software"). This allows for more
+      targeted manual research on a smaller set of high-potential leads, potentially
+      yielding higher quality leads faster than a broad, automated but inaccurate
+      scrape.
+
+      *   **AI-Powered Website/Social Media Analysis:** After initial identification
+      (even from a basic scrape), use AI to analyze the business''s website content,
+      social media posts, and online reviews for keywords indicating manual processes,
+      customer service issues, or specific software usage. This could provide more
+      granular insights into automation needs than just Google Maps data.
+
+
+      **3. What edge case breaks this?**
+
+
+      *   **Businesses with Minimal/Outdated Online Presence:** Many small businesses,
+      especially those most in need of automation, might have a minimal or outdated
+      online footprint on Google Maps, making them invisible or miscategorized by
+      this system.
+
+      *   **Businesses Already Highly Automated:** The system might flag businesses
+      that are already using sophisticated software or AI solutions, leading to irrelevant
+      outreach and potentially damaging the sender''s reputation.
+
+      *   **Google Maps API/Policy Changes:** Any significant change in Google Maps''
+      data structure, API access, or terms of service could instantly break the scraping
+      mechanism, halting lead generation entirely.
+
+      *   **Legal/Ethical Data Usage Concerns:** Depending on jurisdiction, scraping
+      public data and using it for unsolicited commercial outreach without explicit
+      consent could lead to privacy complaints or legal challenges (e.g., GDPR, CCPA,
+      CAN-SPAM).
+
+      *   **Generic Business Names/Descriptions:** Many small businesses have generic
+      names or descriptions that provide no real insight into their operations, making
+      accurate "AI automation need" scoring impossible.'
+    result: CRITIQUE
+  quality:
+    notes: 'PASS
+
+      All criteria met; output aligns with objective, claims are verifiable, language
+      is appropriate, and math is accurate.'
+    result: PASS
+  security:
+    notes: 'FAIL
+
+      The skill''s logic flow involves scraping Google Maps, which violates Google''s
+      Terms of Service, and the collection and use of lead data for personalized outreach
+      lacks GDPR/CCPA compliance mechanisms.'
+    result: FAIL
+test_output_sample: "```json\n{\n  \"task_status\": \"completed\",\n  \"execution_summary\"\
+  : {\n    \"objective_achieved\": true,\n    \"description\": \"Successfully executed\
+  \ the revenue strategy by simulating the lead generation process for 9 Sacramento\
+  \ small businesses across specified categories. This included identifying potential\
+  \ AI automation needs, generating personalized outreach messages, and structuring\
+  \ the data for CRM integration. The process demonstrated the core logic flow within\
+  \ budget constraints.\",\n    \"start_time"
+test_results: {}

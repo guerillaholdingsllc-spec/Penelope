@@ -1,0 +1,84 @@
+business: Cross-vertical
+created: '2026-04-16T20:15:46.509015'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  Cost to test: $0 (existing AI access, Gumroad free)
+  Estimated monthly revenue potential: $400-$1,000
+  How Penelope deploys it autonomously: Penelope uses AI to generate 30 days of social
+    media post ideas + captions for a specific niche (e.g., fitness, local cafe),
+    packages as a spreadsheet/PDF, creates sales copy and preview, uploads to Gumroad,
+    schedules promo on social platforms.
+  Specific revenue action: 'Sell ''AI-Generated Social Media Content Calendar (30
+    Days)'' on Gumroad. Target: Social media managers, small businesses.'
+  Tier classification: 1
+  Time to first dollar: 7 days
+  Why this works NOW: Constant demand for fresh social media content, AI offers quick
+    generation, busy managers need done-for-you solutions to save time.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 94
+  reasoning: The opportunity leverages high demand for AI-generated content with near-zero
+    marginal cost, rapid deployment, and full automation, making it highly scalable
+    and profitable for an AI agent.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776370546
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 65
+    notes: 'CRITIQUE
+
+      Confidence Score: 65%
+
+      Key concerns:
+
+      *   **Content Quality & Uniqueness:** The primary risk is that AI-generated
+      content, especially for social media, can be generic, repetitive, or lack a
+      distinct brand voice. This will lead to customer dissatisfaction, refunds, and
+      poor reviews, undermining the product''s perceived value and scalability.
+
+      *   **Market Saturation & Competition:** The market for social media content
+      tools and services is highly competitive. Many existing AI tools (e.g., ChatGPT,
+      Jasper) allow users to generate similar content themselves, often for free or
+      as part of broader subscriptions, making differentiation crucial and difficult.
+
+      *   **Marketing & Discovery:** While Penelope schedules promotion, Gumroad is
+      a crowded marketplace. Achieving the estimated revenue potential will require
+      more than basic promotion; it demands a robust strategy to cut through the noise
+      and convince users to pay for content they might generate themselves.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The skill describes actionable steps (uploading to Gumroad, scheduling social
+      media promotion) that directly publish content and promote products, moving
+      toward revenue. The test output validates the opportunity and provides actionable
+      findings for refinement, further supporting the revenue objective.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill does not involve collecting SSNs, storing unencrypted passwords, accessing
+      unauthorized systems, or explicitly violating GDPR with non-consented PII. The
+      activities described (selling on Gumroad, social media promotion) are compliant.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,78 @@
+business: GAFC
+created: '2026-04-13T17:00:10.738947'
+learnings: ''
+logic_flow: {}
+objective: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+opportunity_data:
+  action: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+  business: GAFC
+  estimated_monthly: 500
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 23
+  raw_score: 91
+  reasoning: This opportunity leverages an autonomous AI agent for fully automated
+    digital content creation and distribution, offering high margins, instant execution,
+    and excellent scalability for a client with a clear demand signal.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776099610
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+      *   **Financial Inconsistencies & Insufficient Budget**: The `revenue_model`
+      states `estimated_monthly: 0` and `cost_per_run: 0` with a `70% margin`, which
+      fundamentally contradicts the `opportunity_data`''s `estimated_monthly: 500`.
+      This makes the actual revenue and profitability unclear. Furthermore, the $50
+      budget cap is critically insufficient for generating 5 quality, brand-aligned
+      blog posts on a sensitive topic, including any necessary human oversight, fact-checking,
+      or platform integration efforts.
+
+      *   **Content Quality & Brand Risk for Sensitive Topic**: Relying solely on
+      an "autonomous AI agent" for "gun safety blog posts" for a "GAFC" client carries
+      significant risk. AI-generated content may lack the necessary nuance, factual
+      accuracy, legal compliance, or brand-specific tone required for such a sensitive
+      topic, potentially leading to brand damage, misinformation, or platform moderation
+      issues.
+
+      *   **Overstated Automation & Integration Challenges**: The "instant execution"
+      and "no barriers" claims are premature for a "Draft" skill. Real-world WordPress
+      and Bluesky integrations often involve authentication, specific formatting,
+      and potential API changes or client approval workflows that can break autonomous
+      processes, requiring human intervention and negating speed/scalability benefits.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable steps for content generation, directly moving
+      towards the objective of publishing blog posts and promoting the business.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No immediate violations of specified security or compliance policies.'
+    result: PASS
+test_results: {}

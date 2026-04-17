@@ -1,0 +1,85 @@
+business: Cross-vertical
+created: '2026-04-09T19:17:30.532965'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $500 - $1500
+  how_penelope_deploys_it_autonomously: Penelope utilizes existing AI models (e.g.,
+    GPT-4 via API) to generate, categorize, and refine high-quality social media prompts
+    based on current marketing trends. She packages these into a downloadable PDF/Notion
+    template, sets up the Gumroad product page with automated delivery, and schedules
+    promotional content across Bluesky, relevant subreddits, and niche online forums
+    using automated posting tools.
+  specific_revenue_action: Sell '100x ChatGPT Prompts for Social Media Marketing'
+    pack on Gumroad, targeting solopreneurs and small businesses.
+  tier_classification: 1
+  time_to_first_dollar: 10
+  why_this_works_now: High and sustained demand for AI efficiency tools; small businesses
+    and content creators are actively seeking cost-effective ways to automate and
+    scale social media content creation without hiring full-time staff. The market
+    is mature for prompt engineering solutions.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 25
+  margin: 24
+  raw_score: 97
+  reasoning: This opportunity leverages high and sustained market demand for AI efficiency
+    tools with a fully automated, digital product that has near-zero variable costs
+    and a rapid time to market.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775762250
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Market Saturation & Differentiation**: The market for generic AI prompt
+      packs is highly saturated. Without a clear, compelling differentiator (beyond
+      just "high quality" which is subjective), the product risks being lost in the
+      noise or commoditized, leading to low sales volume or severe price pressure.
+
+      *   **Automated Marketing Effectiveness**: Relying solely on automated posting
+      tools for promotion on platforms like subreddits and niche forums carries a
+      high risk of being flagged as spam, ignored, or even leading to account bans,
+      severely limiting reach and damaging brand reputation.
+
+      *   **Quality Control & AI Obsolescence**: The autonomous generation and refinement
+      of "high-quality" prompts is a critical and potentially fragile component. Poor
+      quality output will lead to negative reviews. Furthermore, rapid advancements
+      in AI could quickly render current prompt engineering approaches or specific
+      models less effective or obsolete.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      The `actionable_findings` section of the test output is truncated and incomplete.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The stated `cost_per_run` and `cost_to_test` of $0 contradict the explicit use
+      of paid services (GPT-4 API), indicating inaccurate cost reporting.'
+    result: FAIL
+test_results: {}

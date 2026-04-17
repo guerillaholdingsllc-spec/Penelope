@@ -1,0 +1,86 @@
+business: Cross-vertical
+created: '2026-04-11T14:30:25.878758'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $350 - $900
+  how_penelope_deploys_it_autonomously: Penelope designs the template and guide using
+    AI for content generation and formatting, lists it on Gumroad with automated delivery,
+    and uses AI for marketing copy emphasizing ease of use and increased success rates.
+  specific_revenue_action: Create a 'GAFC Micro-Grant Application Template & Guide'
+    for freelancers and small agencies, sold on Gumroad.
+  tier_classification: 1
+  time_to_first_dollar: 15
+  why_this_works_NOW: The GAFC (Guerilla Holdings Autonomous Funding Committee - assumed
+    internal grant for this context, or a public micro-grant if GAFC is generic) grant
+    process, if simplified and digital, presents a clear opportunity. Many small businesses
+    struggle with grant applications; a template simplifies this.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 24
+  raw_score: 91
+  reasoning: This opportunity leverages AI for creation and marketing of a high-margin
+    digital product, addressing a clear market need with rapid deployment and excellent
+    scalability.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775917825
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **GAFC Branding Ambiguity & Risk**: The core product name "GAFC Micro-Grant
+      Application Template & Guide" is highly problematic. If "GAFC" refers to an
+      internal Guerilla Holdings grant, selling this externally is an ethical and
+      potential IP violation with zero market. If it''s a generic or hypothetical
+      name, it''s confusing, lacks authority, and severely limits perceived applicability
+      compared to a clearly named, generic template.
+
+      *   **Limited Value Proposition & Trust**: While demand for grant help exists,
+      the market has numerous free and paid resources. An AI-generated template, especially
+      from an unknown entity and with an obscure brand, may struggle to build the
+      necessary trust or offer a sufficiently unique value proposition to justify
+      purchase for a critical task like grant applications.
+
+      *   **Content Obsolescence & Specificity**: Grant requirements are highly dynamic
+      and specific to funders. A generic template risks quickly becoming outdated
+      or insufficient for actual applications, leading to customer dissatisfaction
+      and undermining the product''s utility.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The action involves creating and publishing a digital product (content) and
+      promoting it for sale, which directly aligns with the PASS criteria.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No immediate violations of collecting SSNs, storing unencrypted passwords, accessing
+      unauthorized systems, or violating GDPR with non-consented PII are present in
+      the skill description.'
+    result: PASS
+test_results: {}

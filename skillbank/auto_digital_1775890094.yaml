@@ -1,0 +1,78 @@
+business: Digital
+created: '2026-04-11T06:48:14.841881'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages existing customer demand for a high-margin
+    digital product through an automated email sequence, offering excellent speed
+    to revenue and scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775890094
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 65
+    notes: 'CRITIQUE
+
+      Confidence Score: 65%
+
+
+      Key concerns:
+
+      *   **Overly Optimistic Assumptions & Missing Detail:** The RPS score of 100
+      and "no barriers" claim are highly optimistic, especially given the empty `logic_flow`.
+      Success hinges on unproven conversion rates for the upsell and effective email
+      sequence design, which are not detailed.
+
+      *   **Technical & Deliverability Hurdles:** Integrating Gumroad with an email
+      service provider (ESP) and ensuring high email deliverability (avoiding spam
+      filters, managing unsubscribes) can present unforeseen technical challenges
+      and ongoing maintenance, impacting the "speed" and "scalability" claims.
+
+      *   **Market Fit & Value Proposition Risk:** The core assumption is that new
+      Gumroad buyers for an initial product will be interested in a "full book series."
+      Without validating this specific upsell demand, there''s a risk of low conversion,
+      leading to wasted effort and a failure to meet the estimated revenue.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The research output provides actionable steps and a clear plan for executing
+      the email sequence, directly moving toward the revenue objective.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves email marketing to existing Gumroad buyers, which is compliant
+      as buyers provide their email during purchase, implying consent for relevant
+      communications. No immediate violations of SSN collection, unencrypted passwords,
+      unauthorized access, or non-consented PII are present.'
+    result: PASS
+test_results: {}

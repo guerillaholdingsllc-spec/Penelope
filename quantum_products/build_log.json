@@ -1,0 +1,76 @@
+{
+  "started": "2026-04-13T14:02:36.603648",
+  "products": {
+    "pqc_smb_kit": {
+      "status": "GENERATION_FAILED"
+    },
+    "quantum_literacy": {
+      "status": "GENERATION_FAILED"
+    },
+    "prompt_pack": {
+      "status": "NEEDS_REVIEW",
+      "file": "/root/workspace/Penelope/quantum_products/prompt_pack_DRAFT.md",
+      "word_count": 98,
+      "gates": {
+        "gate1_accuracy": {
+          "pass": false,
+          "score": 0,
+          "errors": [
+            "parse error"
+          ],
+          "verdict": "FAIL"
+        },
+        "gate2_technical": {
+          "pass": false,
+          "score": 0,
+          "wrong_facts": [
+            "parse error"
+          ],
+          "verdict": "FAIL"
+        },
+        "gate3_readability": {
+          "pass": false,
+          "score": 24.11188372093025,
+          "target": 50
+        },
+        "gate4_legal": {
+          "pass": true,
+          "violations": [],
+          "has_disclaimer": true
+        },
+        "gate5_smb_clarity": {
+          "pass": false,
+          "score": 0,
+          "verdict": "FAIL"
+        },
+        "gate6_platform": {
+          "pass": true,
+          "issues": []
+        }
+      },
+      "price": "$29"
+    }
+  },
+  "gates": {},
+  "errors": [
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)",
+    "Gemini: cannot import name 'genai' from 'google' (unknown location)"
+  ],
+  "completed": "2026-04-13T14:02:38.873575"
+}

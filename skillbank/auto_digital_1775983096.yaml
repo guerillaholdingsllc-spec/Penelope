@@ -1,0 +1,79 @@
+business: Digital
+created: '2026-04-12T08:38:16.170378'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 96
+  reasoning: This digital product opportunity leverages high demand for AI automation,
+    offers excellent profit margins, and is fully automated for instant, scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775983096
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Lead List Quality & Acquisition Strategy:** The entire revenue projection
+      hinges on a "targeted lead list" whose origin, quality, and size are undefined.
+      Without a robust, ethical, and effective strategy for acquiring or leveraging
+      such a list, the email campaign will likely yield negligible results, damage
+      sender reputation, or incur unforeseen costs.
+
+      *   **Market Saturation & Product Differentiation:** The AI automation market
+      is extremely crowded. The "Starter Kit" lacks a clear unique selling proposition
+      (USP) beyond "ease of use," making it highly vulnerable to being overlooked
+      amidst countless free resources, established competitors, and more comprehensive
+      solutions.
+
+      *   **Unrealistic Financial Projections & Scalability:** The "cost_per_run:
+      0" and 70% margin are highly optimistic, ignoring Gumroad''s transaction fees
+      and the inevitable costs of scaling beyond Brevo''s free tier. The $50 budget
+      cap is insufficient for any meaningful list growth or paid promotion, severely
+      limiting the stated "scalability" and making the 100 RPS score highly suspect.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The plan is actionable and directly supports the objective of promoting a digital
+      product by outlining necessary content creation.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes email marketing, which is compliant with opt-in lists. The
+      skill does not specify that the lead list is non-consented, and there is no
+      clear, immediate violation of compliance rules.'
+    result: PASS
+test_results: {}

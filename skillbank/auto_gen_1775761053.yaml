@@ -1,0 +1,88 @@
+business: Cross-vertical
+created: '2026-04-09T18:57:33.676983'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0 (Gumroad/Etsy fees on sale, time investment for creation)
+  estimated_monthly_revenue_potential: $400 - $1,000
+  how_penelope_deploys_it_autonomously: Penelope will research trending social media
+    content strategies, generate a 30-day calendar of diverse post ideas, craft specific
+    AI prompts for each day's content, assemble the digital product (e.g., as a Notion
+    template or PDF), set up the product page on Gumroad/Etsy, write compelling sales
+    copy, and automate promotion across Guerilla Holdings' digital channels.
+  specific_revenue_action: Create and sell a 'Done-for-You AI-Powered 30-Day Social
+    Media Content Calendar & Prompt Set' for small businesses and coaches. This digital
+    product includes a Notion template, Google Sheet, or PDF with daily content ideas,
+    AI prompts to generate content, and scheduling tips.
+  tier_classification: 1
+  time_to_first_dollar: 7-14 days
+  why_this_works_NOW: Small businesses and coaches frequently lack the time or expertise
+    for consistent social media content creation. AI offers a powerful solution, and
+    'done-for-you' digital assets provide immediate value, addressing an evergreen
+    demand for social media growth and efficiency.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages strong market demand for social media efficiency
+    with a high-margin, rapidly deployable, and fully autonomous digital product.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775761053
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 55
+    notes: 'CRITIQUE
+
+      Confidence Score: 55%
+
+      Key concerns:
+
+      *   **Market Saturation & Differentiation:** The market for social media content
+      calendars, templates, and AI prompts is highly saturated. A generic "30-day
+      calendar" will struggle to stand out and justify its price against numerous
+      free or cheaper alternatives, many of which already implicitly leverage AI.
+      The "AI-powered" aspect alone is no longer a strong differentiator.
+
+      *   **Quality & Specificity:** A broad "cross-vertical" product risks being
+      too generic to be truly valuable for diverse small businesses and coaches. AI-generated
+      content, if not carefully curated and refined for specific niches, can be repetitive
+      or lack the strategic depth needed, leading to low perceived value and customer
+      dissatisfaction.
+
+      *   **Rapid Obsolescence:** Both social media platform algorithms and AI prompting
+      best practices evolve quickly. The product would require continuous updates
+      to remain relevant and effective, which might challenge the "autonomous deployment"
+      and "done-for-you" value proposition over time, potentially leading to a high
+      churn rate if not maintained.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      The test output is incomplete, cutting off critical information in the "competitive_landscape"
+      section.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill involves collecting customer data for sales and promotion but lacks
+      any explicit mention of GDPR/CCPA compliance mechanisms or data handling policies.'
+    result: FAIL
+test_results: {}

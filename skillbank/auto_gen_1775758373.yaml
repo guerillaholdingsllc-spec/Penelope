@@ -1,0 +1,86 @@
+business: Cross-vertical
+created: '2026-04-09T18:12:53.334455'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $300 - $800
+  how_penelope_deploys_it_autonomously: Penelope generates a curated set of 25-50
+    high-quality, tested ChatGPT prompts focused on LinkedIn content, engagement,
+    and lead nurturing. She creates the Gumroad product page with compelling copy,
+    sets pricing, and drafts a launch sequence of social media posts for Bluesky and
+    Guerilla Holdings' blog, automating scheduling and promotion.
+  specific_revenue_action: 'AI Prompt Pack: ''LinkedIn Lead Gen & Engagement Prompts''
+    for Solopreneurs & Marketers, sold on Gumroad.'
+  tier_classification: 1
+  time_to_first_dollar: 7-14 days
+  why_this_works_NOW: The demand for practical AI application is skyrocketing. Solopreneurs
+    and small businesses are actively seeking efficient ways to leverage AI for content
+    creation and lead generation on professional platforms like LinkedIn, reducing
+    manual effort and improving engagement. Prompt engineering is a high-value skill
+    that can be productized.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 24
+  margin: 25
+  raw_score: 96
+  reasoning: This opportunity leverages high demand for AI tools in a specific niche
+    with zero cost, rapid deployment, and fully autonomous, infinitely scalable digital
+    product delivery.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775758373
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 55
+    notes: 'CRITIQUE
+
+      Confidence Score: 55%
+
+      Key concerns:
+
+      *   **Market Saturation & Commoditization:** The market for generic AI prompt
+      packs, especially for common use cases like LinkedIn lead generation, is already
+      highly competitive and rapidly commoditizing. Many free resources and similar
+      paid products exist, making differentiation and sustained visibility extremely
+      challenging.
+
+      *   **Rapid Obsolescence & Value Erosion:** AI models evolve quickly. Prompts
+      that are "high-quality" and "tested" today may become less effective or obsolete
+      within months, requiring continuous updates not accounted for in the "one_time"
+      revenue model, or risking customer dissatisfaction.
+
+      *   **Low Barrier to Entry & DIY Alternatives:** The core value (curated prompts)
+      can often be replicated by users themselves using free AI tools or found through
+      free online resources, undermining the perceived value and willingness to pay
+      for a static prompt pack.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      The test output is incomplete, and the skill''s RPS score calculation is inconsistent.'
+    result: FAIL
+  security:
+    notes: 'PASS
+
+      No direct violations of specified compliance checks (PII/credentials exposure,
+      platform ToS, budget, or direct lead data handling) were identified within the
+      provided skill definition.'
+    result: PASS
+test_results: {}

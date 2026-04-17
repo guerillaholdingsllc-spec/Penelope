@@ -1,0 +1,84 @@
+business: Cross-vertical
+created: '2026-04-13T08:13:39.029446'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $0 (free tiers on platforms, free screen recording software)
+  estimated_monthly_revenue_potential: $600 - $1500
+  how_penelope_deploys_it_autonomously: Penelope uses an LLM to script course outlines
+    and lesson content. It generates visuals and voiceovers using AI tools, compiles
+    into video lessons (simple editing), uploads to Teachable, and automates sales
+    page creation and email marketing sequences.
+  specific_revenue_action: 'Online Course: ''Mastering Midjourney V6 for Digital Artists''
+    (short video series) on Teachable/Podia.'
+  tier: 1
+  time_to_first_dollar: 28
+  why_this_works_NOW: Midjourney V6's new features mean many artists need updated
+    guidance; practical, focused courses have high perceived value.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 94
+  reasoning: This opportunity leverages timely demand for a digital product, offering
+    high profit margins and excellent scalability due to its fully autonomous AI creation
+    and deployment.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776068019
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 25
+    notes: 'CRITIQUE
+
+      Confidence Score: 25%
+
+      Key concerns:
+
+      *   **Quality & Authenticity:** The premise of fully autonomous AI generating
+      course content (script, visuals, voiceover, editing) for a nuanced creative
+      tool like Midjourney V6 is highly optimistic. It''s unlikely to achieve the
+      pedagogical depth, practical insights, and human engagement required to compete
+      in a saturated market, leading to poor reviews and low conversion.
+
+      *   **Market Saturation & Trust:** The "Midjourney course" market is crowded
+      with human experts. An anonymous, AI-generated course lacks the inherent authority,
+      unique perspective, and brand trust that drives sales and positive word-of-mouth,
+      making differentiation and sustained revenue generation extremely challenging.
+
+      *   **Rapid Obsolescence & Maintenance:** Midjourney V6 is a rapidly evolving
+      tool. An entirely autonomous system will struggle to keep the course content
+      accurately updated with new features, changes, or best practices, risking rapid
+      obsolescence and negative user experience without significant human oversight.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides actionable steps for content creation and market research,
+      directly supporting the promotion and sale of the online course, which moves
+      toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill does not describe collecting SSNs, storing unencrypted passwords,
+      accessing unauthorized systems, or violating GDPR with non-consented PII. Email
+      marketing is explicitly allowed if opt-in.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,82 @@
+business: Digital
+created: '2026-04-14T15:21:13.261197'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 97
+  reasoning: This opportunity leverages existing customer demand for high-margin digital
+    products through a fully automated email sequence, ensuring rapid and scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776180073
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 65
+    notes: 'CRITIQUE
+
+      Confidence Score: 65%
+
+      Key concerns:
+
+      *   **Market Fit & Offer Relevance:** The assumption that all new Gumroad buyers
+      will be interested in a "full book series" upsell immediately after purchasing
+      a single product is optimistic. Irrelevant or overly aggressive offers can lead
+      to low conversion rates, increased unsubscribes, or negative brand perception,
+      rather than the estimated revenue.
+
+      *   **Data Inconsistencies & Lack of Detail:** Significant contradictions exist
+      within the `revenue_model` (e.g., `type: "one_time"` vs. `opportunity_data.estimated_monthly:
+      300`) and the `logic_flow` is empty. This indicates a lack of thorough planning,
+      potential miscalculation of the opportunity''s true nature, and an overestimation
+      of the "Tier 1 - Instant Digital (No barriers)" status.
+
+      *   **Execution Risk & Edge Cases:** The success hinges entirely on the quality
+      of the email sequence, the compelling nature of the upsell offer, and robust
+      technical integration. Edge cases like buyers already owning the series, technical
+      integration failures, or legal compliance issues (e.g., explicit consent for
+      marketing emails) are not addressed and could significantly impact performance
+      or break the automation.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable steps for integrating systems and selecting tools
+      to send emails and promote products, directly aligning with the skill''s objective
+      and moving toward revenue generation.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves email marketing to existing customers (Gumroad buyers) for
+      related products, which is compliant under legitimate interest and does not
+      involve collecting SSNs, storing unencrypted passwords, accessing unauthorized
+      systems, or clear, immediate GDPR violations.'
+    result: PASS
+test_results: {}

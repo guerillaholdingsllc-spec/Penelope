@@ -1,0 +1,192 @@
+#!/usr/bin/env python3
+"""
+Gumroad Traffic Drip Agent — runs every 6h
+Fills Buffer queue with Gumroad product posts + AI images.
+"""
+import os, sys, requests, json, time, random, logging
+from pathlib import Path
+from datetime import datetime, timezone
+
+LOG  = Path("/root/workspace/Penelope/conductor_logs/gumroad_traffic.log")
+LOG.parent.mkdir(parents=True, exist_ok=True)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [GT] %(message)s",
+    handlers=[logging.FileHandler(LOG), logging.StreamHandler(sys.stdout)]
+)
+log = logging.getLogger()
+
+def env():
+    e = {}
+    try:
+        for l in open("/root/penelope_vault.env"):
+            if "=" in l and not l.startswith("#"):
+                k,v=l.strip().split("=",1); e[k.strip()]=v.strip()
+    except: pass
+    return e
+
+E             = env()
+BUFFER_TOKEN  = E.get("BUFFER_API_TOKEN","Uihf9wIwWb8Vs_0qAdeu8kfkHCTHbh-ZwSAyi3G2F1i")
+WS_KEY        = E.get("WAVESPEED_API_KEY","")
+GQL_URL       = "https://api.buffer.com/graphql"
+BH            = {"Authorization": f"Bearer {BUFFER_TOKEN}", "Content-Type": "application/json"}
+WSH           = {"Authorization": f"Bearer {WS_KEY}", "Content-Type": "application/json"}
+IMG_DIR       = Path("/var/www/html/generated")
+SERVER        = "https://trustchainservices.com/generated"
+CATALOG       = Path("/root/workspace/Penelope/gumroad_catalog.json")
+IMG_DIR.mkdir(parents=True, exist_ok=True)
+
+CHANNELS = {
+    "twitter":   "69db9b41031bfa423cf6d64e",
+    "tiktok":    "69db9bcf031bfa423cf6d86b",
+    "pinterest": "69db9be6031bfa423cf6d8be",
+}
+
+IMAGES = {
+    "book":      ("gumroad_book_cover.jpg",
+                  "Epic sci-fi digital art: fractured planets colliding in space, deep blue purple, cinematic, no text, portrait"),
+    "prompts":   ("gumroad_prompts_cover.jpg",
+                  "Futuristic AI business: glowing circuit board chess board with quantum patterns, electric blue gold, minimal, no text, portrait"),
+    "checklist": ("gumroad_checklist_cover.jpg",
+                  "Data security shield: glowing padlock with document icons and checkmarks, blue green, tech, no text, portrait"),
+    "guide":     ("gumroad_guide_cover.jpg",
+                  "Quantum business leadership: leader silhouette before holographic quantum waves, navy gold, aspirational, no text, portrait"),
+    "other":     ("gumroad_other_cover.jpg",
+                  "Modern digital product: sleek device mockup glowing interface, neon dark background, tech, no text, portrait"),
+}
+
+MUTATION = """
+mutation CreatePost($input: CreatePostInput!) {
+    createPost(input: $input) {
+        ... on PostActionSuccess { post { id status } }
+        ... on InvalidInputError { message }
+        ... on LimitReachedError  { message }
+        ... on UnauthorizedError  { message }
+        ... on UnexpectedError    { message }
+    }
+}"""
+
+def gql(q, v=None):
+    r = requests.post(GQL_URL, headers=BH,
+        json={"query": q, "variables": v or {}}, timeout=20)
+    return r.json().get("data",{}) if r.status_code==200 else {}
+
+def get_spec(p):
+    n, pt = p["name"], p["type"]
+    if pt=="book": return "book"
+    if "Prompt" in n: return "prompts"
+    if "Safety" in n or "Check" in n: return "checklist"
+    if "Guide" in n: return "guide"
+    return "other"
+
+def ensure_image(key):
+    fname, prompt = IMAGES[key]
+    path = IMG_DIR / fname
+    if path.exists():
+        return f"{SERVER}/{fname}"
+    log.info(f"Generating {key} image...")
+    try:
+        r = requests.post("https://api.wavespeed.ai/api/v3/wavespeed-ai/flux-dev",
+            headers=WSH, json={"prompt": prompt, "size": "768x1024", "num_inference_steps": 25},
+            timeout=30)
+        if r.status_code != 200: return None
+        job_id = r.json().get("data",{}).get("id")
+        if not job_id: return None
+        for _ in range(30):
+            time.sleep(5)
+            pr = requests.get(f"https://api.wavespeed.ai/api/v3/predictions/{job_id}/result",
+                headers=WSH, timeout=15)
+            if pr.status_code==200:
+                pd = pr.json().get("data",{})
+                if pd.get("status")=="completed":
+                    urls = pd.get("outputs",[])
+                    if urls:
+                        img = requests.get(urls[0], timeout=30)
+                        if img.status_code==200:
+                            path.write_bytes(img.content)
+                            log.info(f"Image saved: {fname}")
+                            return f"{SERVER}/{fname}"
+                elif pd.get("status")=="failed": return None
+    except Exception as e:
+        log.error(f"Image gen: {e}")
+    return None
+
+def make_text(p, svc):
+    n, price, url, pt = p["name"], p["price"], p["url"], p["type"]
+    if pt == "book":
+        if svc == "twitter":
+            return f"📖 {n[:50]}\n\nOnly ${price:.0f} — sci-fi saga you won't put down\n\n→ {url}\n\n#SciFi #BookTok #IndieAuthor #DigitalBooks"
+        return (f"{n} — Sci-Fi Ebook ${price:.0f}\n\nFractured worlds. High stakes. Instant download.\n\n{url}\n\n"
+                f"#SciFiBooks #EpicSciFi #IndieAuthor #GumroadFinds #BookLovers #SpaceOpera")
+    elif "Prompt" in n:
+        if svc == "twitter":
+            return f"🚀 25 AI Business Strategy Prompts\nBuilt for leaders who move fast.\n${price:.0f} → {url}\n\n#AI #BusinessStrategy #ChatGPT #Entrepreneur"
+        return (f"25 AI Business Strategy Prompts — ${price:.0f}\nStop starting from scratch. "
+                f"ChatGPT + Claude frameworks ready to deploy.\n✅ Instant download\n{url}\n\n"
+                f"#AIPrompts #BusinessStrategy #Entrepreneur #ChatGPT #GumroadFinds #DigitalDownload")
+    elif "Safety" in n or "Check" in n:
+        if svc == "twitter":
+            return f"⚠️ Client data checklist — know your exposure before a breach.\n${price:.0f} → {url}\n\n#DataPrivacy #SmallBusiness #Cybersecurity"
+        return (f"Client Data Safety Checklist — ${price:.0f}\nGDPR + CCPA in plain English. "
+                f"Protect clients before it's too late.\n✅ Instant PDF\n{url}\n\n"
+                f"#DataPrivacy #SmallBusiness #Cybersecurity #GumroadFinds #DataProtection")
+    elif "Guide" in n:
+        if svc == "twitter":
+            return f"📘 Quantum Future Business Guide\nAI × strategy × leadership for 2026+\n${price:.0f} → {url}\n\n#BusinessLeadership #AI #Strategy"
+        return (f"The Quantum Future — Business Leader's Guide ${price:.0f}\n"
+                f"Forward-thinking playbook for leaders navigating AI and disruption.\n✅ Instant download\n{url}\n\n"
+                f"#BusinessLeadership #AIStrategy #FutureOfWork #GumroadFinds #QuantumFuture")
+    else:
+        return f"{n[:50]} — ${price:.0f}\nInstant digital download → {url}\n\n#DigitalProducts #GumroadFinds"
+
+def post(channel_id, text, img=None):
+    inp = {"channelId": channel_id, "text": text,
+           "schedulingType": "automatic", "mode": "addToQueue"}
+    if img:
+        inp["assets"] = {"images": [{"url": img}]}
+    d = gql(MUTATION, {"input": inp})
+    r = d.get("createPost", {})
+    p = r.get("post")
+    if p and p.get("id"): return True, p["id"]
+    return False, r.get("message", str(r))[:80]
+
+def run():
+    log.info("=== Gumroad Traffic Drip run ===")
+    if not CATALOG.exists():
+        log.error("Catalog missing"); return
+    catalog = json.loads(CATALOG.read_text())
+
+    # Ensure images
+    img_cache = {}
+    for key in IMAGES:
+        img_cache[key] = ensure_image(key)
+
+    random.shuffle(catalog)
+    ok = fail = 0
+    for p in catalog:
+        key = get_spec(p)
+        img = img_cache.get(key)
+        for svc, cid in CHANNELS.items():
+            text     = make_text(p, svc)
+            need_img = svc in ("pinterest", "tiktok")
+            success, info = post(cid, text, img if need_img else None)
+            if success:
+                log.info(f"✅ [{svc}] {p['name'][:35]}")
+                ok += 1
+            else:
+                if "limit" in str(info).lower() or "Whoops" in str(info):
+                    log.info(f"⏸  [{svc}] Queue full")
+                    break
+                log.warning(f"❌ [{svc}] {p['name'][:30]}: {info}")
+                fail += 1
+            time.sleep(0.4)
+
+    log.info(f"Done: {ok} posted, {fail} failed — sleeping 6h")
+
+if __name__ == "__main__":
+    while True:
+        try:
+            run()
+        except Exception as e:
+            log.error(f"Run error: {e}")
+        time.sleep(6 * 3600)

@@ -1,0 +1,75 @@
+business: Digital
+created: '2026-04-15T22:55:12.900561'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 23
+  raw_score: 88
+  reasoning: This opportunity leverages an AI agent's strengths in automated content
+    creation and digital publishing for high-margin affiliate revenue, though the
+    initial demand signal suggests moderate revenue potential.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776293712
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 25
+    notes: 'CRITIQUE
+
+      Confidence Score: 25%
+
+      Key concerns:
+
+      *   **Low Revenue, High Competition:** The estimated $150/month is a very low
+      return for the effort required to penetrate a competitive local market and build
+      trust for affiliate recommendations. Achieving visibility and conversions against
+      established local resources will be challenging.
+
+      *   **Trust and Authority Deficit:** Affiliate marketing relies heavily on trust.
+      A new, potentially AI-generated blog post will struggle to establish the necessary
+      authority and credibility with local business owners who often seek personalized,
+      expert advice from trusted local sources.
+
+      *   **Inconsistent Revenue Model & Budget Constraints:** The `revenue_model`
+      states "one_time" and "estimated_monthly: 0", directly contradicting the `opportunity_data`''s
+      "estimated_monthly: 150". This ambiguity, coupled with a restrictive `budget_cap_24h`
+      of $50, makes sustained success or even initial traction highly improbable.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output demonstrates actionable research directly supporting the creation
+      of an affiliate review blog post, moving toward content publication and product
+      promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      Skill involves compliant content publishing and affiliate marketing, with no
+      immediate violations of prohibited activities.'
+    result: PASS
+test_results: {}

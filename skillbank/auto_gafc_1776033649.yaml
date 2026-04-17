@@ -1,0 +1,76 @@
+business: GAFC
+created: '2026-04-12T22:40:49.333847'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+opportunity_data:
+  action: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity offers high profit margins, instant execution, and full
+    scalability for an AI agent due to its digital nature, with a moderate but validated
+    demand signal for brand-related revenue.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776033649
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Brand Mismatch & Credibility:** The brand name "Glocks and Fried Chicken"
+      inherently creates a tone-deaf perception for serious firearm safety education.
+      This mismatch risks alienating existing followers, failing to attract a safety-conscious
+      audience, and undermining the brand''s credibility as an authority on safety.
+
+      *   **Contradictory Financials & Unjustified Value:** The `revenue_model` states
+      $0 estimated monthly revenue and $0 cost, directly contradicting the `opportunity_data`''s
+      $200/month brand value estimate. The quantification of brand value is arbitrary,
+      lacks a clear mechanism for measurement, and the "high profit margins" claim
+      is baseless given the stated $0 revenue.
+
+      *   **Platform & Public Relations Risk:** Posting firearm-related content on
+      Instagram, even safety-focused, carries significant risk of platform policy
+      violations, algorithm suppression, or negative public backlash. This could severely
+      damage brand value rather than enhance it, especially if perceived as opportunistic
+      or inauthentic.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides actionable research and strategy directly supporting the
+      objective of posting educational content to social media, which builds brand
+      value for GAFC.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting of educational content, which is compliant
+      and does not violate any prohibited activities.'
+    result: PASS
+test_results: {}

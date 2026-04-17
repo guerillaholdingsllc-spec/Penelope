@@ -1,0 +1,84 @@
+business: Cross-vertical
+created: '2026-04-13T03:52:57.371470'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $350 - $850
+  how_penelope_deploys_it_autonomously: Penelope generates various LinkedIn post/article
+    templates using an LLM, packages them, creates Gumroad listing, and schedules
+    targeted promotions on LinkedIn itself.
+  specific_revenue_action: 'Offer ''Done-for-You LinkedIn Post & Article Templates''
+    (AI-generated) on Gumroad. Audience: Business professionals, thought leaders.'
+  tier_classification: 1
+  time_to_first_dollar: 16
+  why_this_works_NOW: LinkedIn's importance for professional branding, demand for
+    engaging content, AI for quick content generation.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 94
+  reasoning: This opportunity leverages AI for high-demand digital content with excellent
+    margins, rapid deployment, and full automation, making it highly attractive for
+    an AI agent.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776052377
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 40
+    notes: 'CRITIQUE
+
+      Confidence Score: 40%
+
+      Key concerns:
+
+      *   **Commoditization & Quality:** The market for AI-generated content templates
+      is rapidly commoditizing. Generic, AI-generated templates risk being perceived
+      as low-value, easily replicable by free tools, and lacking the unique voice
+      or depth professionals seek, leading to poor conversion or refunds.
+
+      *   **Market Saturation & Differentiation:** The space is already crowded with
+      free resources, other template providers, and direct AI tools (e.g., ChatGPT).
+      Without a strong, unique selling proposition (e.g., highly specialized niche,
+      proven engagement rates, unique tone), standing out and achieving consistent
+      sales volume will be challenging.
+
+      *   **Marketing Effectiveness vs. "Cost to Test $0":** While the direct cost
+      of *creating* the product is low, generating the estimated revenue ($350-$850)
+      requires effective marketing and distribution. "Targeted promotions on LinkedIn"
+      implies ad spend or significant organic effort, which is a real cost not reflected
+      in the "$0 cost to test" and could quickly erode margins if not highly optimized.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides actionable market research and competitive analysis,
+      which are crucial preparatory steps for publishing and promoting the digital
+      product, directly supporting the revenue objective.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No clear, immediate violations of forbidden activities (collecting SSNs, storing
+      unencrypted passwords, accessing unauthorized systems, or violating GDPR with
+      non-consented PII) are described in the skill.'
+    result: PASS
+test_results: {}

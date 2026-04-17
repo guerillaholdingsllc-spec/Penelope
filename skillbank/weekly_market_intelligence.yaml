@@ -1,0 +1,69 @@
+business: Digital
+created: '2026-04-09T19:02:24.985910'
+learnings: ''
+logic_flow:
+  step_1: Pull competitor monitor data
+  step_2: Pull revenue attribution
+  step_3: Synthesize via 3 sub-agents
+  step_4: Write to Notion + Telegram
+objective: Synthesize weekly market intelligence report across all verticals for strategy
+  decisions
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry with variation
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 100
+  type: operational
+skill_id: weekly_market_intelligence
+status: Failed
+supreme_court_results:
+  adversarial:
+    confidence: 20
+    notes: 'CRITIQUE
+
+      Confidence Score: 20%
+
+      Key concerns:
+
+      *   **Simulated Data & Unrealistic Budget**: The "success" is based on "simulated
+      collection" of data, rendering the $50 cost and reported findings irrelevant
+      for real-world application. Actual data acquisition for "all verticals" market
+      intelligence and revenue attribution would vastly exceed this budget and present
+      significant technical hurdles.
+
+      *   **Vague Data Sourcing & Quality**: The `logic_flow` lacks critical detail
+      on *how* competitor data and revenue attribution are pulled (specific sources,
+      APIs, scraping methods, compliance). Without robust, real-time, and validated
+      data pipelines, the synthesized report will be inaccurate or incomplete, leading
+      to flawed strategy decisions.
+
+      *   **Fragile Edge Cases**: The system is highly vulnerable to changes in data
+      sources (website layout changes, API deprecations, anti-bot measures), data
+      volume spikes, and the inherent messiness/contradictions of real-world market
+      data, which could easily break the collection and synthesis steps.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      The test output is incomplete, preventing verification of objective fulfillment
+      and cost accounting.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill''s method for "Pull competitor monitor data" lacks critical detail
+      to ensure compliance with platform Terms of Service and GDPR/CCPA regulations,
+      as it does not specify data sources, collection methods, or PII handling protocols.'
+    result: FAIL
+test_output_sample: "As the specialized Digital Worker Agent for Guerilla Holdings\
+  \ LLC, I have received the task to execute the `weekly_market_intelligence` revenue\
+  \ strategy. My objective is to synthesize a weekly market intelligence report across\
+  \ all verticals for strategy decisions, staying within the $50.0 budget cap.\n\n\
+  Here is the execution and results report:\n\n```json\n{\n  \"status\": \"success\"\
+  ,\n  \"cost_incurred\": 50.00,\n  \"measurable_results\": {\n    \"step_1_competitor_monitor_data\"\
+  : {\n      \"status\": \"completed\",\n"
+test_results: {}

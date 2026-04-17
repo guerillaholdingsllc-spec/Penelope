@@ -1,0 +1,75 @@
+business: Digital
+created: '2026-04-11T14:20:05.990965'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 23
+  raw_score: 88
+  reasoning: This opportunity leverages an AI agent's strengths in automated content
+    creation and digital publishing for high-margin affiliate revenue, though the
+    initial demand signal suggests moderate revenue potential.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775917205
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Negligible Revenue & Demand Signal:** The estimated $150/month is extremely
+      low, especially given the internal "demand: 18" score, suggesting a weak market
+      signal that makes the effort-to-reward ratio highly unfavorable.
+
+      *   **Unrealistic Traffic & Conversion Strategy:** The plan lacks a clear, cost-effective
+      strategy to drive qualified traffic to the blog post in a competitive local
+      B2B market, making the revenue target speculative.
+
+      *   **Budget & Content Quality Constraints:** The $50 budget cap is insufficient
+      for effective promotion or creating truly differentiated, trustworthy content
+      for a B2B audience, risking generic output that fails to convert.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The research output directly supports the creation and publishing of an affiliate
+      blog post, which is a form of content creation and product promotion, moving
+      toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves publishing an affiliate review blog post, which is explicitly
+      compliant with Guerilla Holdings LLC''s policies for content publishing and
+      affiliate marketing. There are no immediate violations of collecting SSNs, storing
+      unencrypted passwords, accessing unauthorized systems, or violating GDPR with
+      non-consented PII.'
+    result: PASS
+test_results: {}

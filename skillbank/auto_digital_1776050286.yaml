@@ -1,0 +1,83 @@
+business: Digital
+created: '2026-04-13T03:18:06.029897'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 96
+  reasoning: This digital product opportunity leverages high demand for AI automation,
+    offers excellent profit margins, and is fully automated for instant, scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776050286
+status: Failed
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+
+      *   **Lead List Quality & Compliance:** The entire success of this opportunity
+      hinges on an unverified "lead list." Its origin, quality, engagement, and compliance
+      with email marketing regulations (e.g., GDPR, CAN-SPAM) are critical unknowns.
+      A poor or non-compliant list will lead to abysmal conversion rates, spam complaints,
+      damaged sender reputation, and potential account suspension by Brevo.
+
+      *   **Product Differentiation & Market Saturation:** The market for "AI Business
+      Automation Starter Kits" and "AI prompt libraries" is extremely saturated. The
+      assumed product contents are generic. Without clear differentiation, unique
+      value proposition, or an established brand, this kit will struggle significantly
+      to stand out and convert against numerous free and paid alternatives.
+
+      *   **Overly Optimistic RPS Score & Assumptions:** The RPS score of 100 is highly
+      unrealistic given the significant unaddressed variables. The reasoning provided
+      for the score fails to account for real-world market competition, the inherent
+      challenges of email marketing to a cold/unverified list, and the generic nature
+      of the product, leading to a false sense of guaranteed success.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The skill''s objective is to send a promotional email, which directly promotes
+      a product and moves toward revenue, and the test output provides a sound analysis
+      supporting its execution.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes standard email marketing to a lead list, which is compliant
+      when using opt-in lists. There is no indication of collecting SSNs, storing
+      unencrypted passwords, accessing unauthorized systems, or clear violation of
+      GDPR with non-consented PII. The mention of a "clean and engaged lead list"
+      suggests an intent for compliance.'
+    result: PASS
+test_results: {}

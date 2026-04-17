@@ -1,0 +1,82 @@
+business: GAFC
+created: '2026-04-15T20:15:19.792981'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+  on social
+opportunity_data:
+  action: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+    on social
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 12
+  margin: 25
+  raw_score: 87
+  reasoning: The opportunity benefits from high automation and digital execution,
+    leading to excellent speed, scalability, and profit margins, but the direct market
+    demand signal for the specific brand content and its estimated revenue is relatively
+    low.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776284119
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Unrealistic Financial Model & Attribution:** The `revenue_model` explicitly
+      states `estimated_monthly: 0` and `cost_per_run: 0`, directly contradicting
+      the `opportunity_data`''s $200 estimated monthly revenue. A 70% margin on zero
+      cost is meaningless, and attributing $200 in direct revenue to "brand awareness"
+      content, especially with a `demand` score of 12, is highly speculative and lacks
+      a clear monetization path.
+
+      *   **Low Demand & Undefined Strategy:** A `demand` score of 12 indicates a
+      very weak market signal for this specific content. The current output only provides
+      character definitions, not a concrete content strategy, target audience analysis,
+      or clear KPIs to measure "brand awareness" effectively, making success highly
+      improbable.
+
+      *   **Operational Cost Blind Spot:** The assumption of `cost_per_run: 0` and
+      `budget_spent: 0.00` is fundamentally flawed. Even with high automation, there
+      are inherent costs for platform usage, content generation (even if automated,
+      the automation itself has costs), monitoring, and potential ad spend to achieve
+      any meaningful reach, which are completely unaddressed.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output provides essential research and planning for social media content
+      creation, directly supporting the objective of posting to social media for brand
+      awareness.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No immediate compliance violations found. The skill involves social media content
+      creation and posting, which is compliant, and does not expose sensitive data
+      or violate GDPR.'
+    result: PASS
+test_results: {}

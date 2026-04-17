@@ -1,0 +1,81 @@
+business: Digital
+created: '2026-04-10T22:57:31.925472'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 96
+  reasoning: This digital product opportunity leverages high demand for AI automation,
+    offers excellent profit margins, and is fully automated for instant, scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775861851
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Lead List Quality & Compliance:** The entire success of this opportunity
+      is predicated on the quality, targeting, and legal compliance (e.g., GDPR, CAN-SPAM)
+      of the unverified lead list. Poor quality leads will result in abysmal conversion
+      rates, high bounce rates, spam complaints, and potential account suspension
+      with Brevo, rendering the campaign ineffective.
+
+      *   **Product-Market Fit & Competition:** While "AI automation" has high demand,
+      the specific "Gumroad AI Business Automation Starter Kit" faces a potentially
+      saturated market. Without a clear Unique Selling Proposition (USP) or proven
+      resonance with *this specific* lead list, the offer may fail to convert, despite
+      the general demand for AI solutions.
+
+      *   **Financial Discrepancies & Over-Optimism:** The conflicting estimated monthly
+      revenue figures (0 vs. 270) and an unrealistic cost-per-run of 0 indicate a
+      lack of detailed financial planning. The "Tier 1 - Instant Digital (No barriers)"
+      label and 100 RPS score are overly optimistic, underestimating the real-world
+      challenges and barriers inherent in email marketing to an unproven audience.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides a comprehensive strategic plan for executing the skill''s
+      objective of sending a promotional email, which is a direct revenue-generating
+      activity.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes standard email marketing to a lead list, which is compliant
+      assuming the list is opt-in, and does not involve collecting SSNs, storing unencrypted
+      passwords, accessing unauthorized systems, or explicitly violating GDPR with
+      non-consented PII.'
+    result: PASS
+test_results: {}

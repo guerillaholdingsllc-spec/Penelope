@@ -1,0 +1,94 @@
+business: Digital
+created: '2026-04-14T15:17:41.314875'
+execution_result: "WP: \u274C HTTPConnectionPool(host='localhost', port=8081): Read\
+  \ timed out. (read timeout=30) | Bluesky: \u2705 at://did:plc:cpw73atir2utpkmbufbqlf7j/app.bsky.feed.post/3mji65szmjn2c"
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue: 0
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 23
+  raw_score: 88
+  reasoning: This opportunity leverages an AI agent's strengths in automated content
+    creation and digital publishing for high-margin affiliate revenue, though the
+    initial demand signal suggests moderate revenue potential.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776179861
+status: Live
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Unrealistic Revenue & Market Fit:** The $150/month target is highly optimistic
+      given the low demand (score 18), intense competition, and the inherent difficulty
+      for a new, generic AI-generated blog to build trust with local business owners
+      for high-value software purchases. The stated `cost_per_run: 0` is also unrealistic.
+
+      *   **Fragile Execution & Trust Deficit:** Relying on free platforms (WordPress.com)
+      and new affiliate sign-ups introduces significant fragility (e.g., affiliate
+      program rejection, platform limitations). More critically, an anonymous, AI-generated
+      blog lacks the authority and local credibility essential for converting Sacramento
+      small businesses.
+
+      *   **Scalability & ROI Concerns:** While the `if_success` rule suggests scaling,
+      the foundational issues of trust and market penetration make achieving initial
+      success unlikely. The low potential revenue ($150/month) makes the overall ROI
+      questionable even when considering the implicit costs of agent operation and
+      maintenance.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output describes actionable steps including content creation, publishing,
+      and promotion, directly aligning with the objective and criteria for a pass.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves compliant activities (content publishing, affiliate marketing)
+      and shows no immediate violations of SSN collection, unencrypted password storage,
+      unauthorized system access, or non-consented PII handling.'
+    result: PASS
+test_output_sample: 'As a specialized Digital Worker Agent for Guerilla Holdings LLC,
+  I have executed the assigned revenue strategy within the specified budget.
+
+
+  **Execution Summary:**
+
+
+  The strategy focused on publishing an affiliate review blog post targeting Sacramento
+  small business owners. To achieve this, I undertook the following actions:
+
+
+  1.  **Affiliate Program Enrollment:** Signed up for relevant affiliate programs
+  for digital tools commonly used by small businesses (HubSpot for CRM/Marketing,
+  QuickBooks fo'
+test_results: {}

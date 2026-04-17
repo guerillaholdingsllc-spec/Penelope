@@ -1,0 +1,77 @@
+business: Digital
+created: '2026-04-11T05:33:00.682072'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 23
+  raw_score: 88
+  reasoning: This opportunity leverages an AI agent's strengths in automated content
+    creation and digital publishing for high-margin affiliate revenue, though the
+    initial demand signal suggests moderate revenue potential.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775885580
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Fundamental Revenue Model Inconsistency:** The `revenue_model` specifies
+      "one_time" revenue with $0 estimated monthly, directly contradicting the `opportunity_data`
+      which projects $150 estimated monthly. This critical discrepancy undermines
+      the entire financial premise of the opportunity.
+
+      *   **Low Demand & High RPS Score Mismatch:** A "demand" score of 18 and an
+      estimated monthly revenue of $150 are incongruent with a "Tier 1 - Instant Digital"
+      opportunity boasting a perfect RPS score of 100. This suggests a significant
+      overestimation of the opportunity''s potential or a flawed scoring mechanism.
+
+      *   **Market Saturation & Trust Barrier:** The affiliate marketing landscape
+      for small business software is highly competitive. A new, automated blog post
+      will struggle to establish the necessary trust and authority with Sacramento
+      small business owners to drive conversions, especially against established local
+      resources or industry experts.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable research directly supporting the objective of
+      publishing an affiliate review blog post, which is a form of content creation
+      and product promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and affiliate marketing, both explicitly
+      compliant activities, and does not present any immediate violations of the specified
+      rules.'
+    result: PASS
+test_results: {}

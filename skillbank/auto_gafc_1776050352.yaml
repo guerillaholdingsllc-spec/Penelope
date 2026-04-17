@@ -1,0 +1,76 @@
+business: GAFC
+created: '2026-04-13T03:19:12.211122'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+opportunity_data:
+  action: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity offers high profit margins, instant execution, and full
+    scalability for an AI agent due to its digital nature, with a moderate but validated
+    demand signal for brand-related revenue.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776050352
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+      *   **Brand Mismatch & Audience Alienation**: The serious tone of "safe firearm
+      storage" may clash with the inherently irreverent "Glocks and Fried Chicken"
+      brand identity, potentially leading to low engagement, negative audience perception,
+      or even accusations of virtue signaling, rather than building brand value.
+
+      *   **Unsubstantiated Brand Value & Inconsistent Data**: The estimated $200/month
+      brand value from a single post is highly speculative and lacks clear metrics
+      for measurement. This is further undermined by the `revenue_model` explicitly
+      stating $0 estimated monthly revenue, creating a fundamental inconsistency in
+      the opportunity''s financial assessment.
+
+      *   **Limited Impact for Objective**: A single educational Instagram post is
+      a low-leverage activity for significantly enhancing overall brand image or generating
+      measurable brand value, particularly if it''s not core to the brand''s established
+      content strategy or perceived area of expertise.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides a detailed, actionable plan for creating content that
+      directly supports the skill''s objective of posting educational content to social
+      media, which is a valid form of content creation and promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting of educational content, which is explicitly
+      compliant and does not involve collecting SSNs, storing unencrypted passwords,
+      accessing unauthorized systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

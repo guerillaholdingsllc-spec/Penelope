@@ -1,0 +1,81 @@
+business: GAFC
+created: '2026-04-16T15:13:26.691819'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+opportunity_data:
+  action: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity offers high profit margins, instant execution, and full
+    scalability for an AI agent due to its digital nature, with a moderate but validated
+    demand signal for brand-related revenue.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776352406
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+      Key concerns:
+
+      *   **Brand Name Conflict & Credibility:** The brand name "Glocks and Fried
+      Chicken" is inherently controversial and directly undermines the credibility
+      required for serious "safe firearm storage" education. This juxtaposition is
+      likely to be perceived as tone-deaf, insensitive, or even satirical, leading
+      to negative backlash, ridicule, and a significant erosion of trust rather than
+      enhancement of brand reputation.
+
+      *   **High Risk of Platform Violation & Account Suspension:** Instagram has
+      strict community guidelines regarding firearms. Even "educational" content,
+      when associated with a provocative name like "Glocks and Fried Chicken," faces
+      a very high risk of being flagged, restricted, or leading to account suspension/deletion,
+      rendering the entire effort futile and potentially damaging the brand further.
+      This is not a "Tier 1 - No barriers" scenario.
+
+      *   **Unrealistic Brand Revenue & ROI:** The estimated $200 monthly brand value
+      is highly speculative and extremely difficult to realize or measure, especially
+      given the high probability of negative public perception and platform issues.
+      The discrepancy between the `revenue_model` (estimated_monthly: 0) and `opportunity_data`
+      (estimated_monthly: 200) further highlights the lack of clarity and realism
+      in the financial projection for this brand-building exercise.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The skill execution produced actionable research and strategic recommendations
+      directly supporting the objective of posting educational content, which is a
+      form of content creation and moves toward brand revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting for brand building, which is explicitly
+      compliant and does not involve collecting SSNs, storing unencrypted passwords,
+      accessing unauthorized systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

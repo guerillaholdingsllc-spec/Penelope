@@ -1,0 +1,88 @@
+business: Cross-vertical
+created: '2026-04-09T20:05:55.959279'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $20 (GPT-4 API for content, Canva Pro for design)
+  estimated_monthly_revenue_potential: $900 - $2800
+  how_penelope_deploys_it_autonomously: AI (GPT-4) generates niche-specific lead magnet
+    content (e.g., '10 AI Tools for Coaches'). AI designs simple ebook/checklist.
+    AI writes landing page copy and promotional emails. AI creates Gumroad listing
+    and schedules promotion.
+  specific_revenue_action: Sell 'Done-For-You Lead Magnet Kit' (AI-generated ebook/checklist
+    + landing page copy) for coaches/consultants on Gumroad.
+  tier_classification: 1
+  time_to_first_dollar: 20
+  why_this_works_NOW: Coaches and consultants need lead magnets to grow their email
+    lists, but creating them is time-consuming. An AI-generated, ready-to-use kit
+    offers immediate value and saves significant effort.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 25
+  raw_score: 93
+  reasoning: This opportunity targets a clear market need with a highly profitable,
+    fully autonomous, and rapidly deployable digital product.
+  scalability: 25
+  speed: 20
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775765155
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 60
+    notes: 'CRITIQUE
+
+      Confidence Score: 60%
+
+      Key concerns:
+
+
+      *   **Generic AI Content & Quality Perception:** The core product relies on
+      AI-generated content, which risks being generic, lacking unique insights, and
+      failing to build genuine authority for coaches who need to differentiate themselves.
+      This directly impacts perceived value and conversion rates, as coaches may find
+      the output too templated or requiring significant edits.
+
+      *   **Market Saturation & Low Barrier to Entry:** The market for lead magnet
+      creation tools and "done-for-you" content for coaches is highly competitive.
+      Coaches can easily use free/cheap AI tools and templates themselves, making
+      it difficult for this offering to stand out or justify a premium price without
+      a strong unique selling proposition beyond mere automation.
+
+      *   **Differentiation & Brand Alignment:** Without significant customization
+      options or a unique value proposition, the kit may not align with a coach''s
+      specific brand voice or niche. This could lead to customer dissatisfaction if
+      the "done-for-you" aspect still requires substantial effort to make it truly
+      their own.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The test output does not align with the defined `cost_to_test` in the skill,
+      which implies product creation, not just research.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The provided output is incomplete due to a truncated JSON block, preventing
+      a full compliance review. Furthermore, there is no explicit mention of GDPR/CCPA
+      compliance measures for data collected by Guerilla Holdings from its customers,
+      nor any guidance on ensuring the "Done-For-You Lead Magnet Kit" promotes compliant
+      data collection practices for its end-users.'
+    result: FAIL
+test_results: {}

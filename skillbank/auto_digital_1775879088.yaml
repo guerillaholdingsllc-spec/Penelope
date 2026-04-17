@@ -1,0 +1,79 @@
+business: Digital
+created: '2026-04-11T03:44:48.585753'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages existing customer demand for a high-margin
+    digital product through an automated email sequence, offering excellent speed
+    to revenue and scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775879088
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Unvalidated Conversion & Revenue Projections:** The $300/month revenue
+      is an assumption without any data on existing buyer behavior, upsell conversion
+      rates, or the relevance of the "full book series" to *all* new Gumroad buyers.
+      The `rps_score` of 100 is highly optimistic given this lack of validation.
+
+      *   **Inconsistent Revenue Model & Hidden Costs:** The `revenue_model` states
+      "one_time" with `estimated_monthly: 0`, directly contradicting the `opportunity_data`''s
+      $300/month. Furthermore, the budget analysis explicitly excludes "internal labor
+      for setup and content creation," which represents a significant, unquantified
+      cost for developing the email sequence and upsell content.
+
+      *   **Dependence on Continuous New Buyers & Integration Stability:** The entire
+      opportunity hinges on a consistent stream of new Gumroad buyers and the reliable,
+      potentially complex, integration between Gumroad and an external email marketing
+      platform. Changes in Gumroad''s platform or a slowdown in initial product sales
+      could completely halt revenue.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable tool recommendations within budget to execute
+      the skill of sending emails and promoting products, directly moving toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves email marketing to existing customers (Gumroad buyers) for
+      a welcome sequence and upsell of related products, which is compliant with GDPR
+      under legitimate interest or implied consent for existing customer relationships
+      and does not involve any of the specified failing conditions.'
+    result: PASS
+test_results: {}

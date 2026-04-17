@@ -1,0 +1,76 @@
+business: Digital
+created: '2026-04-16T01:10:46.761931'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 23
+  raw_score: 93
+  reasoning: This digital affiliate marketing opportunity offers high margins, instant
+    deployment, and excellent scalability for an autonomous AI agent, with consistent
+    market demand from small businesses.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776301846
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 5
+    notes: 'CRITIQUE
+
+      Confidence Score: 5%
+
+      Key concerns:
+
+      *   **Incomplete Research & Unrealistic Budget:** The research output is truncated,
+      providing no actionable insights, yet claims $0 spent. The $50 budget for *creating,
+      optimizing, and promoting* an affiliate blog post to generate $150/month is
+      severely inadequate and will lead to immediate failure.
+
+      *   **Contradictory Revenue Model:** The skill defines the revenue model as
+      "one_time" with $0 estimated monthly, while the opportunity data states "affiliate"
+      with $150 estimated monthly. This fundamental inconsistency indicates a critical
+      misconfiguration or misunderstanding of the revenue stream.
+
+      *   **Overly Optimistic Scoring & Tiering:** The "Tier 1 - Instant Digital (No
+      barriers)" label and 100 RPS score are completely detached from the reality
+      of affiliate marketing, which involves significant barriers in content quality,
+      SEO, competition, and promotion.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The research output directly supports the objective of publishing an affiliate
+      review blog post by identifying target audience needs and specific affiliate
+      programs, making it actionable and moving toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves publishing an affiliate review blog post, which is explicitly
+      compliant, and the research methodology uses publicly available resources without
+      indicating any immediate violations of the specified criteria.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,41 @@
+business: CALLUX
+created: '2026-04-16T01:11:48.697200'
+learnings: RPS score 38 below threshold 50
+logic_flow: {}
+objective: Send B2B cold outreach sequence to Sacramento restaurants about AI automation
+  services
+opportunity_data:
+  action: Send B2B cold outreach sequence to Sacramento restaurants about AI automation
+    services
+  business: CALLUX
+  estimated_monthly: 2000
+  revenue_type: b2b_service
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 38
+score_breakdown:
+  demand: 18
+  margin: 22
+  raw_score: 58
+  reasoning: The opportunity offers good potential margins for AI services but is
+    constrained by the B2B cold outreach sales cycle and the 'Tier 3 - Physical/Licensed'
+    classification, which implies permit/physical requirements that slow down time
+    to first dollar and cap scalability.
+  scalability: 10
+  speed: 8
+  tier: 3
+  tier_bonus_applied: -20
+  tier_label: Tier 3 - Physical/Licensed (Last resort, background only)
+  total: 38
+skill_id: auto_callux_1776301908
+status: Archived
+supreme_court_results: {}
+test_results: {}

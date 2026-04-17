@@ -1,0 +1,84 @@
+business: Cross-vertical
+created: '2026-04-16T20:31:11.386338'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  Cost to test: $29 (Teachable basic, or Gumroad free)
+  Estimated monthly revenue potential: $500-$1,300
+  How Penelope deploys it autonomously: Penelope outlines course, generates script
+    and visuals (AI voiceover, screen recording of Zapier setup), uploads to Teachable/Gumroad,
+    designs sales page, schedules promo on automation-focused communities.
+  Specific revenue action: 'Create an online course: ''1-Hour Guide to Automating
+    Your Social Media with Zapier & AI.'' Target: Small business owners, busy marketers.'
+  Tier classification: 1
+  Time to first dollar: 18 days
+  Why this works NOW: High demand for automation skills, Zapier is popular, AI integration
+    is a hot topic, short courses are digestible and appealing.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 92
+  reasoning: This opportunity leverages high demand for automation and AI with a fully
+    autonomous, high-margin digital product that can be deployed quickly and scaled
+    infinitely.
+  scalability: 25
+  speed: 20
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776371471
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Market Saturation & Differentiation**: The "Zapier + AI automation" course
+      market is highly competitive. An autonomously generated "1-Hour Guide" risks
+      being perceived as superficial or lacking the unique insights and authority
+      needed to stand out against established experts and abundant free resources.
+
+      *   **Quality & Trust of Autonomous Content**: Relying solely on AI for script,
+      visuals, and voiceover for an educational product can lead to generic content,
+      lack of nuanced explanations, and a failure to build trust with the target audience
+      (SMBs, marketers) who seek genuine expertise and practical, up-to-date solutions.
+
+      *   **Vague Marketing & Distribution**: "Schedules promo on automation-focused
+      communities" is an insufficient strategy for driving significant sales in a
+      crowded market without a pre-existing audience, a clear content marketing funnel,
+      or a budget for paid advertising. Organic reach in such communities is often
+      limited and highly competitive.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The skill execution, even in its initial research phase, is actionable and moves
+      toward revenue by validating market demand and optimizing pricing for a digital
+      product, which are crucial precursors to successful content creation and promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No clear, immediate violations of collecting SSNs, storing unencrypted passwords,
+      accessing unauthorized systems, or violating GDPR with non-consented PII. The
+      skill describes standard content creation, publishing, and marketing activities
+      for an online course.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,75 @@
+business: Digital
+created: '2026-04-13T08:01:31.879467'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 23
+  raw_score: 88
+  reasoning: This opportunity leverages an AI agent's strengths in automated content
+    creation and digital publishing for high-margin affiliate revenue, though the
+    initial demand signal suggests moderate revenue potential.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776067291
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+      *   **Market Saturation & Trust:** The affiliate blog post market is highly
+      saturated. AI-generated content will struggle to build the necessary trust and
+      authority with Sacramento small business owners, who often value local expertise
+      and genuine recommendations.
+
+      *   **Low Revenue Potential & Scalability:** An estimated monthly revenue of
+      $150 is very low for the effort required to generate traffic and conversions
+      in a competitive niche. Scaling this opportunity significantly without substantial
+      marketing investment is highly improbable.
+
+      *   **Conflicting Revenue Model:** The `revenue_model` states "one_time" with
+      "estimated_monthly: 0", directly contradicting the `opportunity_data` which
+      specifies "affiliate" revenue with "estimated_monthly: 150". This fundamental
+      inconsistency indicates a lack of clarity in the opportunity''s core definition.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable research directly supporting the objective of
+      publishing an affiliate review blog post, which is a form of content creation
+      and promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      Skill involves compliant content publishing and affiliate marketing, with no
+      immediate violations of restricted activities.'
+    result: PASS
+test_results: {}

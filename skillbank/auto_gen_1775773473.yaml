@@ -1,0 +1,177 @@
+business: Cross-vertical
+created: '2026-04-09T22:24:33.549821'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $150 - $450
+  how_penelope_deploys_it_autonomously: AI generates diverse prompt variations, compiles
+    into a PDF, creates example images. Automated Gumroad listing and promotion on
+    relevant Discord/Reddit channels.
+  specific_revenue_action: 'Prompt Pack: ''Midjourney Style & Artist Prompts'' on
+    Gumroad, targeting digital artists and graphic designers.'
+  tier: 1
+  time_to_first_dollar: 5 days
+  why_this_works_now: Midjourney users constantly seek new styles and inspiration;
+    curated prompt packs save experimentation time.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 94
+  reasoning: This opportunity leverages high demand for AI art prompts with a fully
+    automated, zero-cost, digital product, ensuring excellent margins and scalability.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775773473
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Market Saturation & Differentiation:** The "AI prompt pack" market is
+      highly saturated with numerous free and paid alternatives. A generic offering,
+      even if AI-generated, lacks a clear unique selling proposition to stand out
+      and capture the estimated revenue without significant, non-automated marketing
+      effort.
+
+      *   **Quality Control & Obsolescence:** Relying solely on AI for prompt generation
+      and example images risks inconsistent quality, ineffective prompts, or even
+      misleading visuals. Furthermore, AI models evolve rapidly, meaning a prompt
+      pack can quickly become outdated, requiring manual updates that contradict the
+      "zero-cost" and "fully automated" premise.
+
+      *   **Ineffective Marketing Strategy:** "Automated Gumroad listing and promotion
+      on relevant Discord/Reddit channels" is highly likely to be perceived as spam
+      by community moderators and users, leading to bans, negative sentiment, and
+      minimal sales rather than effective customer acquisition.
+
+
+      ---
+
+
+      **1. Why would this FAIL in the real market?**
+
+      This opportunity is highly susceptible to failure due to several critical factors:
+
+
+      *   **Extreme Market Saturation:** The market for AI art prompt packs is already
+      flooded. Gumroad, Etsy, and various dedicated prompt marketplaces are teeming
+      with similar products, many of which are free or very low-cost. Without a truly
+      unique angle, superior quality, or a pre-existing audience, this pack will struggle
+      to gain visibility and sales.
+
+      *   **Low Perceived Value vs. Free Resources:** Many Midjourney users are adept
+      at prompt engineering or can find extensive, high-quality free resources (blogs,
+      YouTube, Discord communities, Reddit) offering similar "style and artist prompts."
+      The value proposition of *paying* for this specific pack, especially if it''s
+      perceived as generic or low-effort due to full automation, will be weak.
+
+      *   **Quality Control Issues:** While AI can generate prompts, ensuring the
+      *quality*, *effectiveness*, and *consistency* of every prompt, and that the
+      example images accurately represent the prompt''s output, requires human oversight.
+      Fully automated generation risks including ineffective or redundant prompts,
+      leading to customer dissatisfaction, refunds, and negative reviews.
+
+      *   **Ephemeral Nature of AI Prompts:** AI models like Midjourney are constantly
+      updated. Prompts that work well today might produce different or inferior results
+      tomorrow. A static prompt pack can quickly become obsolete, requiring continuous
+      updates that contradict the "zero-cost" and "fully automated" deployment model.
+
+      *   **Ineffective "Automated Promotion":** "Automated Gumroad listing and promotion
+      on relevant Discord/Reddit channels" is a recipe for disaster. These communities
+      are highly sensitive to self-promotion and spam. Automated posts will likely
+      be flagged, removed, and lead to account bans, damaging reputation rather than
+      generating sales. Organic discovery on Gumroad is also challenging without external,
+      targeted marketing.
+
+
+      **2. Is there a cheaper/faster way to achieve same result?**
+
+      The "cost to test" is already stated as $0, which is technically the cheapest.
+      However, the *result* (sustainable revenue) is unlikely to be achieved effectively
+      with the current plan. To achieve *better* results (more sales, higher conversion)
+      potentially faster and more sustainably, while still keeping costs low:
+
+
+      *   **Curated Freebie Lead Magnet:** Instead of immediately selling a pack,
+      create a smaller, highly curated, *free* prompt pack (or a valuable guide) as
+      a lead magnet. This builds an email list and trust within the target community,
+      allowing for more effective, permission-based marketing of a larger paid pack
+      later. This is faster for audience building.
+
+      *   **Niche Specialization:** Instead of a broad "Style & Artist Prompts," focus
+      on a hyper-specific niche (e.g., "Vintage Sci-Fi Book Cover Prompts for Midjourney").
+      This reduces competition and allows for more targeted marketing, potentially
+      leading to faster traction within a dedicated sub-community.
+
+      *   **Manual, Targeted Community Engagement:** Instead of automated spam, dedicate
+      a small amount of *human* time to genuinely engage in relevant communities,
+      offer value, answer questions, and *then* subtly introduce the product. This
+      builds trust and is far more effective than automation for initial sales.
+
+      *   **Leverage Existing Open-Source Prompts:** Instead of generating all prompts
+      from scratch, curate and refine prompts from existing open-source or public
+      domain prompt libraries, adding unique twists or combinations. This could be
+      faster than pure AI generation and compilation if the AI process is complex.
+
+
+      **3. What edge case breaks this?**
+
+
+      *   **Midjourney API/Model Update:** A significant update to Midjourney''s underlying
+      model or prompt interpretation could render a large portion of the prompt pack
+      ineffective or produce undesirable results, leading to customer dissatisfaction
+      and refunds.
+
+      *   **Gumroad Policy Change:** Gumroad could implement new policies regarding
+      AI-generated content, automated listings, or promotion, leading to the product
+      being delisted or the seller''s account suspended.
+
+      *   **Community Backlash/Bans:** Aggressive automated promotion on Discord/Reddit
+      could lead to widespread community backlash, reporting, and permanent bans from
+      key marketing channels, effectively cutting off potential reach.
+
+      *   **High Refund Rate:** If the quality of the AI-generated prompts or example
+      images is poor, or if the prompts don''t deliver as expected, a high refund
+      rate will quickly erode any revenue and damage the seller''s reputation.
+
+      *   **Copyright/IP Infringement Claims:** If "artist prompts" inadvertently
+      use copyrighted material or infringe on intellectual property (e.g., specific
+      artist names used in a way that implies endorsement or direct mimicry), it could
+      lead to legal issues or product removal.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      The test output is incomplete, ending mid-sentence, and the skill''s RPS score
+      calculation contains a mathematical error.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      Automated promotion on Discord and Reddit channels is highly likely to violate
+      their respective Terms of Service regarding automated posting, spam, and bot
+      activity.'
+    result: FAIL
+test_results: {}

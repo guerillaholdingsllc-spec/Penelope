@@ -1,0 +1,89 @@
+business: Cross-vertical
+created: '2026-04-10T06:44:43.267483'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $10 (Domain, minimal hosting if new site)
+  estimated_monthly_revenue_potential: $300 - $1,000
+  how_penelope_deploys_it_autonomously: Penelope researches high-volume, low-competition
+    keywords, generates step-by-step guides using AI, integrates relevant affiliate
+    links, publishes to Guerilla Holdings blog, monitors SEO performance.
+  specific_revenue_action: 'Build out ''Blog SEO: ''How-to'' Guides for AI Tool Integration''
+    (monetize with affiliate links & AdSense) on Guerilla Holdings blog, targeting
+    tech-savvy users.'
+  tier_classification: 1
+  time_to_first_dollar: 28
+  why_this_works_NOW: High search volume for 'how to use AI for X,' practical guides
+    are evergreen content, affiliate marketing for AI tools is lucrative.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 24
+  margin: 25
+  raw_score: 96
+  reasoning: This opportunity leverages high demand for AI integration guides with
+    minimal cost and full AI automation, promising high margins and scalability, though
+    initial revenue takes a few weeks to materialize.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775803483
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+      *   **Fundamental Contradictions & Unrealistic Costs:** The `revenue_model`
+      states "one_time" with "$0 estimated monthly" revenue, directly conflicting
+      with the `opportunity_data`''s "$300 - $1,000 estimated monthly revenue potential"
+      from recurring affiliate links and AdSense. Furthermore, the "$10 (Domain, minimal
+      hosting if new site)" cost is either irrelevant (if deploying on an existing
+      "Guerilla Holdings blog") or grossly underestimated for establishing a new,
+      competitive SEO presence.
+
+      *   **SEO Viability & Content Quality in a Saturated Market:** Relying on "full
+      AI automation" to generate "how-to" guides in the highly competitive "AI tool
+      integration" niche is a significant risk. Google''s E-E-A-T (Experience, Expertise,
+      Authoritativeness, Trustworthiness) guidelines increasingly penalize generic,
+      unoriginal, or low-quality AI content. Without genuine human expertise, unique
+      insights, or hands-on testing, the content will struggle to rank, build trust
+      with "tech-savvy users," or drive meaningful conversions.
+
+      *   **High Vulnerability to External Factors:** This strategy is highly susceptible
+      to Google algorithm updates (especially those targeting AI-generated content
+      or affiliate sites), changes in affiliate program terms, or rapid obsolescence
+      of specific AI tools, any of which could severely impact or nullify revenue
+      potential with minimal warning.'
+    result: FAIL
+  quality:
+    notes: 'FAIL
+
+      The test output is incomplete, cutting off mid-sentence, which means the full
+      results of the test are not provided.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill''s reliance on AI-generated content and affiliate marketing lacks
+      explicit safeguards for AdSense content quality policies and affiliate disclosure
+      requirements, posing a risk of platform ToS violations.'
+    result: FAIL
+test_results: {}

@@ -1,0 +1,162 @@
+business: Cross-vertical
+created: '2026-04-11T19:17:00.452676'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: 30
+  estimated_monthly_revenue_potential: 1000
+  how_penelope_deploys_it_autonomously: Penelope uses AI to generate course content
+    (slides, scripts), records voiceover, assembles modules on Teachable, creates
+    a sales page, and automates email marketing to relevant audiences.
+  specific_revenue_action: 'Launch a ''Mini-Course: Prompt Engineering for Non-Technical
+    Founders''. Sell on Teachable/Gumroad. Target: Startup founders, small business
+    owners.'
+  tier_classification: 1
+  time_to_first_dollar: 22
+  why_this_works_NOW: Founders need to leverage AI but often lack technical skills;
+    a practical, short course fills this gap.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 23
+  raw_score: 90
+  reasoning: This opportunity capitalizes on high demand for practical AI skills among
+    founders with a fully automated, high-margin digital course, ensuring excellent
+    scalability and a quick path to revenue.
+  scalability: 25
+  speed: 20
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775935020
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Quality & Differentiation**: Relying solely on AI for content generation
+      risks producing generic material that lacks the depth, practical insights, and
+      unique perspective required to stand out in a crowded market and satisfy discerning
+      founders.
+
+      *   **Market Trust & Authority**: An unbranded, fully autonomous AI-generated
+      course will struggle to build the necessary trust and authority to attract and
+      convert paying customers, especially for a premium product in a competitive
+      niche.
+
+      *   **Marketing Effectiveness & Cost**: The plan for "automated email marketing
+      to relevant audiences" is vague and likely insufficient to generate the estimated
+      $1000/month with a minimal $30 test budget, particularly without an established
+      brand or audience.
+
+
+      ---
+
+      **1. Why would this FAIL in the real market?**
+
+      *   **Market Saturation & Differentiation**: The market for "AI for founders"
+      and "prompt engineering" courses is rapidly becoming saturated. While the niche
+      of "non-technical founders" is good, many existing courses (human-created or
+      hybrid) offer similar value propositions. An entirely AI-generated course, without
+      a human expert''s unique insights or a strong brand, will struggle to differentiate
+      itself and justify its price point against established competitors.
+
+      *   **Quality of AI-Generated Content**: While AI can generate content, the
+      quality, depth, and practical applicability for a paying audience (especially
+      founders seeking actionable strategies) can be inconsistent. Generic advice
+      or rehashed information will not satisfy this audience, leading to poor reviews,
+      low completion rates, and ultimately, low sales.
+
+      *   **Lack of Trust and Authority**: Founders typically buy educational products
+      from individuals or brands they perceive as experts or trustworthy. A faceless
+      "Penelope" (an AI entity) selling a course lacks the inherent credibility and
+      human connection that drives sales in the education market.
+
+      *   **Rapid Obsolescence**: Prompt engineering best practices and AI capabilities
+      evolve at an extremely fast pace. A course created today could be outdated in
+      a few months, requiring constant, potentially costly, updates that challenge
+      the "autonomous" and "one-time" revenue model.
+
+      *   **Marketing Ineffectiveness**: The plan relies on "automated email marketing
+      to relevant audiences." Without a pre-existing audience, a strong brand, or
+      a significant ad spend (far exceeding the $30 test cost), reaching and converting
+      these audiences effectively will be extremely challenging.
+
+
+      **2. Is there a cheaper/faster way to achieve same result?**
+
+      *   **Lead Magnet & Micro-Workshop**: Instead of a full mini-course, create
+      a highly specific, valuable free lead magnet (e.g., "Top 5 AI Prompts for Marketing
+      Founders") to build an email list. Then, offer a live (or recorded) 60-90 minute
+      micro-workshop on a very specific problem (e.g., "Automating Customer Support
+      with ChatGPT Prompts") for a lower price point ($29-$49). This tests demand,
+      builds authority, and generates revenue much faster and cheaper.
+
+      *   **Curated Resource Pack**: Instead of generating new content, curate and
+      package existing high-quality, free resources (articles, videos, tools) into
+      a structured guide or toolkit, adding unique commentary or templates. Sell this
+      for a lower price. This leverages existing content, reducing creation time and
+      cost significantly.
+
+      *   **Affiliate Marketing**: Partner with existing, reputable prompt engineering
+      course creators and promote their courses for a commission. This requires no
+      content creation, minimal marketing effort (if leveraging an existing audience),
+      and generates revenue faster, albeit not from a proprietary product.
+
+
+      **3. What edge case breaks this?**
+
+      *   **AI Content Detection & Penalization**: Platforms like Teachable/Gumroad
+      or even search engines could implement stricter policies or algorithms to detect
+      and potentially penalize or de-rank purely AI-generated content, especially
+      if it''s perceived as low quality or spam.
+
+      *   **Audience Fatigue/Skepticism**: The market could become oversaturated with
+      low-quality, AI-generated content, leading to widespread founder skepticism
+      and an unwillingness to pay for any course perceived as "just another AI course."
+
+      *   **Technical Failure in Automation Chain**: Any single point of failure in
+      Penelope''s autonomous deployment (content generation, voiceover, platform assembly,
+      sales page, email marketing) could halt the entire operation, requiring manual
+      intervention and negating the "autonomous" benefit.
+
+      *   **Rapid AI Model Changes**: A significant update to underlying AI models
+      (e.g., GPT-5) could render the course''s prompt engineering techniques obsolete
+      overnight, requiring a complete overhaul and re-recording.
+
+      *   **Legal/Ethical Concerns**: Unforeseen issues with AI-generated content,
+      such as accidental plagiarism, copyright infringement, or biased/misleading
+      information, could lead to reputational damage or legal challenges.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The research findings validate the market opportunity for the proposed mini-course,
+      directly supporting the objective of executing a revenue action by informing
+      content creation and outreach.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No clear, immediate violations of collecting SSNs, storing unencrypted passwords,
+      accessing unauthorized systems, or violating GDPR with non-consented PII are
+      present.'
+    result: PASS
+test_results: {}

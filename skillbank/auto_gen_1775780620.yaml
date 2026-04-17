@@ -1,0 +1,89 @@
+business: Cross-vertical
+created: '2026-04-10T00:23:40.916110'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $600 - $1500
+  how_penelope_deploys_it_autonomously: Penelope researches active grants, drafts
+    comprehensive templates for proposals, budgets, and impact statements using AI,
+    compiles into a downloadable kit, and markets the kit as a digital product on
+    Gumroad and via targeted LinkedIn outreach.
+  specific_revenue_action: 'GAFC Grant Application Kit: ''Small Business Digital Marketing
+    Grant Proposal Template & Guide'''
+  tier_classification: 1
+  time_to_first_dollar: 18
+  why_this_works_NOW: Ongoing government and private initiatives to support small
+    businesses in digital transformation. Many businesses lack the time/expertise
+    to write effective grant proposals.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 90
+  reasoning: This opportunity leverages strong market demand for grant assistance
+    among small businesses, offers high-profit margins as a digital product with zero
+    cost to test, and is highly scalable and relatively fast to deploy by an autonomous
+    AI agent.
+  scalability: 25
+  speed: 19
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775780620
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Effectiveness & Trust Deficit:** Generic AI-generated templates are highly
+      unlikely to be sufficiently tailored or persuasive to win competitive grants,
+      which often require deep understanding of specific funder priorities, regional
+      nuances, and the applicant''s unique story. This will lead to customer dissatisfaction
+      and a rapid erosion of trust in an AI-driven solution for a critical business
+      need.
+
+      *   **Market Saturation & Differentiation:** The market for grant writing resources
+      and templates is already highly saturated with established consultants, agencies,
+      and even free government resources. An "AI-generated" kit, without a proven
+      track record or unique value proposition beyond automation, will struggle significantly
+      to differentiate itself and gain traction.
+
+      *   **Dynamic Grant Landscape:** The relevance and accuracy of grant templates
+      are highly dependent on the ever-changing landscape of active grants, their
+      specific criteria, and application processes. Maintaining a continuously updated,
+      effective, and broadly applicable "digital marketing grant" kit autonomously
+      across diverse regions and initiatives presents a substantial and potentially
+      unmanageable challenge for an AI agent.'
+    result: FAIL
+  quality:
+    notes: 'FAIL
+
+      The test output is truncated and incomplete, specifically within the "common_requirements"
+      list under "grant_landscape_analysis".'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill lacks explicit compliance measures for data privacy regulations (GDPR/CCPA)
+      regarding lead data and risks violating LinkedIn''s Terms of Service through
+      unspecified ''targeted LinkedIn outreach''.'
+    result: FAIL
+test_results: {}

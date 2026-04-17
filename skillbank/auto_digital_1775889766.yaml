@@ -1,0 +1,84 @@
+business: Digital
+created: '2026-04-11T06:42:46.450308'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 21
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity targets a high-demand niche with a digital product,
+    ensuring excellent profit margins, instant revenue generation, and fully automated
+    scalability without human intervention.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775889766
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+
+      *   **Unvalidated Lead List Quality & Engagement:** The entire opportunity hinges
+      on the quality, consent, and engagement of the "lead list." Without details
+      on its origin, age, segmentation, or prior interaction, the estimated $270 monthly
+      revenue is purely speculative. A cold, unsegmented, or non-consented list will
+      lead to poor deliverability, low conversions, and potential compliance issues,
+      making the "instant revenue generation" claim highly optimistic.
+
+      *   **Product Differentiation & Value Proposition:** While "AI Business Automation"
+      is a high-demand niche, the market is saturated. The "Starter Kit" lacks specific
+      details on its contents, unique selling points, or how it stands out from free
+      resources or competitors. The stated $0.00 research budget for competitive analysis
+      and product ideation raises significant doubts about the depth of market validation
+      and the kit''s actual value proposition.
+
+      *   **Overly Optimistic Assumptions & Data Inconsistencies:** The RPS score
+      of 100 and claims of "instant revenue generation" and "fully automated scalability
+      without human intervention" are highly optimistic. Email campaigns require ongoing
+      optimization, customer support, and potential product updates. Furthermore,
+      the contradiction between `revenue_model.estimated_monthly` ($0) and `opportunity_data.estimated_monthly`
+      ($270) indicates a lack of precision and potential data integrity issues in
+      the financial modeling.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The test output describes research and market validation, not the execution
+      of sending the promotional email as stated in the skill''s objective.'
+    result: FAIL
+  security:
+    notes: 'PASS
+
+      The skill involves email marketing to a lead list, which is compliant assuming
+      the list is opt-in, and no clear immediate violations of prohibited activities
+      are present.'
+    result: PASS
+test_results: {}

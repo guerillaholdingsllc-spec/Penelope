@@ -1,0 +1,80 @@
+business: Digital
+created: '2026-04-14T10:25:20.949877'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 23
+  raw_score: 93
+  reasoning: This digital affiliate marketing opportunity offers high margins, instant
+    deployment, and excellent scalability for an autonomous AI agent, with consistent
+    market demand from small businesses.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776162320
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Unrealistic Financials & Missing Cost Analysis**: The `revenue_model`
+      states `cost_per_run: 0` and `estimated_monthly: 0`, directly contradicting
+      the `opportunity_data.estimated_monthly: 150` target. This fundamental flaw
+      ignores essential costs for content creation, hosting, and critically, traffic
+      generation (SEO, promotion), making the 70% margin highly misleading.
+
+      *   **Lack of Traffic Generation Strategy**: Publishing an affiliate blog post
+      does not guarantee revenue. The plan completely omits how Sacramento small business
+      owners will discover and engage with the content, which is the primary driver
+      for affiliate conversions. Without a robust traffic strategy, the estimated
+      monthly revenue of $150 is highly improbable.
+
+      *   **Overly Optimistic RPS Score & "Instant Digital" Label**: The perfect RPS
+      score of 100 and "Tier 1 - Instant Digital (No barriers)" label are misleading.
+      Affiliate marketing, especially for a new blog, requires significant time and
+      effort to build authority, trust, and audience engagement to generate consistent
+      revenue, which is far from "instant" or "no barriers."'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The research output directly supports the creation of an affiliate review blog
+      post, which is a form of content creation and product promotion, moving toward
+      the revenue objective.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves publishing an affiliate review blog post, which is compliant
+      with content publishing and affiliate marketing guidelines, and does not involve
+      any immediate violations of SSN collection, unencrypted password storage, unauthorized
+      system access, or non-consented PII.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,85 @@
+business: Cross-vertical
+created: '2026-04-09T21:49:45.645842'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  Cost to test: 0
+  Estimated monthly revenue potential ($): 1500
+  How Penelope deploys it autonomously: Penelope uses AI to draft the course outline,
+    script video content, generate presentation slides, automate course platform setup,
+    and create email sequences for promotion.
+  Specific revenue action: 'Launch an online course: ''Mastering AI for Personal Productivity''
+    on Gumroad/Teachable, teaching practical AI applications for daily tasks.'
+  Tier classification: 1
+  Time to first dollar (days): 25
+  Why this works NOW: Widespread interest in AI but a common struggle with practical
+    application for personal efficiency creates a strong market for actionable courses.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 94
+  reasoning: This opportunity leverages strong current AI interest with a fully autonomous,
+    high-margin digital product that can be launched quickly and scaled infinitely
+    by the AI agent.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775771385
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Market Saturation & Differentiation:** The "AI for personal productivity"
+      course market is extremely crowded. Without a unique angle, strong instructor
+      credibility, or significant marketing effort, an autonomously generated course
+      will struggle immensely to stand out and attract paying customers amidst a sea
+      of free and paid alternatives.
+
+      *   **Content Quality & Obsolescence:** While AI can draft content, the quality,
+      depth, and pedagogical effectiveness of a fully AI-generated course (especially
+      video scripts and slides) are questionable. It risks being generic, lacking
+      the human touch, and quickly becoming outdated given the rapid evolution of
+      AI tools, leading to poor reviews and low sales.
+
+      *   **Marketing & Sales Reality:** Achieving $1500/month in revenue for a new
+      course, even on platforms like Gumroad/Teachable, typically requires active
+      marketing, audience building, and potentially ad spend. The claim of "cost to
+      test: 0" and "fully autonomous deployment" for *revenue generation* is highly
+      optimistic, as it overlooks the critical need for effective promotion and trust-building
+      to drive sales.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      The foundational financial logic in the skill definition is contradictory, and
+      the test output reiterates these flaws without correction.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill describes collecting lead data for promotion but provides no explicit
+      mechanisms or assurances for GDPR/CCPA compliance regarding data collection,
+      storage, or processing.'
+    result: FAIL
+test_results: {}

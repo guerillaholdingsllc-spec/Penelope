@@ -1,0 +1,85 @@
+business: GAFC
+created: '2026-04-13T20:06:52.487643'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+  on social
+opportunity_data:
+  action: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+    on social
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 10
+  margin: 22
+  raw_score: 82
+  reasoning: This opportunity scores highly on speed, scalability, and margin due
+    to its fully digital and automated nature, but the market demand signal for this
+    specific brand content appears low given the modest estimated monthly value for
+    brand awareness.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776110812
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 25
+    notes: 'CRITIQUE
+
+      Confidence Score: 25%
+
+      Key concerns:
+
+      *   **Undefined Brand-Character Link & Low Demand:** The opportunity relies
+      on new characters (Gloxsie and Bobo Licious) to build GAFC brand awareness without
+      clearly defining their personalities, their intrinsic connection to GAFC''s
+      values or offerings, or a specific target audience. The skill''s own scoring
+      highlights "low market demand signal" and a minimal estimated monthly value
+      ($200), indicating a high probability that the content will fail to effectively
+      build *GAFC* brand awareness, instead creating generic character awareness with
+      little business impact.
+
+      *   **Inefficient Path to Brand Awareness:** Introducing and establishing new
+      characters from scratch is a long-term, high-effort strategy. For a stated goal
+      of "brand awareness," this approach is likely less efficient and slower than
+      leveraging existing brand assets, direct messaging about GAFC''s value proposition,
+      or targeted advertising campaigns, even with automation. The "fully digital
+      and automated" nature reduces cost but doesn''t guarantee relevance or impact.
+
+      *   **High Risk of Irrelevance or Negative Reception:** Without a clear character
+      bible, brand alignment strategy, and audience targeting, there''s a significant
+      risk that the character content will be generic, poorly received, or even generate
+      negative sentiment that reflects poorly on GAFC. The lack of detail on content
+      strategy, platforms, and how engagement translates to GAFC business value makes
+      the success highly speculative.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The skill execution provides actionable foundational steps necessary for effective
+      content creation and posting, directly moving toward the objective of building
+      brand awareness and potential revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting for brand awareness, which is explicitly
+      compliant and does not violate any prohibited activities.'
+    result: PASS
+test_results: {}

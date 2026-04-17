@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Penelope</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0c0b0a;
+    --surface: #161412;
+    --border: #2a2520;
+    --gold: #c9a84c;
+    --gold-dim: #7a6030;
+    --text: #e8e0d0;
+    --muted: #6b6055;
+    --user-bg: #1e1a14;
+    --pen-bg: #131110;
+  }
+
+  html, body {
+    height: 100%;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    line-height: 1.7;
+    overflow: hidden;
+  }
+
+  .shell {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  header {
+    padding: 20px 24px 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    flex-shrink: 0;
+  }
+
+  .logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--gold);
+    letter-spacing: 0.02em;
+  }
+
+  .tagline {
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-left: auto;
+    animation: pulse 2.5s ease-in-out infinite;
+    flex-shrink: 0;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  .messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    scroll-behavior: smooth;
+  }
+
+  .messages::-webkit-scrollbar { width: 3px; }
+  .messages::-webkit-scrollbar-track { background: transparent; }
+  .messages::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  .msg {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    animation: fadeUp 0.25s ease;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .msg-label {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .msg.user .msg-label { color: var(--gold-dim); text-align: right; }
+
+  .bubble {
+    padding: 12px 16px;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    line-height: 1.75;
+    border: 1px solid var(--border);
+  }
+
+  .msg.penelope .bubble {
+    background: var(--pen-bg);
+    border-color: var(--border);
+    border-left: 2px solid var(--gold-dim);
+  }
+
+  .msg.user {
+    align-items: flex-end;
+  }
+
+  .msg.user .bubble {
+    background: var(--user-bg);
+    border-color: #2e2820;
+    max-width: 85%;
+  }
+
+  .thinking .bubble {
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  .thinking-dots::after {
+    content: '';
+    animation: dots 1.2s steps(3, end) infinite;
+  }
+
+  @keyframes dots {
+    0%   { content: ''; }
+    33%  { content: '.'; }
+    66%  { content: '..'; }
+    100% { content: '...'; }
+  }
+
+  .composer {
+    padding: 16px 24px 24px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    flex-shrink: 0;
+  }
+
+  textarea {
+    flex: 1;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--text);
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 10px 14px;
+    resize: none;
+    min-height: 44px;
+    max-height: 120px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  textarea:focus { border-color: var(--gold-dim); }
+  textarea::placeholder { color: var(--muted); }
+
+  button#send {
+    background: var(--gold);
+    border: none;
+    border-radius: 4px;
+    color: #0c0b0a;
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 16px;
+    cursor: pointer;
+    height: 44px;
+    flex-shrink: 0;
+    transition: opacity 0.2s;
+    letter-spacing: 0.03em;
+  }
+
+  button#send:disabled { opacity: 0.4; cursor: default; }
+  button#send:not(:disabled):active { opacity: 0.8; transform: scale(0.97); }
+
+  .empty-state {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: var(--muted);
+    text-align: center;
+    padding: 40px;
+  }
+
+  .empty-state .glyph {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+    color: var(--gold-dim);
+    opacity: 0.5;
+    margin-bottom: 8px;
+  }
+
+  .empty-state p { font-size: 12px; line-height: 1.8; max-width: 280px; }
+</style>
+</head>
+<body>
+<div class="shell">
+  <header>
+    <span class="logo">Penelope</span>
+    <span class="tagline">Guerilla Holdings AI</span>
+    <div class="status-dot"></div>
+  </header>
+
+  <div class="messages" id="messages">
+    <div class="empty-state" id="empty">
+      <div class="glyph">P</div>
+      <p>Autonomous AI teammate.<br>Ready when you are.</p>
+    </div>
+  </div>
+
+  <div class="composer">
+    <textarea id="input" placeholder="Ask Penelope anything..." rows="1"></textarea>
+    <button id="send">Send</button>
+  </div>
+</div>
+
+<script>
+  const API = '/ask';
+  const SECRET = 'sydney123';
+  const msgs = document.getElementById('messages');
+  const input = document.getElementById('input');
+  const sendBtn = document.getElementById('send');
+  const empty = document.getElementById('empty');
+
+  function addMsg(role, text, isThinking) {
+    if (empty) empty.remove();
+    const wrap = document.createElement('div');
+    wrap.className = `msg ${role}${isThinking ? ' thinking' : ''}`;
+
+    const label = document.createElement('div');
+    label.className = 'msg-label';
+    label.textContent = role === 'user' ? 'you' : 'penelope';
+
+    const bubble = document.createElement('div');
+    bubble.className = 'bubble';
+    if (isThinking) {
+      bubble.innerHTML = 'Thinking<span class="thinking-dots"></span>';
+    } else {
+      bubble.textContent = text;
+    }
+
+    wrap.appendChild(label);
+    wrap.appendChild(bubble);
+    msgs.appendChild(wrap);
+    msgs.scrollTop = msgs.scrollHeight;
+    return wrap;
+  }
+
+  async function send() {
+    const text = input.value.trim();
+    if (!text) return;
+
+    input.value = '';
+    input.style.height = 'auto';
+    sendBtn.disabled = true;
+    addMsg('user', text);
+    const thinking = addMsg('penelope', '', true);
+
+    try {
+      const res = await fetch(API, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ secret: SECRET, message: text })
+      });
+      const data = await res.json();
+      thinking.remove();
+      addMsg('penelope', data.response || data.error || 'No response.');
+    } catch (e) {
+      thinking.remove();
+      addMsg('penelope', 'Connection error. Is Penelope running?');
+    }
+
+    sendBtn.disabled = false;
+    input.focus();
+  }
+
+  sendBtn.addEventListener('click', send);
+
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); }
+  });
+
+  input.addEventListener('input', () => {
+    input.style.height = 'auto';
+    input.style.height = Math.min(input.scrollHeight, 120) + 'px';
+  });
+
+  async function checkFeed() {
+    try {
+      const res = await fetch('/feed');
+      const items = await res.json();
+      if (items.length === 0) return;
+      const last = items[0];
+      if (document.getElementById('feed-' + last.id)) return;
+      const wrap = document.createElement('div');
+      wrap.id = 'feed-' + last.id;
+      wrap.className = 'msg penelope';
+      wrap.innerHTML = '<div class="msg-label">penelope — autonomous</div><div class="bubble" style="border-left-color:#c9a84c"><strong>' + last.title + '</strong><br><br>' + last.content.replace(/\n/g,'<br>') + '<br><br><small style="color:#6b6055">' + last.time + '</small></div>';
+      const empty = document.getElementById('empty');
+      if (empty) empty.remove();
+      document.getElementById('messages').prepend(wrap);
+    } catch(e) {}
+  }
+  setInterval(checkFeed, 15000);
+  checkFeed();
+</script>
+</body>
+</html>

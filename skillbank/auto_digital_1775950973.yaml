@@ -1,0 +1,160 @@
+business: Digital
+created: '2026-04-11T23:42:53.743516'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages existing customer demand for a high-margin
+    digital product through an automated email sequence, offering excellent speed
+    to revenue and scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775950973
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Unsubstantiated Revenue Estimate & Cost:** The $300 estimated monthly
+      revenue lacks any basis (conversion rates, average order value, existing buyer
+      volume), and the "cost_per_run: 0" is unrealistic, ignoring content creation
+      time and potential platform costs beyond the free tier.
+
+      *   **Dependency on Product-Market Fit & Content Quality:** Success hinges entirely
+      on the relevance of the "full book series" to the initial Gumroad purchase and
+      the quality/effectiveness of the email sequence content, neither of which are
+      detailed or guaranteed.
+
+      *   **Limited Budget & Scope:** The $50 budget cap is extremely restrictive
+      for any iteration or troubleshooting, and the plan doesn''t account for the
+      critical prerequisite of *generating* new Gumroad buyers in the first place.
+
+
+      ---
+
+
+      **1. Why would this FAIL in the real market?**
+
+
+      *   **Lack of Product-Market Fit for Upsell:** The opportunity assumes that
+      "all new Gumroad buyers" will be interested in a "full book series." If the
+      initial purchase is unrelated (e.g., a single template vs. a novel series),
+      or if the buyer''s needs are already met, the upsell will have a very low conversion
+      rate. The plan provides no data on the existing product''s relevance to the
+      upsell.
+
+      *   **Poor Email Content & Strategy:** "Well-crafted email sequence content"
+      is a massive variable. Without a clear content strategy (e.g., value-first,
+      segmentation, compelling offer), the emails could be perceived as spam, leading
+      to low open rates, high unsubscribe rates, and ultimately, no sales. The plan
+      doesn''t allocate resources or time for this critical component.
+
+      *   **Unrealistic Revenue Projections:** The $300 estimated monthly revenue
+      is presented without any supporting data (e.g., current Gumroad sales volume,
+      historical upsell conversion rates, average price of the book series). This
+      makes the target arbitrary and potentially unattainable. The `revenue_model.estimated_monthly:
+      0` in the skill JSON also directly contradicts the `opportunity_data.estimated_monthly:
+      300`, indicating an internal inconsistency.
+
+      *   **Buyer Fatigue & Competition:** Customers are constantly bombarded with
+      upsells. Without a unique value proposition or a highly personalized approach,
+      this generic upsell sequence risks being ignored or actively disliked by buyers.
+
+      *   **Integration & Deliverability Issues:** While MailerLite is a good choice,
+      ensuring seamless integration with Gumroad and maintaining high email deliverability
+      rates (avoiding spam folders) can be complex and require ongoing monitoring,
+      which isn''t factored into the "cost_per_run: 0" or the minimal budget.
+
+
+      **2. Is there a cheaper/faster way to achieve the same result?**
+
+
+      *   **Leverage Gumroad''s Native Upsell Features:** Gumroad offers built-in
+      "post-purchase upsells" and basic email capabilities. For a faster and potentially
+      cheaper initial test, one could utilize these native features to offer the book
+      series immediately after the initial purchase, bypassing the need for a separate
+      email marketing platform setup entirely. This would be the absolute fastest
+      way to test the core upsell concept.
+
+      *   **Single-Email Test:** Instead of a full sequence, a single, highly targeted
+      upsell email sent immediately after purchase could be implemented much faster.
+      While potentially less effective than a sequence, it would provide quick data
+      on the core offer''s viability with minimal setup cost.
+
+      *   **Focus on Content First:** The cheapest and fastest way to *improve results*
+      (not necessarily achieve the *same* result initially) is to invest in truly
+      compelling, value-driven email copy and a strong offer, rather than just setting
+      up the automation. A poorly written sequence, no matter how automated, will
+      fail.
+
+
+      **3. What edge case breaks this?**
+
+
+      *   **Zero New Gumroad Buyers:** The entire opportunity is predicated on "all
+      new Gumroad buyers." If the initial product stops selling or has no new buyers,
+      the email sequence never triggers, and the revenue opportunity completely vanishes.
+
+      *   **Irrelevant Initial Purchase:** If a buyer purchases a product on Gumroad
+      that has absolutely no logical connection or value overlap with the "full book
+      series" (e.g., buying a single digital art brush vs. being upsold a novel series),
+      the upsell will be irrelevant and likely ignored.
+
+      *   **Email Deliverability Failure:** If the emails consistently land in spam
+      folders, are blocked by email providers, or buyers use temporary/invalid email
+      addresses, the sequence will fail to reach its intended audience, regardless
+      of content quality.
+
+      *   **Gumroad API/Platform Changes:** Any significant changes to Gumroad''s
+      API or platform functionality could break the integration with the email marketing
+      platform, requiring costly and time-consuming re-configuration.
+
+      *   **Legal/Compliance Issues:** Failure to comply with email marketing regulations
+      (e.g., GDPR, CAN-SPAM) could lead to legal penalties, account suspension, or
+      blacklisting, effectively shutting down the entire email operation.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides a clear, actionable, and budget-friendly plan to execute
+      the skill, directly moving towards revenue generation by promoting products
+      and sending emails.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves email marketing to existing customers (Gumroad buyers) for
+      a welcome sequence and upsell, which is a compliant activity and does not violate
+      any of the specified fail conditions.'
+    result: PASS
+test_results: {}

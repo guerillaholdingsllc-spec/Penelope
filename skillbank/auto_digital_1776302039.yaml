@@ -1,0 +1,80 @@
+business: Digital
+created: '2026-04-16T01:13:59.061850'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 97
+  reasoning: This opportunity leverages existing customer demand for high-margin digital
+    products through a fully automated email sequence, ensuring rapid and scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776302039
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 70
+    notes: 'CRITIQUE
+
+      Confidence Score: 70%
+
+      Key concerns:
+
+      *   **Upsell Relevance & Segmentation:** The core assumption that all single-book
+      buyers desire the full series is a significant risk. Without understanding individual
+      buyer intent or segmenting based on initial purchase, the upsell may be irrelevant,
+      leading to low conversion rates and potentially alienating customers.
+
+      *   **Technical Integration Fragility & Deliverability:** The automation relies
+      on a stable integration between Gumroad and the chosen email platform. Changes
+      to APIs, platform downtime, or common email deliverability issues (spam filters,
+      sender reputation, invalid addresses) could disrupt the sequence, preventing
+      messages from reaching buyers.
+
+      *   **Customer Experience & Nurturing:** An overly aggressive or poorly timed
+      upsell within a welcome sequence, especially if it lacks sufficient value-add
+      or relationship building, could lead to buyer fatigue, unsubscribes, and a negative
+      perception of the brand, impacting long-term customer lifetime value.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides actionable research and recommendations directly enabling
+      the implementation of the skill''s objective, which is to send emails and promote
+      products, thus moving toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes a standard email marketing activity targeting existing customers
+      (Gumroad buyers) for a welcome sequence and upsell, which is compliant with
+      email marketing best practices and does not involve any of the prohibited activities
+      (collecting SSNs, storing unencrypted passwords, accessing unauthorized systems,
+      or violating GDPR with non-consented PII for existing customers).'
+    result: PASS
+test_results: {}

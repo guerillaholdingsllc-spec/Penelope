@@ -1,0 +1,102 @@
+business: Digital
+created: '2026-04-09T19:02:24.987069'
+learnings: ''
+logic_flow:
+  step_1: Identify converted customers from Notion audience DB
+  step_2: Send ambassador invite email
+  step_3: Generate unique referral links
+  step_4: Track referrals and pay commissions via Stripe
+objective: "Launch ambassador referral program \u2014 20% recurring commission for\
+  \ successful referrals"
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry with variation
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 800
+  margin_pct: 80
+  type: recurring
+skill_id: referral_program_launch
+status: Failed
+supreme_court_results:
+  adversarial:
+    confidence: 20
+    notes: "CRITIQUE\nConfidence Score: 20%\nKey concerns:\n*   **Unrealistic Budget\
+      \ & Cost Assumptions:** The stated $0 cost per run and $50 budget cap are completely\
+      \ detached from the real-world expenses of launching and operating a referral\
+      \ program.\n*   **Over-simplification of Execution:** The \"simulation\" glosses\
+      \ over significant technical integration challenges, ambassador recruitment\
+      \ hurdles, and ongoing management requirements.\n*   **Lack of Real-World Testing:**\
+      \ The Iteration 1 report confirms no actual external services were used, meaning\
+      \ the core assumptions about customer interest, technical feasibility, and cost\
+      \ have not been validated.\n\n**1. Why would this FAIL in the real market?**\n\
+      \n*   **Budget Inadequacy:** A $50 budget cap for a 24-hour period and a $0\
+      \ \"cost per run\" is fundamentally unrealistic. Launching a referral program\
+      \ requires investment in:\n    *   **Referral Platform:** Dedicated software\
+      \ (e.g., Rewardful, PartnerStack) for link generation, tracking, and payout\
+      \ management. These have monthly fees.\n    *   **Email Service Provider (ESP):**\
+      \ For sending invites and ongoing communication.\n    *   **Stripe Fees:** Transaction\
+      \ fees for commission payouts.\n    *   **Labor/Time:** For setup, monitoring,\
+      \ ambassador support, and dispute resolution.\n    *   The current budget would\
+      \ barely cover a single month's subscription for a basic referral tool, let\
+      \ alone the full program launch and operation.\n*   **Ambassador Recruitment\
+      \ & Engagement Challenges:**\n    *   **Assumption of Interest:** Identifying\
+      \ \"converted customers\" doesn't guarantee they want to be ambassadors or are\
+      \ effective at referring. Many may ignore the invite or sign up but never refer.\n\
+      \    *   **Lack of Support:** The SKILL doesn't account for providing ambassadors\
+      \ with marketing assets, dashboards, or ongoing communication to keep them engaged\
+      \ and successful.\n*   **Technical Integration Complexity:** Integrating a Notion\
+      \ database, an ESP, a referral tracking system, and Stripe for automated payouts\
+      \ is not a trivial \"logic flow.\" It requires significant development, testing,\
+      \ and maintenance, which will incur costs and potential delays.\n*   **Referral\
+      \ Quality & Fraud:** Without clear definitions of a \"successful referral\"\
+      \ (e.g., minimum purchase, retention period) and mechanisms to prevent self-referrals\
+      \ or low-quality leads, the program could pay out commissions for unprofitable\
+      \ customers, eroding the 80% margin.\n\n**2. Is there a cheaper/faster way to\
+      \ achieve same result?**\n\n*   **Cheaper (for initial validation, not full\
+      \ launch):**\n    *   **Manual Pilot Program:** Hand-pick 5-10 *known* super-fans.\
+      \ Manually provide them with unique discount codes or simple referral links\
+      \ (e.g., via a custom URL parameter). Track referrals manually in a spreadsheet\
+      \ and pay commissions via direct bank transfer or PayPal. This avoids platform\
+      \ costs initially but doesn't scale.\n    *   **Leverage Existing Tools:** If\
+      \ the business already uses an ESP with basic automation, try to hack together\
+      \ a simple referral system using its features, though this will be limited.\n\
+      *   **Faster (for initial validation):**\n    *   **Focus on a Single Channel:**\
+      \ Instead of a full email campaign, reach out directly to a small, highly engaged\
+      \ segment via a more personal channel (e.g., direct message, phone call) to\
+      \ gauge interest and get immediate feedback.\n    *   **MVP Referral Link:**\
+      \ Use a very basic, off-the-shelf referral link generator (some are free or\
+      \ very low cost for basic use) to quickly get links out, even if tracking is\
+      \ rudimentary.\n\n**3. What edge case breaks this?**\n\n*   **Zero Ambassador\
+      \ Conversion:** If the \"highly engaged, converted customers\" show no interest\
+      \ in becoming ambassadors, the program fails at Step 2, rendering the entire\
+      \ `logic_flow` moot.\n*   **Technical Debt/Integration Failure:** The assumed\
+      \ seamless integration of Notion, ESP, referral platform, and Stripe proves\
+      \ to be far more complex, costly, or buggy than anticipated, leading to significant\
+      \ delays, budget overruns, or a non-functional system.\n*   **Referral Fraud/Low-Quality\
+      \ Referrals:** Ambassadors refer friends who immediately churn or are low-value\
+      \ customers, leading to commission payouts that exceed the actual profit generated,\
+      \ quickly turning the program into a net loss despite the 80% margin."
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      Output describes a simulation and planning, not an actual launch of the referral
+      program as per the objective.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill definition outlines processes involving personal data without specifying
+      how GDPR/CCPA compliance will be achieved.'
+    result: FAIL
+test_output_sample: "As a specialized Digital Worker Agent for Guerilla Holdings LLC,\
+  \ I have executed the assigned revenue strategy within the specified constraints.\n\
+  \n**Execution Report - Iteration 1**\n\n**Budget Cap:** $50.0\n**Budget Spent:**\
+  \ $0.0 (All actions taken were planning, drafting, and simulation, incurring no\
+  \ direct monetary cost for external services within this test run.)\n\n**Strategy\
+  \ Execution Details:**\n\n1.  **Step 1: Identify converted customers from Notion\
+  \ audience DB**\n    *   **Action:** Simulated t"
+test_results: {}

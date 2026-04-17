@@ -1,0 +1,80 @@
+business: GAFC
+created: '2026-04-11T14:24:14.072917'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+  on social
+opportunity_data:
+  action: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+    on social
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 12
+  margin: 25
+  raw_score: 87
+  reasoning: The opportunity benefits from high automation and digital execution,
+    leading to excellent speed, scalability, and profit margins, but the direct market
+    demand signal for the specific brand content and its estimated revenue is relatively
+    low.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1775917454
+status: Live
+supreme_court_results:
+  adversarial:
+    confidence: 20
+    notes: 'CRITIQUE
+
+      Confidence Score: 20%
+
+      Key concerns:
+
+      *   **Unsubstantiated Revenue Projection & Inconsistent Data:** The estimated
+      monthly revenue of $200 for a "brand" awareness activity is highly speculative,
+      lacks a clear conversion path, and directly contradicts the `revenue_model`
+      which states `estimated_monthly: 0` and `type: "one_time"`. This fundamental
+      inconsistency undermines the entire financial premise.
+
+      *   **Low Market Demand for Unproven IP:** The RPS score explicitly highlights
+      a "direct market demand signal for the specific brand content and its estimated
+      revenue is relatively low" (demand score 12). Pushing content for unknown characters
+      with low existing demand is unlikely to effectively build brand awareness or
+      generate any measurable revenue.
+
+      *   **Misleading Cost & Margin Calculation:** While the allocated budget is
+      $0, the strategy relies heavily on "internal time investment for content creation
+      and management." This internal resource cost is not accounted for, making the
+      "cost_per_run: 0" and 70% margin highly misleading and obscuring the true investment
+      required.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides actionable steps for content creation and social media posting,
+      directly aligning with the objective of building brand awareness, which moves
+      toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting for brand awareness, which is explicitly
+      compliant and does not violate any specified restrictions.'
+    result: PASS
+test_results: {}

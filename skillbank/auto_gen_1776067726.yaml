@@ -1,0 +1,85 @@
+business: Cross-vertical
+created: '2026-04-13T08:08:46.050463'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $250 - $700
+  how_penelope_deploys_it_autonomously: Penelope leverages an LLM to generate the
+    ebook content and prompts, designs a cover using an AI art tool (e.g., Midjourney),
+    formats the ebook for KDP/Gumroad, and automates listing and promotional content
+    scheduling.
+  specific_revenue_action: 'Ebook: ''ChatGPT for Small Business Marketing: 50 Prompts
+    & Strategies'', sold on Gumroad and Amazon KDP.'
+  tier: 1
+  time_to_first_dollar: 14
+  why_this_works_NOW: Small businesses are actively seeking practical, easy-to-implement
+    AI solutions to enhance their marketing without hiring experts.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 25
+  margin: 25
+  raw_score: 98
+  reasoning: This opportunity leverages strong current market demand for AI solutions
+    for small businesses with a fully automated, high-margin digital product that
+    can be deployed quickly and scaled infinitely by an AI agent.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776067726
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Quality & Differentiation:** Fully autonomous AI-generated content in
+      a saturated market is highly likely to be generic, lack unique insights, and
+      struggle to stand out, leading to poor sales and negative reviews. The market
+      for "ChatGPT for Small Business Marketing" ebooks is already flooded.
+
+      *   **Marketing & Visibility:** The plan lacks a robust strategy for driving
+      traffic and converting sales beyond simply listing the ebook on Gumroad and
+      KDP, which is insufficient for success in competitive marketplaces. "Automates
+      listing and promotional content scheduling" is vague and unlikely to be effective
+      without a deeper marketing strategy.
+
+      *   **Overly Optimistic Cost & Revenue Models:** The claim of "$0 cost to test"
+      and "cost per run $0" is unrealistic, ignoring platform fees (Gumroad/KDP take
+      a cut), potential API costs for LLMs/AI art tools, and the implicit cost of
+      time/effort for setup and monitoring. The `revenue_model.estimated_monthly:
+      0` directly contradicts the `estimated_monthly_revenue_potential: $250 - $700`.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides an actionable plan for content creation and promotion, directly
+      moving toward the revenue objective.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill does not involve collecting SSNs, storing unencrypted passwords, accessing
+      unauthorized systems, or violating GDPR with non-consented PII. The activities
+      described (content publishing, automated listing, and promotional content scheduling)
+      are compliant.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,72 @@
+business: GAFC
+created: '2026-04-13T11:58:08.591807'
+learnings: ''
+logic_flow: {}
+objective: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+opportunity_data:
+  action: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+  business: GAFC
+  estimated_monthly: 500
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 19
+  margin: 25
+  raw_score: 94
+  reasoning: This opportunity leverages an AI agent's strengths in automated digital
+    content creation and distribution for a high-interest topic, offering excellent
+    speed, scalability, and profit margin, though the direct market demand for this
+    specific brand-building content is moderately strong.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776081488
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+      *   The stated $500/month revenue target is highly unrealistic for publishing
+      only 5 blog posts, especially given the "one-time" revenue model and "cost_per_run:
+      0" in the skill definition, which are contradictory and misleading.
+
+      *   Significant risk of content quality issues, factual inaccuracies, or platform
+      policy violations given the sensitive nature of gun safety, which could severely
+      damage brand reputation and negate the "brand authority" objective.
+
+      *   The reliance on Bluesky for promotion and the lack of a comprehensive SEO/traffic
+      strategy for the blog posts will severely limit reach and potential for monetization,
+      making the $500/month target unattainable.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides an actionable plan for content creation and social
+      media promotion, directly aligning with the skill''s objective and moving toward
+      brand authority and potential revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and social media sharing, which are compliant
+      activities and do not violate any of the specified forbidden actions.'
+    result: PASS
+test_results: {}

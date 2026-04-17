@@ -1,0 +1,81 @@
+business: Digital
+created: '2026-04-15T22:58:28.075445'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 97
+  reasoning: This opportunity leverages existing customer demand for high-margin digital
+    products through a fully automated email sequence, ensuring rapid and scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776293908
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Internal Inconsistencies & Unrealistic Costing:** The `revenue_model.estimated_monthly`
+      is listed as 0, directly contradicting the `opportunity_data.estimated_monthly`
+      of 300. Furthermore, a `cost_per_run` of 0 is highly unrealistic; even "free"
+      tools have limitations, and scaling will incur costs. This suggests a fundamental
+      flaw in the financial modeling.
+
+      *   **Unvalidated Upsell Demand & Conversion:** The entire revenue projection
+      hinges on the assumption that new Gumroad buyers will be receptive to an upsell
+      for a "full book series." There''s no data provided on existing demand for the
+      series, expected conversion rates, or how relevant the series is to the initial
+      purchase, making the $300 estimate speculative.
+
+      *   **Overly Optimistic RPS Score:** An RPS score of 100, with a "Tier 1 - Instant
+      Digital (No barriers)" label, appears inflated given the lack of detailed validation
+      for conversion rates, the potential for email deliverability issues, and the
+      inherent market risks associated with any sales funnel. The "no barriers" claim
+      ignores the critical barrier of buyer interest and conversion.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The action involves sending emails and promoting products, which directly moves
+      toward revenue and is feasible.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes email marketing to existing customers (Gumroad buyers) for
+      upsell, which is a compliant activity when using opt-in lists or legitimate
+      interest with clear opt-out mechanisms. The skill does not involve collecting
+      SSNs, storing unencrypted passwords, accessing unauthorized systems, or explicitly
+      violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

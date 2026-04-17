@@ -1,0 +1,77 @@
+business: GAFC
+created: '2026-04-13T03:24:19.695122'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+  on social
+opportunity_data:
+  action: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+    on social
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 10
+  margin: 22
+  raw_score: 82
+  reasoning: This opportunity scores highly on speed, scalability, and margin due
+    to its fully digital and automated nature, but the market demand signal for this
+    specific brand content appears low given the modest estimated monthly value for
+    brand awareness.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776050659
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 25
+    notes: 'CRITIQUE
+
+      Confidence Score: 25%
+
+      Key concerns:
+
+      *   **Inconsistent & Unsubstantiated Revenue Model**: The `revenue_model` states
+      $0 estimated monthly revenue and $0 cost per run, directly contradicting the
+      `opportunity_data`''s $200 estimated monthly for "brand awareness." This makes
+      the 70% margin highly suspect and the entire financial viability questionable.
+
+      *   **Low Demand & Unproven Character Appeal**: The system itself acknowledges
+      a "low market demand signal" (score 10). Success hinges entirely on unknown
+      characters ("Gloxsie and Bobo Licious") resonating with an audience, which is
+      a significant gamble with no supporting data.
+
+      *   **Ambiguous "Automation" & Budget Limitations**: While "fully digital and
+      automated" is cited for high scores, it''s unclear if this applies to content
+      *creation* (risking quality) or just *posting*. The $50 budget cap for "implementation"
+      is extremely low for any meaningful social media brand awareness campaign, especially
+      if content creation costs are not zero.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The action is to post content to social media, which is actionable and moves
+      toward brand awareness, a form of revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting for brand awareness, which is explicitly
+      compliant and does not violate any of the specified fail conditions.'
+    result: PASS
+test_results: {}

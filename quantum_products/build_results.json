@@ -1,0 +1,170 @@
+{
+  "products": {
+    "pqc_kit": {
+      "passed": false,
+      "gates": {
+        "factual_accuracy": {
+          "passed": false,
+          "detail": {
+            "passed": false,
+            "issues": [
+              "The claim that Google announced in \"April 2026\" that it plans to begin testing Post-Quantum Cryptography in Chrome and Chromium for Transport Layer Security (TLS) is factually incorrect. Google has already implemented and begun experimental testing of PQC in TLS (e.g., using X25519Kyber768) in Chrome/Chromium, with initial rollouts in Chrome Canary occurring as early as Q1 2023. This date is significantly off and refers to a future event that has already been superseded by past actions.",
+              "The provided content does not reference specific FIPS standards (203, 204, 205) or the corresponding algorithm names (ML-KEM/Kyber, ML-DSA/Dilithium, SLH-DSA/SPHINCS+). Therefore, it's not possible to verify if these specific references are real or if the algorithm names are correct based solely on the provided text. The text only generally mentions \"publicly available NIST standards\" and \"According to NIST.\"",
+              "The content does not include a specific timeline claim about \"CRQC likely 2030-2035\" to evaluate for reasonableness, beyond general statements about quantum computers not being widely available yet but expected to become powerful enough."
+            ],
+            "score": 6
+          }
+        },
+        "readability": {
+          "passed": true,
+          "score": 0
+        },
+        "legal_language": {
+          "passed": true,
+          "found": []
+        },
+        "disclaimer": {
+          "passed": true
+        },
+        "clarity": {
+          "passed": false,
+          "detail": {
+            "clarity_score": 3,
+            "confusing_sections": [
+              "Post-Quantum Cryptography (PQC)",
+              "NIST standards",
+              "Cryptography is the science of secure communication, using mathematical puzzles to protect information.",
+              "withstand attacks from advanced quantum computers",
+              "break the encryption we use today",
+              "future-proofing our digital defenses against a new kind of threat",
+              "cybersecurity landscape",
+              "The transition to Post-Quantum Cryptography is not an overnight switch",
+              "The \"Harvest Now, Decrypt Later\" Threat",
+              "sophisticated attackers can already be \"harvesting\" your currently encrypted sensitive data"
+            ],
+            "verdict": "fail"
+          }
+        },
+        "overall": false
+      },
+      "word_count": 2267,
+      "path": "/root/workspace/Penelope/quantum_products/pqc_smb_kit_v1.md",
+      "gates_v2": {
+        "factual_accuracy": {
+          "passed": true,
+          "detail": {
+            "passed": true,
+            "issues": [],
+            "score": 10
+          }
+        },
+        "readability": {
+          "passed": true,
+          "score": 0
+        },
+        "legal_language": {
+          "passed": true,
+          "found": []
+        },
+        "disclaimer": {
+          "passed": true
+        },
+        "clarity": {
+          "passed": false,
+          "detail": {
+            "clarity_score": 5,
+            "confusing_sections": [
+              "NIST standards / NIST: What is this NIST thing? Is it like the ADA for computers?",
+              "qualified cybersecurity professional: Is that different from the young man who comes to fix our computers when the internet goes out?",
+              "Post-Quantum Cryptography (PQC): That's a very long name. And what does 'quantum' even mean? It sounds like something from a science fiction movie, not something for my dental office.",
+              "Encryption: I know it means keeping things secret, but what does it actually *do*? Is it like a lock on a file cabinet?",
+              "Quantum computers / quantum era: Are these actual computers? Will they be in my office? It's hard to imagine something so futuristic affecting my appointment book.",
+              "Standard encryption: Is what I have now 'standard'? Is it not good enough anymore?"
+            ],
+            "verdict": "pass"
+          }
+        },
+        "overall": false
+      }
+    },
+    "literacy_guide": {
+      "passed": false,
+      "gates": {
+        "factual_accuracy": {
+          "passed": true,
+          "detail": {
+            "passed": true,
+            "issues": [
+              "The provided content snippet (first 2000 characters) introduces quantum computing and its general impact on data security but does not yet delve into specific post-quantum cryptography algorithms, NIST FIPS standards (203, 204, 205), or a detailed 'Cryptographically Relevant Quantum Computer' (CRQC) timeline (e.g., 2030-2035). Therefore, checks 1, 3, and the specific timeline aspect of check 4 cannot be fully verified within this particular text segment, as the information is not present. However, no factual inaccuracies were found regarding these points or the content's general claims."
+            ],
+            "score": 10
+          }
+        },
+        "readability": {
+          "passed": true,
+          "score": 0
+        },
+        "legal_language": {
+          "passed": false,
+          "found": [
+            "you should"
+          ]
+        },
+        "disclaimer": {
+          "passed": true
+        },
+        "clarity": {
+          "passed": false,
+          "detail": {
+            "clarity_score": 2,
+            "confusing_sections": [
+              "This new device doesn't just do calculations faster; it can tackle problems that the old calculator simply can't solve, no matter how much time you give it. (What kind of problems? My office calculator works fine!)",
+              "Instead, quantum computers use the strange rules of the universe at a tiny scale to handle specific, incredibly complex problems in a fundamentally new way. (Strange rules? Tiny scale? Fundamentally new way? This sounds like science fiction, not something for my dental practice!)",
+              "Think of it this way: If your current computer is a very efficient delivery truck, a quantum computer is more like a specialized crane. (Delivery truck and crane? I use a computer for patient records, not for hauling things! This analogy just confuses me more.)",
+              "designed to solve problems beyond the reach of even the most powerful traditional supercomputers. (Supercomputers? What's the difference between a computer and a supercomputer? And why do I care about things 'beyond their reach'?)",
+              "They excel at tasks like breaking today's most common encryption codes, finding new materials, or optimizing highly complex logistics.",
+              "- breaking today's most common encryption codes: (Oh dear, encryption codes! Does that mean someone can hack into our patient files easier now? This sounds scary! What am I supposed to DO about it?)",
+              "- finding new materials: (New materials for what? Fillings? Toothbrushes? How does this apply to my job?)",
+              "- optimizing highly complex logistics: (Logistics? Like scheduling appointments and ordering supplies? My current software does that just fine. What's 'highly complex' about it for a dental office?)"
+            ],
+            "verdict": "fail"
+          }
+        },
+        "overall": false
+      },
+      "word_count": 1995,
+      "path": "/root/workspace/Penelope/quantum_products/quantum_literacy_guide_v1.md"
+    },
+    "prompt_pack": {
+      "passed": true,
+      "prompt_count": 25,
+      "test_pass_rate": 1.0,
+      "test_results": [
+        {
+          "prompt": 1,
+          "passed": true,
+          "output_len": 2781
+        },
+        {
+          "prompt": 2,
+          "passed": true,
+          "output_len": 5529
+        },
+        {
+          "prompt": 3,
+          "passed": true,
+          "output_len": 4360
+        }
+      ],
+      "path": "/root/workspace/Penelope/quantum_products/quantum_prompt_pack_v1.md"
+    }
+  },
+  "marketing": {
+    "plan_path": "/root/workspace/Penelope/quantum_products/marketing_funnel_plan.md",
+    "generated": true,
+    "gumroad_discover_note": "Must enable Discover manually in Gumroad dashboard for all 7 products"
+  },
+  "gates": {},
+  "errors": [],
+  "timestamp": "2026-04-13T13:52:26.745702"
+}

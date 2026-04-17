@@ -1,0 +1,162 @@
+[
+  {
+    "id": "daily_briefing",
+    "name": "Daily Crypto Briefing",
+    "schedule": "08:00",
+    "command": "python3 /root/workspace/Penelope/crypto_trading_agent.py --briefing",
+    "enabled": true,
+    "last_run": null,
+    "description": "Morning crypto + DEVVE briefing"
+  },
+  {
+    "id": "devve_monitor",
+    "name": "DEVVE Price Monitor",
+    "schedule": "12:00",
+    "command": "python3 /root/workspace/Penelope/crypto_trading_agent.py --monitor-devve",
+    "enabled": true,
+    "last_run": null,
+    "description": "Midday DEVVE check"
+  },
+  {
+    "id": "marketing_tasks",
+    "name": "Execute Marketing Tasks",
+    "schedule": "09:30",
+    "command": "python3 /root/workspace/Penelope/marketing_team.py --task-board",
+    "enabled": true,
+    "last_run": null,
+    "description": "Auto-execute pending marketing tasks"
+  },
+  {
+    "id": "weekly_research",
+    "name": "Weekly ClickBank Research",
+    "schedule": "MON-08:00",
+    "command": "python3 /root/workspace/Penelope/clickbank_agent.py",
+    "enabled": true,
+    "last_run": null,
+    "description": "Weekly affiliate research"
+  },
+  {
+    "id": "file_organize",
+    "name": "Organize Output Files",
+    "schedule": "18:00",
+    "command": "ORGANIZE:/root/workspace/Penelope",
+    "enabled": true,
+    "last_run": null,
+    "description": "Daily file organization"
+  },
+  {
+    "id": "service_health",
+    "name": "Service Health Check",
+    "schedule": "0 */2 * * *",
+    "command": "HEALTH_CHECK",
+    "enabled": true,
+    "last_run": "2026-04-12T07:30:01.169852",
+    "description": "Check all Penelope services every 30min",
+    "label": "Service health check (every 2hrs, alert only on failure)"
+  },
+  {
+    "id": "vessel_revenue_brief",
+    "script": "vessel_revenue_agent.py",
+    "schedule": "0 8 * * *",
+    "label": "Vessel Revenue Brief (8AM daily)"
+  },
+  {
+    "id": "vessel_uss_batch",
+    "script": "vessel_uss_agent.py",
+    "schedule": "0 3 * * *",
+    "label": "Vessel USS Score Batch (3AM daily)"
+  },
+  {
+    "id": "vessel_dropout_check",
+    "script": "vessel_dropout_agent.py",
+    "schedule": "0 */4 * * *",
+    "label": "Vessel Dropout Check (every 4h)"
+  },
+  {
+    "id": "vessel_referral_check",
+    "script": "vessel_referral_agent.py",
+    "schedule": "0 */6 * * *",
+    "label": "Vessel Referral Check (every 6h)"
+  },
+  {
+    "id": "vessel_intel_weekly",
+    "script": "vessel_intelligence_agent.py",
+    "schedule": "0 6 * * 0",
+    "label": "Vessel Intel Report (Sun 6AM)"
+  },
+  {
+    "id": "vessel_email_daily",
+    "script": "vessel_platform_agents.py",
+    "schedule": "0 8 * * *",
+    "label": "Vessel Email Agents (8AM daily)"
+  },
+  {
+    "id": "vessel_push_morning",
+    "script": "vessel_push_agent.py",
+    "args": [
+      "morning"
+    ],
+    "schedule": "0 8 * * *",
+    "label": "Vessel Morning AI Notification (8AM daily)"
+  },
+  {
+    "id": "vessel_push_action",
+    "script": "vessel_push_agent.py",
+    "args": [
+      "action"
+    ],
+    "schedule": "0 14 * * *",
+    "label": "Vessel Action Nudge (2PM \u2014 ~6hrs after morning)"
+  },
+  {
+    "id": "vessel_push_evening",
+    "script": "vessel_push_agent.py",
+    "args": [
+      "evening"
+    ],
+    "schedule": "0 19 * * *",
+    "label": "Vessel Evening Check-in Nudge (7PM daily)"
+  },
+  {
+    "id": "vessel_test_full",
+    "script": "vessel_test_agent.py",
+    "args": [],
+    "schedule": "0 */12 * * *",
+    "label": "Vessel full test suite (every 12 hours)"
+  },
+  {
+    "id": "vessel_test_morning",
+    "script": "vessel_test_agent.py",
+    "args": [],
+    "schedule": "30 7 * * *",
+    "label": "Vessel pre-launch tests (7:30AM daily, before morning push)"
+  },
+  {
+    "id": "daily_digest_vessel",
+    "script": "penelope_daily_digest.py",
+    "args": [],
+    "schedule": "0 8 * * *",
+    "label": "ONE morning brief \u2014 Vessel stats + system health (replaces scattered messages)"
+  },
+  {
+    "id": "vessel_marketing_morning",
+    "script": "vessel_marketing_master.py",
+    "args": [],
+    "schedule": "0 9 * * *",
+    "label": "Vessel marketing master plan \u2014 9AM daily (all 7 sections)"
+  },
+  {
+    "id": "vessel_marketing_evening",
+    "script": "vessel_marketing_master.py",
+    "args": [],
+    "schedule": "0 18 * * *",
+    "label": "Vessel marketing evening run \u2014 6PM (Bluesky + content)"
+  },
+  {
+    "id": "vessel_marketing_master",
+    "script": "vessel_marketing_master.py",
+    "args": [],
+    "schedule": "0 9 * * *",
+    "label": "Vessel Marketing Master Plan \u2014 all 7 sections daily at 9AM"
+  }
+]

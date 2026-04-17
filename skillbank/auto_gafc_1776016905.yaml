@@ -1,0 +1,80 @@
+business: GAFC
+created: '2026-04-12T18:01:45.486203'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+opportunity_data:
+  action: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 24
+  raw_score: 92
+  reasoning: The opportunity leverages an autonomous AI for high-margin, instant,
+    and fully scalable digital content posting, though market demand for this specific
+    brand-building activity is modest.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776016905
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+
+      **Key Concerns:**
+
+      *   **Brand Identity Conflict & Credibility:** The brand name "Glocks and Fried
+      Chicken" is inherently provocative and often associated with satire or stereotypes.
+      Attempting to post serious, educational content about safe firearm storage from
+      such an account risks being perceived as insincere, tone-deaf, or even offensive,
+      severely undermining the intended brand-building and credibility.
+
+      *   **Platform Moderation & Risk:** Instagram''s content policies, particularly
+      concerning firearms, are strict. The brand name itself, combined with firearm
+      content (even safety-focused), could trigger automated moderation, user reports,
+      shadow-banning, or even account suspension, regardless of the content''s positive
+      intent. This poses a significant risk to the entire account.
+
+      *   **Audience Mismatch & Effectiveness:** The existing audience of "@glocksandfriedchicken"
+      may not be receptive to serious safety education, potentially leading to low
+      engagement or alienation. Conversely, individuals genuinely seeking safe storage
+      information might be deterred by the brand''s controversial name, making the
+      effort ineffective at reaching the desired demographic and achieving the stated
+      brand value.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The action involves posting educational content to social media, which aligns
+      with the ''publishes content'' and ''posts to social media'' criteria and is
+      not illegal, harmful, or impossible.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting of educational content, which is explicitly
+      compliant and does not violate any of the specified failing criteria (SSNs,
+      unencrypted passwords, unauthorized access, non-consented PII).'
+    result: PASS
+test_results: {}

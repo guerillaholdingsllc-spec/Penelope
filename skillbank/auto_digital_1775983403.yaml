@@ -1,0 +1,155 @@
+business: Digital
+created: '2026-04-12T08:43:23.193959'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages existing customer demand for a high-margin
+    digital product through an automated email sequence, offering excellent speed
+    to revenue and scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775983403
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 100
+    notes: 'CRITIQUE
+
+      Confidence Score: 75%
+
+      Key concerns:
+
+      *   **Product-Market Fit & Value Proposition:** The core assumption of this
+      opportunity is that new Gumroad buyers of an initial product will have sufficient
+      demand and perceived value for a "full book series." If the initial product
+      doesn''t naturally lead to interest in the series, or the series itself isn''t
+      compelling, the upsell conversion rates will be low, failing to meet revenue
+      targets.
+
+      *   **Email Deliverability & Engagement:** The success of an email sequence
+      is highly dependent on emails reaching the inbox (avoiding spam filters), achieving
+      high open rates, and compelling clicks. Poor sender reputation, weak subject
+      lines, or irrelevant content can severely hamper engagement and conversion,
+      leading to wasted effort and no revenue.
+
+      *   **Technical & Operational Dependencies:** The automation relies on seamless
+      integration between Gumroad and an Email Service Provider (ESP). Changes to
+      Gumroad''s API, ESP platform updates, or misconfigurations in the automation
+      flow could break the sequence, preventing emails from being sent or links from
+      functioning correctly.
+
+
+      ---
+
+      **1. Why would this FAIL in the real market?**
+
+      *   **Lack of Product-Market Fit for the Upsell:** The "full book series" might
+      not be a natural or desired next step for all new Gumroad buyers. If the initial
+      purchase is a niche product and the series is too broad, or vice-versa, the
+      upsell will fail to resonate.
+
+      *   **Poor Email Execution:** Low open rates due to weak subject lines, emails
+      landing in spam folders (poor sender reputation), or unengaging email copy will
+      prevent the offer from even being seen or considered.
+
+      *   **High Price Point or Low Perceived Value:** If the "full book series" is
+      priced too high relative to its perceived value, or if the initial purchase
+      was low-cost, buyers may not be willing to make a significantly larger investment.
+
+      *   **Technical Glitches/Integration Breakdowns:** The automated flow between
+      Gumroad and the email marketing platform could break due to API changes, platform
+      updates, or configuration errors, stopping the sequence entirely.
+
+      *   **Audience Fatigue/Irrelevance:** Over-emailing or sending irrelevant content
+      can lead to unsubscribes and negative brand perception, reducing future sales
+      opportunities.
+
+
+      **2. Is there a cheaper/faster way to achieve same result?**
+
+      *   **Faster (Potentially):** A direct, immediate upsell offer on the Gumroad
+      thank-you page after the initial purchase (if Gumroad''s platform allows for
+      such customization). This removes the delay of an email sequence but might be
+      less effective for nurturing.
+
+      *   **Cheaper (Potentially, but less effective):** A single, well-crafted upsell
+      email sent immediately after purchase, rather than a full sequence. This reduces
+      setup time and complexity but sacrifices the benefits of a multi-touch nurturing
+      sequence.
+
+      *   **Overall:** The proposed automated email sequence is already a highly cost-effective
+      and efficient method for digital product upsells. While faster/simpler alternatives
+      exist, they often come with trade-offs in conversion effectiveness due to reduced
+      nurturing and multiple touchpoints. The current approach strikes a good balance.
+
+
+      **3. What edge case breaks this?**
+
+      *   **No New Buyers:** If the initial product on Gumroad stops selling, there
+      will be no new buyers to enter the email sequence, rendering the entire skill
+      inactive.
+
+      *   **Gumroad Platform Changes:** Significant changes to Gumroad''s platform,
+      API, or webhook functionality could break the integration with the email marketing
+      system, halting the automation.
+
+      *   **Email Service Provider (ESP) Issues:** The chosen ESP experiences outages,
+      changes its terms of service, or flags the sender''s account for deliverability
+      issues, preventing emails from being sent.
+
+      *   **Product Obsolescence:** The "full book series" becomes outdated, irrelevant,
+      or is superseded by a new product, making the upsell offer unattractive to potential
+      buyers.
+
+      *   **Legal/Compliance Changes:** New data privacy regulations (e.g., stricter
+      consent requirements) or anti-spam laws could necessitate changes to the email
+      collection and sending process, potentially disrupting the flow or incurring
+      penalties.
+
+
+      **4. Confidence Score 0-100%**
+
+      75%'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides actionable research and tool recommendations directly
+      enabling the execution of the skill, which involves sending emails and promoting
+      products, thus moving toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes standard email marketing to existing buyers, which is compliant
+      with privacy regulations when an unsubscribe option is provided. It does not
+      involve collecting SSNs, storing unencrypted passwords, accessing unauthorized
+      systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

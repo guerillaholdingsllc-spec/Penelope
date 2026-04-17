@@ -1,0 +1,82 @@
+business: Cross-vertical
+created: '2026-04-10T11:09:18.691103'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  Cost to test: $0 - $50
+  Estimated monthly revenue potential: $1000 - $4000
+  How Penelope deploys it autonomously: Generates course outline, scripts video content,
+    creates presentation slides, automates course upload and marketing emails, schedules
+    social media posts.
+  Specific revenue action: Create and sell a concise online course (5-7 modules) on
+    Teachable or Gumroad titled 'Mastering ChatGPT for Business Productivity.' Teaches
+    professionals to leverage ChatGPT for daily business tasks (email writing, meeting
+    summaries, idea generation).
+  Tier classification: 1
+  Time to first dollar: 25 days
+  Why this works NOW: Widespread adoption of ChatGPT, but many users don't know how
+    to maximize its business utility; high demand for practical, applied AI skills
+    in the workforce.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 25
+  margin: 25
+  raw_score: 97
+  reasoning: This opportunity leverages extremely high market demand for practical
+    AI skills with a fully automated, high-margin digital product that can be deployed
+    quickly by an AI agent.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775819358
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Content Quality & Differentiation:** Fully autonomous AI content generation
+      risks producing generic, superficial content that fails to stand out in a highly
+      saturated market, leading to low sales and negative reviews.
+
+      *   **Rapid Obsolescence & Maintenance:** The AI landscape evolves extremely
+      fast; course content can become outdated within months, requiring continuous,
+      intelligent updates that autonomous systems may struggle to perform effectively
+      without human oversight.
+
+      *   **Lack of Instructor Credibility/Brand:** Without a human expert or established
+      brand behind the course, it will struggle to build trust and attract buyers,
+      as personal credibility often drives purchasing decisions in the online education
+      space.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The test output contains an incomplete sentence regarding Teachable''s cost
+      implications, making the information non-verifiable and incomplete.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill implies lead data collection for marketing but provides no details
+      or assurances regarding GDPR/CCPA compliance.'
+    result: FAIL
+test_results: {}

@@ -1,0 +1,90 @@
+business: Cross-vertical
+created: '2026-04-16T20:29:50.204790'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  Cost to test: $45 (API costs, minimal hosting)
+  Estimated monthly revenue potential: $600-$1,600 (recurring)
+  How Penelope deploys it autonomously: Penelope builds a simple web tool (no-code
+    platform) that takes user input and generates captions/hashtags using AI API,
+    sets up subscription payment, creates landing page, promotes on Instagram/Facebook
+    groups.
+  Specific revenue action: 'Sell ''AI-Powered Instagram Caption & Hashtag Generator''
+    micro-tool. Target: Instagram influencers, small businesses.'
+  Tier classification: 1
+  Time to first dollar: 25 days
+  Why this works NOW: Instagram marketing is crucial, caption writing is time-consuming,
+    AI offers instant, optimized suggestions to boost engagement.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 93
+  reasoning: This opportunity presents strong market demand for an AI-powered content
+    tool, offers excellent profit margins, a quick time to market, and is highly scalable
+    due to its fully autonomous digital nature.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776371390
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Market Saturation & Commoditization:** The market for AI-powered caption
+      and hashtag generators is extremely crowded, with numerous free and established
+      paid alternatives (e.g., ChatGPT, Jasper, Copy.ai, various niche tools). A basic
+      "micro-tool" will struggle significantly to differentiate itself and attract
+      paying users against this backdrop, especially without a unique value proposition
+      beyond generic AI output.
+
+      *   **Revenue Model Inconsistency & Retention Risk:** The `revenue_model.type`
+      is explicitly stated as "one_time," which directly contradicts the "estimated
+      monthly revenue potential" of "$600-$1,600 (recurring)" and the `research_summary`''s
+      mention of a "tiered subscription model." This fundamental inconsistency indicates
+      a critical flaw in the opportunity''s definition. Even if intended as recurring,
+      micro-tools in commoditized spaces often face high churn rates, making sustained
+      monthly revenue challenging.
+
+      *   **Limited Marketing & Differentiation Strategy:** The proposed marketing
+      plan ("promotes on Instagram/Facebook groups") is rudimentary and insufficient
+      to stand out in a highly competitive market. The opportunity lacks a clear,
+      compelling unique selling proposition (USP) that would convince users to pay
+      for this specific tool over free alternatives or more comprehensive AI suites
+      they might already use.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output, a research summary, is a valid and necessary precursor to direct
+      revenue actions, and it is not illegal, harmful, or impossible to execute.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill does not involve collecting SSNs, storing unencrypted passwords, accessing
+      unauthorized systems, or violating GDPR with non-consented PII. Marketing activities
+      described (social media promotion, landing page for subscriptions) are compliant,
+      assuming standard opt-in practices for any collected PII.'
+    result: PASS
+test_results: {}

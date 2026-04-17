@@ -1,0 +1,81 @@
+business: Digital
+created: '2026-04-12T13:26:34.748990'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages existing customer demand for a high-margin
+    digital product through an automated email sequence, offering excellent speed
+    to revenue and scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776000394
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Internal Inconsistencies & Unrealistic Scoring:** The `revenue_model.estimated_monthly`
+      of 0 directly contradicts the `opportunity_data.estimated_monthly` of 300. Furthermore,
+      a perfect `rps_score` of 100 for a draft opportunity is highly suspect and suggests
+      an uncritical assessment, potentially masking underlying risks.
+
+      *   **Incomplete & Under-resourced Plan:** The provided `actionable_findings`
+      are cut off mid-sentence, indicating an incomplete or flawed planning output.
+      Additionally, the `budget_cap_24h` of $50 is extremely restrictive for setting
+      up, integrating, writing, and testing an effective email sequence, even with
+      free tools.
+
+      *   **Unvalidated Upsell Relevance & Conversion:** The plan assumes a generic
+      "full book series" upsell will be relevant and convert for "all new Gumroad
+      buyers." Without segmentation or a clear understanding of the initial purchase
+      context, this broad approach risks low conversion rates and high unsubscribe/spam
+      complaint rates, making the $300/month estimate highly speculative.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable steps to set up the infrastructure for sending
+      emails and promoting products, directly enabling the skill''s objective and
+      moving toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes an email marketing activity to existing buyers, which is
+      compliant when using opt-in lists. The description does not explicitly state
+      a violation of GDPR by using non-consented PII, nor does it involve collecting
+      SSNs, storing unencrypted passwords, or accessing unauthorized systems. The
+      budget is also within limits.'
+    result: PASS
+test_results: {}

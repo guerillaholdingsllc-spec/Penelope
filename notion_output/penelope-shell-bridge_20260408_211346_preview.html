@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penelope Shell Bridge - Notion Template Preview</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --notion-bg: #FFFFFF;
+            --notion-text: #37352F;
+            --notion-text-light: #787774;
+            --notion-border: rgba(55, 53, 47, 0.1);
+            --notion-sidebar-bg: #F7F7F7;
+            --notion-sidebar-hover: rgba(55, 53, 47, 0.08);
+            --notion-blue: #337AFF;
+            --notion-green: #22BB5D;
+            --notion-yellow: #FFC043;
+            --notion-red: #E03E3E;
+            --notion-gray-light: #E9E9E7;
+            --notion-gray-medium: #D8D8D5;
+            --notion-gray-dark: #B9B9B9;
+            --notion-purple: #7B68EE;
+            --notion-orange: #FF8F00;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--notion-bg);
+            color: var(--notion-text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-size: 15px; /* Base Notion font size */
+        }
+
+        .notion-mockup {
+            display: flex;
+            min-height: 100vh;
+            border: 1px solid var(--notion-border);
+            max-width: 1400px;
+            margin: 20px auto;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .sidebar {
+            width: 240px;
+            flex-shrink: 0;
+            background-color: var(--notion-sidebar-bg);
+            border-right: 1px solid var(--notion-border);
+            padding: 16px 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar-header {
+            padding: 0 16px 12px;
+            border-bottom: 1px solid var(--notion-border);
+            margin-bottom: 8px;
+        }
+
+        .sidebar-header .workspace-name {
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 0;
+            cursor: pointer;
+        }
+
+        .sidebar-header .workspace-name svg {
+            color: var(--notion-text-light);
+        }
+
+        .sidebar-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 6px 16px;
+            margin: 2px 0;
+            cursor: pointer;
+            border-radius: 4px;
+            color: var(--notion-text);
+            text-decoration: none;
+        }
+
+        .sidebar-item:hover {
+            background-color: var(--notion-sidebar-hover);
+        }
+
+        .sidebar-item.active {
+            background-color: var(--notion-gray-light);
+            font-weight: 500;
+        }
+
+        .sidebar-item.active:hover {
+            background-color: var(--notion-gray-light); /* Maintain active state */
+        }
+
+        .sidebar-item-icon {
+            font-size: 1.1em;
+            width: 20px;
+            text-align: center;
+        }
+
+        .sidebar-section-title {
+            font-size: 0.8em;
+            color: var(--notion-text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 8px 16px 4px;
+            margin-top: 10px;
+        }
+
+        .sidebar-add-page {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 16px;
+            margin-top: 12px;
+            color: var(--notion-text-light);
+            cursor: pointer;
+        }
+        .sidebar-add-page:hover {
+            background-color: var(--notion-sidebar-hover);
+            border-radius: 4px;
+        }
+
+
+        .main-content {
+            flex-grow: 1;
+            padding: 60px 80px; /* Notion-like large padding */
+            max-width: 900px; /* Notion's typical content width */
+            margin: 0 auto; /* Center content within main-content area */
+        }
+
+        .page-header {
+            margin-bottom: 40px;
+        }
+
+        .page-header h1 {
+            font-size: 2.7em;
+            font-weight: 700;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .page-header p {
+            font-size: 1.1em;
+            color: var(--notion-text-light);
+            max-width: 700px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1.3em;
+            font-weight: 600;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 12px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 12px;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 4px;
+        }
+
+        ul li::before {
+            content: "•"; /* Notion-style bullet */
+            position: absolute;
+            left: 0;
+            color: var(--notion-text-light);
+            font-size: 1.2em;
+            line-height: 1;
+        }
+
+        .notion-block {
+            padding: 8px 0;
+        }
+
+        .notion-callout {
+            display: flex;
+            gap: 12px;
+            padding: 16px;
+            background-color: #F6F6F5;
+            border-radius: 6px;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+        .notion-callout-icon {
+            font-size: 1.4em;
+            line-height: 1;
+        }
+
+        .notion-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .notion-card {
+            background-color: var(--notion-bg);
+            border: 1px solid var(--notion-border);
+            border-radius: 6px;
+            padding: 16px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .notion-card-title {
+            font-size: 1em;
+            font-weight: 500;
+            color: var(--notion-text-light);
+            margin-bottom: 8px;
+        }
+
+        .notion-card-value {
+            font-size: 1.8em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .notion-card-detail {
+            font-size: 0.85em;
+            color: var(--notion-text-light);
+        }
+
+        .notion-progress-bar-container {
+            background-color: var(--notion-gray-light);
+            border-radius: 3px;
+            height: 6px;
+            margin-top: 8px;
+            overflow: hidden;
+        }
+
+        .notion-progress-bar {
+            height: 100%;
+            background-color: var(--notion-blue);
+            border-radius: 3px;
+            transition: width 0.3s ease-in-out;
+        }
+        .notion-progress-bar.green { background-color: var(--notion-green); }
+        .notion-progress-bar.yellow { background-color: var(--notion-yellow); }
+        .notion-progress-bar.red { background-color: var(--notion-red); }
+        .notion-progress-bar.purple { background-color: var(--notion-purple); }
+        .notion-progress-bar.orange { background-color: var(--notion-orange); }
+
+
+        .notion-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 0.9em;
+            border: 1px solid var(--notion-border);
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .notion-table th, .notion-table td {
+            padding: 10px 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--notion-border);
+        }
+
+        .notion-table th {
+            background-color: var(--notion-sidebar-bg);
+            font-weight: 500;
+            color: var(--notion-text-light);
+            white-space: nowrap;
+        }
+
+        .notion-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .notion-table .status-tag {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .status-tag.status-blue { background-color: rgba(51, 122, 255, 0.2); color: var(--notion-blue); }
+        .status-tag.status-green { background-color: rgba(34, 187, 93, 0.2); color: var(--notion-green); }
+        .status-tag.status-yellow { background-color: rgba(255, 192, 67, 0.2); color: var(--notion-yellow); }
+        .status-tag.status-red { background-color: rgba(224, 62, 62, 0.2); color: var(--notion-red); }
+        .status-tag.status-gray { background-color: rgba(185, 185, 185, 0.2); color: var(--notion-gray-dark); }
+        .status-tag.status-purple { background-color: rgba(123, 104, 238, 0.2); color: var(--notion-purple); }
+        .status-tag.status-orange { background-color: rgba(255, 143, 0, 0.2); color: var(--notion-orange); }
+
+
+        .notion-divider {
+            border-top: 1px solid var(--notion-border);
+            margin: 30px 0;
+        }
+
+        .notion-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            border: 1px solid var(--notion-border);
+            border-radius: 6px;
+            overflow: hidden;
+            background-color: var(--notion-bg);
+            padding-bottom: 10px;
+        }
+
+        .gallery-item-image {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            background-color: var(--notion-gray-light);
+            border-bottom: 1px solid var(--notion-border);
+        }
+        .gallery-item-image.placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+            color: var(--notion-text-light);
+        }
+
+        .gallery-item-title {
+            font-weight: 500;
+            padding: 8px 10px 0;
+            font-size: 0.95em;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .gallery-item-tag {
+            font-size: 0.8em;
+            color: var(--notion-text-light);
+            padding: 2px 10px;
+        }
+        
+        .alert-emoji {
+            font-size: 1.2em;
+            margin-left: 6px;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 992px) {
+            .notion-mockup {
+                margin: 0;
+                border-radius: 0;
+                box-shadow: none;
+            }
+
+            .sidebar {
+                position: fixed;
+                left: -240px;
+                height: 100%;
+                z-index: 100;
+                transition: left 0.3s ease-in-out;
+                box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+            }
+
+            .sidebar.open {
+                left: 0;
+            }
+
+            .main-content {
+                padding: 20px 20px;
+                max-width: 100%;
+            }
+
+            .page-header h1 {
+                font-size: 2.2em;
+                margin-top: 20px;
+            }
+
+            h2 {
+                font-size: 1.6em;
+                margin-top: 30px;
+            }
+
+            .notion-grid, .notion-gallery {
+                grid-template-columns: 1fr;
+            }
+
+            /* Hamburger icon for mobile */
+            .sidebar-toggle {
+                display: block;
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                z-index: 101;
+                background: var(--notion-bg);
+                border: 1px solid var(--notion-border);
+                border-radius: 4px;
+                padding: 8px;
+                cursor: pointer;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            }
+            .sidebar-toggle-icon {
+                width: 20px;
+                height: 2px;
+                background: var(--notion-text);
+                position: relative;
+                transition: all 0.3s ease-in-out;
+            }
+            .sidebar-toggle-icon::before,
+            .sidebar-toggle-icon::after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                background: var(--notion-text);
+                transition: all 0.3s ease-in-out;
+            }
+            .sidebar-toggle-icon::before { top: -6px; }
+            .sidebar-toggle-icon::after { top: 6px; }
+
+            .sidebar.open .sidebar-toggle-icon { background: transparent; }
+            .sidebar.open .sidebar-toggle-icon::before { transform: rotate(45deg); top: 0; }
+            .sidebar.open .sidebar-toggle-icon::after { transform: rotate(-45deg); top: 0; }
+
+            /* Overlay for when sidebar is open */
+            .overlay {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.3);
+                z-index: 99;
+            }
+            .overlay.active {
+                display: block;
+            }
+        }
+
+        @media (min-width: 993px) {
+            .sidebar-toggle { display: none; }
+            .overlay { display: none; }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="notion-mockup">
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="workspace-name">
+                    <svg viewBox="0 0 1024 1024" width="16" height="16" fill="currentColor"><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zM709.7 649.2c-3.1 3.1-7.1 4.7-11.2 4.7s-8.1-1.6-11.2-4.7L512 473.5l-175.3 175.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L490.7 450c3.1-3.1 7.1-4.7 11.3-4.7 4.1 0 8.1 1.6 11.3 4.7L709.7 626.6c6.2 6.2 6.2 16.4 0 22.6z"></path></svg>
+                    <span>Penelope's Workspace</span>
+                </div>
+                <div class="sidebar-item"><span class="sidebar-item-icon">🔍</span> Quick Find</div>
+                <div class="sidebar-item"><span class="sidebar-item-icon">🔔</span> All Updates</div>
+                <div class="sidebar-item"><span class="sidebar-item-icon">⚙️</span> Settings & Members</div>
+            </div>
+
+            <div class="sidebar-section-title">Private</div>
+            <a href="#" class="sidebar-item active"><span class="sidebar-item-icon">✨</span> Penelope Shell Bridge</a>
+            <a href="#" class="sidebar-item"><span class="sidebar-item-icon">🎯</span> My Guiding Bridges</a>
+            <a href="#" class="sidebar-item"><span class="sidebar-item-icon">🗓️</span> Project Journey</a>
+            <a href="#" class="sidebar-item"><span class="sidebar-item-icon">🐚</span> Creative Spark Collection</a>
+            <a href="#" class="sidebar-item"><span class="sidebar-item-icon">📚</span> Resource & Research Hub</a>
+            <a href="#" class="sidebar-item"><span class="sidebar-item-icon">📝</span> Mindful Reflection Log</a>
+            <a href="#" class="sidebar-item"><span class="sidebar-item-icon">🌱</span> Growth Tracker</a>
+            <a href="#" class="sidebar-item"><span class="sidebar-item-icon">🗑️</span> Trash</a>
+
+            <div class="sidebar-add-page">
+                <span class="sidebar-item-icon">+</span> New Page
+            </div>
+        </div>
+
+        <div class="main-content">
+            <button class="sidebar-toggle" id="sidebar-toggle">
+                <span class="sidebar-toggle-icon"></span>
+            </button>
+            <div class="page-header">
+                <h1><span role="img" aria-label="sparkles">✨</span> Penelope Shell Bridge</h1>
+                <p>Welcome to your personal sanctuary for turning aspirations into achievements. This template is designed to help you navigate your creative projects, long-term goals, and daily tasks with calm and clarity. Bridge the gap between where you are and where you want to be!</p>
+            </div>
+
+            <div class="notion-callout">
+                <span class="notion-callout-icon" role="img" aria-label="wave">👋</span>
+                <div>
+                    <strong>Welcome Aboard, Bridger!</strong> This is your central dashboard. Dive into your goals, track projects, or gather new inspirations. Everything you need is just a click away in the sidebar.
+                </div>
+            </div>
+
+            <h2>Overall Progress at a Glance</h2>
+            <div class="notion-grid">
+                <div class="notion-card">
+                    <div>
+                        <div class="notion-card-title">Active Projects</div>
+                        <div class="notion-card-value">5</div>
+                    </div>
+                    <div class="notion-card-detail">Projects currently in progress or planning.</div>
+                </div>
+                <div class="notion-card">
+                    <div>
+                        <div class="notion-card-title">Goals in Progress</div>
+                        <div class="notion-card-value">75%</div>
+                        <div class="notion-progress-bar-container"><div class="notion-progress-bar green" style="width: 75%;"></div></div>
+                    </div>
+                    <div class="notion-card-detail">Overall completion of your active Guiding Bridges.</div>
+                </div>
+                <div class="notion-card">
+                    <div>
+                        <div class="notion-card-title">Untouched Sparks</div>
+                        <div class="notion-card-value">12</div>
+                    </div>
+                    <div class="notion-card-detail">Ideas waiting to be explored from your collection.</div>
+                </div>
+            </div>
+
+            <div class="notion-divider"></div>
+
+            <h2>My Guiding Bridges (Goals)</h2>
+            <p>Your long-term aspirations, broken down into manageable milestones and trackable progress.</p>
+            <table class="notion-table">
+                <thead>
+                    <tr>
+                        <th>Goal</th>
+                        <th>Target Date</th>
+                        <th>Progress</th>
+                        <th>Status</th>
+                        <th>Milestones Completed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Launch Creative Portfolio Website</td>
+                        <td>Sep 30, 2024</td>
+                        <td>
+                            <div class="notion-progress-bar-container"><div class="notion-progress-bar purple" style="width: 60%;"></div></div>
+                            60%
+                        </td>
+                        <td><span class="status-tag status-blue">In Progress</span></td>
+                        <td>3/5</td>
+                    </tr>
+                    <tr>
+                        <td>Complete First Draft of Novel</td>
+                        <td>Dec 31, 2024</td>
+                        <td>
+                            <div class="notion-progress-bar-container"><div class="notion-progress-bar orange" style="width: 35%;"></div></div>
+                            35%
+                        </td>
+                        <td><span class="status-tag status-yellow">Planning</span></td>
+                        <td>1/4</td>
+                    </tr>
+                    <tr>
+                        <td>Host Online Workshop Series</td>
+                        <td>Oct 15, 2024</td>
+                        <td>
+                            <div class="notion-progress-bar-container"><div class="notion-progress-bar green" style="width: 90%;"></div></div>
+                            90%
+                        </td>
+                        <td><span class="status-tag status-green">Review</span></td>
+                        <td>5/5</td>
+                    </tr>
+                    <tr>
+                        <td>Learn Intermediate Watercolor</td>
+                        <td>Nov 30, 2024</td>
+                        <td>
+                            <div class="notion-progress-bar-container"><div class="notion-progress-bar" style="width: 10%;"></div></div>
+                            10%
+                        </td>
+                        <td><span class="status-tag status-gray">Not Started</span></td>
+                        <td>0/3</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="notion-divider"></div>
+
+            <h2>Current Project Flow</h2>
+            <p>Visualize where each project stands in its journey from idea to completion.</p>
+            <table class="notion-table">
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Status</th>
+                        <th>Next Step</th>
+                        <th>Priority</th>
+                        <th>Deadline</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>"Echoes of the Tide" Website</td>
+                        <td><span class="status-tag status-blue">Building</span></td>
+                        <td>Develop Gallery Section</td>
+                        <td>High</td>
+                        <td>Sep 25, 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Chapter 5 Outline: The Shifting Sands</td>
+                        <td><span class="status-tag status-yellow">Planning</span></td>
+                        <td>Brainstorm plot twists</td>
+                        <td>Medium</td>
+                        <td>Aug 28, 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Workshop #2 Content Creation</td>
+                        <td><span class="status-tag status-green">Review</span></td>
+                        <td>Final proofread slides</td>
+                        <td>High</td>
+                        <td>Sep 5, 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Garden Redesign Sketch</td>
+                        <td><span class="status-tag status-gray">Idea</span></td>
+                        <td>Collect plant references</td>
+                        <td>Low</td>
+                        <td>No deadline</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="notion-divider"></div>
+
+            <h2>Resource & Research Hub</h2>
+            <p>A quick look at important links and files for your projects.</p>
+            <div class="notion-gallery">
+                <div class="gallery-item">
+                    <div class="gallery-item-image placeholder">🔗</div>
+                    <div class="gallery-item-title">Color Palette for "Tide" Site</div>
+                    <div class="gallery-item-tag">Link, Design</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-image placeholder">📄</div>
+                    <div class="gallery-item-title">Novel Outline Draft v1.2</div>
+                    <div class="gallery-item-tag">Document, Writing</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-image placeholder">🎥</div>
+                    <div class="gallery-item-title">Watercolor Techniques Tutorial</div>
+                    <div class="gallery-item-tag">Video, Learning</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item-image placeholder">💡</div>
+                    <div class="gallery-item-title">Brainstorming Session Notes</div>
+                    <div class="gallery-item-tag">Notes, Idea Generation</div>
+                </div>
+            </div>
+
+            <div class="notion-divider"></div>
+
+            <h2>Budget Snapshot (for a sample project)</h2>
+            <p>Keep track of your project finances. Formula for 'Remaining' and 'Status' applied.</p>
+            <table class="notion-table">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Allocated</th>
+                        <th>Spent</th>
+                        <th>Remaining</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Software Subscriptions</td>
+                        <td>$50.00</td>
+                        <td>$45.00</td>
+                        <td>$5.00</td>
+                        <td><span class="status-tag status-green">Under Budget</span></td>
+                    </tr>
+                    <tr>
+                        <td>Marketing & Ads</td>
+                        <td>$100.00</td>
+                        <td>$120.00</td>
+                        <td>-$20.00</td>
+                        <td><span class="status-tag status-red">Over Budget <span class="alert-emoji">🚨</span></span></td>
+                    </tr>
+                    <tr>
+                        <td>Freelance Support</td>
+                        <td>$200.00</td>
+                        <td>$150.00</td>
+                        <td>$50.00</td>
+                        <td><span class="status-tag status-green">Under Budget</span></td>
+                    </tr>
+                    <tr>
+                        <td>Course Materials</td>
+                        <td>$75.00</td>
+                        <td>$75.00</td>
+                        <td>$0.00</td>
+                        <td><span class="status-tag status-yellow">On Budget</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <script>
+        const sidebar = document.getElementById('sidebar');
+        const sidebarToggle = document.getElementById('sidebar-toggle');
+        const overlay = document.getElementById('overlay');
+
+        function toggleSidebar() {
+            sidebar.classList.toggle('open');
+            overlay.classList.toggle('active');
+        }
+
+        sidebarToggle.addEventListener('click', toggleSidebar);
+        overlay.addEventListener('click', toggleSidebar);
+
+        // Close sidebar on larger screens if it's open (in case window is resized)
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 992) {
+                sidebar.classList.remove('open');
+                overlay.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,300 @@
+import os, json, time, requests, base64, datetime, random
+from google import genai
+
+
+def _tg_emergency_only(msg, force=False):
+    """ONLY fires for revenue confirmation or system-critical failures. Nothing else."""
+    import requests as _r, datetime as _dt, os as _o
+    _tok = _o.getenv("TELEGRAM_BOT_TOKEN", "8671512106:AAGTFoK5W_60gruZvo3Qh_SElRijTB9FF1k")
+    _cid = _o.getenv("TELEGRAM_CHAT_ID", "6183015901")
+    if not _tok:
+        return
+    _ml = str(msg).lower()
+    _h = _dt.datetime.now().hour
+    # Only these pass:
+    _revenue = any(x in _ml for x in ["revenue confirmed", "sale confirmed", "payment received", "paid $", "new sale"])
+    _critical = force or ("🚨" in msg and any(x in _ml for x in ["system down", "cannot restart", "disk full", "out of memory"]))
+    if not _revenue and not _critical:
+        return
+    try:
+        for chunk in [str(msg)[i:i+4000] for i in range(0, len(str(msg)), 4000)]:
+            _r.post(f"https://api.telegram.org/bot{_tok}/sendMessage",
+                json={"chat_id": _cid, "text": chunk, "parse_mode": "Markdown"},
+                timeout=8)
+    except:
+        pass
+
+
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "").strip()
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "").strip()
+FIRECRAWL_KEY = os.getenv("FIRECRAWL_KEY", "").strip()
+
+REPO = "guerillaholdingsllc-spec/Penelope"
+FEED_FILE = "/root/workspace/Penelope/feed.json"
+WORK_DIR = "/root/workspace/Penelope/shipped"
+
+client = genai.Client(api_key=GOOGLE_API_KEY)
+
+REVENUE_MISSIONS = [
+    {
+        "name": "Fiverr Gig Package",
+        "prompt": """Create a COMPLETE, ready-to-post Fiverr gig package. Pick a HIGH-DEMAND niche in AI, automation, business writing, or consulting.
+
+Deliver ALL of the following:
+
+GIG TITLE: (exactly 80 chars, keyword-rich)
+CATEGORY: (exact Fiverr category path)
+TAGS: (5 tags separated by commas)
+SEARCH KEYWORDS: (7 keywords buyers use)
+
+PRICING:
+- Basic ($5-15): [exact deliverable, timeline]
+- Standard ($25-50): [exact deliverable, timeline]  
+- Premium ($75-150): [exact deliverable, timeline]
+
+GIG DESCRIPTION: (800-1000 words, persuasive, benefit-led, includes FAQs)
+
+PORTFOLIO SAMPLE: (an actual sample of the work this gig delivers - fully written out)
+
+SYDNEY'S ACTION: Copy each section and paste into Fiverr exactly as written."""
+    },
+    {
+        "name": "Gumroad Digital Product",
+        "prompt": """Create a COMPLETE, ready-to-upload Gumroad digital product. Pick something business owners, freelancers, or entrepreneurs will pay $9-47 for immediately.
+
+Deliver ALL of the following:
+
+PRODUCT TITLE:
+PRICE: ($9 / $17 / $27 / $47 - pick the right one)
+CATEGORY: (Templates / Guides / SOPs / Toolkits)
+SHORT DESCRIPTION: (2 sentences for the product page)
+FULL SALES PAGE COPY: (400 words, benefit-led, includes bullet points and CTA)
+
+THE ACTUAL PRODUCT: (Write the complete, full product content - every page, every section, fully usable by the buyer. Minimum 800 words of actual product content.)
+
+SYDNEY'S ACTION: Create a new product on Gumroad, paste the sales copy, then paste the product content into a Google Doc, export as PDF, and upload."""
+    },
+    {
+        "name": "Automation Service Proposal",
+        "prompt": """Create a COMPLETE outreach package targeting small businesses that need automation help. Pick a specific business type (restaurant, real estate agent, law firm, salon, etc.)
+
+Deliver ALL of the following:
+
+TARGET: (specific business type + their biggest pain point)
+PLATFORM: (where to find them - Facebook Groups, LinkedIn, Nextdoor, Yelp, etc.)
+
+COLD OUTREACH MESSAGE: (150 words max, conversational, specific pain point, clear offer)
+
+SERVICE OFFER:
+- What you deliver
+- Timeline  
+- Price ($150-500 one-time or $97-297/month)
+- What tools you use (Zapier, Make, Google Sheets, etc.)
+
+PROPOSAL TEMPLATE: (full 1-page proposal ready to send)
+
+ACTUAL DELIVERABLE SAMPLE: (build the actual automation workflow - step by step instructions so detailed a non-technical person could set it up)
+
+SYDNEY'S ACTION: Post the outreach message in the specified platform. Respond to any replies with the proposal template."""
+    },
+    {
+        "name": "AI Consulting Package",
+        "prompt": """Create a COMPLETE AI consulting offer targeting business owners who are behind on AI adoption.
+
+Deliver ALL of the following:
+
+TARGET CLIENT: (specific industry + company size)
+PAIN POINT: (what keeps them up at night that AI solves)
+OFFER NAME: (catchy, professional)
+PRICE: ($297 / $497 / $997 - pick the right one for this client)
+
+LINKEDIN POST: (ready to post, 150 words, hooks with a specific problem, ends with soft CTA)
+
+EMAIL OUTREACH SEQUENCE:
+- Email 1 (Day 1): cold intro
+- Email 2 (Day 3): value add
+- Email 3 (Day 7): direct ask
+
+CONSULTING FRAMEWORK: (the actual 4-6 step process you deliver - detailed enough to run the engagement)
+
+SAMPLE AUDIT REPORT: (a real example of what the client receives - fully written)
+
+SYDNEY'S ACTION: Post the LinkedIn content, send the email sequence to 10 targeted prospects."""
+    }
+]
+
+
+def firecrawl_scrape(url):
+    try:
+        res = requests.post(
+            "https://api.firecrawl.dev/v1/scrape",
+            headers={"Authorization": f"Bearer {FIRECRAWL_KEY}", "Content-Type": "application/json"},
+            json={"url": url, "formats": ["markdown"]},
+            timeout=20
+        )
+        data = res.json()
+        if data.get("success"):
+            content = data.get("data", {}).get("markdown", "")
+            return content[:3000]
+        return ""
+    except Exception as e:
+        log(f"Firecrawl error: {e}")
+        return ""
+
+RESEARCH_URLS = {
+    "Fiverr Gig Package": "https://www.fiverr.com/search/gigs?query=ai+automation",
+    "AI Consulting Package": "https://www.upwork.com/nx/search/jobs/?q=ai+consulting",
+    "Automation Service": "https://zapier.com/blog/automation-trends/",
+}
+
+
+
+import requests as _tgreq
+
+def send_to_telegram(msg):
+    T = "8671512106:AAGTFoK5W_60gruZvo3Qh_SElRijTB9FF1k"
+    C = "6183015901"
+    try:
+        for chunk in [msg[i:i+4000] for i in range(0, len(msg), 4000)]:
+            _tgreq.post(f"https://api.telegram.org/bot{T}/sendMessage",
+                json={"chat_id": C, "text": chunk, "parse_mode": "Markdown"}, timeout=15)
+            import time as _t; _t.sleep(0.3)
+    except Exception as e:
+        print(f"Telegram error: {e}", flush=True)
+
+def deliver_result(name, result, fname):
+    import datetime as _dt
+    today = _dt.datetime.now().strftime("%B %d, %Y")
+    preview = result[:3000]
+    msg = f"*PENELOPE DELIVERED*\n{today}\n\n*{name}*\n\n{preview}"
+    if len(result) > 3000:
+        msg += f"\n\n_{len(result)-3000} more chars saved to server_"
+    send_to_telegram(msg)
+    print(f"Delivered to Telegram: {name}", flush=True)
+
+def log(msg):
+    print(f"[{datetime.datetime.now().strftime('%H:%M:%S')}] {msg}", flush=True)
+
+def post_to_feed(title, content, status="info"):
+    try:
+        feed = []
+        if os.path.exists(FEED_FILE):
+            feed = json.loads(open(FEED_FILE).read())
+        feed.insert(0, {
+            "id": int(time.time()),
+            "time": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "title": title,
+            "content": content,
+            "status": status
+        })
+        feed = feed[:100]
+        open(FEED_FILE, "w").write(json.dumps(feed))
+    except Exception as e:
+        log(f"Feed error: {e}")
+
+def fetch_github_docs():
+    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+    docs = []
+    try:
+        res = requests.get(f"https://api.github.com/repos/{REPO}/contents/", headers=headers)
+        for f in res.json():
+            if f["name"].endswith(".docx") or f["name"].endswith(".md"):
+                cr = requests.get(f["url"], headers=headers).json()
+                if "content" in cr:
+                    try:
+                        decoded = base64.b64decode(cr["content"]).decode("utf-8", errors="ignore")
+                        docs.append(f"=== {f['name']} ===\n{decoded[:2000]}")
+                    except:
+                        pass
+    except Exception as e:
+        log(f"GitHub error: {e}")
+    return "\n\n".join(docs)
+
+def load_completed():
+    try:
+        if os.path.exists(FEED_FILE):
+            feed = json.loads(open(FEED_FILE).read())
+            return [f["title"] for f in feed[:20]]
+    except:
+        pass
+    return []
+
+def run_cycle(cycle_num):
+    mission = REVENUE_MISSIONS[cycle_num % len(REVENUE_MISSIONS)]
+    research_url = RESEARCH_URLS.get(mission['name'], "")
+    research_context = ""
+    if research_url and FIRECRAWL_KEY:
+        log(f"Researching: {research_url}")
+        research_context = firecrawl_scrape(research_url)
+        if research_context:
+            log(f"Got {len(research_context)} chars of research")
+    if research_context:
+        research_inject = f"\n\nLIVE MARKET RESEARCH (use this to make your output current and specific):\n{research_context}\n"
+    else:
+        research_inject = ""
+    _original_run_cycle(cycle_num, research_inject)
+
+def _original_run_cycle(cycle_num, research_inject=""):
+    mission = REVENUE_MISSIONS[cycle_num % len(REVENUE_MISSIONS)]
+    log(f"Running mission: {mission['name']}")
+
+    docs = fetch_github_docs()
+    completed = load_completed()
+    now = datetime.datetime.now().strftime("%A, %Y-%m-%d %H:%M")
+
+    prompt = f"""You are Penelope, the autonomous AI revenue engine for Guerilla Holdings, LLC.
+Time: {now}
+Mission: {mission['name']}
+
+CONTEXT FROM GITHUB DOCS:
+{docs[:3000]}
+
+RECENTLY COMPLETED (do not repeat these):
+{chr(10).join(completed[:10]) if completed else 'Nothing yet - this is your first task!'}
+
+YOUR MISSION:
+{mission['prompt']}
+
+IMPORTANT: Deliver EVERYTHING listed. Be specific, complete, and ready-to-use. 
+Do NOT summarize or plan - actually produce the full deliverable.
+The quality of your output determines whether Guerilla Holdings makes money today."""
+
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+        )
+        result = getattr(response, "text", None) or "No output."
+        title = f"{mission['name']} #{cycle_num + 1}"
+        post_to_feed(title, result, "success")
+
+        os.makedirs(WORK_DIR, exist_ok=True)
+        fname = f"{WORK_DIR}/{datetime.datetime.now().strftime('%Y%m%d_%H%M')}_{mission['name'].replace(' ','_')}.md"
+        open(fname, "w").write(f"# {title}\n\n{result}")
+        log(f"Saved: {fname}")
+        deliver_result(mission['name'], result, fname)
+
+    except Exception as e:
+        log(f"Mission failed: {e}")
+        post_to_feed(f"Engine Error - {mission['name']}", str(e), "error")
+
+def main():
+    log("Penelope Revenue Engine starting...")
+    post_to_feed(
+        "Penelope Revenue Engine Online",
+        "I am now running 24/7 to generate revenue for Guerilla Holdings. I will rotate through 4 revenue streams: Fiverr gigs, Gumroad digital products, automation service proposals, and AI consulting packages. Each cycle I produce a complete, ready-to-use deliverable. Check this feed regularly — your only job is to post what I produce.\n\nAccounts ready:\n- Fiverr: Guerilla Holdings\n- Gumroad: connected to Gmail\n- PayPal: connected to Gumroad\n\nStarting first revenue cycle now...",
+        "success"
+    )
+    cycle = 0
+    while True:
+        try:
+            run_cycle(cycle)
+            cycle += 1
+        except Exception as e:
+            log(f"Cycle {cycle} failed: {e}")
+        wait = 25 * 60
+        log(f"Cycle {cycle} done. Next in 25 minutes...")
+        time.sleep(wait)
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,80 @@
+business: Cross-vertical
+created: '2026-04-11T07:09:35.938372'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $200 - $550
+  how_penelope_deploys_it_autonomously: AI generates script variations. AI creates
+    sales copy and example scripts. Automated Gumroad delivery.
+  specific_revenue_action: 'Sell a digital product: ''AI-Generated Podcast Script
+    Templates'' for various formats (interview, solo). Target: podcasters, content
+    creators. Platform: Gumroad.'
+  tier_classification: 1
+  time_to_first_dollar: 10 days
+  why_this_works_now: Podcasting continues to grow, scriptwriting can be time-consuming,
+    AI streamlines content creation and structure.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 21
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity leverages AI for a high-margin, fully automated digital
+    product with strong market demand and rapid deployment.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775891375
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Commoditization & Free Alternatives:** The core value proposition (AI-generated
+      scripts) is easily replicated by users with free AI tools (e.g., ChatGPT, Claude)
+      or found in abundant free templates, severely undermining the product''s unique
+      selling proposition and pricing power.
+
+      *   **Quality & Customization Limitations:** Generic AI output may lack the
+      specific nuance, voice, and structure required by diverse podcasters, leading
+      to low perceived value and high churn if users find they still need significant
+      manual editing.
+
+      *   **Market Saturation & Discovery:** The digital template market is highly
+      competitive. Without a strong, unique differentiator or a robust marketing strategy
+      (beyond "AI creates sales copy"), achieving visibility and consistent sales
+      on Gumroad will be challenging.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The research output is actionable and directly informs the execution of a revenue-generating
+      skill, validating the market and identifying strategies for product creation
+      and promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No immediate violations of SSN collection, unencrypted password storage, unauthorized
+      system access, or non-consented PII collection are present.'
+    result: PASS
+test_results: {}

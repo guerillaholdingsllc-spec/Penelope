@@ -1,0 +1,136 @@
+business: Cross-vertical
+created: '2026-04-17T00:46:02.382101'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  Cost to test: $0
+  Estimated monthly revenue potential: $500 - $1500
+  How Penelope deploys it autonomously: Penelope generates prompt pack content (using
+    other AI to test and refine prompts), creates sales copy, designs simple cover
+    art, sets up the Gumroad listing, and schedules promotional posts on Bluesky and
+    relevant forums using automation tools. Automated email drip for purchasers.
+  Specific revenue action: Sell 'Midjourney v6.x Prompt Engineering Master Pack' on
+    Gumroad, targeting graphic designers and content creators.
+  Tier classification: 1
+  Time to first dollar: 7-10 days
+  Why this works NOW: Midjourney v6.x is new, and users actively seek advanced prompt
+    techniques to leverage its capabilities fully. High demand for structured prompt
+    knowledge.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 24
+  margin: 25
+  raw_score: 97
+  reasoning: This opportunity capitalizes on high, current market demand for a new
+    AI tool's mastery, offering a fully autonomous, high-margin digital product with
+    rapid deployment and infinite scalability.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776386762
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 100
+    notes: 'CRITIQUE
+
+      Confidence Score: 40%
+
+      Key concerns:
+
+      *   **Market Saturation & Content Quality**: The market for Midjourney prompt
+      guides is highly saturated with both free and paid resources. The autonomous
+      generation of a "master pack" by AI, without human expert oversight, raises
+      significant concerns about its ability to offer unique, high-value content that
+      stands out and justifies a purchase over existing, often free, alternatives.
+
+      *   **Rapid Obsolescence**: Midjourney''s development is extremely fast. A "v6.x"
+      specific guide risks becoming outdated quickly with subsequent model updates
+      (e.g., v6.5, v7.0), rendering the content less valuable and requiring continuous,
+      potentially non-autonomous, updates.
+
+      *   **Limited Marketing Reach & Trust**: Relying on automated promotional posts
+      on niche platforms (Bluesky) and general forums may not generate sufficient
+      reach or build the necessary authority and trust required to sell a premium
+      "master pack," especially one perceived as AI-generated.
+
+
+      ---
+
+      **1. Why would this FAIL in the real market?**
+
+      This opportunity faces significant challenges in the real market primarily due
+      to **market saturation and the perceived quality of AI-generated content**.
+      The demand for Midjourney v6.x prompt techniques is indeed high, but this also
+      means the market is flooded with free tutorials (YouTube, Reddit, blogs) and
+      numerous paid guides. An autonomously generated "master pack" is unlikely to
+      offer the unique insights, nuanced understanding, or expert-level curation that
+      would compel users to pay for it, especially when compared to content from established
+      human creators or communities. Furthermore, the rapid evolution of AI models
+      means the "master pack" could quickly become obsolete, requiring constant updates
+      that may not be fully autonomous or cost-free, eroding its value proposition.
+      Without a strong brand, unique selling proposition, or demonstrable superior
+      quality, it will struggle to convert interest into sales against a backdrop
+      of abundant free and high-quality human-curated content.
+
+
+      **2. Is there a cheaper/faster way to achieve same result?**
+
+      The proposed method already claims a $0 cost to test and a 7-10 day time to
+      first dollar, which is exceptionally fast and cheap. It''s difficult to conceive
+      of a *cheaper* way than $0. A *faster* way might involve curating existing free
+      content rather than generating new content, but this would likely result in
+      an even lower perceived value and would not constitute a "master pack." The
+      current plan is already optimized for minimal cost and maximum speed for *launching*
+      the product. However, achieving the *estimated revenue* might require additional,
+      non-zero-cost efforts (e.g., paid advertising, human-led community engagement)
+      that are not accounted for in the current "autonomous" deployment.
+
+
+      **3. What edge case breaks this?**
+
+      The most critical edge case that could break this opportunity is a **major,
+      rapid update to Midjourney''s underlying model (e.g., v7.0 release) that fundamentally
+      alters prompt syntax or behavior**. This would instantly render the "v6.x Prompt
+      Engineering Master Pack" obsolete, making it irrelevant to users and halting
+      sales. Other breaking edge cases include:
+
+      *   **Aggressive platform policy changes** on Gumroad or promotional channels
+      (Bluesky, forums) against AI-generated content or automated posting, leading
+      to account suspension or content removal.
+
+      *   **A sudden influx of high-quality, free, official prompt guides** directly
+      from Midjourney or a major tech company, completely devaluing third-party paid
+      packs.
+
+
+      **4. Confidence Score 0-100%**
+
+      40%'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The test output is market research, not the execution of a revenue-generating
+      action as defined by the skill''s objective and deployment steps.'
+    result: FAIL
+  security:
+    notes: 'PASS
+
+      No clear, immediate violations of specified compliance rules.'
+    result: PASS
+test_results: {}

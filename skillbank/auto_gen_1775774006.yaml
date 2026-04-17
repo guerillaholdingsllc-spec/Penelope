@@ -1,0 +1,80 @@
+business: Cross-vertical
+created: '2026-04-09T22:33:26.997766'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $350 - $1000
+  how_penelope_deploys_it_autonomously: AI generates guide content, video scripts,
+    and editing. Automated Gumroad listing, email marketing, and social media promotion
+    (AI-generated creatives).
+  specific_revenue_action: 'Digital Product: ''Ultimate Guide to Prompt Engineering
+    for Creatives'' (PDF/Video) on Gumroad, targeting artists, writers, designers.'
+  tier: 1
+  time_to_first_dollar: 15 days
+  why_this_works_now: Creatives are embracing AI but often struggle with effective
+    prompting; a tailored guide is highly valuable.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 25
+  raw_score: 96
+  reasoning: This opportunity leverages strong market demand for AI skills among creatives
+    with a fully automated, high-margin digital product, ensuring rapid deployment
+    and infinite scalability.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775774006
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 55
+    notes: 'CRITIQUE
+
+      Confidence Score: 55%
+
+      Key concerns:
+
+      *   **Content Quality & Differentiation**: Relying solely on AI for an "Ultimate
+      Guide" in a competitive niche risks generic, low-quality content that fails
+      to differentiate or provide truly actionable insights for discerning creatives,
+      leading to poor reviews and low sales.
+
+      *   **Market Volatility & Obsolescence**: The field of AI prompting evolves
+      rapidly. An "Ultimate Guide" will quickly become outdated without continuous,
+      potentially human-driven, updates, which contradicts the "one-time" product
+      model and fully autonomous deployment.
+
+      *   **Marketing Authenticity & Reach**: Fully AI-generated marketing materials
+      and automated promotion may lack the authenticity, specific targeting, and community
+      engagement required to effectively reach and convert creative audiences on platforms
+      like Gumroad and social media.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      The skill definition contains contradictory revenue estimates and an incorrect
+      RPS score calculation.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      No explicit mechanisms or safeguards for GDPR/CCPA compliance regarding lead
+      data collection and processing for email marketing.'
+    result: FAIL
+test_results: {}

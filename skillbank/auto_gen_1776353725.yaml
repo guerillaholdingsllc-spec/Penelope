@@ -1,0 +1,81 @@
+business: Cross-vertical
+created: '2026-04-16T15:35:25.172980'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $0-$10 (Canva free, Gumroad free)
+  estimated_monthly_revenue_potential: $250-$750
+  how_penelope_deploys_it_autonomously: Penelope uses AI to compile prompt engineering
+    best practices, format the PDF document, create compelling marketing copy for
+    the product page, and manage the Gumroad listing and sales.
+  specific_revenue_action: 'Gumroad Product: ''Ultimate AI Prompt Engineering Cheatsheet''
+    - a concise downloadable PDF for advanced prompt techniques, targeting AI users
+    looking to optimize outputs.'
+  tier_classification: 1
+  time_to_first_dollar: 10
+  why_this_works_now: High demand for practical AI application; users want to improve
+    the quality and relevance of AI-generated content across various models.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages high demand for AI optimization with a fully
+    autonomous, high-margin digital product, ensuring rapid deployment and excellent
+    scalability.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776353725
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 25
+    notes: 'CRITIQUE
+
+      Confidence Score: 25%
+
+      Key concerns:
+
+      *   **Market Saturation & Rapid Obsolescence:** The "AI prompt engineering cheatsheet"
+      market is extremely saturated with free, high-quality resources. Techniques
+      evolve rapidly, making a static PDF quickly outdated and difficult to maintain
+      value.
+
+      *   **Lack of Differentiation & Authority:** The product lacks a unique selling
+      proposition or a recognized authority behind it, making it challenging to stand
+      out and justify a purchase for "advanced AI users" who can find similar information
+      for free.
+
+      *   **Low Perceived Value for "Advanced" Users:** Advanced users are less likely
+      to pay for a "concise downloadable PDF" when they seek cutting-edge, specialized,
+      or interactive resources, often available through communities or direct research.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides actionable market research, a crucial preparatory step for
+      content creation and product promotion, aligning with the objective of executing
+      revenue actions.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No immediate violations of SSN collection, unencrypted password storage, unauthorized
+      system access, or non-consented PII collection are present.'
+    result: PASS
+test_results: {}

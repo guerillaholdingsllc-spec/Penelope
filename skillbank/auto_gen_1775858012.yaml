@@ -1,0 +1,80 @@
+business: Cross-vertical
+created: '2026-04-10T21:53:32.463000'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  Cost to test: 0
+  Estimated monthly revenue potential ($): 300
+  How Penelope deploys it autonomously: AI generates comprehensive grant template
+    sections (project description, budget, impact), provides examples, lists on Gumroad,
+    and automates promotion to relevant startup communities.
+  Specific revenue action: 'Sell ''GAFC Grant Application Template Pack: Environmental
+    Tech Startups'' on Gumroad.'
+  Tier classification: 1
+  Time to first dollar (days): 10
+  Why this works NOW: Environmental tech is a booming sector with significant grant
+    funding available, but startups often lack the expertise or time to write compelling,
+    structured applications.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity leverages AI to create a high-margin digital product
+    addressing a clear market need in a booming sector, with rapid deployment and
+    full automation.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775858012
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+      *   **Quality & Specificity**: AI-generated templates are unlikely to meet the
+      high bar of specificity, strategic nuance, and persuasive language required
+      for competitive grant applications, leading to low success rates for users and
+      poor product reputation.
+
+      *   **Market Trust & Competition**: Startups seeking critical funding will likely
+      prioritize human expertise or proven solutions over generic AI templates, especially
+      given existing competition from consultants and free resources.
+
+      *   **Revenue Model Inconsistency**: The `revenue_model` section states "estimated_monthly":
+      0, directly contradicting the `opportunity_data` of $300/month, indicating a
+      fundamental flaw or lack of clarity in the opportunity''s financial understanding.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output effectively validates the market opportunity and assumptions
+      for the defined revenue-generating skill.'
+    result: PASS
+  security:
+    notes: 'FAIL
+
+      Ambiguous "automates promotion" could violate platform ToS (e.g., LinkedIn)
+      and GDPR/CCPA if personal data is processed without proper consent or legal
+      basis.'
+    result: FAIL
+test_results: {}

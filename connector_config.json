@@ -1,0 +1,67 @@
+{
+  "mcp_connectors": {
+    "penelope": {
+      "url": "https://penelope.trustchainservices.com/mcp",
+      "status": "active",
+      "tools": ["autonomous_engine", "agent_army", "api"]
+    },
+    "notion": {
+      "url": "https://mcp.notion.com/mcp",
+      "status": "connected",
+      "use_cases": ["task_board", "marketing_tasks", "lead_tracking", "project_management"],
+      "penelope_integration": "notion_agent.py uses Notion for task queue"
+    },
+    "stripe": {
+      "url": "https://mcp.stripe.com",
+      "status": "connected",
+      "use_cases": ["payment_processing", "product_listings", "subscription_revenue"],
+      "penelope_integration": "auto_create_products_for_notion_templates_and_digital_goods"
+    },
+    "close_crm": {
+      "url": "https://mcp.close.com/mcp",
+      "status": "connected",
+      "use_cases": ["cadaverco_leads", "callux_driver_leads", "funeral_home_outreach"],
+      "penelope_integration": "lead_gen_77_pages_route_to_close_crm"
+    },
+    "paypal": {
+      "url": "https://mcp.paypal.com/mcp",
+      "status": "connected",
+      "use_cases": ["invoice_sending", "payment_collection", "freelance_payments"]
+    },
+    "vercel": {
+      "url": "https://mcp.vercel.com",
+      "status": "connected",
+      "use_cases": ["deploy_cinematic_sites", "deploy_stitch_apps", "deploy_lead_gen_pages"]
+    },
+    "cloudflare": {
+      "url": "https://bindings.mcp.cloudflare.com/mcp",
+      "status": "connected",
+      "use_cases": ["dns_management", "workers_for_api_endpoints", "cdn_for_assets"]
+    },
+    "supabase": {
+      "url": "https://mcp.supabase.com/mcp",
+      "status": "connected",
+      "use_cases": ["lead_database", "user_auth_for_apps", "real_time_dashboard_data"]
+    },
+    "gmail": {
+      "url": "https://gmail.mcp.claude.com/mcp",
+      "status": "connected",
+      "use_cases": ["lead_followup_emails", "client_delivery_emails", "marketing_outreach"]
+    },
+    "google_calendar": {
+      "url": "https://gcal.mcp.claude.com/mcp",
+      "status": "connected",
+      "use_cases": ["schedule_content_batches", "client_meetings", "task_scheduling"]
+    },
+    "firecrawl": {
+      "url": "https://mcp.firecrawl.dev/fc-81fff09a728d47809ebb453326267d1b/mcp",
+      "status": "connected",
+      "use_cases": ["brand_analysis", "competitor_research", "market_scraping", "lead_gen_research"]
+    },
+    "base44": {
+      "url": "https://app.base44.com/mcp",
+      "status": "connected",
+      "use_cases": ["app_building", "rapid_prototyping", "no_code_tools"]
+    }
+  }
+}

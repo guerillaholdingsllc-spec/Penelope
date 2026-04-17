@@ -1,0 +1,81 @@
+business: Digital
+created: '2026-04-16T05:55:42.221277'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages existing customer demand for a high-margin
+    digital product through an automated email sequence, offering excellent speed
+    to revenue and scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776318942
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 65
+    notes: 'CRITIQUE
+
+      Confidence Score: 65%
+
+      Key concerns:
+
+      *   **Undefined Product-Market Fit for Upsell:** The plan broadly targets "all
+      new Gumroad buyers" for an upsell to a "full book series" without specifying
+      the initial product or the series'' relevance. This generic approach risks extremely
+      low conversion rates and buyer alienation if the upsell is irrelevant to their
+      initial purchase (e.g., buying a font pack and being upsold a fantasy novel
+      series).
+
+      *   **Reliance on Free Tiers & Scalability Limits:** While cost-effective initially,
+      the strategy heavily depends on MailerLite''s (1,000 subscriber limit) and potentially
+      Zapier''s free tiers. Exceeding these limits will incur costs, potentially breaching
+      the $50 budget cap before sufficient revenue is generated, especially if conversion
+      rates are lower than anticipated.
+
+      *   **Lack of Content Strategy & Offer Optimization:** The plan focuses solely
+      on the technical automation. There is no detail on the email sequence''s content,
+      value proposition, specific offer, or A/B testing strategy. Without compelling
+      copy and a well-targeted offer, even perfect automation will fail to convert
+      buyers into upsell revenue.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable steps to send emails and promote products, aligning
+      with the objective and general PASS criteria.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes standard email marketing to existing customers, which can
+      be implemented compliantly under GDPR''s legitimate interest or soft opt-in
+      provisions, and does not involve collecting SSNs, storing unencrypted passwords,
+      or accessing unauthorized systems.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,78 @@
+business: GAFC
+created: '2026-04-16T01:11:57.081602'
+learnings: ''
+logic_flow: {}
+objective: Create and post Bluesky thread about gun safety statistics with GAFC branding
+opportunity_data:
+  action: Create and post Bluesky thread about gun safety statistics with GAFC branding
+  business: GAFC
+  estimated_monthly: 100
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 25
+  raw_score: 93
+  reasoning: This digital content creation task for an autonomous AI agent offers
+    extremely high margins, instant execution, and full scalability, though the specific
+    market demand for this niche content at this price point is moderate.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776301917
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 20
+    notes: 'CRITIQUE
+
+      Confidence Score: 20%
+
+      Key concerns:
+
+      *   **Fundamental Financial Inconsistencies:** The revenue model is contradictory,
+      stating "one_time" with "estimated_monthly: 0" in one section, yet "estimated_monthly:
+      100" for "brand" revenue in another. The "cost_per_run: 0" is unrealistic, making
+      the 70% margin and overall profitability assessment fundamentally flawed.
+
+      *   **High Brand Risk & Low Impact:** Posting on a highly sensitive and politicized
+      topic like gun safety, even with factual statistics, carries a significant risk
+      of negative backlash, misinterpretation, or alienating segments of the audience,
+      potentially damaging GAFC''s brand. The chosen platform, Bluesky, is relatively
+      niche, limiting the potential reach and impact for "thought leadership" or broad
+      brand awareness.
+
+      *   **Misleading Scoring & Arbitrary Value:** The RPS score of 100 is highly
+      inflated given the very low "demand" score (18) and the unrealistic financial
+      assumptions. The "$100 estimated monthly" brand value for a single, one-time
+      post on a niche platform appears arbitrary and lacks a clear methodology for
+      calculation.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides a detailed, actionable plan for creating and posting social
+      media content, which directly aligns with the objective and contributes to brand
+      building, a precursor to revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting, which is explicitly compliant, and
+      does not involve collecting SSNs, storing unencrypted passwords, accessing unauthorized
+      systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

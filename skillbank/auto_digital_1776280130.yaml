@@ -1,0 +1,80 @@
+business: Digital
+created: '2026-04-15T19:08:50.236317'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 23
+  raw_score: 93
+  reasoning: This digital affiliate marketing opportunity offers high margins, instant
+    deployment, and excellent scalability for an autonomous AI agent, with consistent
+    market demand from small businesses.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776280130
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Unrealistic Budget & Execution:** The remaining $10 budget is critically
+      insufficient for creating a high-quality, SEO-optimized affiliate review blog
+      post, promoting it effectively to Sacramento small business owners, and generating
+      the estimated $150 monthly revenue. This budget will be exhausted before any
+      meaningful impact can be made.
+
+      *   **Market Saturation & Visibility:** The digital marketing landscape for
+      small businesses is highly competitive. A single blog post, even well-researched,
+      will struggle to gain visibility, build trust, and drive conversions among a
+      local target audience without significant, sustained investment in SEO, content
+      authority, or paid promotion.
+
+      *   **Revenue Model Inconsistency:** The `revenue_model` explicitly states `type:
+      "one_time"` and `estimated_monthly: 0`, which directly contradicts the `opportunity_data`''s
+      `estimated_monthly: 150`. This fundamental discrepancy indicates a severe flaw
+      in the opportunity''s financial definition or a misconfiguration of the skill
+      itself.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides actionable research directly supporting the objective of
+      writing and publishing an affiliate review blog post, which is a form of content
+      creation and product promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves publishing an affiliate review blog post, which is compliant
+      with content publishing and affiliate marketing guidelines. There are no immediate
+      violations of collecting SSNs, storing unencrypted passwords, accessing unauthorized
+      systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

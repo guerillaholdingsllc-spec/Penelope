@@ -1,0 +1,78 @@
+business: GAFC
+created: '2026-04-17T05:25:04.233268'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+  on social
+opportunity_data:
+  action: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+    on social
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 10
+  margin: 22
+  raw_score: 82
+  reasoning: This opportunity scores highly on speed, scalability, and margin due
+    to its fully digital and automated nature, but the market demand signal for this
+    specific brand content appears low given the modest estimated monthly value for
+    brand awareness.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776403504
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+      Key concerns:
+
+      *   **Misleading Revenue Model & Value Attribution**: The `revenue_model` explicitly
+      states "one_time" type with "$0 estimated_monthly" revenue, yet `opportunity_data`
+      claims an "estimated_monthly" value of $200 for "brand" awareness. This is a
+      fundamental contradiction; brand awareness is a marketing expense, not direct
+      revenue, making the 70% margin on a non-existent revenue base meaningless.
+
+      *   **Low Demand & Unproven Concept**: The system''s own scoring acknowledges
+      "low market demand signal" for these specific characters. Launching new, unproven
+      brand characters with a minimal budget ($50/day cap) for "brand awareness" without
+      clear KPIs or a path to monetization is highly speculative and unlikely to yield
+      significant results.
+
+      *   **Inadequate Budget for Impact**: A $50 daily budget cap is severely restrictive
+      for any meaningful social media content promotion or brand building, limiting
+      reach, engagement, and the ability to effectively test and scale the concept.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides actionable content strategy and platform recommendations
+      for social media posting, directly supporting the objective of building brand
+      awareness.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting for brand awareness, which is explicitly
+      compliant and does not violate any forbidden activities.'
+    result: PASS
+test_results: {}

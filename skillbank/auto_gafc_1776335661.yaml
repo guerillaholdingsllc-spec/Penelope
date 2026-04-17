@@ -1,0 +1,78 @@
+business: GAFC
+created: '2026-04-16T10:34:21.189647'
+learnings: ''
+logic_flow: {}
+objective: Create and post Bluesky thread about gun safety statistics with GAFC branding
+opportunity_data:
+  action: Create and post Bluesky thread about gun safety statistics with GAFC branding
+  business: GAFC
+  estimated_monthly: 100
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity represents a confirmed digital service for a client,
+    offering high profit margins, immediate execution, and full automation for an
+    AI agent.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776335661
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 20
+    notes: 'CRITIQUE
+
+      Confidence Score: 20%
+
+      Key concerns:
+
+      *   **Misleading Revenue Model & Valuation:** The opportunity is framed as a
+      "revenue opportunity" with a 70% margin, yet states $0 direct revenue and $0
+      cost per run. The $100 "estimated monthly" brand value is arbitrary and lacks
+      clear KPIs or justification, making the financial viability highly questionable.
+
+      *   **High Reputational Risk on Sensitive Topic:** Relying on an AI agent to
+      generate and post content on "gun safety statistics" with GAFC branding on a
+      public platform like Bluesky carries significant risk of factual inaccuracy,
+      misinterpretation, or negative public backlash, potentially damaging GAFC''s
+      brand and credibility.
+
+      *   **Contradictory Status & Overstated Automation:** The "Draft" status contradicts
+      the claim of a "confirmed digital service" ready for "immediate execution" and
+      "full automation." The assumption of zero cost and full AI autonomy for sensitive
+      content is unrealistic and overlooks necessary human oversight and platform
+      management.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The action involves posting to social media and promoting a brand, which directly
+      aligns with content creation and outreach, moving toward revenue through brand
+      building.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting and content publishing, which are compliant
+      activities, and does not present any clear, immediate violations of collecting
+      SSNs, storing unencrypted passwords, accessing unauthorized systems, or violating
+      GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

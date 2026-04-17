@@ -1,0 +1,84 @@
+business: Cross-vertical
+created: '2026-04-09T23:19:31.148430'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0 (Udemy/Skillshare instructor account)
+  estimated_monthly_revenue_potential: $900 - $2,200
+  how_penelope_deploys_it_autonomously: Penelope uses AI to outline course modules,
+    generate video scripts, create supporting materials, and automate the uploading
+    process and initial promotional campaigns on the platforms and social media.
+  specific_revenue_action: 'Launch an ''Online Course: Mastering ChatGPT for Content
+    Creation'' on Udemy/Skillshare.'
+  tier_classification: 1
+  time_to_first_dollar: 20
+  why_this_works_NOW: ChatGPT is ubiquitous, but many content creators don't know
+    how to leverage it for high-quality, original content. Demand for practical, skill-based
+    AI courses is very high.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 25
+  margin: 25
+  raw_score: 98
+  reasoning: This opportunity leverages high demand for AI skills with an extremely
+    high-margin, fully automated digital product that can be deployed quickly by an
+    AI agent.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775776771
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Market Saturation & Quality Perception**: The "ChatGPT for Content Creation"
+      niche is highly saturated. Fully AI-generated course content risks being perceived
+      as generic, lacking depth, and failing to provide the unique insights or human
+      touch that drive positive reviews and sustained enrollment on competitive platforms.
+
+      *   **Misleading Financials & Platform Dependence**: The 70% margin is pre-platform
+      cuts (Udemy/Skillshare take significant percentages, often 50% or more for organic
+      sales), making the net margin much lower. The `revenue_model.estimated_monthly:
+      0` directly contradicts the `estimated_monthly_revenue_potential`, indicating
+      a fundamental inconsistency in the financial model.
+
+      *   **Lack of Instructor Persona & Engagement**: Online course success often
+      relies on the instructor''s expertise, personality, and ability to engage with
+      students. A fully autonomous system like Penelope cannot replicate this, which
+      will hinder community building, Q&A, and the organic promotion crucial for long-term
+      course viability.'
+    result: FAIL
+  quality:
+    notes: 'FAIL
+
+      Test output is incomplete and truncated, indicating a fundamental quality issue
+      in the test execution or capture.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill fails to demonstrate compliance with platform Terms of Service regarding
+      AI-generated content and automated uploads, and lacks explicit mechanisms for
+      GDPR/CCPA compliance for data collected during promotional activities.'
+    result: FAIL
+test_results: {}

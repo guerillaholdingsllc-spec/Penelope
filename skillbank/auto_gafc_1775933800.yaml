@@ -1,0 +1,80 @@
+business: GAFC
+created: '2026-04-11T18:56:40.509770'
+learnings: ''
+logic_flow: {}
+objective: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+opportunity_data:
+  action: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+  business: GAFC
+  estimated_monthly: 500
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 23
+  raw_score: 91
+  reasoning: This opportunity leverages an autonomous AI agent for fully automated
+    digital content creation and distribution, offering high margins, instant execution,
+    and excellent scalability for a client with a clear demand signal.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1775933800
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+      Key concerns:
+
+      *   **Revenue Discrepancy & Unrealistic Expectation:** The `SKILL` lists $0
+      estimated monthly revenue in its model, yet the opportunity data claims $500.
+      Achieving $500/month in "brand revenue" from only 5 blog posts, even with AI
+      automation, is highly improbable without a detailed, proven monetization strategy
+      and significant audience engagement.
+
+      *   **Content Quality & Brand Risk:** Generating "gun safety" content via AI
+      carries significant risk. Inaccurate, generic, or poorly nuanced information
+      could severely damage the GAFC brand''s credibility and potentially lead to
+      platform policy violations, negating any potential for "brand revenue."
+
+      *   **Limited Reach & Monetization Pathway:** Relying on 5 blog posts and Bluesky
+      for promotion offers insufficient reach to generate substantial "brand revenue."
+      The absence of a clear, actionable monetization pathway (e.g., specific affiliate
+      programs, lead generation funnels) makes the $500/month target speculative at
+      best.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output provides an actionable research plan that defines the strategy
+      and assumptions for publishing content, which is a necessary step towards the
+      skill''s objective and revenue generation.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and social media sharing, which are compliant
+      activities. There is no immediate indication of collecting SSNs, storing unencrypted
+      passwords, accessing unauthorized systems, or violating GDPR with non-consented
+      PII. The mention of "lead generation" is a potential future activity, but the
+      skill does not specify non-compliant methods for it, and theoretical future
+      risks are not grounds for failure.'
+    result: PASS
+test_results: {}

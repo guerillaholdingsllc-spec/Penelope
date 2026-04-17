@@ -1,0 +1,81 @@
+business: Cross-vertical
+created: '2026-04-10T16:16:58.038697'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $350 - $1000
+  how_penelope_deploys_it_autonomously: AI assists in structuring the template, including
+    formulas and data points. Gumroad handles sales and delivery. Automated promotion
+    on SEO forums and marketing groups.
+  specific_revenue_action: Sell 'AI-Powered SEO Keyword Research Template for Google
+    Sheets/Notion' on Gumroad.
+  tier_classification: 1
+  time_to_first_dollar: 10-15 days
+  why_this_works_NOW: SEO is crucial for online visibility; marketers need efficient,
+    structured keyword research tools; AI enhances data analysis.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 92
+  reasoning: This digital product leverages high demand for AI-enhanced SEO tools,
+    offers excellent profit margins, has a quick time to market, and is highly scalable
+    through automated creation, sales, and promotion.
+  scalability: 25
+  speed: 21
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775837818
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Misleading "AI-Powered" Claim:** The core value proposition of "AI-Powered"
+      for a Google Sheets/Notion template is highly suspect. A static template cannot
+      perform real-time AI analysis (e.g., automated intent classification, clustering,
+      dynamic data fetching). This discrepancy will lead to significant customer dissatisfaction,
+      refunds, and negative reviews.
+
+      *   **Saturated Market & Weak Differentiation:** The market for SEO templates
+      is highly competitive, with many free and low-cost options. If the "AI-Powered"
+      aspect is merely a structured way to *organize* data from *other* AI tools,
+      it offers insufficient unique value to stand out or justify a purchase, especially
+      when users can achieve similar results with free AI tools and basic spreadsheets.
+
+      *   **Reputational Risk:** Automated promotion of a product with a misleading
+      claim will quickly backfire, damaging the brand''s credibility and making future
+      product launches more difficult.'
+    result: FAIL
+  quality:
+    notes: 'FAIL
+
+      The skill definition contains mathematical inconsistencies in the RPS score
+      calculation and contradictory revenue estimates.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      Automated promotion on marketing groups likely violates platform ToS, and there
+      is no specified plan for GDPR/CCPA compliance regarding lead data.'
+    result: FAIL
+test_results: {}

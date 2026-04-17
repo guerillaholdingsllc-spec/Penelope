@@ -1,0 +1,86 @@
+business: Cross-vertical
+created: '2026-04-10T22:00:11.443501'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  Cost to test: 0
+  Estimated monthly revenue potential ($): 700
+  How Penelope deploys it autonomously: AI generates course curriculum, video scripts,
+    exercises, and examples. Penelope hosts content, sets up payment, and automates
+    LinkedIn and business forum promotion.
+  Specific revenue action: 'Launch ''Online Course: Prompt Engineering for Business
+    Professionals'' on Gumroad/Teachable.'
+  Tier classification: 1
+  Time to first dollar (days): 28
+  Why this works NOW: Businesses are rapidly adopting AI, and employees need to learn
+    how to effectively communicate with AI models (prompt engineering) to maximize
+    productivity and achieve optimal business outcomes.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 24
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages high demand for AI skills with a fully automated,
+    digital product, ensuring high margins, rapid deployment, and excellent scalability.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775858411
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+
+      *   **Market Saturation & Quality:** The "prompt engineering" space is already
+      highly competitive with numerous free and paid resources. An autonomously AI-generated
+      course risks being generic, lacking the depth, nuance, and human expertise required
+      to stand out and provide real, actionable value to "business professionals,"
+      leading to poor sales and reviews.
+
+      *   **"Cost to Test: 0" Fallacy & Marketing Blind Spot:** This assumption is
+      highly unrealistic. Even autonomous deployment incurs implicit costs (e.g.,
+      platform fees, compute for AI generation, time for initial setup/monitoring).
+      More critically, it implies no budget for essential marketing experiments, A/B
+      testing, or targeted paid promotion, severely limiting the course''s ability
+      to gain visibility and traction in a crowded market.
+
+      *   **Rapid Obsolescence & Credibility:** Prompt engineering best practices
+      and AI model capabilities evolve at an extremely rapid pace. An autonomously
+      generated course will struggle to keep content current, quickly becoming outdated.
+      The absence of a human expert or established brand further erodes credibility
+      and trust, which are vital for selling educational content.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The skill definition states "Cost to test: 0", but the test output reports "Budget
+      Spent: $45.00", which is a direct contradiction and indicates a factual inconsistency.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The automated LinkedIn promotion carries a high risk of violating LinkedIn''s
+      Terms of Service, and there is no mention of GDPR/CCPA compliance for any lead
+      data that would likely be collected through promotional activities.'
+    result: FAIL
+test_results: {}

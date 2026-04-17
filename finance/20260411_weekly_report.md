@@ -1,0 +1,1 @@
+Report generation error: 'NoneType' object has no attribute 'models'

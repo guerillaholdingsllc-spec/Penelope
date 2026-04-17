@@ -1,0 +1,77 @@
+business: GAFC
+created: '2026-04-14T15:22:14.412794'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+  on social
+opportunity_data:
+  action: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+    on social
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 10
+  margin: 22
+  raw_score: 82
+  reasoning: This opportunity scores highly on speed, scalability, and margin due
+    to its fully digital and automated nature, but the market demand signal for this
+    specific brand content appears low given the modest estimated monthly value for
+    brand awareness.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776180134
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+      Key concerns:
+
+      *   **Fundamental Inconsistencies & Unrealistic Financials:** The `SKILL` data
+      contains multiple conflicting figures (e.g., estimated monthly revenue, margin
+      calculation, total score) and unrealistic assumptions like `cost_per_run: 0`.
+      This indicates a flawed understanding of the opportunity''s financial viability.
+
+      *   **Incomplete & Assumption-Based Research:** The agent''s `OUTPUT` is truncated
+      and explicitly states it''s based on assumptions about the business and characters.
+      This undermines the reliability and actionable nature of the "research findings."
+
+      *   **Negligible Impact & Low Demand:** An estimated monthly value of $200 for
+      brand awareness, coupled with a low demand score (10), suggests this initiative
+      will have minimal real-world impact and struggles to justify even minimal resource
+      allocation.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output provides actionable findings for content creation and social
+      media outreach, which is a valuable step in the content creation process and
+      moves toward brand awareness and potential revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting for brand awareness, which is explicitly
+      compliant, and the output contains no immediate violations of sensitive data
+      handling or unauthorized access.'
+    result: PASS
+test_results: {}

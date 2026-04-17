@@ -1,0 +1,82 @@
+business: Cross-vertical
+created: '2026-04-10T06:50:36.438061'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $35 (White-label chatbot platform subscription, initial setup fees)
+  estimated_monthly_revenue_potential: $600 - $1,800
+  how_penelope_deploys_it_autonomously: Penelope deploys a white-label chatbot solution,
+    customizes scripts for lead capture, creates a simple sales page, sets up recurring
+    billing, automates client setup and reporting.
+  specific_revenue_action: 'White-label AI Service: ''AI Chatbot for Small Business
+    Websites (Lead Capture Focus)'', targeting local service businesses.'
+  tier_classification: 1
+  time_to_first_dollar: 20
+  why_this_works_NOW: Small businesses need 24/7 customer interaction, lead generation
+    is critical, AI chatbots are becoming standard.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 23
+  raw_score: 90
+  reasoning: This opportunity leverages high demand for automated lead generation
+    in small businesses with a low-cost, high-margin, and highly scalable white-label
+    digital service that Penelope can deploy autonomously and quickly.
+  scalability: 25
+  speed: 20
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775803836
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Market Saturation & Differentiation:** The "AI Chatbot for Small Business"
+      market is highly competitive and commoditized. Without a clear, compelling differentiator
+      beyond generic "lead capture," client acquisition will be expensive and retention
+      difficult against established players and free alternatives.
+
+      *   **Client Acquisition Cost (CAC) & Support Overhead:** The plan significantly
+      underestimates the cost and effort required to acquire small business clients
+      and provide the necessary ongoing support. This will likely erode the projected
+      70% margin and challenge the "autonomous deployment" model, leading to high
+      churn.
+
+      *   **Overly Optimistic RPS Score:** The RPS score of 100 (raw 90) is inflated,
+      particularly for "demand" and "scalability." The perceived demand for *a generic
+      white-label solution* in a crowded market is not as high as suggested, and true
+      scalability will be hampered by client support needs.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output accurately reflects the skill''s objective, provides verifiable claims,
+      uses natural language, and presents consistent financial estimates for the test
+      phase.'
+    result: PASS
+  security:
+    notes: 'FAIL
+
+      Skill involves lead data capture without any mention of GDPR/CCPA compliance
+      mechanisms.'
+    result: FAIL
+test_results: {}

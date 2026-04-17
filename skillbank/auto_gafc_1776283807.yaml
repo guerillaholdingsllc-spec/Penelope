@@ -1,0 +1,137 @@
+business: GAFC
+created: '2026-04-15T20:10:07.177896'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+opportunity_data:
+  action: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity offers high profit margins, instant execution, and full
+    scalability for an AI agent due to its digital nature, with a moderate but validated
+    demand signal for brand-related revenue.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776283807
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+
+      Key concerns:
+
+      *   **Extreme Platform Risk & Account Suspension:** The brand name "@glocksandfriedchicken"
+      combined with firearm-related content (even "safe storage") is a direct violation
+      risk for Instagram''s strict policies on regulated goods and potentially glorifying
+      violence. Automated systems and human reviewers are highly likely to flag and
+      suspend the account, making any revenue impossible.
+
+      *   **Vague & Unsubstantiated Revenue Model:** The "brand revenue" of $200/month
+      is entirely speculative, lacks a clear mechanism for generation, and directly
+      contradicts the `revenue_model`''s `one_time` and `estimated_monthly: 0` entries.
+      There''s no clear path from "safe storage content" to quantifiable brand value,
+      especially if the account is banned.
+
+      *   **High Risk of Negative Brand Perception & Backlash:** The brand name itself
+      is provocative and could alienate a broad audience, leading to low engagement,
+      negative public sentiment, or even media scrutiny, undermining any positive
+      brand building efforts.
+
+
+      ---
+
+
+      **1. Why would this FAIL in the real market?**
+
+      The primary failure point is Instagram''s (and Meta''s broader) strict content
+      policies regarding firearms. While "safe storage education" *can* be permissible
+      in isolation, the brand name "@glocksandfriedchicken" is a critical liability.
+      It directly references a firearm brand ("Glock") in a casual context, which
+      is highly likely to trigger automated moderation systems or human review for
+      promoting regulated goods or glorifying violence. This will lead to content
+      removal, shadow-banning, or outright account suspension, making it impossible
+      to achieve any brand-building objective or generate revenue. Furthermore, the
+      provocative brand name itself carries a significant risk of negative public
+      perception and backlash, even if content technically passes moderation, undermining
+      the very concept of "brand revenue." The `rps_score` of 100 is dangerously optimistic,
+      failing to account for these fundamental platform and brand risks.
+
+
+      **2. Is there a cheaper/faster way to achieve same result?**
+
+      Given the specific constraints (Instagram, @glocksandfriedchicken, safe storage
+      content), there isn''t a significantly cheaper or faster *compliant* way to
+      achieve the *stated result* because the core issue is the brand''s inherent
+      conflict with the platform. Any effort to create and post content, even via
+      AI, will incur the same high risk of immediate failure.
+
+      *   **To achieve "safe storage education" *without* the Instagram/GAFC constraint:**
+      A dedicated blog, YouTube channel (with age restrictions), or specialized firearm
+      forums would be faster and cheaper to establish a presence without constant
+      moderation battles.
+
+      *   **To achieve "brand revenue" *without* the specific content/platform constraint:**
+      General digital marketing tactics (SEO, email, partnerships) on less restrictive
+      platforms would be more effective and less risky.
+
+      However, for *this specific skill*, the fastest way to "achieve the result"
+      (posting content) is also the fastest way to get banned.
+
+
+      **3. What edge case breaks this?**
+
+      *   **Instagram Policy Enforcement Shift:** Even a minor update to Instagram''s
+      AI detection algorithms or a stricter interpretation of existing community guidelines
+      could instantly flag and suspend the "@glocksandfriedchicken" account, regardless
+      of the content''s educational intent. This is a constant, unpredictable risk.
+
+      *   **Public/Media Scrutiny:** A single viral negative comment, a complaint
+      campaign, or unwanted media attention highlighting the brand name "Glocks and
+      Fried Chicken" in conjunction with firearm content could force Instagram''s
+      hand, leading to account termination and significant reputational damage.
+
+      *   **AI Content Generation Error:** If the AI agent tasked with creating the
+      content inadvertently includes imagery, phrasing, or metadata that, even subtly,
+      violates Instagram''s policies (e.g., showing a firearm in a way that could
+      be misconstrued as promotional rather than purely illustrative for safety),
+      it could trigger an immediate ban. The nuance required for compliance on this
+      sensitive topic is extremely high.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The action involves posting to social media with educational content, which
+      directly aligns with the PASS criteria and is not illegal, harmful, or impossible
+      to execute.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves compliant social media posting and does not violate any of
+      the specified failing criteria.'
+    result: PASS
+test_results: {}

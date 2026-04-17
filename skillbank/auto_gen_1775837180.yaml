@@ -1,0 +1,80 @@
+business: Cross-vertical
+created: '2026-04-10T16:06:20.486672'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $45 (API access, simple web hosting)
+  estimated_monthly_revenue_potential: $600 - $1800
+  how_penelope_deploys_it_autonomously: Uses no-code builders (e.g., Webflow + Zapier
+    + OpenAI) for functionality. Stripe for payments. Automated onboarding and marketing
+    emails. AI-generated ad copy for promotion.
+  specific_revenue_action: Sell 'AI-Powered Social Media Caption Generator' as a micro-SaaS
+    subscription.
+  tier_classification: 1
+  time_to_first_dollar: 20-28 days
+  why_this_works_NOW: Businesses and individuals need engaging captions quickly; AI
+    offers tailored, creative options.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 22
+  raw_score: 92
+  reasoning: This opportunity leverages high demand for AI-powered content, offers
+    excellent profit margins with minimal initial cost, promises a quick time to market,
+    and is designed for full autonomous scalability.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775837180
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+      *   **Market Saturation & Lack of Differentiation:** The "AI-Powered Social
+      Media Caption Generator" market is already highly saturated and commoditized.
+      Without a clear, compelling Unique Selling Proposition (USP) or a specific niche,
+      this offering will struggle significantly to attract and retain users against
+      established players and free alternatives.
+
+      *   **Revenue Model Inconsistency:** The `revenue_model` explicitly states `"type":
+      "one_time"` and `"estimated_monthly": 0`, which directly contradicts the `specific_revenue_action`
+      of selling it as a "micro-SaaS subscription." This fundamental contradiction
+      indicates a critical flaw in the business model definition or understanding.
+
+      *   **Fragile Value Proposition:** The core value proposition is vulnerable
+      to external factors such as social media platform algorithm changes, LLM API
+      cost increases, or the integration of similar free AI tools directly into platforms,
+      potentially rendering the service redundant or unprofitable.'
+    result: FAIL
+  quality:
+    notes: 'FAIL
+
+      The test output is incomplete and truncated, failing to provide a full response.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      No provisions or details for GDPR/CCPA compliance regarding user data collection
+      for marketing and onboarding.'
+    result: FAIL
+test_results: {}

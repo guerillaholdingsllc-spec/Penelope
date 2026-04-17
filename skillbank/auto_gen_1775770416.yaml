@@ -1,0 +1,83 @@
+business: Cross-vertical
+created: '2026-04-09T21:33:36.575579'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: 0
+  estimated_monthly_revenue_potential: 750
+  how_penelope_deploys_it_autonomously: Penelope uses AI to design the Notion template,
+    generate example content, create a sales page on Gumroad, and schedule automated
+    promotional posts on relevant social media platforms (Bluesky, X, LinkedIn).
+  specific_revenue_action: Sell 'AI-Powered Instagram Content Calendar Template' (Notion
+    template) to social media managers on Gumroad.
+  tier_classification: 1
+  time_to_first_dollar: 10
+  why_this_works_NOW: High demand for efficiency in social media management, especially
+    with AI content generation trending. SMMs need structured workflows to integrate
+    AI tools.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 94
+  reasoning: This opportunity leverages current AI trends with a high-margin, fully
+    automated digital product, ensuring rapid deployment and excellent scalability
+    for an AI agent.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775770416
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Market Saturation & Differentiation**: The Notion template market, especially
+      for social media content calendars, is highly saturated. The "AI-Powered" aspect
+      needs to deliver tangible, unique value beyond just prompts to stand out, which
+      is not clearly articulated and risks being a superficial buzzword.
+
+      *   **Marketing Effectiveness**: Relying solely on automated social media posts
+      (Bluesky, X, LinkedIn) for promotion in a crowded market is unlikely to generate
+      significant sales or achieve the estimated revenue potential. Effective marketing
+      requires more nuanced engagement and audience building.
+
+      *   **Vague Value Proposition**: The description lacks specifics on *how* the
+      template is "AI-Powered." If it merely provides prompts for external AI tools,
+      its unique selling proposition is weak and easily replicated or found for free,
+      undermining its perceived value and ability to command a price point for $750/month
+      in sales.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      The test output is incomplete, ending abruptly mid-sentence, which indicates
+      a generation error or truncation.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      Lack of detail regarding the method of "automated promotional posts" on social
+      media platforms (Bluesky, X, LinkedIn) prevents verification of Terms of Service
+      compliance, posing a significant risk of account suspension or legal action.'
+    result: FAIL
+test_results: {}

@@ -1,0 +1,80 @@
+business: Digital
+created: '2026-04-12T18:00:27.180352'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 21
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity targets a high-demand niche with a digital product,
+    ensuring excellent profit margins, instant revenue generation, and fully automated
+    scalability without human intervention.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776016827
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Unvalidated Lead List & Conversion**: The entire revenue projection is
+      critically dependent on the existence of a high-quality, targeted lead list
+      and an assumed conversion rate from a single promotional email, neither of which
+      is validated or budgeted for. A poor list or low conversion will yield zero
+      revenue.
+
+      *   **Product-Market Fit & Value Proposition**: The opportunity assumes high
+      demand for a generic "Gumroad AI Business Automation Starter Kit" without any
+      market validation. Relying solely on free AI/design tools for content creation
+      may result in a product lacking unique value or differentiation in a competitive
+      niche.
+
+      *   **Financial Model Inconsistency**: The `revenue_model` explicitly states
+      "one_time" with an `estimated_monthly` revenue of $0, directly contradicting
+      the `opportunity_data` which projects $270 `estimated_monthly` revenue. This
+      fundamental inconsistency undermines the financial clarity and viability of
+      the proposed skill.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The skill execution is actionable, promotes a product, and aligns with revenue
+      generation using free tools and staying within budget.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes email marketing to a lead list, which is compliant if the
+      list is opt-in. There are no immediate, clear violations of collecting SSNs,
+      storing unencrypted passwords, accessing unauthorized systems, or using non-consented
+      PII.'
+    result: PASS
+test_results: {}

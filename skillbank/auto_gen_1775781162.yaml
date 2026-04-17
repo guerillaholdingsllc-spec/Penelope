@@ -1,0 +1,87 @@
+business: Cross-vertical
+created: '2026-04-10T00:32:42.339038'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $250 - $650
+  how_penelope_deploys_it_autonomously: Penelope uses AI to generate relevant content
+    topics and calendar structures for SaaS marketing, creates a customizable spreadsheet/Notion
+    template, lists on Gumroad, and promotes through AI-driven social media posts
+    and email marketing to relevant communities.
+  specific_revenue_action: 'Gumroad Product: ''30-Day Content Calendar & Idea Generator
+    for SaaS Marketers'''
+  tier_classification: 1
+  time_to_first_dollar: 10
+  why_this_works_NOW: SaaS companies have a continuous need for content. Marketers
+    often struggle with ideation and planning. A ready-made solution is highly valuable.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 25
+  raw_score: 97
+  reasoning: This opportunity leverages AI for autonomous creation and promotion of
+    a high-margin digital product addressing a clear market need, ensuring rapid deployment
+    and excellent scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775781162
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 50
+    notes: 'CRITIQUE
+
+      Confidence Score: 50%
+
+      Key concerns:
+
+      *   **Limited Differentiation & Free Alternatives:** The core offering (content
+      calendar + idea generator) is easily replicable using free AI tools (e.g., ChatGPT)
+      and readily available free templates (Google Sheets, Notion). The "SaaS-specific"
+      and "AI-driven" aspects need to deliver significantly superior value to justify
+      a purchase over zero-cost alternatives.
+
+      *   **Autonomous Marketing Effectiveness:** The plan relies heavily on AI-driven
+      social media and email marketing to "relevant communities." Without a pre-existing
+      audience or a highly sophisticated, nuanced AI marketing strategy, this risks
+      low visibility, poor engagement, or being perceived as spam, leading to minimal
+      sales.
+
+      *   **AI Output Quality & Specificity:** The product''s value is entirely dependent
+      on the AI''s ability to consistently generate *high-quality, highly relevant,
+      and actionable* content ideas tailored for diverse SaaS marketing scenarios.
+      Generic or repetitive AI output will quickly diminish the product''s appeal
+      and perceived value.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The test output does not match the objective of "Generate revenue" as it represents
+      a research and refinement phase, not actual deployment or revenue generation.
+      Furthermore, the skill definition contains a mathematical inconsistency in the
+      `score_breakdown` where `raw_score` + `tier_bonus_applied` does not equal `total`
+      (97 + 25 = 122, not 100).'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      Lack of explicit GDPR/CCPA compliance mechanisms for lead data collection and
+      processing in email marketing.'
+    result: FAIL
+test_results: {}

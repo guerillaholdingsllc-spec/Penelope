@@ -1,0 +1,157 @@
+business: Cross-vertical
+created: '2026-04-10T06:25:38.279992'
+learnings: ''
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $10 (Midjourney subscription for testing prompts, if not active)
+  estimated_monthly_revenue_potential: $300 - $900
+  how_penelope_deploys_it_autonomously: Penelope researches prompt engineering for
+    specific aesthetic, generates and curates top 50 prompts, packages with example
+    images, uploads to Gumroad, uses AI-generated ad copy for promotion.
+  specific_revenue_action: 'Develop & sell ''Midjourney Prompt Pack: Realistic Food
+    Photography Styles'' on Gumroad, targeting food bloggers and marketers.'
+  tier_classification: 1
+  time_to_first_dollar: 8
+  why_this_works_NOW: Rise of AI image generation, specific niche demand (food industry),
+    difficulty in crafting effective prompts.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 94
+  reasoning: This opportunity leverages a strong current market trend with high autonomy,
+    excellent profit margins, rapid deployment, and infinite scalability for a digital
+    product.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775802338
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Rapid Obsolescence & Maintenance Burden:** AI models like Midjourney evolve
+      extremely quickly. Prompts effective today may be suboptimal or broken with
+      the next major update (e.g., v6 to v7), rendering the product obsolete and requiring
+      constant, uncompensated updates to maintain value.
+
+      *   **High Competition & Free Alternatives:** The market for AI prompt packs
+      is already saturated. Many high-quality prompts and prompt-crafting tutorials
+      are available for free, making it difficult to justify a purchase unless the
+      pack offers truly unique, consistently superior, and difficult-to-replicate
+      value.
+
+      *   **Fragile Value Proposition:** The "difficulty in crafting effective prompts"
+      is a temporary barrier. As AI tools become more user-friendly and prompt engineering
+      knowledge becomes more widespread, the core value proposition of a static prompt
+      pack diminishes rapidly.
+
+
+      ---
+
+
+      **1. Why would this FAIL in the real market?**
+
+
+      *   **Rapid Obsolescence:** The primary reason for failure is the inherent volatility
+      of AI models. Midjourney updates frequently, and changes to its underlying architecture
+      or prompt interpretation can render a carefully curated prompt pack ineffective
+      or require significant rework. A "one-time" product with a high margin assumes
+      static value, which is not the case here.
+
+      *   **High Competition & Commoditization:** The claim of "Low Saturation in
+      Specific Niche" is highly optimistic. While "Realistic Food Photography Styles"
+      is specific, the broader market for Midjourney prompt packs is already crowded.
+      The barrier to entry for creating and selling such a pack is extremely low,
+      leading to rapid commoditization and downward pressure on pricing.
+
+      *   **Availability of Free Resources:** Many users can find similar prompts,
+      learn prompt engineering techniques, or even use AI-powered prompt generators
+      for free through communities, blogs, YouTube, or Midjourney''s own documentation.
+      The value proposition needs to be exceptionally strong to overcome the "why
+      pay when I can get it for free?" mindset.
+
+      *   **Limited Differentiation:** Without a truly unique aesthetic, proprietary
+      prompt engineering techniques, or a strong brand, a generic "top 50 prompts"
+      pack will struggle to stand out among countless others. "Realistic" is also
+      subjective and AI''s interpretation of it can vary.
+
+      *   **Marketing & Discovery Challenges:** Simply uploading to Gumroad and using
+      "AI-generated ad copy" is unlikely to generate significant sales in a competitive
+      market. Effective marketing requires deeper understanding of the target audience,
+      continuous engagement, and potentially paid advertising beyond the minimal "cost
+      to test."
+
+
+      **2. Is there a cheaper/faster way to achieve the same result?**
+
+
+      *   **Self-Learning & Free Resources:** For the target audience (food bloggers,
+      marketers), investing time in learning prompt engineering through free online
+      tutorials, communities, and experimentation with their Midjourney subscription
+      is a cheaper and potentially more effective long-term solution than a static
+      prompt pack.
+
+      *   **AI Prompt Generators/Refiners:** Dedicated AI tools exist that can help
+      users generate and refine prompts dynamically, offering a more personalized
+      and up-to-date solution than a pre-packaged list.
+
+      *   **Community-Sourced Prompts:** Midjourney''s own Discord and other online
+      communities are rich sources of prompts and techniques, often shared freely
+      by experienced users.
+
+
+      **3. What edge case breaks this?**
+
+
+      *   **Midjourney Policy/API Changes:** Midjourney could change its terms of
+      service regarding commercial use of prompts, introduce its own advanced prompt
+      library, or fundamentally alter how prompts are structured, rendering existing
+      packs obsolete or non-compliant.
+
+      *   **Major AI Model Update:** A significant update (e.g., Midjourney v7) could
+      completely change the prompt syntax, weighting, or aesthetic output, making
+      the entire pack unusable overnight. The "recursive_rules" for "if_fail" might
+      be too slow or insufficient to adapt to such a drastic shift.
+
+      *   **Copyright/Licensing of Example Images:** If the "Penelope" agent generates
+      example images, there''s a potential (though low) risk of copyright or licensing
+      issues if the generated images inadvertently infringe on existing styles or
+      if the terms of use for AI-generated content change.
+
+      *   **Market Saturation & Price War:** A sudden influx of similar, high-quality
+      prompt packs could drive prices down to unsustainable levels, eroding the projected
+      70% margin.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The test output is incomplete, ending abruptly with `"numb`, preventing a full
+      audit of its content and recommendations.'
+    result: FAIL
+  security:
+    notes: 'PASS
+
+      All specified compliance checks are met based on the provided skill details.'
+    result: PASS
+test_results: {}

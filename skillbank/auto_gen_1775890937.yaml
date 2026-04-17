@@ -1,0 +1,83 @@
+business: Cross-vertical
+created: '2026-04-11T07:02:17.464312'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $300 - $800
+  how_penelope_deploys_it_autonomously: AI curates and refines prompts. AI generates
+    sales copy and example outputs. Automated Gumroad listing and delivery.
+  specific_revenue_action: 'Create and sell a prompt pack: ''ChatGPT Prompts for Business
+    Plan Generation'' for entrepreneurs. Target: startups, aspiring entrepreneurs.
+    Platform: Gumroad.'
+  tier_classification: 1
+  time_to_first_dollar: 8 days
+  why_this_works_now: AI is a powerful business ideation tool, prompts unlock its
+    full potential, strong demand for structured business planning aids.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity scores exceptionally high due to its fully automated,
+    digital nature, offering high margins, rapid deployment, and excellent scalability
+    for a product with strong current market demand.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775890937
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Extreme Commoditization & Low Barrier to Entry:** The market is already
+      saturated with free and low-cost prompt guides, templates, and direct AI tools
+      for business planning. Differentiating this specific pack and establishing a
+      compelling value proposition against readily available alternatives will be
+      exceptionally difficult.
+
+      *   **Rapid Obsolescence & AI Model Dependency:** The utility and effectiveness
+      of specific prompts are highly susceptible to frequent updates in AI models
+      (e.g., ChatGPT). This product has a very short shelf-life, requiring constant
+      updates and potentially rendering the core asset obsolete quickly.
+
+      *   **Marketing & Discovery Challenge:** While automated listing is efficient,
+      attracting paying customers on a crowded platform like Gumroad requires significant
+      marketing effort beyond mere presence. The "how penelope deploys it autonomously"
+      section does not address how customers will *find* and *choose* this product
+      over countless others.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides actionable market research and competitive analysis,
+      which are crucial preparatory steps for publishing content and promoting products,
+      directly moving toward the revenue objective.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No immediate violations of SSN collection, unencrypted password storage, unauthorized
+      system access, or non-consented PII collection are present in the skill description.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,85 @@
+business: Cross-vertical
+created: '2026-04-15T10:14:48.369610'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: 0
+  estimated_monthly_revenue_potential: 850
+  how_penelope_deploys_it_autonomously: Penelope integrates career data with an AI
+    model, designs an interactive Notion template or simple web app (using Typeform/Airtable
+    integration), and markets it to education and career-focused platforms.
+  specific_revenue_action: 'Digital Product: ''Interactive AI Career Path Planner''
+    (web app/Notion template) for students/career changers.'
+  tier_classification: 1
+  time_to_first_dollar: 22
+  why_this_works_NOW: The job market is rapidly changing due to AI. People need guidance
+    on future-proofing careers and identifying AI-adjacent roles. An interactive tool
+    provides personalized value.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 24
+  margin: 24
+  raw_score: 94
+  reasoning: This opportunity leverages high current demand for AI career guidance
+    with a fully autonomous, high-margin digital product that can be deployed quickly
+    and scaled infinitely.
+  scalability: 25
+  speed: 21
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776248088
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Superficial AI Integration & Differentiation**: The proposed "interactive
+      AI" via Notion/Typeform/Airtable is likely to be basic, failing to deliver truly
+      personalized, dynamic insights and struggling to differentiate from free AI
+      tools or more sophisticated competitors. This undermines the core value proposition.
+
+      *   **Market Saturation & Acquisition Costs**: The career planning market is
+      crowded. Without a truly unique value proposition or a robust marketing strategy
+      beyond "market to platforms," acquiring users efficiently to reach even the
+      modest $850/month target will be challenging, eroding the stated 70% margin.
+
+      *   **Data Accuracy & Obsolescence**: The core value relies on up-to-date career
+      data and AI accuracy in a rapidly changing job market. The autonomous deployment
+      plan lacks detail on how this critical data will be continuously maintained
+      and updated, risking the tool quickly becoming irrelevant or providing inaccurate
+      advice.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The test output describes research and planning, not the execution of a direct
+      revenue-generating action like publishing content, sending emails, or promoting
+      products.'
+    result: FAIL
+  security:
+    notes: 'PASS
+
+      The skill does not involve collecting SSNs, storing unencrypted passwords, accessing
+      unauthorized systems, or violating GDPR with non-consented PII. The description
+      of the digital product and its deployment does not indicate any immediate compliance
+      violations.'
+    result: PASS
+test_results: {}

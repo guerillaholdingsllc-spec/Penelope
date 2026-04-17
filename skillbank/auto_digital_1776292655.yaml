@@ -1,0 +1,78 @@
+business: Digital
+created: '2026-04-15T22:37:35.807968'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 96
+  reasoning: This digital product opportunity leverages high demand for AI automation,
+    offers excellent profit margins, and is fully automated for instant, scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776292655
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 55
+    notes: 'CRITIQUE
+
+      Confidence Score: 55%
+
+      Key concerns:
+
+      *   **Lead List Quality & Relevance:** The entire revenue projection hinges
+      on an unspecified "lead list." If this list is cold, irrelevant, or low-quality,
+      the email campaign will fail to generate significant sales, rendering the 70%
+      margin and $270/month estimate moot.
+
+      *   **Market Saturation & Product Differentiation:** The "AI Business Automation
+      Starter Kit" market is highly saturated. Without a clear unique selling proposition
+      (USP) or strong competitive advantage, the product risks being lost among countless
+      similar offerings, leading to poor conversion rates despite email sends.
+
+      *   **Sustainability of "One-Time" Revenue Model:** While the `objective` is
+      a single email send, the `estimated_monthly` revenue implies continuous sales.
+      The current plan lacks a clear strategy for ongoing lead generation or repeat
+      purchases, making sustained monthly revenue highly dependent on constantly acquiring
+      new, relevant leads, which isn''t detailed.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The research output provides essential information for crafting an effective
+      promotional email, directly supporting the objective of promoting the digital
+      product and moving toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes email marketing, which is compliant when using opt-in lists.
+      The description does not indicate the use of non-consented PII, collecting SSNs,
+      storing unencrypted passwords, or accessing unauthorized systems.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,76 @@
+business: Digital
+created: '2026-04-13T07:58:58.864213'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 21
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity targets a high-demand niche with a digital product,
+    ensuring excellent profit margins, instant revenue generation, and fully automated
+    scalability without human intervention.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776067138
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 20
+    notes: 'CRITIQUE
+
+      Confidence Score: 20%
+
+      Key concerns:
+
+      *   **Lead List Quality & Compliance**: The entire opportunity hinges on an
+      unspecified "lead list." If it''s cold, purchased, or non-compliant, deliverability
+      will suffer, conversions will be minimal, and there''s a high risk of platform
+      suspension (Brevo) or legal issues.
+
+      *   **Market Saturation & Product Differentiation**: The "AI Business Automation
+      Starter Kit" market is highly competitive. Without a clear Unique Selling Proposition
+      (USP) or proven value, the product risks being lost among numerous similar offerings,
+      leading to poor sales.
+
+      *   **Data Inconsistencies & Unrealistic Assumptions**: Contradictory `estimated_monthly`
+      values (0 vs 270) and a `cost_per_run` of 0 undermine the credibility of the
+      financial model. The "instant revenue generation" and "no barriers" claims are
+      overly optimistic without validation.'
+    result: FAIL
+  quality:
+    notes: 'FAIL
+
+      The test output is incomplete, cutting off critical "cost implications" information,
+      which prevents a full and verifiable assessment of the opportunity.'
+    result: FAIL
+  security:
+    notes: 'PASS
+
+      The skill describes email marketing to a lead list, which is compliant if the
+      list is opt-in, and no immediate violation of GDPR with non-consented PII is
+      stated.'
+    result: PASS
+test_results: {}

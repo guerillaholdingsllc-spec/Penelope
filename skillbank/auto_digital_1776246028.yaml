@@ -1,0 +1,82 @@
+business: Digital
+created: '2026-04-15T09:40:28.207833'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 21
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity targets a high-demand niche with a digital product,
+    ensuring excellent profit margins, instant revenue generation, and fully automated
+    scalability without human intervention.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776246028
+status: Failed
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Unverified Lead List Quality & Relevance:** The entire success hinges
+      on the quality and receptiveness of the "lead list." There is no information
+      or research provided to validate if this list is active, interested in AI business
+      automation, or legally compliant for email marketing (e.g., GDPR, CAN-SPAM).
+      A poor list will lead to low open rates, high bounce rates, spam complaints,
+      and zero sales, potentially damaging sender reputation.
+
+      *   **Gross Underestimation of Costs & Margin Inaccuracy:** The `revenue_model`
+      states `cost_per_run: 0`, which is fundamentally incorrect. Gumroad charges
+      transaction fees (typically 3.5-10% + $0.30 per sale), and Brevo has costs beyond
+      a very limited free tier for sending emails, especially to a "lead list" that
+      might require a paid plan. This directly invalidates the stated `margin_pct:
+      70` and the `margin` score of 24, making the financial projections unreliable.
+
+      *   **Lack of Product-Market Fit Validation:** While the agent''s output mentions
+      the product "must deliver tangible value," there''s no evidence or research
+      that the "Gumroad AI Business Automation Starter Kit" actually *does* deliver
+      this value, or that it stands out in a potentially saturated market. The `demand`
+      score of 21 is an assumption without specific validation for *this* product
+      and *this* audience.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides an actionable plan that directly supports the skill''s
+      objective of promoting a product and sending emails, moving toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes standard email marketing to a lead list, which is compliant
+      if the list is opt-in, and the skill itself does not specify a violation of
+      GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

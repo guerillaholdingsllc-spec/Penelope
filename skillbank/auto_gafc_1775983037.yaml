@@ -1,0 +1,80 @@
+business: GAFC
+created: '2026-04-12T08:37:17.186064'
+learnings: ''
+logic_flow: {}
+objective: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+opportunity_data:
+  action: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+  business: GAFC
+  estimated_monthly: 500
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 19
+  margin: 25
+  raw_score: 94
+  reasoning: This opportunity leverages an AI agent's strengths in automated digital
+    content creation and distribution for a high-interest topic, offering excellent
+    speed, scalability, and profit margin, though the direct market demand for this
+    specific brand-building content is moderately strong.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1775983037
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Content Accuracy & Safety Risk:** Generating gun safety content with an
+      AI agent carries a high risk of factual inaccuracies, misleading information,
+      or even unsafe advice. This could severely damage GAFC''s brand reputation,
+      erode trust, and potentially lead to legal liabilities, directly contradicting
+      the objective of building brand authority.
+
+      *   **Unclear Revenue Model & Value Proposition:** The `revenue_model` states
+      `estimated_monthly: 0`, while `opportunity_data` states `estimated_monthly:
+      500`. This fundamental contradiction makes the financial viability and true
+      value of the opportunity highly questionable. If it''s purely brand building,
+      the $500 is an arbitrary attribution without a clear monetization path.
+
+      *   **Inadequate Oversight for Sensitive Topic:** The "Tier 1 - Instant Digital
+      (No barriers)" classification and reliance on automated content creation are
+      inappropriate for a highly sensitive and regulated topic like gun safety, which
+      demands rigorous human expert review, fact-checking, and ethical consideration
+      to ensure accuracy and prevent harm.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides a detailed, actionable content strategy, which is a
+      crucial preparatory step for publishing blog posts and directly contributes
+      to content creation and brand building, aligning with the skill''s objective
+      and moving toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and social media posting, both explicitly
+      stated as compliant activities, and does not present any immediate violations
+      of the specified failing criteria.'
+    result: PASS
+test_results: {}

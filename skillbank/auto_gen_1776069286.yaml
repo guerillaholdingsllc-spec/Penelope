@@ -1,0 +1,90 @@
+business: Cross-vertical
+created: '2026-04-13T08:34:46.702640'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $40 (initial API costs, basic landing page hosting)
+  estimated_monthly_revenue_potential: $600 - $2000
+  how_penelope_deploys_it_autonomously: Penelope identifies marketing agencies via
+    web scraping. It then uses an LLM to generate personalized outreach emails and
+    provides a demo of AI-generated ad copy. It automates the ad copy generation and
+    delivery process upon client engagement.
+  specific_revenue_action: 'White-label AI Service: ''Automated Social Media Ad Copy
+    Generation'' for marketing agencies, reselling LLM output.'
+  tier: 1
+  time_to_first_dollar: 28
+  why_this_works_NOW: Marketing agencies need to produce high volumes of ad copy quickly
+    and test variations; AI-generated copy is a valuable efficiency tool.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 22
+  raw_score: 92
+  reasoning: This opportunity leverages high demand for AI-driven efficiency in marketing,
+    offers excellent profit margins, and is highly scalable and quick to deploy due
+    to its fully autonomous and digital nature.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776069286
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Commoditization & Lack of Differentiation:** The core service (AI ad copy
+      generation) is highly commoditized. Marketing agencies already have direct access
+      to LLMs or a plethora of existing, feature-rich AI copywriting tools (e.g.,
+      Jasper, Copy.ai) that offer similar or superior functionality. A generic white-label
+      offering struggles to stand out or justify its cost against these established
+      alternatives.
+
+      *   **Quality Control & Brand Voice Nuance:** LLMs, while powerful, frequently
+      struggle with maintaining specific brand voices, industry-specific jargon, and
+      avoiding generic "AI-speak." Agencies require high-quality, on-brand content
+      for their clients. Relying on uncurated LLM output risks reputational damage
+      and often necessitates significant human oversight, which negates the promised
+      efficiency gains and increases the true cost.
+
+      *   **Automated Outreach & Client Acquisition Challenges:** The proposed method
+      of identifying agencies via web scraping and sending automated, personalized
+      outreach emails is highly susceptible to being flagged as spam and may be poorly
+      received. Agencies are often inundated with cold outreach, and a generic, automated
+      approach is unlikely to build the trust and demonstrate the value required for
+      B2B service adoption.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The test output is a research summary, not the execution of a revenue action
+      as specified in the skill''s objective.'
+    result: FAIL
+  security:
+    notes: 'PASS
+
+      The skill does not involve collecting SSNs, storing unencrypted passwords, accessing
+      unauthorized systems (web scraping for public business info is not inherently
+      unauthorized), or clearly violating GDPR with non-consented PII based on the
+      provided description of targeting "marketing agencies" and sending "outreach
+      emails" (which can be done compliantly under legitimate interest for B2B).'
+    result: PASS
+test_results: {}

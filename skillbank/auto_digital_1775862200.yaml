@@ -1,0 +1,155 @@
+business: Digital
+created: '2026-04-10T23:03:20.156203'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages existing customer demand for a high-margin
+    digital product through an automated email sequence, offering excellent speed
+    to revenue and scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775862200
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 65
+    notes: 'CRITIQUE
+
+      Confidence Score: 65%
+
+      Key concerns:
+
+      *   **Inconsistent Financials & Overly Optimistic Costing:** The `revenue_model`
+      lists `estimated_monthly: 0` and `cost_per_run: 0`, directly contradicting the
+      `opportunity_data`''s `estimated_monthly: 300`. Furthermore, assuming a `cost_per_run:
+      0` for an email sequence is unrealistic; even free tiers of ESPs have limitations,
+      and scaling will incur costs, potentially exceeding the $50 budget cap.
+
+      *   **Assumptions on Buyer Intent & Relevance:** The strategy assumes all new
+      Gumroad buyers of a single product will be interested in a "full book series."
+      This overlooks buyers who may already own parts of the series, have limited
+      interest beyond their initial purchase, or find the upsell irrelevant, leading
+      to low conversion rates or unsubscribes.
+
+      *   **Vulnerability to Edge Cases & Technical Glitches:** The automation relies
+      on seamless integration between Gumroad and the ESP. Changes in APIs, deliverability
+      issues (spam filters), or the critical edge case of a buyer already owning the
+      series could break the flow, annoy customers, and significantly reduce effectiveness.
+
+
+      ---
+
+      **1. Why would this FAIL in the real market?**
+
+
+      *   **Irrelevance/Existing Ownership:** A significant portion of new Gumroad
+      buyers might not be interested in the "full book series" or may already own
+      parts of it. Sending an irrelevant upsell can lead to unsubscribes and negative
+      brand perception rather than revenue.
+
+      *   **Email Deliverability & Engagement Decay:** While welcome emails often
+      have high open rates, subsequent upsell emails in a sequence are prone to landing
+      in spam/promotions folders or being ignored, especially if the initial offer
+      isn''t highly compelling or the sequence is too long/aggressive.
+
+      *   **Technical Integration Failure:** The automated trigger from Gumroad to
+      the email service provider (ESP) could break due to API changes, misconfigurations,
+      or temporary service outages, halting the entire sequence.
+
+      *   **Product Value Proposition:** The success hinges entirely on the perceived
+      value and demand for the "full book series." If the series itself isn''t compelling
+      or priced appropriately, the email sequence, no matter how well-crafted, will
+      fail to convert.
+
+      *   **Budget Constraints:** The $50 budget cap is extremely tight. Any unforeseen
+      technical issues requiring paid support, or even exceeding free tier limits
+      on the ESP due to list growth, could halt the operation before it generates
+      significant revenue or allows for proper iteration.
+
+
+      **2. Is there a cheaper/faster way to achieve same result?**
+
+
+      *   **Cheaper/Faster (Immediate Upsell):** Implement a direct upsell on the
+      Gumroad thank you page or via a post-purchase redirect immediately after the
+      initial purchase. This leverages peak buyer intent, requires no separate email
+      marketing platform setup, and is instant.
+
+      *   **Cheaper (Gumroad''s Native Email):** For a very simple, single upsell
+      message, Gumroad''s built-in email functionality (if available and sufficient)
+      could be used, avoiding the need for a separate ESP like MailerLite entirely.
+      This would be less sophisticated but potentially zero additional cost.
+
+      *   **Faster (Single Email):** Instead of a full "sequence," a single, well-crafted,
+      immediate upsell email triggered by the purchase could be faster to set up and
+      test, though potentially less effective than a multi-step sequence.
+
+
+      **3. What edge case breaks this?**
+
+
+      *   **Buyer Already Owns the Series:** The most critical edge case. If a buyer
+      purchases a single book and already possesses the full series, the upsell becomes
+      redundant, annoying, and could lead to an immediate unsubscribe or negative
+      customer experience. There''s no stated logic to check for this.
+
+      *   **Gumroad API/Webhook Changes:** Any unannounced or breaking changes to
+      Gumroad''s API or webhook structure would immediately halt the automation, requiring
+      manual intervention and potentially development work.
+
+      *   **Email Service Provider Account Issues:** MailerLite account suspension,
+      deliverability blacklisting, or unexpected service downtime would prevent emails
+      from being sent.
+
+      *   **Product Discontinuation/Price Change:** If the "full book series" is removed
+      from sale or its price changes significantly without updating the email sequence,
+      it could lead to broken links, incorrect pricing, and customer frustration.
+
+      *   **Legal/Compliance Violations:** Failure to adhere to regional email marketing
+      regulations (e.g., GDPR, CAN-SPAM) could lead to fines, deliverability issues,
+      or account suspension.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The action directly involves sending emails and promoting products, using viable,
+      low-cost tools and a clear implementation plan.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes standard email marketing to existing customers (Gumroad
+      buyers) which, when implemented with proper unsubscribe options and respecting
+      regional data privacy laws (e.g., legitimate interest for existing customers
+      or explicit consent where required), falls within compliant email marketing
+      practices. There is no clear, immediate violation of collecting SSNs, storing
+      unencrypted passwords, accessing unauthorized systems, or violating GDPR with
+      non-consented PII explicitly stated in the skill description.'
+    result: PASS
+test_results: {}

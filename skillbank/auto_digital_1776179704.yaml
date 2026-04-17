@@ -1,0 +1,84 @@
+business: Digital
+created: '2026-04-14T15:15:04.161813'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 96
+  reasoning: This digital product opportunity leverages high demand for AI automation,
+    offers excellent profit margins, and is fully automated for instant, scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776179704
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 25
+    notes: 'CRITIQUE
+
+      Confidence Score: 25%
+
+      Key concerns:
+
+
+      *   **Market Saturation & Generic Offering:** The "AI Business Automation Starter
+      Kit" market is extremely saturated with free and paid alternatives. The proposed
+      components (prompt library, workflow templates, tool guide) are generic and
+      lack a clear unique selling proposition or niche focus, making it highly unlikely
+      to stand out and convert effectively.
+
+      *   **Flawed Revenue Model & Marketing Strategy:** The `revenue_model` states
+      "one_time" revenue with "$0 estimated_monthly" and "$0 cost_per_run," which
+      directly contradicts the `opportunity_data` target of "$270 estimated_monthly."
+      A single promotional email to an unspecified lead list is an insufficient strategy
+      to generate sustained monthly revenue for a one-time product, highlighting a
+      fundamental misunderstanding of recurring revenue generation.
+
+      *   **Overly Optimistic Scoring & Unaddressed Risks:** The `rps_score` of 100,
+      particularly the "Tier 1 - Instant Digital (No barriers)" reasoning, is highly
+      unrealistic. Significant barriers exist, including lead list quality, email
+      deliverability (spam filters), rapid AI tool obsolescence requiring constant
+      product updates, and intense competition. These critical risks are not accounted
+      for in the current assessment.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides a detailed, actionable strategy for product definition,
+      pricing, and email marketing, which are essential preparatory steps for sending
+      a promotional email and directly contribute to the objective of promoting a
+      product and generating revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes standard email marketing to a lead list, which is compliant
+      assuming the list is opt-in as per company policy. No immediate violations are
+      present.'
+    result: PASS
+test_results: {}

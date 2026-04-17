@@ -1,0 +1,84 @@
+business: Cross-vertical
+created: '2026-04-11T14:29:27.032007'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $200 - $600
+  how_penelope_deploys_it_autonomously: Penelope generates a comprehensive set of
+    AI prompts for various LinkedIn outreach scenarios (connection requests, follow-ups,
+    value propositions), bundles them into a digital product, automates sales and
+    delivery via Gumroad, and promotes through AI-managed social media snippets.
+  specific_revenue_action: Develop and sell a 'LinkedIn Outreach Automation Prompt
+    Pack' for B2B sales professionals on Gumroad.
+  tier_classification: 1
+  time_to_first_dollar: 10
+  why_this_works_NOW: LinkedIn remains a primary platform for B2B lead generation.
+    Sales professionals constantly seek ways to personalize and automate outreach
+    without sounding robotic, a perfect use case for advanced AI prompts.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity scores exceptionally high due to strong market demand
+    for AI-powered sales tools, near-perfect profit margins, rapid time to market,
+    and full autonomous scalability as a digital product.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775917767
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+      *   **Market Saturation & Free Alternatives:** The market for AI prompts is
+      highly saturated, and B2B sales professionals can easily generate similar content
+      for free using readily available AI tools (e.g., ChatGPT, Claude), severely
+      undermining the product''s value proposition and ability to command a price.
+
+      *   **Quality & Obsolescence:** The "advanced" nature and efficacy of prompts
+      can quickly diminish as AI models evolve. Generic prompts risk sounding robotic,
+      directly contradicting the stated objective of personalized outreach and leading
+      to poor user experience and reviews.
+
+      *   **Lack of Differentiation & Authority:** Without a strong brand, unique
+      methodology, or established authority in sales, an AI-generated prompt pack
+      will struggle to stand out against competitors and build trust with a professional
+      audience. The "how Penelope deploys it autonomously" does not address the core
+      market challenge of perceived value and differentiation.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The research output validates the market for a digital product, which is a necessary
+      pre-revenue action that informs content creation and product promotion, moving
+      directly toward the revenue objective.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No clear, immediate violations of SSN collection, unencrypted password storage,
+      unauthorized system access, or non-consented PII collection are described.'
+    result: PASS
+test_results: {}

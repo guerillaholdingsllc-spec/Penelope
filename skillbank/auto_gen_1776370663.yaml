@@ -1,0 +1,82 @@
+business: Cross-vertical
+created: '2026-04-16T20:17:43.441045'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  Cost to test: $29 (Teachable basic plan for one course, or Gumroad free)
+  Estimated monthly revenue potential: $500-$1,500
+  How Penelope deploys it autonomously: Penelope outlines course content (using AI),
+    generates text lessons and script for short videos (AI voiceover, screen recording),
+    uploads to Teachable/Gumroad, designs simple course graphics (AI), writes sales
+    page, schedules promo on relevant forums/social media.
+  Specific revenue action: 'Create a ''Prompt Engineering Basics for Beginners'' mini-course
+    (video + text) on Teachable/Gumroad. Target: Anyone new to AI, non-technical users.'
+  Tier classification: 1
+  Time to first dollar: 18 days
+  Why this works NOW: Universal need to learn AI interaction, low-barrier entry for
+    a high-demand skill, short courses are popular and digestible.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 25
+  margin: 25
+  raw_score: 98
+  reasoning: This opportunity scores exceptionally high due to strong market demand
+    for AI education, near-zero creation costs for an autonomous agent, rapid time
+    to market, and infinite scalability of a digital product.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776370663
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+      *   **Market Saturation & Differentiation**: The "Prompt Engineering Basics"
+      market is oversaturated with free and paid content. An AI-generated course lacks
+      a unique voice, personality, or specific niche to stand out, making it difficult
+      to attract paying customers over human-led alternatives or free resources.
+
+      *   **Quality & Trust Perception**: Learners often seek human expertise and
+      engagement in educational content. An autonomously generated course with AI
+      voiceover and generic screen recordings risks being perceived as low-quality,
+      unengaging, or lacking the depth and nuance expected from a paid product, eroding
+      trust and willingness to purchase.
+
+      *   **Marketing & Visibility**: The plan relies on vague "promo on relevant
+      forums/social media." Without a robust, targeted marketing strategy, a new,
+      generic course will struggle to gain visibility and convert sales in a crowded
+      market, especially with a limited budget for paid promotion.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output, a research summary, is a valid and actionable preparatory step
+      that creates internal content and directly moves toward revenue by validating
+      the market for the skill.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No clear, immediate violations of specified failing criteria.'
+    result: PASS
+test_results: {}

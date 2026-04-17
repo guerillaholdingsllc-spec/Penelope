@@ -1,0 +1,72 @@
+business: GAFC
+created: '2026-04-14T00:42:07.277702'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+opportunity_data:
+  action: Post GAFC educational content about safe firearm storage to Instagram @glocksandfriedchicken
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity offers high profit margins, instant execution, and full
+    scalability for an AI agent due to its digital nature, with a moderate but validated
+    demand signal for brand-related revenue.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776127327
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 20
+    notes: 'CRITIQUE
+
+      Confidence Score: 20%
+
+      Key concerns:
+
+      *   The brand name "Glocks and Fried Chicken" creates a severe credibility conflict
+      and potential for negative backlash when discussing "safe firearm storage,"
+      risking platform policy violations and account suspension.
+
+      *   The "estimated monthly brand revenue of $200" is highly speculative, lacks
+      clear attribution, and directly contradicts the `revenue_model`''s `estimated_monthly:
+      0` and `cost_per_run: 0`, making the financial viability questionable.
+
+      *   The assumption of "instant execution" and "no barriers" ignores significant
+      real-world challenges like platform content policies, audience perception, and
+      the actual cost of content creation and distribution.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides an actionable strategy for posting educational content to
+      social media, directly aligning with the objective of publishing content and
+      promoting the brand, which contributes to revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves compliant social media posting and content publishing, with
+      no indication of collecting SSNs, storing unencrypted passwords, accessing unauthorized
+      systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

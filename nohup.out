@@ -1,0 +1,21 @@
+Initiating Final Orchestration...
+Notification sent to your device.
+Initiating Final Orchestration...
+Notification sent to your device.
+Initiating Final Orchestration...
+Notification sent to your device.
+Initiating Final Orchestration...
+Notification sent to your device.
+Traceback (most recent call last):
+  File "/root/workspace/Penelope/autonomous_engine.py", line 12, in <module>
+    client = genai.Client(api_key=GOOGLE_API_KEY)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/penelope_env/lib/python3.12/site-packages/google/genai/client.py", line 426, in __init__
+    self._api_client = self._get_api_client(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/penelope_env/lib/python3.12/site-packages/google/genai/client.py", line 474, in _get_api_client
+    return BaseApiClient(
+           ^^^^^^^^^^^^^^
+  File "/root/penelope_env/lib/python3.12/site-packages/google/genai/_api_client.py", line 707, in __init__
+    raise ValueError(
+ValueError: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.

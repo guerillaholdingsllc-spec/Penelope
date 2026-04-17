@@ -1,0 +1,78 @@
+business: Digital
+created: '2026-04-13T11:59:13.279885'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 96
+  reasoning: This digital product opportunity leverages high demand for AI automation,
+    offers excellent profit margins, and is fully automated for instant, scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776081553
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Lead List Quality & Relevance:** The entire success hinges on a high-quality,
+      highly targeted, and engaged lead list, which is not specified or guaranteed.
+      A generic or cold list will yield negligible results, making the estimated revenue
+      highly speculative.
+
+      *   **Market Saturation & Differentiation:** The "AI Business Automation Starter
+      Kit" market is extremely crowded. Without a unique selling proposition, strong
+      brand authority, or exceptional content, the product will struggle to stand
+      out and convert against numerous free and paid alternatives.
+
+      *   **Unrealistic Cost & Revenue Model:** The `cost_per_run: 0` is misleading,
+      as lead acquisition, platform fees, and product maintenance are real costs.
+      The inconsistency between `revenue_model.estimated_monthly: 0` and `opportunity_data.estimated_monthly:
+      270` indicates a lack of clarity in financial projections and the true nature
+      of the "one-time" revenue model.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The skill is a direct revenue-generating action (sending promotional emails),
+      and the test output provides well-researched, verifiable information crucial
+      for its effective execution.'
+    result: PASS
+  security:
+    notes: 'FAIL
+
+      The skill does not specify that the "lead list" is an opt-in or consented list,
+      which is a clear violation of GDPR/CCPA requirements for email marketing with
+      PII.'
+    result: FAIL
+test_results: {}

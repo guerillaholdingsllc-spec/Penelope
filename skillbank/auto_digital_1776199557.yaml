@@ -1,0 +1,113 @@
+business: Digital
+created: '2026-04-14T20:45:57.742587'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages existing customer demand for a high-margin
+    digital product through an automated email sequence, offering excellent speed
+    to revenue and scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776199557
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 60
+    notes: "CRITIQUE\nConfidence Score: 60%\nKey concerns:\n\n*   **Revenue Target\
+      \ Speculation:** The $300 estimated monthly revenue is a baseline assumption\
+      \ without supporting data on conversion rates, average order value of the book\
+      \ series, or the size and engagement of the target audience. Actual revenue\
+      \ could be significantly lower if the upsell conversion rate is poor.\n*   **Product-Market\
+      \ Fit for Upsell:** The success hinges entirely on the relevance and appeal\
+      \ of the \"full book series\" to *all* new Gumroad buyers. Without specific\
+      \ details on the initial products purchased and the content of the book series,\
+      \ there's a high risk of offering an irrelevant upsell.\n*   **Internal Data\
+      \ Inconsistencies:** The `SKILL` JSON has conflicting `estimated_monthly` values\
+      \ (0 vs 300) and the `OUTPUT` mentions \"monthly recurring revenue\" for a \"\
+      one_time\" revenue model, indicating potential misclassification or lack of\
+      \ clarity in the opportunity's definition.\n\n---\n\n**1. Why would this FAIL\
+      \ in the real market?**\n\n*   **Low Conversion Rate:** The primary failure\
+      \ point would be a low conversion rate for the upsell offer. This could be due\
+      \ to:\n    *   **Irrelevance:** The \"full book series\" might not align with\
+      \ the initial purchase or the buyer's interests.\n    *   **Poor Offer/Copy:**\
+      \ The email sequence might fail to effectively communicate the value of the\
+      \ upsell.\n    *   **Buyer Fatigue:** New buyers might not be in an immediate\
+      \ purchasing mindset for additional products.\n*   **Email Deliverability &\
+      \ Engagement Issues:** Emails could land in spam folders, or have low open and\
+      \ click-through rates, especially if the initial Gumroad purchase was a freebie\
+      \ or low-value item, leading to a less engaged audience.\n*   **Overestimation\
+      \ of Demand/AOV:** The $300 estimate is likely based on an assumed conversion\
+      \ rate and average order value for the book series, which may be overly optimistic\
+      \ without real-world testing or historical data.\n\n**2. Is there a cheaper/faster\
+      \ way to achieve same result?**\n\n*   **Cheaper:** The `OUTPUT` already identifies\
+      \ free-tier email marketing platforms, making it difficult to get \"cheaper\"\
+      \ than $0 immediate cost.\n*   **Faster:**\n    *   **Gumroad's Native Post-Purchase\
+      \ Email:** Gumroad allows sending a single, customizable email after purchase.\
+      \ While not a full \"sequence,\" a direct upsell link here would be the absolute\
+      \ fastest way to get *an* upsell offer in front of buyers, bypassing external\
+      \ email platform setup entirely. However, the objective specifically states\
+      \ \"email sequence.\"\n    *   **Simplified Sequence:** A single, highly targeted\
+      \ upsell email (rather than a multi-email sequence) could be faster to implement\
+      \ and test initially, though potentially less effective than a well-designed\
+      \ sequence.\n    *   The current approach of using free-tier email marketing\
+      \ platforms with direct Gumroad integration for a *sequence* is already quite\
+      \ optimized for speed and cost.\n\n**3. What edge case breaks this?**\n\n* \
+      \  **Non-existent or Unprepared Upsell Product:** If the \"full book series\"\
+      \ is not actually ready, compelling, or even exists, the entire strategy collapses.\n\
+      *   **Gumroad API/Integration Changes:** Updates to Gumroad's platform or the\
+      \ chosen email marketing platform's integration could break the automation,\
+      \ leading to missed emails and lost opportunities.\n*   **Free-Tier Limitations\
+      \ Hit:** The free tier of the chosen email platform might quickly hit subscriber\
+      \ limits or automation complexity caps, forcing an upgrade and incurring unexpected\
+      \ costs, thus breaking the \"$0 cost\" premise.\n*   **Immediate Opt-Outs:**\
+      \ A significant portion of new buyers might immediately unsubscribe from marketing\
+      \ emails, preventing the sequence from being delivered.\n*   **Legal/Compliance\
+      \ Issues:** If proper consent for marketing emails isn't explicitly obtained\
+      \ during the Gumroad checkout process, sending an upsell sequence could lead\
+      \ to compliance violations (e.g., GDPR, CAN-SPAM)."
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The action directly involves sending emails and promoting products, which aligns
+      with the PASS criteria, and the test output provides actionable, verifiable
+      steps using free resources.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes standard email marketing to existing customers (Gumroad
+      buyers) for a welcome sequence and upsell, which is generally compliant under
+      various data protection regulations (e.g., legitimate interest under GDPR for
+      existing customers for similar products, provided an opt-out is available).
+      It does not involve collecting SSNs, storing unencrypted passwords, accessing
+      unauthorized systems, or a clear, immediate violation of GDPR with non-consented
+      PII. The budget is also respected.'
+    result: PASS
+test_results: {}

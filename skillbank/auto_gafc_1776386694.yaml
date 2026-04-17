@@ -1,0 +1,79 @@
+business: GAFC
+created: '2026-04-17T00:44:54.147171'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+  on social
+opportunity_data:
+  action: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+    on social
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 12
+  margin: 25
+  raw_score: 87
+  reasoning: The opportunity benefits from high automation and digital execution,
+    leading to excellent speed, scalability, and profit margins, but the direct market
+    demand signal for the specific brand content and its estimated revenue is relatively
+    low.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776386694
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+      Key concerns:
+
+      *   **Disproportionate Cost-to-Value Ratio & Contradictory Revenue Model:**
+      The estimated monthly value of $200 is negligible, especially when compared
+      to a potential daily budget of $50 (implying $1500/month spend), indicating
+      a massive negative ROI. The revenue model is also inconsistent, stating "one_time"
+      with $0 estimated monthly revenue, while `opportunity_data` lists $200/month.
+
+      *   **Lack of Market Demand & Unjustified High Score:** The `demand` score of
+      12 explicitly indicates low market interest for Gloxsie and Bobo Licious content.
+      Despite this fundamental weakness, the opportunity receives a perfect RPS score
+      of 100, heavily inflated by a "Tier 1" bonus, masking its core viability issues.
+
+      *   **Vague Strategy & High Risk of Irrelevance:** The target audience is overly
+      generic, and the content strategy is broadly defined. Without a clear understanding
+      of *who* these characters appeal to and *why* they would engage, there''s a
+      high risk the content will fail to resonate, get lost in social media noise,
+      or even negatively impact brand perception, making the "brand awareness" objective
+      ineffective.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The action is actionable, directly supports brand awareness, and is a legitimate
+      step towards future revenue, aligning with the objective.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting for brand awareness, which is explicitly
+      compliant and does not violate any of the specified fail conditions.'
+    result: PASS
+test_results: {}

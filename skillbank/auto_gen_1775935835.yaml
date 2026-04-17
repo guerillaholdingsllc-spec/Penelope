@@ -1,0 +1,83 @@
+business: Cross-vertical
+created: '2026-04-11T19:30:35.979331'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: 0
+  estimated_monthly_revenue_potential: 450
+  how_penelope_deploys_it_autonomously: Penelope uses AI to generate diverse script
+    templates, packages them, creates a Gumroad listing, and promotes via podcasting
+    communities and social media.
+  specific_revenue_action: 'Sell ''AI-Generated Podcast Script Templates'' for various
+    formats (interview, solo, narrative). List on Gumroad. Target: Podcasters, content
+    creators.'
+  tier_classification: 1
+  time_to_first_dollar: 12
+  why_this_works_NOW: Podcasting is still growing, and scripting is a major time sink.
+    AI can provide structured starting points.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 24
+  raw_score: 94
+  reasoning: This opportunity leverages AI for a high-margin, fully automated digital
+    product with rapid deployment and strong scalability, addressing a clear need
+    in the growing podcasting market.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775935835
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 40
+    notes: 'CRITIQUE
+
+      Confidence Score: 40%
+
+      Key concerns:
+
+      *   **Lack of Differentiation & Free Alternatives:** The market is saturated
+      with free podcasting resources and AI tools (like ChatGPT) that can generate
+      similar script outlines. The value proposition for *paid* AI-generated templates
+      is unclear without a unique selling point (e.g., niche specificity, proven conversion
+      rates, advanced features).
+
+      *   **Quality & Perceived Value of "AI-Generated":** Generic AI output may not
+      meet the specific needs or voice of individual podcasters, leading to low perceived
+      value and limited sales. Podcasters can often achieve similar results with free
+      AI prompts.
+
+      *   **Marketing & Discovery Challenge:** Relying solely on Gumroad and general
+      social media promotion for a generic product in a crowded market will make discovery
+      and customer acquisition difficult and potentially expensive, undermining the
+      "high margin" claim if significant ad spend is required.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The research output provides actionable insights and a plan that directly informs
+      and enables subsequent revenue-generating actions, aligning with the spirit
+      of moving toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No clear, immediate violations of SSN collection, unencrypted password storage,
+      unauthorized system access, or non-consented PII collection are present.'
+    result: PASS
+test_results: {}

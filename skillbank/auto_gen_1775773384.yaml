@@ -1,0 +1,85 @@
+business: Cross-vertical
+created: '2026-04-09T22:23:04.916890'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0 (Teachable free plan)
+  estimated_monthly_revenue_potential: $500 - $1500
+  how_penelope_deploys_it_autonomously: AI structures course modules, generates script
+    content, creates quizzes. Automated video editing (text-to-video), Teachable upload,
+    and email marketing sequences.
+  specific_revenue_action: 'Online Course: ''Mastering ChatGPT for Business'' (mini-course)
+    on Teachable, targeting business professionals.'
+  tier: 1
+  time_to_first_dollar: 25 days
+  why_this_works_now: Massive demand for practical ChatGPT skills in the workplace;
+    short, focused courses are preferred over lengthy ones.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 25
+  margin: 24
+  raw_score: 96
+  reasoning: This opportunity leverages massive demand for AI skills with a fully
+    automated, high-margin digital product that can be deployed quickly and scaled
+    infinitely without human intervention.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775773384
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Product Quality & Engagement:** Fully autonomous text-to-video generation
+      is highly unlikely to produce the high-quality, engaging, and nuanced content
+      required to attract and retain discerning business professionals in a competitive
+      market. Generic, robotic delivery will lead to poor reviews and low completion
+      rates.
+
+      *   **Market Saturation & Differentiation:** The "Mastering ChatGPT for Business"
+      niche is highly saturated. Without a unique value proposition beyond "AI-generated,"
+      the course will struggle to stand out against human-led, expert-driven alternatives
+      that offer real-world insights and instructor interaction.
+
+      *   **Rapid Obsolescence & Maintenance:** The fast pace of AI development means
+      course content can quickly become outdated. Maintaining relevance would require
+      continuous updates, challenging the "fully autonomous" and "no human intervention"
+      claims and introducing unforeseen costs/effort.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      The skill''s revenue model contains critical inconsistencies: `revenue_model.estimated_monthly:
+      0` contradicts `opportunity_data.estimated_monthly_revenue_potential: "$500
+      - $1500"`, and `revenue_model.cost_per_run: 0` is directly contradicted by the
+      test output''s accurate mention of "5% transaction fee on paid courses, plus
+      payment processor fees," rendering the stated `margin_pct: 70` unsubstantiated
+      without accounting for these costs.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      No provisions for GDPR/CCPA compliance regarding lead data collection and processing
+      for email marketing.'
+    result: FAIL
+test_results: {}

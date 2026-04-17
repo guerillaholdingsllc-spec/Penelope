@@ -1,0 +1,82 @@
+business: Cross-vertical
+created: '2026-04-09T19:45:56.149382'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $49 (Midjourney Pro sub, Teachable free tier)
+  estimated_monthly_revenue_potential: $1500 - $5000
+  how_penelope_deploys_it_autonomously: AI (GPT-4) outlines course modules, drafts
+    lesson content, and generates example prompts/outputs. AI creates presentation
+    slides. AI writes sales page, creates promo video script, and schedules launch
+    sequence.
+  specific_revenue_action: 'Launch an ''Online Course: Master Midjourney for Professional
+    Design'' on Teachable/Gumroad.'
+  tier_classification: 1
+  time_to_first_dollar: 28
+  why_this_works_NOW: Midjourney is revolutionizing visual design, but mastering prompts
+    and techniques requires dedicated learning. Designers are eager to upskill with
+    AI tools to stay competitive.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 94
+  reasoning: This opportunity leverages high demand for AI design skills with excellent
+    profit margins, rapid autonomous deployment, and fully scalable digital product
+    delivery.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775763956
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 55
+    notes: 'CRITIQUE
+
+      Confidence Score: 55%
+
+      Key concerns:
+
+      *   **Content Quality & Credibility**: Relying solely on AI (GPT-4) for professional-level
+      course content, examples, and pedagogical structure risks producing generic,
+      superficial, or even inaccurate material. The absence of a human expert/instructor
+      undermines credibility and market differentiation in a competitive space, making
+      it difficult to justify a professional price point.
+
+      *   **Market Saturation & Differentiation**: The market for Midjourney courses
+      is already crowded. An autonomously generated course lacks a unique selling
+      proposition (USP), instructor authority, or community aspect, making it difficult
+      to stand out and attract professional designers willing to pay.
+
+      *   **Rapid Obsolescence & Maintenance**: AI tools like Midjourney evolve extremely
+      fast. An AI-generated course will quickly become outdated, and autonomous updates
+      may struggle to keep pace with new features, best practices, and prompt engineering
+      techniques, leading to a poor user experience and diminishing long-term value.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      Test output is an incomplete JSON object, truncated mid-sentence.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill implies lead data collection for a launch sequence without specifying
+      GDPR/CCPA compliance measures for data handling.'
+    result: FAIL
+test_results: {}

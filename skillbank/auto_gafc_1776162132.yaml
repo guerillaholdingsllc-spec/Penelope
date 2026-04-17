@@ -1,0 +1,76 @@
+business: GAFC
+created: '2026-04-14T10:22:12.364691'
+learnings: ''
+logic_flow: {}
+objective: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+opportunity_data:
+  action: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+  business: GAFC
+  estimated_monthly: 500
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 19
+  margin: 25
+  raw_score: 94
+  reasoning: This opportunity leverages an AI agent's strengths in automated digital
+    content creation and distribution for a high-interest topic, offering excellent
+    speed, scalability, and profit margin, though the direct market demand for this
+    specific brand-building content is moderately strong.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776162132
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Highly Speculative Revenue Attribution:** The $500/month revenue target
+      for "brand building" from just 5 blog posts and Bluesky shares is extremely
+      optimistic and lacks a clear, direct attribution model. Brand building is a
+      long-term play, and this initial effort is unlikely to generate measurable,
+      recurring revenue at that scale.
+
+      *   **Low Demand & Niche Platform:** The internal demand score of 19 contradicts
+      the "high-interest topic" claim, suggesting limited market pull for this specific
+      content. Relying on Bluesky for significant reach and engagement for a broad
+      topic like gun safety is questionable, limiting potential impact.
+
+      *   **Risk of Negative Backlash/Policy Issues:** Gun safety is a sensitive and
+      politicized topic. Poor execution, perceived bias, or platform policy changes
+      could lead to negative brand perception, content removal, or even legal scrutiny,
+      undermining the entire objective.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output provides a clear, actionable plan for content creation (writing
+      blog posts) and social media promotion (sharing on Bluesky), directly aligning
+      with the skill''s objective and contributing to brand-building revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and social media sharing, which are compliant
+      activities and do not violate any of the specified failing criteria.'
+    result: PASS
+test_results: {}

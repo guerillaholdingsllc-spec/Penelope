@@ -1,0 +1,61 @@
+business: GAFC
+created: '2026-04-15T05:06:21.294822'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+  on social
+opportunity_data:
+  action: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+    on social
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 10
+  margin: 22
+  raw_score: 82
+  reasoning: This opportunity scores highly on speed, scalability, and margin due
+    to its fully digital and automated nature, but the market demand signal for this
+    specific brand content appears low given the modest estimated monthly value for
+    brand awareness.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776229581
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 60
+    notes: 'ERROR: 503 UNAVAILABLE. {''error'': {''code'': 503, ''message'': ''This
+      model is currently experiencing high demand. Spikes in demand are usually temporary.
+      Please try again later.'', ''status'': ''UNAVAILABLE''}}'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The skill execution provides actionable steps for content creation (character
+      definition, visual asset development) which directly supports the objective
+      of posting social media content for brand awareness, aligning with the lenient
+      criteria for content creation having value.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting for brand awareness, which is a compliant
+      activity and does not violate any of the specified prohibitions.'
+    result: PASS
+test_results: {}

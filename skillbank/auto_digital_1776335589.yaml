@@ -1,0 +1,80 @@
+business: Digital
+created: '2026-04-16T10:33:09.553695'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 23
+  raw_score: 88
+  reasoning: This opportunity leverages an AI agent's strengths in automated content
+    creation and digital publishing for high-margin affiliate revenue, though the
+    initial demand signal suggests moderate revenue potential.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776335589
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 30
+    notes: 'CRITIQUE
+
+      Confidence Score: 30%
+
+      Key concerns:
+
+      *   **Revenue Model Inconsistency & Low Feasibility**: The `revenue_model` states
+      "one_time" and "$0 estimated monthly," directly contradicting the "$150 estimated
+      monthly" in `opportunity_data`. This fundamental flaw indicates a lack of clarity
+      on how revenue is generated and sustained, making the $150 target highly questionable,
+      especially with a tight $50 budget.
+
+      *   **Market Saturation & Trust Deficit**: The affiliate marketing space for
+      business software is highly competitive. A new, AI-generated blog post will
+      struggle to gain visibility and, more critically, the trust of Sacramento small
+      business owners who require genuine expertise and authority for critical software
+      decisions.
+
+      *   **SEO & Conversion Challenges**: Achieving organic visibility for a new
+      blog post in a competitive local niche requires significant SEO effort (local
+      signals, backlinks, domain authority) that a single AI-generated post with a
+      $50 budget is unlikely to achieve. Even with traffic, converting leads without
+      established trust and nuanced persuasion is difficult.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable research and recommendations directly supporting
+      the objective of publishing an affiliate review blog post, which is a form of
+      content creation and product promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and affiliate marketing, which are explicitly
+      compliant activities. There are no immediate violations of collecting SSNs,
+      storing unencrypted passwords, accessing unauthorized systems, or violating
+      GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

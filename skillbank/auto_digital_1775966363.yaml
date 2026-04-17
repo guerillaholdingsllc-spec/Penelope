@@ -1,0 +1,81 @@
+business: Digital
+created: '2026-04-12T03:59:23.863828'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 96
+  reasoning: This digital product opportunity leverages high demand for AI automation,
+    offers excellent profit margins, and is fully automated for instant, scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775966363
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+
+      *   **Market Saturation & Lack of Differentiation:** The "AI Business Automation
+      Starter Kit" market is highly saturated. Without a clear, compelling unique
+      selling proposition (USP) or superior value, this product will struggle to stand
+      out against numerous free resources and established competitors, leading to
+      low conversion rates.
+
+      *   **Unspecified Lead List Quality & Compliance Risk:** The success is entirely
+      dependent on an unspecified "lead list." If this list is cold, untargeted, or
+      acquired without proper consent, it risks abysmal conversion rates, high spam
+      complaints, email deliverability issues (blacklisting), and potential legal
+      non-compliance (e.g., GDPR, CAN-SPAM).
+
+      *   **Internal Data Inconsistencies & Budget Constraints:** The `revenue_model`
+      states $0 estimated monthly revenue and $0 cost per run, directly contradicting
+      the `opportunity_data` of $270 estimated monthly. Furthermore, the $50 budget
+      cap is extremely tight for any meaningful promotional campaign, especially if
+      lead acquisition or warming is required, making the $270 target highly optimistic
+      and unsustainable.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The test output provides actionable research findings for the product and campaign,
+      which is a valuable preparatory step (content creation) moving toward the revenue
+      objective, and is not illegal, harmful, or impossible to execute.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      Email marketing to a lead list is compliant, assuming the list is opt-in, and
+      there is no immediate indication of non-consented PII or other violations.'
+    result: PASS
+test_results: {}

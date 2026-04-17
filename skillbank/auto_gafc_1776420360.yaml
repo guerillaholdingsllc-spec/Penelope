@@ -1,0 +1,76 @@
+business: GAFC
+created: '2026-04-17T10:06:00.181856'
+learnings: ''
+logic_flow: {}
+objective: Create and post Bluesky thread about gun safety statistics with GAFC branding
+opportunity_data:
+  action: Create and post Bluesky thread about gun safety statistics with GAFC branding
+  business: GAFC
+  estimated_monthly: 100
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 25
+  raw_score: 93
+  reasoning: This digital content creation task for an autonomous AI agent offers
+    extremely high margins, instant execution, and full scalability, though the specific
+    market demand for this niche content at this price point is moderate.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776420360
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 25
+    notes: 'CRITIQUE
+
+      Confidence Score: 25%
+
+      Key concerns:
+
+      *   **Misaligned Financials & Speculative ROI:** The `revenue_model` lists `estimated_monthly:
+      0` and `cost_per_run: 0`, directly contradicting the `opportunity_data.estimated_monthly:
+      100`. The $100 "brand revenue" is highly speculative and lacks clear KPIs for
+      validation, making the actual return on investment (ROI) questionable.
+
+      *   **High Risk of Brand Damage:** Engaging with a highly sensitive and politicized
+      topic like gun safety, even with data, carries significant risk. Misinterpretation,
+      perceived bias, or factual errors by an autonomous agent could lead to public
+      backlash, reputational harm, and a net negative impact on GAFC''s brand.
+
+      *   **Low Demand & Niche Platform:** The `demand: 18` score indicates very low
+      market interest for this specific content on Bluesky. This suggests the effort
+      may yield minimal reach or impact, making the "brand building" objective largely
+      ineffective and a poor allocation of resources.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides a clear, actionable plan for content creation and social
+      media posting, directly supporting the skill''s objective of brand building
+      for GAFC.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting and content publishing, which are explicitly
+      compliant activities, and does not involve any of the specified immediate violations
+      (collecting SSNs, storing unencrypted passwords, accessing unauthorized systems,
+      or violating GDPR with non-consented PII).'
+    result: PASS
+test_results: {}

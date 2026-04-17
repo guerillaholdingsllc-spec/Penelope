@@ -1,0 +1,80 @@
+business: Digital
+created: '2026-04-13T12:18:08.897954'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 96
+  reasoning: This digital product opportunity leverages high demand for AI automation,
+    offers excellent profit margins, and is fully automated for instant, scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776082688
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Lead List Quality & Relevance:** The success of this opportunity is entirely
+      dependent on the quality, engagement, and relevance of the "existing lead list."
+      Without a highly targeted and permission-based list, deliverability will suffer,
+      and conversion rates will likely be negligible, leading to zero revenue.
+
+      *   **Product-Market Fit & Competition:** The market for "AI Business Automation
+      Starter Kits" is highly saturated with free and paid resources. The provided
+      product analysis lacks a clear unique selling proposition or differentiator
+      that would compel a lead to purchase this specific kit over countless alternatives.
+
+      *   **Overly Optimistic Assumptions:** The `rps_score` of 100, the claim of
+      "fully automated for instant, scalable revenue generation," and the `cost_per_run:
+      0` are unrealistic. Email marketing incurs costs (even if just platform fees)
+      and requires ongoing optimization, while "instant" and "scalable" revenue is
+      rarely achieved without significant prior validation and audience building.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The detailed product and platform analysis provides actionable intelligence
+      for promoting the digital product via email, directly supporting the objective
+      of sending promotional emails and reaching out to leads for revenue generation.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes email marketing to a lead list, which is compliant assuming
+      the list is opt-in, as per the provided guidelines for email marketing. There
+      is no clear, immediate violation of collecting SSNs, storing unencrypted passwords,
+      accessing unauthorized systems, or violating GDPR with non-consented PII explicitly
+      stated in the skill description.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,86 @@
+business: Cross-vertical
+created: '2026-04-09T20:07:01.426808'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $45 (API costs, micro-hosting, recipe database access)
+  estimated_monthly_revenue_potential: $1200 - $4500
+  how_penelope_deploys_it_autonomously: AI (GPT-4) generates recipes and meal plans
+    based on user preferences (diet, ingredients, macros). AI (no-code tools) builds
+    the front-end. AI writes launch copy, sets up subscription, and schedules targeted
+    ads to health/fitness communities.
+  specific_revenue_action: Create an 'AI-Powered Recipe Generator & Meal Planner'
+    (micro-SaaS) for health/fitness enthusiasts, subscription model.
+  tier_classification: 1
+  time_to_first_dollar: 30
+  why_this_works_NOW: People constantly seek new recipe ideas and struggle with meal
+    planning, especially with dietary restrictions. An AI tool that customizes recipes
+    and meal plans offers significant convenience.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 95
+  reasoning: The opportunity addresses a clear market need with a highly automated,
+    digital micro-SaaS model, promising excellent margins and rapid, scalable deployment
+    by an AI agent.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775765221
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Fundamental Business Model Contradiction:** The `revenue_model` explicitly
+      states `type: "one_time"` and `estimated_monthly: 0`, directly conflicting with
+      the `specific_revenue_action` which describes a "subscription model" with an
+      `estimated_monthly_revenue_potential` of "$1200 - $4500". This renders the financial
+      projections and core strategy unreliable. Furthermore, `cost_per_run: 0` is
+      unrealistic for an API-driven service.
+
+      *   **Extreme Market Saturation & Lack of Differentiation:** The market for
+      recipe generators and meal planners is highly saturated with established players,
+      free AI tools, and countless apps. "AI-Powered" is no longer a unique selling
+      proposition. Without a truly novel approach, superior data, or a hyper-niche
+      focus, customer acquisition and retention will be prohibitively expensive.
+
+      *   **AI Accuracy & Liability Risks:** Relying solely on AI (GPT-4) for dietary
+      advice and recipes carries significant risks. AI hallucinations or inaccuracies
+      in measurements, ingredients, or nutritional information could lead to user
+      dissatisfaction, health risks (especially for those with allergies or medical
+      conditions), and potential legal liabilities. Building user trust in this sensitive
+      domain will be challenging.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      The output contains an incomplete sentence, making a claim unverifiable as presented.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      Lack of explicit GDPR/CCPA compliance measures for sensitive user data collection
+      (diet, macros) is a critical omission.'
+    result: FAIL
+test_results: {}

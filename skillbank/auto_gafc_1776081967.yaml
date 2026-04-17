@@ -1,0 +1,80 @@
+business: GAFC
+created: '2026-04-13T12:06:07.641044'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+  on social
+opportunity_data:
+  action: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+    on social
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 10
+  margin: 22
+  raw_score: 82
+  reasoning: This opportunity scores highly on speed, scalability, and margin due
+    to its fully digital and automated nature, but the market demand signal for this
+    specific brand content appears low given the modest estimated monthly value for
+    brand awareness.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776081967
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Fundamental Lack of Definition:** The core business (GAFC) and characters
+      (Gloxsie and Bobo Licious) are explicitly "undefined" according to the research
+      summary. Launching a brand awareness campaign without a clear understanding
+      of what is being promoted, its target audience, or its unique selling proposition
+      is a recipe for irrelevance and failure.
+
+      *   **Low Market Demand & Modest Indirect Revenue:** The internal scoring highlights
+      a "low market demand signal" for this specific brand content. Coupled with a
+      very modest $200 estimated *indirect* monthly revenue opportunity, this initiative
+      is unlikely to generate significant positive impact or justify even minimal
+      resource allocation.
+
+      *   **Grossly Inadequate Research Budget:** A $50 budget cap for research that
+      needs to define brand context, character personas, social media landscape, platform
+      selection, content types, tools, and KPIs is severely insufficient. This guarantees
+      a superficial analysis, leading to a poorly informed and likely ineffective
+      strategy.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output provides actionable steps and a strategic plan for content creation
+      and social media posting, directly supporting the skill''s objective of building
+      brand awareness.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media content posting for brand awareness, which is
+      explicitly compliant and does not violate any of the specified prohibitions.'
+    result: PASS
+test_results: {}

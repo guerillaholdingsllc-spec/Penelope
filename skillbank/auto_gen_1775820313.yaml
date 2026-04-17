@@ -1,0 +1,81 @@
+business: Cross-vertical
+created: '2026-04-10T11:25:13.563935'
+learnings: ''
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  Cost to test: $0
+  Estimated monthly revenue potential: $350 - $1100
+  How Penelope deploys it autonomously: Uses AI to refine and categorize customer
+    service prompts, creates PDF packaging, writes sales copy, lists on Gumroad.
+  Specific revenue action: Sell a prompt pack on Gumroad containing pre-written, tested
+    ChatGPT prompts for generating various customer service scripts (e.g., refund
+    requests, technical support, onboarding FAQs).
+  Tier classification: 1
+  Time to first dollar: 8 days
+  Why this works NOW: Businesses are rapidly integrating AI into customer service;
+    demand for effective prompt strategies to train chatbots or assist human agents
+    is high.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity leverages high demand for AI customer service prompts
+    with a fully autonomous, high-margin digital product that can be deployed quickly.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775820313
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 65
+    notes: 'CRITIQUE
+
+      Confidence Score: 65%
+
+      Key concerns:
+
+      *   **Autonomous Quality Control & Differentiation:** The entire success hinges
+      on Penelope''s ability to consistently generate *superior*, *tested*, and *hyper-specific*
+      prompts that genuinely stand out in a crowded market, without human oversight.
+      Generic or poorly tested prompts will lead to rapid failure and negative reviews.
+
+      *   **Market Saturation & Discoverability:** The market for prompt packs is
+      already competitive, as confirmed by the research report. Without a robust marketing
+      strategy beyond just listing on Gumroad, and clear differentiation, the product
+      risks being lost among numerous similar offerings.
+
+      *   **Rapid Obsolescence:** The fast-evolving AI landscape means prompt best
+      practices and model capabilities change frequently. An autonomously generated
+      pack could quickly become outdated, requiring continuous, effective updates
+      that Penelope may not be equipped to handle without human intervention, impacting
+      long-term value.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The justification for the estimated monthly revenue potential is incomplete,
+      preventing full verification of claims and mathematical consistency.'
+    result: FAIL
+  security:
+    notes: 'PASS
+
+      No explicit violations of the specified compliance checks were identified within
+      the provided skill definition or research report.'
+    result: PASS
+test_results: {}

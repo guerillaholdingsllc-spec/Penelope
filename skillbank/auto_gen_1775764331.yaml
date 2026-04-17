@@ -1,0 +1,85 @@
+business: Cross-vertical
+created: '2026-04-09T19:52:11.300909'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0 (Gumroad free, Google Docs for templates)
+  estimated_monthly_revenue_potential: $600 - $1700
+  how_penelope_deploys_it_autonomously: AI (GPT-4) generates resume/cover letter examples,
+    identifies key action verbs, and creates prompt templates for different industries.
+    AI creates modern, clean templates. AI writes sales page and targets career advice
+    communities.
+  specific_revenue_action: Create an 'AI-Powered Resume & Cover Letter Builder Kit'
+    (templates + prompt guide) on Gumroad.
+  tier_classification: 1
+  time_to_first_dollar: 18
+  why_this_works_NOW: Job seekers are increasingly using AI to tailor applications,
+    but many don't know how to prompt effectively. This kit provides both the templates
+    and the AI guidance.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 96
+  reasoning: This opportunity leverages strong current demand for AI-assisted job
+    applications with a fully autonomous, high-margin, and rapidly deployable digital
+    product.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775764331
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Market Saturation & Differentiation:** The "AI resume builder" and "resume
+      template" market is highly saturated with both free and paid offerings. A generic
+      "templates + prompt guide" struggles to stand out without a unique angle, niche
+      focus, or established authority.
+
+      *   **Overly Optimistic Autonomous Marketing:** Relying solely on AI (GPT-4)
+      to "write sales page and target career advice communities" is a significant
+      weakness. Effective marketing, especially community engagement, requires nuanced
+      human understanding, trust-building, and strategic outreach that AI alone cannot
+      reliably achieve, risking poor conversion or even negative community reception.
+
+      *   **Vulnerability to AI Advancements & Free Resources:** The core value of
+      a "prompt guide" is highly susceptible to rapid improvements in AI models (making
+      complex prompting less necessary) or the proliferation of free, high-quality
+      prompting advice readily available online, diminishing the perceived value of
+      a paid kit.'
+    result: CRITIQUE
+  quality:
+    notes: 'PASS
+
+      The output accurately reflects the skill''s objective and opportunity data,
+      providing verifiable market validation with plausible claims and consistent
+      cost figures.'
+    result: PASS
+  security:
+    notes: 'FAIL
+
+      No explicit provisions for GDPR/CCPA compliance regarding customer data collected
+      via Gumroad sales or lead generation from targeted communities.'
+    result: FAIL
+test_results: {}

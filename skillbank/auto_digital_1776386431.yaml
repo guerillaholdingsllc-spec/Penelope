@@ -1,0 +1,75 @@
+business: Digital
+created: '2026-04-17T00:40:31.235740'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 23
+  raw_score: 93
+  reasoning: This digital affiliate marketing opportunity offers high margins, instant
+    deployment, and excellent scalability for an autonomous AI agent, with consistent
+    market demand from small businesses.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776386431
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Unrealistic Revenue Model & Budget:** The "one-time" revenue model conflicts
+      with "estimated monthly" affiliate income, and the $50 budget is wholly insufficient
+      for creating a competitive, SEO-optimized blog post capable of generating $150/month
+      in a saturated market.
+
+      *   **Overly Optimistic Niche Performance:** Generating significant affiliate
+      revenue from a single blog post targeting a hyper-local niche (Sacramento small
+      businesses) is highly challenging due to limited audience size, intense competition,
+      and the need for established authority.
+
+      *   **Scalability Misconception:** While digital content is scalable, the *revenue*
+      from this specific, niche-targeted affiliate post is unlikely to scale effectively
+      without a much larger investment in content, SEO, and audience building.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The research output is actionable and a necessary precursor to publishing content,
+      moving toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves publishing an affiliate review blog post, which is compliant
+      with content publishing and affiliate marketing guidelines. There are no immediate
+      violations of collecting SSNs, storing unencrypted passwords, accessing unauthorized
+      systems, or violating GDPR with non-consented PII.'
+    result: PASS
+test_results: {}

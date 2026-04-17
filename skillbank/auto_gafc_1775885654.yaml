@@ -1,0 +1,74 @@
+business: GAFC
+created: '2026-04-11T05:34:14.179968'
+learnings: ''
+logic_flow: {}
+objective: Create and post Bluesky thread about gun safety statistics with GAFC branding
+opportunity_data:
+  action: Create and post Bluesky thread about gun safety statistics with GAFC branding
+  business: GAFC
+  estimated_monthly: 100
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 18
+  margin: 25
+  raw_score: 93
+  reasoning: This digital content creation task for an autonomous AI agent offers
+    extremely high margins, instant execution, and full scalability, though the specific
+    market demand for this niche content at this price point is moderate.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1775885654
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 5
+    notes: 'CRITIQUE
+
+      Confidence Score: 5%
+
+      Key concerns:
+
+      *   **Budget Exhaustion & Cost Miscalculation:** The `cost_per_run: 0` is fundamentally
+      flawed, as the `budget_spent: $50.00` for *research alone* already consumes
+      the entire `budget_cap_24h`, preventing the actual content creation and posting
+      from occurring within budget. This renders the 70% margin and estimated revenue
+      entirely unrealistic.
+
+      *   **High Brand Risk & Low Demand:** Creating content on "gun safety statistics"
+      is a highly sensitive and potentially controversial topic, carrying significant
+      brand risk for GAFC. The low demand score (18) further indicates limited market
+      interest, making the potential negative exposure outweigh any perceived benefit.
+
+      *   **Revenue Model Inconsistencies:** The `one_time` revenue type contradicts
+      the `estimated_monthly: 100` revenue, and the `revenue_type: brand` suggests
+      indirect value, making the direct revenue and margin calculations misleading
+      and unreliable for a "revenue opportunity."'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output provides actionable research directly enabling the creation
+      and posting of social media content, moving toward the objective of brand building
+      for GAFC.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      Skill involves compliant social media posting and content publishing.'
+    result: PASS
+test_results: {}

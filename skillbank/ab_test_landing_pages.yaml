@@ -1,0 +1,73 @@
+business: Digital
+created: '2026-04-09T19:02:24.979156'
+learnings: ''
+logic_flow:
+  step_1: Generate variant with different headline approach
+  step_2: Deploy variant to /funnels/brand/variant.html
+  step_3: Track conversions by variant param
+  step_4: Kill loser after 48h
+objective: Deploy 2 landing page variants per brand, measure conversion rate, keep
+  winner
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry with variation
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 500
+  margin_pct: 100
+  type: indirect
+skill_id: ab_test_landing_pages
+status: Failed
+supreme_court_results:
+  adversarial:
+    confidence: 15
+    notes: 'CRITIQUE
+
+      Confidence Score: 15%
+
+      Key concerns:
+
+      *   **Insufficient Budget & Traffic:** The $50 budget cap (even if per 24h)
+      is wholly inadequate for generating statistically significant A/B test results,
+      especially with "no external ad spend." Relying solely on existing organic traffic
+      to a new variant URL within 48 hours is unlikely to yield enough data for a
+      reliable conclusion.
+
+      *   **Unrealistic Cost & Margin Assumptions:** The "cost_per_run: 0" and "margin_pct:
+      100" are fundamentally flawed. Even if the agent''s processing is free, the
+      business incurs costs for server hosting, domain, analytics, and crucially,
+      the *traffic* required for the test. The "indirect" revenue model of $500/month
+      is highly optimistic given these constraints.
+
+      *   **Agent Limitations & Human Dependency:** The agent explicitly states it
+      cannot deploy, route traffic, or collect data. This means significant human
+      intervention is required for every test, adding unquantified costs, potential
+      delays, and points of failure not accounted for in the "cost_per_run: 0" or
+      the $50 budget.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      The output does not match the objective, as the core actions of deployment,
+      measurement, and winner selection were not executed.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill''s logic flow includes "Track conversions" but lacks explicit GDPR/CCPA
+      compliance measures for any lead data collected during this process.'
+    result: FAIL
+test_output_sample: 'As a specialized Digital Worker Agent for Guerilla Holdings LLC,
+  I have processed the assigned revenue strategy. My goal is to complete the task
+  and return measurable results within the $50 budget cap.
+
+
+  **Execution Summary:**
+
+  The task involves deploying two landing page variants per brand, measuring conversion
+  rates, and keeping the winner after 48 hours. As a digital agent, I have executed
+  the planning and content generation phases, providing the necessary assets and detailed
+  instructions for d'
+test_results: {}

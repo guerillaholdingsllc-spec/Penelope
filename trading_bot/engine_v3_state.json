@@ -1,0 +1,137 @@
+{
+  "_meta": {
+    "cycle_count": 1115,
+    "started": "2026-04-13T11:38:54.266470",
+    "reset_reason": "Fresh start \u2014 old bot liquidated Apr 13 2026"
+  },
+  "momentum-AAPL": {
+    "initial_capital": 5000,
+    "portfolio_value": 5000,
+    "peak_value": 5000,
+    "cash": 5000,
+    "position": null,
+    "trade_count": 0,
+    "win_count": 0,
+    "pnl": 0,
+    "pnl_pct": 0.0,
+    "consecutive_losses": 0,
+    "risk_state": {
+      "current_drawdown_pct": 0.0,
+      "max_drawdown_pct": 60,
+      "circuit_breaker_until": null,
+      "short_pause_until": null
+    }
+  },
+  "momentum-NVDA": {
+    "initial_capital": 5000,
+    "portfolio_value": 5000,
+    "peak_value": 5000,
+    "cash": 5000,
+    "position": null,
+    "trade_count": 0,
+    "win_count": 0,
+    "pnl": 0,
+    "pnl_pct": 0.0,
+    "consecutive_losses": 0,
+    "risk_state": {
+      "current_drawdown_pct": 0.0,
+      "max_drawdown_pct": 60,
+      "circuit_breaker_until": null,
+      "short_pause_until": null
+    }
+  },
+  "rsi-MSFT": {
+    "initial_capital": 5000,
+    "portfolio_value": 5173.06,
+    "peak_value": 5173.06,
+    "cash": 5173.06,
+    "position": null,
+    "trade_count": 2,
+    "win_count": 1,
+    "pnl": 173.06,
+    "pnl_pct": 3.46,
+    "consecutive_losses": 0,
+    "risk_state": {
+      "current_drawdown_pct": 0.0,
+      "max_drawdown_pct": 60,
+      "circuit_breaker_until": null,
+      "short_pause_until": null
+    },
+    "trade_pnls": [
+      0.03643
+    ],
+    "peak_equity": 5173.06
+  },
+  "rsi-SPY": {
+    "initial_capital": 5000,
+    "portfolio_value": 5000,
+    "peak_value": 5000,
+    "cash": 5000,
+    "position": null,
+    "trade_count": 0,
+    "win_count": 0,
+    "pnl": 0,
+    "pnl_pct": 0.0,
+    "consecutive_losses": 0,
+    "risk_state": {
+      "current_drawdown_pct": 0.0,
+      "max_drawdown_pct": 60,
+      "circuit_breaker_until": null,
+      "short_pause_until": null
+    }
+  },
+  "macd-QQQ": {
+    "initial_capital": 5000,
+    "portfolio_value": 5000,
+    "peak_value": 5000,
+    "cash": 5000,
+    "position": null,
+    "trade_count": 0,
+    "win_count": 0,
+    "pnl": 0,
+    "pnl_pct": 0.0,
+    "consecutive_losses": 0,
+    "risk_state": {
+      "current_drawdown_pct": 0.0,
+      "max_drawdown_pct": 60,
+      "circuit_breaker_until": null,
+      "short_pause_until": null
+    }
+  },
+  "mean_revert-SPY": {
+    "initial_capital": 5000,
+    "portfolio_value": 5000,
+    "peak_value": 5000,
+    "cash": 5000,
+    "position": null,
+    "trade_count": 0,
+    "win_count": 0,
+    "pnl": 0,
+    "pnl_pct": 0.0,
+    "consecutive_losses": 0,
+    "risk_state": {
+      "current_drawdown_pct": 0.0,
+      "max_drawdown_pct": 50,
+      "circuit_breaker_until": null,
+      "short_pause_until": null
+    }
+  },
+  "orb-AAPL": {
+    "initial_capital": 5000,
+    "portfolio_value": 5000,
+    "peak_value": 5000,
+    "cash": 5000,
+    "position": null,
+    "trade_count": 0,
+    "win_count": 0,
+    "pnl": 0,
+    "pnl_pct": 0.0,
+    "consecutive_losses": 0,
+    "risk_state": {
+      "current_drawdown_pct": 0.0,
+      "max_drawdown_pct": 40,
+      "circuit_breaker_until": null,
+      "short_pause_until": null
+    }
+  }
+}

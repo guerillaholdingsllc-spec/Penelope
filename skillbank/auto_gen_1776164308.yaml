@@ -1,0 +1,84 @@
+business: Cross-vertical
+created: '2026-04-14T10:58:28.695683'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: 15
+  estimated_monthly_revenue_potential: 1000
+  how_penelope_deploys_it_autonomously: Penelope uses AI to script course content,
+    creates screen-share video lectures, sets up LearnDash on an existing WordPress
+    site (hosting cost $15/month), and automates enrollment and drip content delivery.
+  specific_revenue_action: 'Launch ''Online Course: Prompt Engineering for Non-Technical
+    Founders'' on a self-hosted platform (e.g., LearnDash on WordPress).'
+  tier_classification: 1
+  time_to_first_dollar: 25
+  why_this_works_NOW: Founders need to effectively communicate with AI tools for product
+    development, marketing, and strategy, but often lack technical prompting skills.
+    Self-hosting offers better control and higher margins.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 25
+  raw_score: 88
+  reasoning: The opportunity leverages high demand for AI skills among founders with
+    an extremely high-margin, fully automated digital product, launched efficiently
+    within 25 days.
+  scalability: 25
+  speed: 15
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776164308
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 25
+    notes: 'CRITIQUE
+
+      Confidence Score: 25%
+
+      Key concerns:
+
+      *   **Quality & Market Fit of AI-Generated Content**: Fully AI-generated course
+      content and videos are unlikely to meet the quality, depth, and practical applicability
+      required by non-technical founders, leading to poor engagement, refunds, and
+      negative reviews.
+
+      *   **Missing Marketing & Distribution Strategy**: The plan lacks any strategy
+      for attracting customers to a self-hosted platform, making the $1000/month revenue
+      potential unrealistic without a significant marketing budget or effort.
+
+      *   **Rapid Obsolescence & Credibility**: Prompt engineering evolves quickly,
+      making an AI-generated course prone to rapid obsolescence. Furthermore, an anonymous,
+      AI-generated course lacks the credibility and human touch founders often seek
+      from experts.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output provides essential market research that directly informs and
+      validates the launch of a revenue-generating online course, which is a preparatory
+      step for publishing content and promoting products.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes launching an online course and automating enrollment, which
+      does not inherently involve collecting SSNs, storing unencrypted passwords,
+      accessing unauthorized systems, or violating GDPR with non-consented PII. Enrollment
+      for an online course typically implies user consent for data processing related
+      to course delivery.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,89 @@
+business: Cross-vertical
+created: '2026-04-10T17:21:50.768212'
+learnings: ''
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $500 - $1500
+  how_penelope_deploys_it_autonomously: Penelope generates a comprehensive suite of
+    marketing campaign templates, including AI-generated copy variations, audience
+    targeting suggestions, and performance metrics guidelines. It packages these as
+    editable documents and sells them on Gumroad with AI-crafted sales pages and visuals.
+    Automated upsells for niche-specific packs are included.
+  specific_revenue_action: 'Digital Product: ''AI-Powered Marketing Campaign Templates
+    (Email, Social, Ads)'' for B2B marketers, sold on Gumroad.'
+  tier_classification: 1
+  time_to_first_dollar: 10
+  why_this_works_now: B2B marketers are constantly under pressure to create effective
+    campaigns. Providing templates that integrate AI-generated copy and strategy suggestions
+    for different channels (email, social, ads) offers a significant shortcut and
+    value proposition.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 25
+  raw_score: 97
+  reasoning: This opportunity leverages strong market demand for AI-powered marketing
+    tools with near-zero production costs, rapid deployment, and full automation for
+    high scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775841710
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 40
+    notes: 'CRITIQUE
+
+      Confidence Score: 40%
+
+      Key concerns:
+
+
+      *   **Market Saturation & Commoditization:** The market for "AI-powered marketing
+      templates" is already highly saturated, with numerous free resources, existing
+      AI writing tools (e.g., ChatGPT, Jasper, Copy.ai), and integrated features within
+      marketing platforms offering similar capabilities. The unique value proposition
+      is weak.
+
+      *   **Lack of Differentiation & Perceived Value:** "AI-powered" is no longer
+      a differentiator; it''s an expectation. Without a specific niche, unique strategic
+      framework, or proven results, these generic "editable documents" will struggle
+      to stand out or command a premium price from discerning B2B marketers.
+
+      *   **Quality Control & Relevance:** Relying solely on autonomous AI generation
+      for marketing content without human oversight or continuous updates risks producing
+      generic, repetitive, or quickly outdated templates. B2B marketers require high-quality,
+      context-specific, and conversion-focused content, which static, autonomously
+      generated templates may fail to deliver consistently.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      The test output is a research phase, not the execution of the revenue-generating
+      skill (product creation and selling), and contains contradictory cost figures
+      and an incomplete JSON output.'
+    result: FAIL
+  security:
+    notes: 'PASS
+
+      All checks passed; the skill describes selling digital products on a third-party
+      platform (Gumroad) and does not indicate direct handling of sensitive data or
+      exceeding budget.'
+    result: PASS
+test_results: {}

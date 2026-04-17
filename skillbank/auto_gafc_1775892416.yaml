@@ -1,0 +1,77 @@
+business: GAFC
+created: '2026-04-11T07:26:56.703800'
+learnings: ''
+logic_flow: {}
+objective: Create and post Bluesky thread about gun safety statistics with GAFC branding
+opportunity_data:
+  action: Create and post Bluesky thread about gun safety statistics with GAFC branding
+  business: GAFC
+  estimated_monthly: 100
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity represents a confirmed digital service for a client,
+    offering high profit margins, immediate execution, and full automation for an
+    AI agent.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1775892416
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 25
+    notes: 'CRITIQUE
+
+      Confidence Score: 25%
+
+      Key concerns:
+
+      *   **Unreliable Financial Model & Value Quantification:** The "estimated $100
+      monthly brand value" is highly speculative and not a direct revenue stream.
+      The conflicting `revenue_model` (one-time, $0 monthly, $0 cost) versus `opportunity_data`
+      ($100 monthly) and `budget_cap` ($50) makes the financial viability and profitability
+      completely opaque and likely inaccurate.
+
+      *   **High Risk, Niche Platform, and Content Sensitivity:** Posting on a sensitive
+      topic like gun safety statistics on a niche platform like Bluesky carries significant
+      risk of negative brand perception, backlash, or minimal reach, potentially damaging
+      reputation rather than enhancing it. The "demand" score is overly optimistic.
+
+      *   **Over-reliance on "Full Automation" for Sensitive Content:** While AI can
+      generate content, managing the nuances of sensitive topics, ensuring factual
+      accuracy, and mitigating PR risks often requires human oversight, especially
+      for initial posts. The assumption of "full automation" with "cost per run: 0"
+      is unrealistic and risky.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides an actionable plan for creating and posting social media
+      content, which directly aligns with the objective and contributes to brand promotion.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting and content publishing, which are explicitly
+      compliant activities, and does not involve any of the prohibited actions (collecting
+      SSNs, storing unencrypted passwords, accessing unauthorized systems, or violating
+      GDPR with non-consented PII).'
+    result: PASS
+test_results: {}

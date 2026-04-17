@@ -1,0 +1,78 @@
+business: Digital
+created: '2026-04-15T09:45:54.098553'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 97
+  reasoning: This opportunity leverages existing customer demand for high-margin digital
+    products through a fully automated email sequence, ensuring rapid and scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776246354
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 65
+    notes: 'CRITIQUE
+
+      Confidence Score: 65%
+
+      Key concerns:
+
+      *   **Conversion Rate Overestimation:** The plan assumes new Gumroad buyers
+      are immediately receptive to purchasing a full book series. This is a significant
+      leap, as initial purchases are often lower-commitment, and an immediate, potentially
+      high-ticket upsell can lead to low conversion rates or even buyer fatigue, significantly
+      underperforming the $300/month estimate.
+
+      *   **Customer Experience & Deliverability Risk:** An aggressive or irrelevant
+      upsell immediately after a purchase can alienate new customers, leading to unsubscribes,
+      spam complaints, and a damaged sender reputation, which negatively impacts future
+      email marketing efforts.
+
+      *   **Financial Projection Discrepancy:** The `revenue_model` explicitly states
+      `estimated_monthly: 0`, directly contradicting the `opportunity_data.estimated_monthly:
+      300`. This fundamental inconsistency undermines the credibility of the projected
+      revenue and suggests a flaw in the opportunity''s financial assessment.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable steps for setting up an email sequence, directly
+      moving toward the objective of sending emails and promoting products to generate
+      revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes standard email marketing to existing customers (Gumroad
+      buyers), which is compliant with opt-in lists or legitimate interest for transactional
+      relationships.'
+    result: PASS
+test_results: {}

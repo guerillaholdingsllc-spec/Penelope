@@ -1,0 +1,82 @@
+business: Cross-vertical
+created: '2026-04-10T16:02:48.942321'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $400 - $1100
+  how_penelope_deploys_it_autonomously: AI generates various template styles and content
+    suggestions. Gumroad/Creative Market handles sales and delivery. Automated promotion
+    on job seeker forums and LinkedIn groups.
+  specific_revenue_action: Develop 'AI-Powered Resume & Cover Letter Template Pack'
+    for job seekers on Gumroad/Creative Market.
+  tier_classification: 1
+  time_to_first_dollar: 10-15 days
+  why_this_works_NOW: Job market highly competitive; job seekers need modern, AI-optimized
+    documents; demand for templates is constant.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 94
+  reasoning: This opportunity leverages high demand for AI-optimized job documents
+    with minimal cost, rapid deployment, and full automation, making it highly profitable
+    and scalable for an AI agent.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775836968
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Extreme Market Saturation & Differentiation Challenge:** The market for
+      resume and cover letter templates is hyper-saturated. While "AI-optimized" is
+      a current buzzword, many existing templates already claim ATS-friendliness.
+      True differentiation beyond a marketing label will be critical and difficult
+      to achieve autonomously, risking generic output that fails to stand out against
+      human-designed, high-quality competitors.
+
+      *   **Value Proposition & Trust:** The "AI-powered" aspect needs to deliver
+      tangible, superior value beyond what job seekers can achieve with free AI tools
+      (e.g., ChatGPT) and free/cheap templates. If the AI merely generates generic
+      content or designs, it risks eroding trust and generating negative reviews,
+      especially given the sensitive nature of job applications.
+
+      *   **Automated Promotion Effectiveness:** Relying solely on "Automated promotion
+      on job seeker forums and LinkedIn groups" in a highly competitive and often
+      spam-wary environment is optimistic. Gaining visibility and credibility without
+      genuine engagement or a unique, high-quality product will be challenging and
+      could lead to low conversion rates despite the "free" cost to test.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      Test output is incomplete, ending mid-sentence, preventing full evaluation.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      Automated promotion on LinkedIn groups risks violating platform Terms of Service.'
+    result: FAIL
+test_results: {}

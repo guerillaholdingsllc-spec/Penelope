@@ -1,0 +1,86 @@
+business: Cross-vertical
+created: '2026-04-10T05:33:22.047991'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $700 - $1700
+  how_penelope_deploys_it_autonomously: AI drafts course modules, generates step-by-step
+    instructions, creates video scripts, writes sales page copy, and sets up automated
+    marketing and student support.
+  specific_revenue_action: Launch a beginner-friendly online course 'Build Your Own
+    AI Chatbot with No Code Tools' on Gumroad/Teachable, targeting small business
+    owners and marketers.
+  tier_classification: 1
+  time_to_first_dollar: 25
+  why_this_works_NOW: Chatbots are essential for customer service and lead generation,
+    and no-code tools make them accessible to non-developers, creating a large training
+    market.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 97
+  reasoning: This digital course capitalizes on high demand for no-code AI, offers
+    excellent profit margins, and is fully automatable by AI for rapid deployment
+    and infinite scalability.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775799202
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Over-reliance on AI for quality and engagement**: The assumption that
+      AI can autonomously generate high-quality, engaging, and practically effective
+      course content, video scripts, and sales copy, along with automated student
+      support, is highly optimistic. This risks producing generic, unengaging, or
+      quickly outdated material that fails to convert or retain students, directly
+      impacting revenue and reputation.
+
+      *   **Market differentiation and trust**: While a niche exists, the broader
+      market for no-code AI tutorials is competitive. An entirely AI-generated course
+      may struggle to establish the necessary credibility and human connection required
+      to differentiate itself and build trust with small business owners and marketers,
+      who often seek expert guidance.
+
+      *   **Maintenance and obsolescence**: No-code tools evolve rapidly. An autonomously
+      generated course risks becoming outdated quickly, requiring continuous, potentially
+      human-intensive updates that contradict the "fully automatable" premise and
+      could lead to a poor student experience and increased operational costs.'
+    result: FAIL
+  quality:
+    notes: 'FAIL
+
+      The skill''s cost assumptions are unrealistic and contradicted by the test output,
+      and the RPS score calculation is mathematically incorrect.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      Automated marketing lacks sufficient detail to ensure compliance with platform
+      ToS, and there are no explicit provisions for GDPR/CCPA compliance regarding
+      lead and student data processing.'
+    result: FAIL
+test_results: {}

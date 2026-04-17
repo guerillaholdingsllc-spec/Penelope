@@ -1,0 +1,81 @@
+business: Digital
+created: '2026-04-12T18:05:57.053374'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 97
+  reasoning: This opportunity leverages existing customer demand for high-margin digital
+    products through a fully automated email sequence, ensuring rapid and scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776017157
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 60
+    notes: 'CRITIQUE
+
+      Confidence Score: 60%
+
+      Key concerns:
+
+      *   **Unproven Conversion Rate & Buyer Intent:** The $300/month revenue target
+      is an estimate based on an assumed conversion rate for the "full book series"
+      upsell. There''s no data provided to validate that new Gumroad buyers, regardless
+      of their initial purchase, will have sufficient interest or budget to convert
+      to a full series, especially immediately after a single purchase.
+
+      *   **Relevance & Offer Fatigue:** The effectiveness of a generic "welcome email
+      sequence with upsell" across *all* new Gumroad buyers is questionable. If the
+      "full book series" isn''t highly relevant to their initial purchase, or if the
+      upsell is too aggressive, it could lead to low engagement, unsubscribes, or
+      even negative brand perception.
+
+      *   **Dependency on External Platforms:** The entire operation relies on the
+      stability and integration capabilities of Gumroad and the chosen Email Service
+      Provider (ESP). Changes in APIs, terms of service, or deliverability policies
+      from either platform could disrupt or halt the revenue stream.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable steps for setting up an email sequence and promoting
+      products, directly aligning with the skill''s objective and Guerilla Holdings''
+      revenue goals.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes standard email marketing to existing customers (Gumroad
+      buyers), which is compliant with the provided guidelines for email marketing
+      with opt-in lists and does not involve any immediate, clear violations of SSN
+      collection, unencrypted password storage, unauthorized system access, or non-consented
+      PII usage.'
+    result: PASS
+test_results: {}

@@ -1,0 +1,86 @@
+business: Cross-vertical
+created: '2026-04-10T11:24:02.066204'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  Cost to test: $0 - $50
+  Estimated monthly revenue potential: $800 - $3000
+  How Penelope deploys it autonomously: Generates course outline, scripts content,
+    creates examples and templates, automates platform setup and marketing.
+  Specific revenue action: Develop a short online course titled 'AI for E-commerce
+    Product Descriptions' teaching store owners how to use AI tools (like ChatGPT)
+    to generate compelling and SEO-friendly product descriptions quickly. Sell on
+    Teachable/Gumroad.
+  Tier classification: 1
+  Time to first dollar: 22 days
+  Why this works NOW: E-commerce is highly competitive; good product descriptions
+    drive sales and SEO; AI offers a massive efficiency boost for store owners, saving
+    time and improving quality.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 24
+  raw_score: 94
+  reasoning: This opportunity leverages high demand for AI efficiency in e-commerce
+    with excellent profit margins, rapid deployment, and near-perfect autonomous scalability
+    as a digital product.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775820242
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Market Saturation & Differentiation:** The "AI for X" course market is
+      already highly saturated with free and paid content. An autonomously generated
+      course risks being generic, lacking the unique insights, authority, and human
+      touch required to stand out against expert-led alternatives and free resources,
+      making sustained sales challenging.
+
+      *   **Quality & Trust:** Relying solely on autonomous content generation (e.g.,
+      LLMs) for a paid course carries a high risk of inaccuracies, outdated information,
+      or a lack of practical depth. This can lead to poor customer experience, refunds,
+      negative reviews, and significant reputational damage, especially without a
+      recognized expert or brand backing the content.
+
+      *   **Marketing & Sustainability:** The claim of "automates platform setup and
+      marketing" is highly optimistic. Effective course marketing requires nuanced
+      understanding of target audience pain points, continuous engagement, and often
+      a significant human element to build community and drive sustained sales beyond
+      initial novelty. Generic automated marketing is unlikely to cut through the
+      noise.'
+    result: FAIL
+  quality:
+    notes: 'FAIL
+
+      The test output is incomplete, cutting off mid-sentence, and the skill definition
+      contains a direct logical inconsistency regarding estimated monthly revenue.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The output is incomplete, and there is no mention of GDPR/CCPA compliance for
+      lead data collection inherent in marketing and sales activities.'
+    result: FAIL
+test_results: {}

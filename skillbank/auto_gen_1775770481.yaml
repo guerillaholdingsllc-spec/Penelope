@@ -1,0 +1,80 @@
+business: Cross-vertical
+created: '2026-04-09T21:34:41.538940'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: 0
+  estimated_monthly_revenue_potential: 600
+  how_penelope_deploys_it_autonomously: Penelope uses AI to research, write, and format
+    the ebook, design the cover, create a Gumroad listing, and distribute promotional
+    snippets/images via automated social media posts.
+  specific_revenue_action: Launch 'Prompt Engineering Ebook for Midjourney V6' on
+    Gumroad, targeting graphic designers and digital artists.
+  tier_classification: 1
+  time_to_first_dollar: 15
+  why_this_works_NOW: Midjourney V6 is relatively new, and users are actively seeking
+    advanced prompt techniques to get better, more consistent outputs. High search
+    volume for 'Midjourney prompts' and tutorials.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity leverages high demand for a new AI tool with a fully
+    automated, high-margin digital product, ensuring rapid deployment and excellent
+    scalability.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775770481
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Rapid Obsolescence & Market Saturation:** The fast-evolving nature of
+      Midjourney V6 and the extremely crowded market for prompt guides (many free,
+      high-quality resources) will quickly erode the ebook''s value and visibility.
+
+      *   **AI-Generated Content Quality for "Advanced" Topics:** Relying solely on
+      AI for "advanced" prompt engineering content for a professional audience (graphic
+      designers) risks lacking the depth, nuance, and unique insights required to
+      justify a purchase over free alternatives.
+
+      *   **Sustained Marketing & Differentiation:** Automated social media posts
+      alone are unlikely to cut through the noise and drive consistent sales in a
+      highly competitive niche without a more robust, human-curated marketing strategy
+      or a truly unique selling proposition.'
+    result: CRITIQUE
+  quality:
+    notes: 'FAIL
+
+      Test output is incomplete, ending abruptly mid-sentence, and the skill definition
+      contains conflicting revenue estimates and an inconsistent RPS score calculation.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      Automated social media posts may violate platform Terms of Service regarding
+      bot activity or unauthorized API usage.'
+    result: FAIL
+test_results: {}

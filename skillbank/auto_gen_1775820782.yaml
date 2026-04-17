@@ -1,0 +1,86 @@
+business: Cross-vertical
+created: '2026-04-10T11:33:02.900236'
+learnings: ''
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  Cost to test: $0
+  Estimated monthly revenue potential: $300 - $1000
+  How Penelope deploys it autonomously: Refines and categorizes cold email prompts,
+    creates PDF packaging, writes sales copy, lists on Gumroad.
+  Specific revenue action: Sell a prompt pack on Gumroad containing battle-tested
+    AI prompts for generating personalized and effective cold email sequences, including
+    subject lines, opening lines, and follow-ups.
+  Tier classification: 1
+  Time to first dollar: 8 days
+  Why this works NOW: Cold outreach is essential for B2B lead generation; AI can significantly
+    improve personalization and efficiency, but good prompts are key to success.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity leverages high demand for AI-enhanced cold outreach,
+    offers near-100% profit margins, has a rapid time to market, and is fully scalable
+    as a digital product requiring no human intervention after initial deployment.
+  scalability: 25
+  speed: 23
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775820782
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+
+      *   **Product Quality & Differentiation:** The core value proposition hinges
+      on "battle-tested AI prompts." Without demonstrable superiority, uniqueness,
+      or effectiveness compared to the vast array of free and low-cost prompts already
+      available, the product will struggle to attract and retain customers. The quality
+      of AI-generated packaging and sales copy is also a critical, unproven factor.
+
+      *   **Market Saturation & Marketing Strategy:** The market for AI prompts, especially
+      for common use cases like cold emails, is highly competitive and rapidly saturating.
+      Simply listing on Gumroad is unlikely to generate significant sales without
+      a clear, low-cost marketing strategy to drive traffic and differentiate the
+      offering, which is not detailed or budgeted for (given the "$0 cost to test").
+
+      *   **AI Obsolescence Risk & Low Revenue Ceiling:** The effectiveness of specific
+      prompts can rapidly diminish as underlying AI models evolve, potentially rendering
+      the product obsolete and requiring continuous, potentially costly, updates.
+      Furthermore, the estimated monthly revenue potential of $300-$1000 is quite
+      low for a "Tier 1" opportunity, suggesting limited market depth or pricing power
+      for this specific product.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      Output is market research, not a direct attempt or report on revenue generation
+      as per the skill''s objective.'
+    result: FAIL
+  security:
+    notes: 'PASS
+
+      The skill does not expose sensitive data, is compliant with platform ToS for
+      digital product sales, adheres to the budget cap, and does not directly handle
+      lead data requiring GDPR/CCPA compliance.'
+    result: PASS
+test_results: {}

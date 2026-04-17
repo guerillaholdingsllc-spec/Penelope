@@ -1,0 +1,85 @@
+business: Cross-vertical
+created: '2026-04-11T14:49:50.363845'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $200 - $500
+  how_penelope_deploys_it_autonomously: Penelope uses AI to create a comprehensive
+    set of prompts for various podcast formats (interviews, solo episodes, narratives).
+    The pack is delivered digitally via Gumroad, with AI crafting marketing messages
+    for podcasting communities.
+  specific_revenue_action: Develop a 'Podcast Script & Outline Generator' AI prompt
+    pack for content creators, sold on Gumroad.
+  tier_classification: 1
+  time_to_first_dollar: 10
+  why_this_works_NOW: Podcasting remains a popular content format, but scriptwriting
+    can be time-consuming. AI prompts can significantly speed up the outlining and
+    content generation process for podcasters.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 23
+  margin: 25
+  raw_score: 97
+  reasoning: This opportunity scores exceptionally high due to strong market demand
+    for AI-assisted content creation, near-zero costs for an AI agent, rapid time
+    to market, and fully automated scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775918990
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 55
+    notes: 'CRITIQUE
+
+      Confidence Score: 55%
+
+      Key concerns:
+
+      *   **Weak Value Proposition Against Free Alternatives:** The core offering
+      (AI prompts) is easily replicated by users with free LLMs (e.g., ChatGPT) or
+      by finding free prompt guides online. The "pack" must offer *significantly*
+      superior, curated, and continuously updated value to justify a purchase, which
+      is difficult for a one-time digital product.
+
+      *   **High Risk of Rapid Obsolescence:** The fast-evolving AI landscape means
+      current prompt engineering techniques and specific prompt structures can quickly
+      become outdated. New LLM capabilities or the emergence of free, specialized
+      custom GPTs/plugins could render a static prompt pack irrelevant within months.
+
+      *   **Marketing & Discovery Challenges:** While "AI crafting marketing messages"
+      sounds efficient, effective marketing on platforms like Gumroad and within specific
+      communities requires nuanced understanding, trust-building, and consistent effort
+      that generic AI-generated messages often fail to achieve, leading to poor visibility
+      and conversion.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides a clear, actionable plan for product development and promotion,
+      directly aligning with content creation, social media posting, and product promotion,
+      all of which move toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves creating and selling a digital product and marketing it,
+      none of which violate the specified compliance criteria.'
+    result: PASS
+test_results: {}

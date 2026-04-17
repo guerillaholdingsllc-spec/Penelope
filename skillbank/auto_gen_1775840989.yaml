@@ -1,0 +1,87 @@
+business: Cross-vertical
+created: '2026-04-10T17:09:49.667671'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $250 - $750
+  how_penelope_deploys_it_autonomously: Penelope drafts the entire grant application
+    template, including sections for project description, budget, impact metrics,
+    and digital implementation plans, using AI trained on successful grant proposals.
+    It packages the template as a downloadable document, creates sales copy, and lists
+    it on Gumroad. Automated outreach to local charity directories is initiated.
+  specific_revenue_action: 'GAFC Grant Application Template: ''Digital Transformation
+    Grant Template for Local Charities'' sold on Gumroad.'
+  tier_classification: 1
+  time_to_first_dollar: 12
+  why_this_works_now: Many smaller charities lack the expertise or budget for professional
+    grant writers. Providing a comprehensive, easy-to-adapt template for a common
+    grant type offers immense value. GAFC (Guerilla Holdings' internal grant framework)
+    implies a known structure.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 21
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity leverages AI for fully autonomous creation and deployment
+    of a high-margin digital product addressing a clear charity need, resulting in
+    excellent speed and scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775840989
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Quality & Specificity:** A generic AI-generated template, even if comprehensive,
+      will likely lack the nuanced, funder-specific language, data, and strategic
+      alignment required for competitive grant applications. This could lead to low
+      success rates for users, diminishing the product''s perceived value and potential
+      for repeat business or positive word-of-mouth.
+
+      *   **Trust & Competition:** Charities, particularly when seeking critical funding,
+      are risk-averse. They may prefer established non-profit resource organizations,
+      human grant writers, or even free resources over an unknown AI-generated product
+      sold on Gumroad. The market already has numerous free guides, templates, and
+      direct AI tools (e.g., ChatGPT) that charities could use.
+
+      *   **User Skill Gap:** The target audience (smaller charities lacking expertise)
+      might struggle to effectively adapt even a well-structured template to their
+      unique circumstances, specific project details, and the precise requirements
+      of various grant applications, limiting the template''s actual utility without
+      further human guidance or customization.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides solid market research validating the opportunity, aligning
+      with the initial phase of a revenue-generating skill.'
+    result: PASS
+  security:
+    notes: 'FAIL
+
+      Automated outreach to local charity directories without specifying GDPR/CCPA
+      compliance for data collection and processing.'
+    result: FAIL
+test_results: {}

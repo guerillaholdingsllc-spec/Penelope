@@ -1,0 +1,80 @@
+business: Digital
+created: '2026-04-11T07:28:44.583968'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 97
+  reasoning: This opportunity leverages existing customer demand for high-margin digital
+    products through a fully automated email sequence, ensuring rapid and scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775892524
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 45
+    notes: 'CRITIQUE
+
+      Confidence Score: 45%
+
+      Key concerns:
+
+      *   **Unsubstantiated Revenue Estimate & "0 Cost" Claim:** The $300 estimated
+      monthly revenue lacks any supporting metrics (e.g., current buyer volume, average
+      upsell value, projected conversion rate), making it an arbitrary target. Furthermore,
+      the claim of "0 initial cost" is highly misleading; even free tiers require
+      significant time investment for setup, content creation, and ongoing management,
+      which has an implicit cost.
+
+      *   **Overly Optimistic Feasibility & "No Barriers":** The "High" feasibility
+      and "Tier 1 - Instant Digital (No barriers)" assessment ignore common real-world
+      challenges such as email deliverability issues, potential limitations of free
+      email marketing platforms (EMP) that necessitate upgrades, and the inherent
+      difficulty in achieving high upsell conversion rates without a highly targeted
+      and compelling offer.
+
+      *   **Dependence on Unspecified Upsell Relevance:** The success of this opportunity
+      hinges entirely on the "full book series" being a universally desired and natural
+      next step for *all* new Gumroad buyers. Without details on the initial product
+      and the series, there''s a high risk of low relevance, leading to poor conversion
+      and failure to meet revenue targets.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides actionable steps to set up an email sequence, which directly
+      involves sending emails and promoting products, aligning with the PASS criteria.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes email marketing to existing buyers, which is compliant if
+      opt-in lists are used, and does not involve any prohibited activities.'
+    result: PASS
+test_results: {}

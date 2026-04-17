@@ -1,0 +1,81 @@
+business: Digital
+created: '2026-04-16T10:30:53.934570'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 21
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity targets a high-demand niche with a digital product,
+    ensuring excellent profit margins, instant revenue generation, and fully automated
+    scalability without human intervention.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776335453
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Unverified Lead List Quality & Relevance:** The entire revenue projection
+      (estimated $270/month) is predicated on an "existing lead list" being highly
+      responsive and perfectly aligned with the "AI Business Automation Starter Kit."
+      There is no data to support this crucial assumption; a cold, irrelevant, or
+      outdated list will yield minimal to no sales and could damage sender reputation.
+
+      *   **Product-Market Fit & Value Proposition Unknown:** The quality, uniqueness,
+      pricing, and competitive standing of the "AI Business Automation Starter Kit"
+      itself are entirely unaddressed. A generic or poorly differentiated product,
+      even with a good list, will struggle to convert in a competitive market.
+
+      *   **Inconsistent Revenue Projections & Overly Optimistic Scoring:** The `revenue_model`
+      explicitly states `estimated_monthly: 0`, directly contradicting the `opportunity_data`''s
+      `estimated_monthly: 270`. This fundamental inconsistency, combined with a perfect
+      `rps_score` of 100 based on unverified assumptions (e.g., "high-demand niche,"
+      "instant revenue generation," "fully automated scalability"), indicates a significant
+      lack of critical assessment and potential for misrepresentation.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      Specific reason: The test output details actionable steps for lead list preparation,
+      which is a critical and direct precursor to sending promotional emails and promoting
+      products, aligning with the objective and moving toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes standard email marketing to a lead list, which is compliant
+      as long as the list is opt-in, as per the provided guidelines. No immediate
+      violations of collecting SSNs, storing unencrypted passwords, accessing unauthorized
+      systems, or non-consented PII are evident in the skill description.'
+    result: PASS
+test_results: {}

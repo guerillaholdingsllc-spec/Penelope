@@ -1,0 +1,82 @@
+business: Cross-vertical
+created: '2026-04-17T05:39:39.411629'
+learnings: ''
+logic_flow: {}
+objective: Execute revenue action
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $250 - $750
+  how_penelope_deploys_it_autonomously: Penelope uses AI (ChatGPT) to generate content
+    ideas and posts for the calendar, designs the calendar template in Canva, creates
+    the product listing, and automates marketing.
+  specific_revenue_action: Sell a 'Done-for-You 30-Day AI-Generated Social Media Content
+    Calendar' for specific niches (e.g., 'for local cafes') on Gumroad/Etsy, targeting
+    small business owners and social media managers.
+  tier_classification: 1
+  time_to_first_dollar: 7-12 days
+  why_this_works_NOW: Small businesses consistently struggle with maintaining a consistent
+    social media presence; AI offers a quick, affordable solution for content planning.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 94
+  reasoning: This opportunity scores highly due to its fully automated digital product
+    nature, offering high margins and scalability for a clear market demand, with
+    a rapid time to first dollar.
+  scalability: 25
+  speed: 22
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1776404379
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Market Saturation & Differentiation:** The market for social media content
+      templates and AI-generated content is extremely saturated. Generic AI output,
+      even if "done-for-you," offers little unique value proposition against numerous
+      free tools, low-cost templates, and human freelancers.
+
+      *   **Perceived Value & Quality:** Purely AI-generated content often lacks the
+      specific brand voice, deep niche understanding, and strategic insight that small
+      businesses truly need. This can lead to low perceived value, high refund rates,
+      and negative reviews, undermining the "high margin" claim if sales are minimal.
+
+      *   **Marketing & Discovery Challenge:** Simply listing on Gumroad/Etsy with
+      "automated marketing" is insufficient to stand out in a crowded market. Acquiring
+      customers will likely require significant, non-automated marketing effort and
+      budget, contradicting the $0 cost to test and rapid time to first dollar.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The research output provides actionable market validation and niche prioritization,
+      directly supporting the creation and promotion of a revenue-generating digital
+      product.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      No clear, immediate violations of prohibited activities (SSNs, unencrypted passwords,
+      unauthorized access, non-consented PII) are present in the skill description.'
+    result: PASS
+test_results: {}

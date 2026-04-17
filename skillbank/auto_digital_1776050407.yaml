@@ -1,0 +1,81 @@
+business: Digital
+created: '2026-04-13T03:20:07.865591'
+learnings: ''
+logic_flow: {}
+objective: Publish affiliate review blog post targeting Sacramento small business
+  owners
+opportunity_data:
+  action: Publish affiliate review blog post targeting Sacramento small business owners
+  business: Digital
+  estimated_monthly: 150
+  revenue_type: affiliate
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 20
+  margin: 23
+  raw_score: 93
+  reasoning: This digital affiliate marketing opportunity offers high margins, instant
+    deployment, and excellent scalability for an autonomous AI agent, with consistent
+    market demand from small businesses.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776050407
+status: Live
+supreme_court_results:
+  adversarial:
+    confidence: 25
+    notes: 'CRITIQUE
+
+      Confidence Score: 25%
+
+      Key concerns:
+
+
+      *   **Insufficient Budget for Market Entry:** The $50 budget cap for research
+      and initial execution is critically low. Successfully publishing an affiliate
+      review blog post that generates $150/month requires significant investment in
+      high-quality content, SEO, promotion, and potentially paid traffic, none of
+      which are adequately covered by this budget in a competitive market.
+
+      *   **Trust and Authority Deficit for AI:** Small business owners seek trusted,
+      experienced recommendations. An "autonomous AI agent" will struggle to establish
+      the necessary E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)
+      required by search engines for review content, and more importantly, to build
+      credibility with a human target audience.
+
+      *   **Niche Competition and Scalability Contradiction:** While "Sacramento small
+      business owners" is a specific niche, the affiliate marketing space is highly
+      saturated. Achieving consistent revenue in this local market, especially as
+      a new entrant, is challenging. The claim of "excellent scalability" for a geographically
+      constrained niche with a low initial budget is contradictory and unrealistic.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The test output provides a detailed, actionable plan for content creation and
+      product promotion, directly supporting the skill''s objective to publish an
+      affiliate review blog post.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and affiliate marketing, both explicitly
+      compliant activities, and does not describe any immediate violations of SSN
+      collection, unencrypted password storage, unauthorized system access, or non-consented
+      PII collection.'
+    result: PASS
+test_results: {}

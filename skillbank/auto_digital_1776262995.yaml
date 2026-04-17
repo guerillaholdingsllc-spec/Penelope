@@ -1,0 +1,79 @@
+business: Digital
+created: '2026-04-15T14:23:15.527134'
+learnings: ''
+logic_flow: {}
+objective: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+  list via Brevo
+opportunity_data:
+  action: Send Gumroad AI Business Automation Starter Kit promotional email to lead
+    list via Brevo
+  business: Digital
+  estimated_monthly: 270
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 21
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity targets a high-demand niche with a digital product,
+    ensuring excellent profit margins, instant revenue generation, and fully automated
+    scalability without human intervention.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776262995
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Lead List Quality & Relevance:** The entire opportunity hinges on the
+      quality, engagement, and relevance of the unspecified "lead list." If the list
+      is cold, outdated, or not genuinely interested in AI automation, the campaign
+      will yield minimal to no conversions, regardless of product quality.
+
+      *   **Product Differentiation & Market Saturation:** The "AI Business Automation
+      Starter Kit" is a generic offering in an increasingly crowded and rapidly evolving
+      market. Without a clear, compelling unique selling proposition (USP), it will
+      struggle to stand out against numerous free and paid alternatives.
+
+      *   **Discrepancy in Revenue Expectations & Overly Optimistic Scoring:** The
+      `rps_score` of 100 and "Tier 1 - Instant Digital (No barriers)" label are highly
+      optimistic for an opportunity with an estimated revenue of only $270. This suggests
+      a significant overestimation of market demand and conversion potential, or an
+      underestimation of the barriers to achieving even this modest target.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The action directly involves sending emails and promoting products, which are
+      valid revenue-generating activities, and the output provides actionable details
+      for execution.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves email marketing to a lead list, which is compliant assuming
+      the list is opt-in, and does not present any immediate, clear violations of
+      SSN collection, unencrypted password storage, unauthorized system access, or
+      non-consented PII usage.'
+    result: PASS
+test_results: {}

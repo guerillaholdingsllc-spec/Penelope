@@ -1,0 +1,78 @@
+business: GAFC
+created: '2026-04-15T09:46:58.139803'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+  on social
+opportunity_data:
+  action: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+    on social
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 12
+  margin: 25
+  raw_score: 87
+  reasoning: The opportunity benefits from high automation and digital execution,
+    leading to excellent speed, scalability, and profit margins, but the direct market
+    demand signal for the specific brand content and its estimated revenue is relatively
+    low.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776246418
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 10
+    notes: 'CRITIQUE
+
+      Confidence Score: 10%
+
+      Key concerns:
+
+      *   **Unsubstantiated Revenue & Contradictory Model:** The estimated $200 monthly
+      "brand revenue" is highly speculative, lacks a clear conversion path, and directly
+      contradicts the `revenue_model` stating "one_time" and "estimated_monthly: 0".
+      This indicates a fundamental flaw in the opportunity''s financial justification.
+
+      *   **Lack of Market Demand & Character Identity:** The `rps_score` reasoning
+      explicitly notes "low direct market demand signal," and the character profiles
+      are "assumed." Without an established audience or compelling character identity,
+      a single content post (even "high-impact") is unlikely to generate meaningful
+      brand awareness or revenue impact.
+
+      *   **Vague Strategy & High Failure Risk:** The strategy is simply "post content."
+      There''s no detail on platform, frequency, engagement tactics, or how a $40
+      asset will achieve significant awareness for unknown characters, making it highly
+      susceptible to failure due to lack of audience engagement.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The research output provides actionable strategies and recommendations directly
+      supporting the skill''s objective of posting social media content for brand
+      awareness, which is a valid step toward revenue.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media posting for brand awareness, which is explicitly
+      compliant and does not violate any of the specified fail conditions.'
+    result: PASS
+test_results: {}

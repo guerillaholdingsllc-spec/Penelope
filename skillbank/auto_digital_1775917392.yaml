@@ -1,0 +1,78 @@
+business: Digital
+created: '2026-04-11T14:23:12.484176'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 24
+  raw_score: 95
+  reasoning: This opportunity leverages existing customer demand for a high-margin
+    digital product through an automated email sequence, offering excellent speed
+    to revenue and scalability.
+  scalability: 25
+  speed: 24
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1775917392
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 55
+    notes: 'CRITIQUE
+
+      Confidence Score: 55%
+
+      Key concerns:
+
+      *   **Relevance & Conversion Risk:** The generic "upsell to full book series"
+      for "all new Gumroad buyers" lacks segmentation. Without tailoring the upsell
+      to the specific initial purchase, conversion rates are likely to be low, as
+      the "full book series" may not be relevant or appealing to all buyers.
+
+      *   **Overstated Potential & Simpler Alternatives:** The estimated $300/month
+      revenue is modest for a "Tier 1 - Instant Digital" opportunity with a perfect
+      RPS score. Gumroad''s native email sequences or immediate post-purchase upsell
+      features could achieve similar or better results faster and cheaper, making
+      the proposed external integration potentially over-engineered.
+
+      *   **Data Inconsistency & Inflated Scoring:** The discrepancy between `revenue_model.estimated_monthly`
+      (0) and `opportunity_data.estimated_monthly` (300) indicates inconsistent data.
+      Furthermore, the perfect RPS score of 100 is heavily reliant on a 25-point "tier
+      bonus," masking a lower raw score (70) and potentially overestimating the true
+      demand and scalability without robust validation.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The action is to send emails and promote products, and the test output confirms
+      high feasibility with actionable methods and tool recommendations.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves email marketing to existing buyers, which is compliant under
+      legitimate interest or implied consent for transactional relationships, and
+      does not violate any of the specified failing criteria.'
+    result: PASS
+test_results: {}

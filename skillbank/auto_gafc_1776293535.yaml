@@ -1,0 +1,79 @@
+business: GAFC
+created: '2026-04-15T22:52:15.065090'
+learnings: ''
+logic_flow: {}
+objective: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+opportunity_data:
+  action: Publish 5 GAFC gun safety blog posts to WordPress and share on Bluesky
+  business: GAFC
+  estimated_monthly: 500
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 19
+  margin: 25
+  raw_score: 94
+  reasoning: This opportunity leverages an AI agent's strengths in automated digital
+    content creation and distribution for a high-interest topic, offering excellent
+    speed, scalability, and profit margin, though the direct market demand for this
+    specific brand-building content is moderately strong.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776293535
+status: Live
+supreme_court_results:
+  adversarial:
+    confidence: 35
+    notes: 'CRITIQUE
+
+      Confidence Score: 35%
+
+      Key concerns:
+
+      *   **Revenue Model Contradiction:** The opportunity is defined as "one_time"
+      with an "estimated_monthly: 0" in the revenue model, yet the `opportunity_data`
+      claims an "estimated_monthly: 500". This fundamental discrepancy makes the financial
+      projection highly suspect and likely unachievable as stated for a one-time action.
+
+      *   **Unrealistic Revenue Attribution:** Attributing $500 in *monthly* revenue
+      to a one-time publication of 5 brand-building blog posts is overly optimistic.
+      Brand building typically requires sustained effort, and direct, recurring revenue
+      from such a limited, one-off content drop is extremely difficult to achieve
+      and quantify without a clear, ongoing monetization and promotion strategy.
+
+      *   **Limited Platform Reach & Content Saturation:** Relying solely on Bluesky
+      for distribution limits potential reach compared to more established platforms.
+      The "gun safety" topic is also highly saturated, making it challenging for 5
+      new posts to generate significant, sustained brand authority or revenue without
+      a unique angle or substantial, ongoing promotional effort.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The output provides a detailed content strategy and proposed topics, which is
+      a direct step in writing blog posts and content creation, aligning with the
+      PASS criteria.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves content publishing and social media sharing, which are compliant
+      activities and do not violate any of the specified fail conditions (collecting
+      SSNs, storing unencrypted passwords, accessing unauthorized systems, or violating
+      GDPR with non-consented PII).'
+    result: PASS
+test_results: {}

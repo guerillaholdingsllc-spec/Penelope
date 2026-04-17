@@ -1,0 +1,167 @@
+business: Cross-vertical
+created: '2026-04-10T05:09:45.707726'
+learnings: 'Failed initial court. Score: 100'
+logic_flow: {}
+objective: Generate revenue
+opportunity_data:
+  cost_to_test: $0
+  estimated_monthly_revenue_potential: $600 - $1500
+  how_penelope_deploys_it_autonomously: AI generates course outline, writes lesson
+    content, creates quiz questions, designs presentation slides, writes sales page
+    copy, and sets up email automation for enrollment.
+  specific_revenue_action: 'Create and sell a concise online mini-course ''Prompt
+    Engineering 101: Unlock AI''s Potential'' on Teachable/Thinkific, targeting general
+    users new to AI tools like ChatGPT, Midjourney, etc.'
+  tier_classification: 1
+  time_to_first_dollar: 20
+  why_this_works_NOW: Massive public interest in AI, but many struggle with effective
+    prompting; demand for practical, entry-level education to maximize AI utility
+    is high.
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 25
+  margin: 25
+  raw_score: 95
+  reasoning: This opportunity leverages high demand for AI education with a fully
+    autonomous, high-margin, and scalable digital product, making it an excellent
+    fit for an AI agent.
+  scalability: 25
+  speed: 20
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gen_1775797785
+status: Draft
+supreme_court_results:
+  adversarial:
+    confidence: 50
+    notes: 'CRITIQUE
+
+      Confidence Score: 50%
+
+      Key concerns:
+
+      *   **Market Saturation & Differentiation**: The "Prompt Engineering 101" space
+      is highly saturated with free and low-cost content. An autonomously generated
+      course, without a unique angle, strong branding, or a recognized instructor,
+      will struggle to stand out and justify its price against numerous alternatives.
+
+      *   **Marketing & Distribution Strategy**: The plan focuses on content generation
+      and platform setup but lacks a robust strategy for attracting initial traffic
+      and converting it into paying customers. Relying solely on AI-generated sales
+      copy and email automation is insufficient to penetrate a crowded market.
+
+      *   **Quality Perception & Obsolescence**: There''s a risk that an AI-generated
+      course might be perceived as generic or lacking the nuanced insights of human
+      expertise. Additionally, the rapid evolution of AI tools means the content could
+      quickly become outdated, requiring continuous, potentially manual, updates to
+      maintain value.
+
+
+      ---
+
+      **1. Why would this FAIL in the real market?**
+
+
+      *   **Lack of Differentiation in a Saturated Market**: While demand for AI education
+      is high, the "Prompt Engineering 101" niche is incredibly crowded. Free YouTube
+      tutorials, blog posts, and low-cost courses on platforms like Udemy already
+      offer similar content. A generic, AI-generated course will struggle to differentiate
+      itself without a unique selling proposition, a strong brand, or a recognized
+      expert behind it. Users may perceive it as low-value compared to human-curated
+      or expert-led alternatives.
+
+      *   **Marketing & Customer Acquisition Challenges**: The plan mentions AI generating
+      sales page copy and email automation, but this is only a fraction of what''s
+      needed for successful product launch and sustained sales. Attracting initial
+      traffic to the Teachable/Thinkific page requires a robust marketing strategy
+      (e.g., paid ads, social media presence, SEO, affiliate marketing, influencer
+      outreach) which is not accounted for in the autonomous deployment. Without effective
+      marketing, the course will remain undiscovered.
+
+      *   **Quality Perception & Trust**: Despite AI''s capabilities, an entirely
+      AI-generated course might lack the human touch, relatable examples, or nuanced
+      explanations that build trust and engagement. Poor reviews due to perceived
+      generic content or lack of depth could quickly tank sales.
+
+      *   **Rapid Obsolescence**: The field of AI and prompt engineering evolves at
+      an extremely fast pace. A "101" course created today could become outdated within
+      months as new models, features, and best practices emerge. Maintaining the course''s
+      relevance autonomously and ensuring it reflects the latest information will
+      be a significant challenge.
+
+
+      **2. Is there a cheaper/faster way to achieve same result?**
+
+
+      The current proposal already leverages AI for content generation, aiming for
+      $0 cost to test and 20 days to first dollar, which is exceptionally fast and
+      cheap. It''s difficult to be *significantly* cheaper or faster for a *full mini-course*
+      while maintaining any semblance of quality.
+
+
+      However, to achieve *similar revenue generation* with potentially even less
+      risk/effort:
+
+      *   **Lead Magnet + Micro-Product Funnel**: Instead of a full mini-course, create
+      a highly valuable, free lead magnet (e.g., "Top 5 ChatGPT Prompt Templates"
+      PDF) using AI. Use this to build an email list. Then, upsell a *very* concise,
+      premium micro-product (e.g., a "Prompt Engineering Cheat Sheet" or a "Niche-Specific
+      Prompt Library") for a low price ($5-$20). This allows for faster validation
+      of demand and audience building with minimal upfront commitment, potentially
+      generating revenue quicker and with less content creation overhead.
+
+      *   **Live Webinar/Workshop**: Offer a paid live webinar or workshop first.
+      This requires less upfront content creation than a full course, allows for direct
+      interaction and feedback, and can be recorded and sold later as a course. It
+      also builds immediate credibility.
+
+
+      **3. What edge case breaks this?**
+
+
+      *   **Major AI Platform Policy Shift**: Teachable/Thinkific (or similar platforms)
+      could implement new policies restricting AI-generated content, requiring human
+      review, or changing their revenue share, severely impacting the distribution
+      and profitability of the course.
+
+      *   **AI Model Drift/Censorship**: The underlying AI models used for content
+      generation could experience "drift" (changes in output quality/style), become
+      less effective, or introduce new censorship/biases, making it impossible to
+      autonomously generate high-quality, neutral, or relevant course material.
+
+      *   **Free, High-Quality Competitor Emergence**: A major AI company (e.g., OpenAI,
+      Google) or a well-funded educational platform could release a comprehensive,
+      high-quality, *free* prompt engineering course, instantly devaluing any paid
+      offering in the "101" space.
+
+      *   **Copyright Infringement by AI**: Despite best efforts, AI-generated content
+      always carries a risk of inadvertently reproducing copyrighted material or generating
+      content too similar to existing works, leading to legal challenges or reputational
+      damage that autonomous deployment might not detect.'
+    result: PASS
+  quality:
+    notes: 'FAIL
+
+      Test output is incomplete, truncating mid-sentence in the "presentation_slides_content"
+      section.'
+    result: FAIL
+  security:
+    notes: 'FAIL
+
+      The skill fails to specify GDPR/CCPA compliance mechanisms for lead data collection
+      and presents a high risk of violating platform ToS regarding AI-generated content
+      without human oversight or disclosure.'
+    result: FAIL
+test_results: {}

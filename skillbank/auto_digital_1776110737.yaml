@@ -1,0 +1,78 @@
+business: Digital
+created: '2026-04-13T20:05:37.295125'
+learnings: ''
+logic_flow: {}
+objective: Send welcome email sequence to all new Gumroad buyers with upsell to full
+  book series
+opportunity_data:
+  action: Send welcome email sequence to all new Gumroad buyers with upsell to full
+    book series
+  business: Digital
+  estimated_monthly: 300
+  revenue_type: digital_product
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 22
+  margin: 25
+  raw_score: 97
+  reasoning: This opportunity leverages existing customer demand for high-margin digital
+    products through a fully automated email sequence, ensuring rapid and scalable
+    revenue generation.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_digital_1776110737
+status: Failed
+supreme_court_results:
+  adversarial:
+    confidence: 70
+    notes: 'CRITIQUE
+
+      Confidence Score: 70%
+
+      Key concerns:
+
+      *   **Conversion Rate Uncertainty:** The estimated $300 monthly revenue is entirely
+      dependent on the actual conversion rate of the upsell sequence, which is highly
+      variable and unproven. Factors like product fit, email content quality, and
+      pricing strategy can significantly impact success.
+
+      *   **Data Inconsistency:** The `revenue_model.estimated_monthly` is explicitly
+      set to 0, directly contradicting the `opportunity_data.estimated_monthly` of
+      300. This suggests a fundamental flaw in the revenue projection or data model
+      that needs immediate clarification.
+
+      *   **Technical Dependency & Maintenance:** The reliance on Gumroad''s API and
+      a third-party email platform introduces potential points of failure (e.g., API
+      changes, integration breaks, deliverability issues, platform downtime) that
+      could disrupt the automated sequence and halt revenue.'
+    result: PASS
+  quality:
+    notes: 'PASS
+
+      The skill execution is actionable and moves toward revenue, despite the test
+      output being truncated.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill describes standard email marketing to existing customers (Gumroad
+      buyers) for an upsell, which is compliant with the provided guidelines for email
+      marketing with opt-in lists and does not involve collecting SSNs, storing unencrypted
+      passwords, accessing unauthorized systems, or explicitly violating GDPR with
+      non-consented PII.'
+    result: PASS
+test_results: {}

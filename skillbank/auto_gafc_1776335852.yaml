@@ -1,0 +1,83 @@
+business: GAFC
+created: '2026-04-16T10:37:32.272434'
+learnings: ''
+logic_flow: {}
+objective: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+  on social
+opportunity_data:
+  action: Post GAFC Gloxsie and Bobo Licious character content to build brand awareness
+    on social
+  business: GAFC
+  estimated_monthly: 200
+  revenue_type: brand
+recursive_rules:
+  budget_cap_24h: 50.0
+  if_fail: Extract reusable components, update blueprint, retry
+  if_success: Scale volume 10%, save winning pattern
+  max_iterations: 3
+revenue_model:
+  cost_per_run: 0
+  estimated_monthly: 0
+  margin_pct: 70
+  type: one_time
+rps_score: 100
+score_breakdown:
+  demand: 12
+  margin: 25
+  raw_score: 87
+  reasoning: The opportunity benefits from high automation and digital execution,
+    leading to excellent speed, scalability, and profit margins, but the direct market
+    demand signal for the specific brand content and its estimated revenue is relatively
+    low.
+  scalability: 25
+  speed: 25
+  tier: 1
+  tier_bonus_applied: 25
+  tier_label: Tier 1 - Instant Digital (No barriers)
+  total: 100
+skill_id: auto_gafc_1776335852
+status: Verified
+supreme_court_results:
+  adversarial:
+    confidence: 20
+    notes: 'CRITIQUE
+
+      Confidence Score: 20%
+
+      Key concerns:
+
+      *   **Inconsistent Valuation & Low ROI:** The `revenue_model` states "one_time"
+      with "$0 estimated monthly," directly contradicting the `opportunity_data`''s
+      "$200 estimated monthly" brand value. A $50 budget cap for initial execution/research
+      is highly unlikely to generate a sustainable $200/month brand value for unknown
+      characters, indicating a poor return on effort even if costs are low.
+
+      *   **Lack of Market Validation & Audience Strategy:** The `rps_score` reasoning
+      explicitly notes "the direct market demand signal for the specific brand content
+      and its estimated revenue is relatively low." The proposed plan, while starting
+      with character definition, lacks a robust strategy for identifying, targeting,
+      and validating an audience for Gloxsie and Bobo Licious, making success heavily
+      reliant on chance.
+
+      *   **Unrealistic Organic Growth Expectations:** Building meaningful brand awareness
+      for new, unknown IP on social media with a minimal budget and relying solely
+      on organic reach is extremely challenging and time-consuming. It often requires
+      significant viral success or existing audience leverage, neither of which is
+      indicated, making the $200 monthly value highly speculative.'
+    result: FAIL
+  quality:
+    notes: 'PASS
+
+      The output provides actionable steps for content creation and brand building
+      on social media, directly supporting the objective of posting character content
+      to build brand awareness.'
+    result: PASS
+  security:
+    notes: 'PASS
+
+      The skill involves social media content posting for brand awareness, which is
+      a compliant activity and does not involve any prohibited actions like collecting
+      SSNs, storing unencrypted passwords, accessing unauthorized systems, or violating
+      GDPR with non-consented PII.'
+    result: PASS
+test_results: {}
