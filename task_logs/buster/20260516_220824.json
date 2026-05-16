@@ -1,0 +1,6 @@
+{
+  "ts": "2026-05-16T22:08:24.672333",
+  "agent": "buster",
+  "action": "CMD: \nset -eu\npython3 - <<'PY'\nimport json\nprint(json.dumps({'probe': True}))\nPY\n",
+  "detail": "{\"probe\": true}\n"
+}
