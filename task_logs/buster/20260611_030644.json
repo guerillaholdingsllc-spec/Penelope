@@ -1,0 +1,6 @@
+{
+  "ts": "2026-06-11T03:06:44.547205",
+  "agent": "buster",
+  "action": "CMD: for p in 5099 8766 8900 8000; do r=$(curl -s -o /dev/null -w \"%{http_code}\" http",
+  "detail": "5099=000\n8766=000\n8900=000\n8000=000\n"
+}
