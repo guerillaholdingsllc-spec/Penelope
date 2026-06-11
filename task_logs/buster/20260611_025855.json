@@ -1,0 +1,6 @@
+{
+  "ts": "2026-06-11T02:58:55.108310",
+  "agent": "buster",
+  "action": "CMD: ping -c 1 -W 2 10.120.0.2 2>&1 | tail -2; ping -c 1 -W 2 10.120.0.4 2>&1 | tail ",
+  "detail": "1 packets transmitted, 1 received, 0% packet loss, time 0ms\nrtt min/avg/max/mdev = 3.407/3.407/3.407/0.000 ms\n1 packets transmitted, 0 received, 100% packet loss, time 0ms\n\n1 packets transmitted, 0 re"
+}
