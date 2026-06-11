@@ -1,0 +1,6 @@
+{
+  "ts": "2026-06-11T03:00:38.545311",
+  "agent": "buster",
+  "action": "CMD: mount | grep -v tmpfs | grep -v proc | grep -v sys | grep -v dev; echo ---; df -",
+  "detail": "nsfs on /run/snapd/ns/mesa-2404.mnt type nsfs (rw)\nnsfs on /run/snapd/ns/cups.mnt type nsfs (rw)\nnsfs on /run/snapd/ns/chromium.mnt type nsfs (rw)\n---\n/dev/vda1        87G  7.4G   79G   9% /\ntmpfs    "
+}
