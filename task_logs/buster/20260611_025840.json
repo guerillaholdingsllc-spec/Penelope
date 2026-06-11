@@ -1,0 +1,6 @@
+{
+  "ts": "2026-06-11T02:58:40.121913",
+  "agent": "buster",
+  "action": "CMD: ip route; echo ---; cat /etc/hosts | grep -v localhost | head -10",
+  "detail": "default via 138.68.0.1 dev eth0 proto static \n10.46.0.0/16 dev eth0 proto kernel scope link src 10.46.0.5 \n10.120.0.0/20 dev eth1 proto kernel scope link src 10.120.0.3 \n138.68.0.0/20 dev eth0 proto k"
+}
